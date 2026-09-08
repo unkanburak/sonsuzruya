@@ -1,0 +1,453 @@
+{
+  "started": "2026-08-29T18:22:40.657Z",
+  "settings": {
+    "width": 384,
+    "height": 224,
+    "frames": 81,
+    "fps": 24,
+    "steps": 2,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform"
+  },
+  "first": {
+    "seconds": 224.58498379999997,
+    "success": true,
+    "history": {
+      "prompt": [
+        1691,
+        "800e8257-e359-475f-b22c-250921f8c344",
+        {
+          "1": {
+            "class_type": "CLIPLoader",
+            "inputs": {
+              "clip_name": "t5xxl_fp8_e4m3fn.safetensors",
+              "type": "ltxv",
+              "device": "cpu"
+            }
+          },
+          "2": {
+            "class_type": "CheckpointLoaderSimple",
+            "inputs": {
+              "ckpt_name": "ltxv-2b-0.9.6-distilled-04-25.safetensors"
+            }
+          },
+          "3": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {
+              "text": "A lone character walks out of a dim house into a rainy street, cinematic surreal continuous movement.",
+              "clip": [
+                "1",
+                0
+              ]
+            }
+          },
+          "4": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {
+              "text": "static, frozen, text, watermark, low quality",
+              "clip": [
+                "1",
+                0
+              ]
+            }
+          },
+          "5": {
+            "class_type": "EmptyLTXVLatentVideo",
+            "inputs": {
+              "width": 384,
+              "height": 224,
+              "length": 81,
+              "batch_size": 1
+            }
+          },
+          "6": {
+            "class_type": "LTXVConditioning",
+            "inputs": {
+              "positive": [
+                "3",
+                0
+              ],
+              "negative": [
+                "4",
+                0
+              ],
+              "frame_rate": 24
+            }
+          },
+          "8": {
+            "class_type": "LTXVScheduler",
+            "inputs": {
+              "steps": 2,
+              "max_shift": 2.05,
+              "base_shift": 0.95,
+              "stretch": true,
+              "terminal": 0.1,
+              "latent": [
+                "5",
+                0
+              ]
+            }
+          },
+          "9": {
+            "class_type": "KSamplerSelect",
+            "inputs": {
+              "sampler_name": "euler"
+            }
+          },
+          "10": {
+            "class_type": "SamplerCustom",
+            "inputs": {
+              "model": [
+                "2",
+                0
+              ],
+              "add_noise": true,
+              "noise_seed": 424242,
+              "cfg": 1,
+              "positive": [
+                "6",
+                0
+              ],
+              "negative": [
+                "6",
+                1
+              ],
+              "sampler": [
+                "9",
+                0
+              ],
+              "sigmas": [
+                "8",
+                0
+              ],
+              "latent_image": [
+                "5",
+                0
+              ]
+            }
+          },
+          "11": {
+            "class_type": "VAEDecode",
+            "inputs": {
+              "samples": [
+                "10",
+                0
+              ],
+              "vae": [
+                "2",
+                2
+              ]
+            }
+          },
+          "12": {
+            "class_type": "SaveAnimatedWEBP",
+            "inputs": {
+              "images": [
+                "11",
+                0
+              ],
+              "filename_prefix": "benchmark/text_video_start",
+              "fps": 24,
+              "lossless": false,
+              "quality": 65,
+              "method": "fastest"
+            }
+          }
+        },
+        {
+          "client_id": "ltx-text-video-test",
+          "create_time": 1788027760696
+        },
+        [
+          "12"
+        ]
+      ],
+      "outputs": {
+        "12": {
+          "images": [
+            {
+              "filename": "text_video_start_00002_.webp",
+              "subfolder": "benchmark",
+              "type": "output"
+            }
+          ],
+          "animated": [
+            true
+          ]
+        }
+      },
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "800e8257-e359-475f-b22c-250921f8c344",
+              "timestamp": 1788027813620
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [],
+              "prompt_id": "800e8257-e359-475f-b22c-250921f8c344",
+              "timestamp": 1788027813622
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "800e8257-e359-475f-b22c-250921f8c344",
+              "timestamp": 1788027984951
+            }
+          ]
+        ]
+      },
+      "meta": {
+        "12": {
+          "node_id": "12",
+          "display_node": "12",
+          "parent_node": null,
+          "real_node_id": "12"
+        }
+      }
+    }
+  },
+  "continuation": {
+    "seconds": 249.6661646,
+    "success": true,
+    "history": {
+      "prompt": [
+        1694,
+        "a52a8c2b-c29b-467d-8e51-a5be447b7d03",
+        {
+          "1": {
+            "class_type": "CLIPLoader",
+            "inputs": {
+              "clip_name": "t5xxl_fp8_e4m3fn.safetensors",
+              "type": "ltxv",
+              "device": "cpu"
+            }
+          },
+          "2": {
+            "class_type": "CheckpointLoaderSimple",
+            "inputs": {
+              "ckpt_name": "ltxv-2b-0.9.6-distilled-04-25.safetensors"
+            }
+          },
+          "3": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {
+              "text": "The character is now sitting inside a mysterious red car in the rain, the scene continues directly from the previous moment.",
+              "clip": [
+                "1",
+                0
+              ]
+            }
+          },
+          "4": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {
+              "text": "static, frozen, text, watermark, low quality",
+              "clip": [
+                "1",
+                0
+              ]
+            }
+          },
+          "5": {
+            "class_type": "LoadImage",
+            "inputs": {
+              "image": "ltx_continuation_last.png"
+            }
+          },
+          "6": {
+            "class_type": "LTXVImgToVideo",
+            "inputs": {
+              "positive": [
+                "3",
+                0
+              ],
+              "negative": [
+                "4",
+                0
+              ],
+              "vae": [
+                "2",
+                2
+              ],
+              "image": [
+                "5",
+                0
+              ],
+              "width": 384,
+              "height": 224,
+              "length": 81,
+              "batch_size": 1,
+              "strength": 0.15
+            }
+          },
+          "7": {
+            "class_type": "LTXVConditioning",
+            "inputs": {
+              "positive": [
+                "6",
+                0
+              ],
+              "negative": [
+                "6",
+                1
+              ],
+              "frame_rate": 24
+            }
+          },
+          "8": {
+            "class_type": "LTXVScheduler",
+            "inputs": {
+              "steps": 2,
+              "max_shift": 2.05,
+              "base_shift": 0.95,
+              "stretch": true,
+              "terminal": 0.1,
+              "latent": [
+                "6",
+                2
+              ]
+            }
+          },
+          "9": {
+            "class_type": "KSamplerSelect",
+            "inputs": {
+              "sampler_name": "euler"
+            }
+          },
+          "10": {
+            "class_type": "SamplerCustom",
+            "inputs": {
+              "model": [
+                "2",
+                0
+              ],
+              "add_noise": true,
+              "noise_seed": 424242,
+              "cfg": 1,
+              "positive": [
+                "7",
+                0
+              ],
+              "negative": [
+                "7",
+                1
+              ],
+              "sampler": [
+                "9",
+                0
+              ],
+              "sigmas": [
+                "8",
+                0
+              ],
+              "latent_image": [
+                "6",
+                2
+              ]
+            }
+          },
+          "11": {
+            "class_type": "VAEDecode",
+            "inputs": {
+              "samples": [
+                "10",
+                0
+              ],
+              "vae": [
+                "2",
+                2
+              ]
+            }
+          },
+          "12": {
+            "class_type": "SaveAnimatedWEBP",
+            "inputs": {
+              "images": [
+                "11",
+                0
+              ],
+              "filename_prefix": "benchmark/text_video_continuation",
+              "fps": 24,
+              "lossless": false,
+              "quality": 65,
+              "method": "fastest"
+            }
+          }
+        },
+        {
+          "client_id": "ltx-text-video-test",
+          "create_time": 1788027987437
+        },
+        [
+          "12"
+        ]
+      ],
+      "outputs": {
+        "12": {
+          "images": [
+            {
+              "filename": "text_video_continuation_00001_.webp",
+              "subfolder": "benchmark",
+              "type": "output"
+            }
+          ],
+          "animated": [
+            true
+          ]
+        }
+      },
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "a52a8c2b-c29b-467d-8e51-a5be447b7d03",
+              "timestamp": 1788028049410
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [],
+              "prompt_id": "a52a8c2b-c29b-467d-8e51-a5be447b7d03",
+              "timestamp": 1788028049492
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "a52a8c2b-c29b-467d-8e51-a5be447b7d03",
+              "timestamp": 1788028236448
+            }
+          ]
+        ]
+      },
+      "meta": {
+        "12": {
+          "node_id": "12",
+          "display_node": "12",
+          "parent_node": null,
+          "real_node_id": "12"
+        }
+      }
+    }
+  },
+  "firstVideo": {
+    "filename": "text_video_start_00002_.webp",
+    "subfolder": "benchmark",
+    "type": "output"
+  },
+  "lastFrame": "ltx_continuation_last.png",
+  "note": "Continuation uses previous video's extracted last frame as LTX image guide; this is not pure text-only T2V."
+}

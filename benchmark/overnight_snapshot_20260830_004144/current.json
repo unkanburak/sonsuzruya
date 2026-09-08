@@ -1,0 +1,128 @@
+{
+  "sceneNumber": 2146,
+  "media": "/generated/live/scene_02146_1788039671413_777c45e9_00001_.png",
+  "lastFrame": "/generated/live/scene_02146_1788039671413_777c45e9_00001_.png",
+  "lastPrompt": "A cinematic surreal scene. Carry forward these visual anchors: still reflective water on the floor; rain on the environment; a clear glowing light on a dark path. The character is now inside a strange luminous world beyond a portal. Visually clear central subject, atmospheric lighting, no text, no logo.",
+  "options": {
+    "option_1_tr": "Sis çöksün",
+    "option_2_tr": "Merdivenden in",
+    "option_1_en": "Let the fog descend",
+    "option_2_en": "Go down the stairs",
+    "option_1_result_prompt_en": "The current environment is now covered in thick silver fog.",
+    "option_2_result_prompt_en": "The character is now at the bottom of a shadowy staircase.",
+    "option_1_scene_anchors": [
+      "a luminous portal",
+      "thick silver fog"
+    ],
+    "option_2_scene_anchors": [
+      "a luminous portal",
+      "a shadowy staircase"
+    ],
+    "option_1_state_patch": {
+      "recent_event": "the_environment_filled_with_fog",
+      "tone": "mysterious_surreal",
+      "scene_anchors": [
+        "a luminous portal",
+        "thick silver fog"
+      ]
+    },
+    "option_2_state_patch": {
+      "current_location": "stairwell_bottom",
+      "character_state": "standing_alone",
+      "recent_event": "descended_the_staircase",
+      "scene_anchors": [
+        "a luminous portal",
+        "a shadowy staircase"
+      ]
+    },
+    "option_1_id": "fallback_fog",
+    "option_2_id": "fallback_stairs"
+  },
+  "storyState": {
+    "current_location": "luminous_world",
+    "character_state": "standing_alone",
+    "important_objects": [
+      "glowing_tree",
+      "glowing_orbs"
+    ],
+    "open_hooks": [
+      "strange_landscape",
+      "luminous_world",
+      "source_of_light"
+    ],
+    "scene_anchors": [
+      {
+        "text": "rain on the environment",
+        "ttl": 2
+      },
+      {
+        "text": "a clear glowing light on a dark path",
+        "ttl": 3
+      },
+      {
+        "text": "a luminous portal",
+        "ttl": 3
+      }
+    ],
+    "recent_events": [
+      "entered_the_luminous_portal",
+      "entered_the_long_corridor",
+      "the_room_filled_with_water",
+      "rain_started_falling",
+      "followed_the_glowing_light",
+      "entered_the_luminous_portal"
+    ],
+    "recent_options": [
+      "Yağmur başlasın",
+      "Arabaya bin",
+      "Parlayan kürelere yaklaş",
+      "Uzak ışığı takip et",
+      "Portala gir",
+      "Aynalı odaya gir",
+      "Sis çöksün",
+      "Merdivenden in"
+    ],
+    "tone": "fever_dream"
+  },
+  "previousOptions": [
+    "Kapıdan çık",
+    "Suyla kaplanan odaya gir",
+    "Yağmur başlasın",
+    "Arabaya bin",
+    "Parlayan kürelere yaklaş",
+    "Uzak ışığı takip et",
+    "Portala gir",
+    "Aynalı odaya gir"
+  ],
+  "phase": "PLAYING_VOTING",
+  "generationInProgress": false,
+  "activeProfile": "IMAGE_MOTION",
+  "recentGenerationTimes": [
+    5.944971900000004,
+    7.573608800000017,
+    6.138931500000006,
+    5.5267967000000064,
+    7.993911599999993,
+    5.066876400000008,
+    5.85361699999997,
+    7.262526399999973,
+    7.861480299999996,
+    5.3970805999999865,
+    26.569384099999965,
+    35.82941869999998,
+    31.830937600000006,
+    30.883844799999963,
+    33.32857560000004,
+    34.98395360000001,
+    31.036508799999954,
+    22.11748490000004,
+    30.739181900000084,
+    32.78490360000008
+  ],
+  "currentPlaybackRate": 1,
+  "secondsLeft": 6,
+  "option1Votes": 0,
+  "option2Votes": 0,
+  "winnerTr": null,
+  "totalVotes": 0
+}

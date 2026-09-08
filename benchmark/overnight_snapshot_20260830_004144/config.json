@@ -1,0 +1,37 @@
+{
+  "port": 3000,
+  "voteSeconds": 6,
+  "resultDisplayMs": 1500,
+  "qwenTimeoutMs": 8000,
+  "generationTimeoutMs": 120000,
+  "qwenUrl": "http://127.0.0.1:8080",
+  "comfyUrl": "http://127.0.0.1:8188",
+  "comfyRoot": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI",
+  "initialInput": "seed.png",
+  "imageResetInterval": 1,
+  "imageProfile": {
+    "checkpoint": "sdxl_lightning_4step.safetensors",
+    "width": 768,
+    "height": 448,
+    "steps": 4,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform",
+    "continuityMode": "TEXT_ANCHOR",
+    "denoise": 0.55
+  },
+  "animatediff": {
+    "enabled": false,
+    "timeoutMs": 10000,
+    "maxDelayAfterStaticMs": 10000,
+    "checkpoint": "DreamShaper_8_pruned.safetensors",
+    "motionModel": "animatediff_lightning_2step_comfyui.safetensors",
+    "width": 384,
+    "height": 224,
+    "frames": 16,
+    "fps": 8,
+    "steps": 2,
+    "cfg": 1,
+    "denoise": 0.55
+  }
+}

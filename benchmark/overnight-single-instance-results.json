@@ -1,0 +1,32 @@
+{
+  "mode": "single_instance_sequential",
+  "results": [
+    {
+      "run": 1,
+      "sdxlSec": 31.7830973,
+      "animatediffSec": 32.437548199999995,
+      "totalSec": 64.2206455,
+      "sdxlSuccess": true,
+      "videoSuccess": true,
+      "videoError": null
+    },
+    {
+      "run": 2,
+      "sdxlSec": 30.5758684,
+      "animatediffSec": 33.320593599999995,
+      "totalSec": 63.89646199999999,
+      "sdxlSuccess": true,
+      "videoSuccess": true,
+      "videoError": null
+    },
+    {
+      "run": 3,
+      "sdxlSec": 29.300105699999985,
+      "animatediffSec": 33.182411300000005,
+      "totalSec": 62.482516999999994,
+      "sdxlSuccess": true,
+      "videoSuccess": true,
+      "videoError": null
+    }
+  ]
+}

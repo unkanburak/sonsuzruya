@@ -1,0 +1,2742 @@
+{
+  "archetypalOptionBiasEnabled": true,
+  "requestedDisplayedRounds": 100,
+  "completedDisplayedRounds": 100,
+  "libraryMisses": 8,
+  "uniqueLabels": 61,
+  "uniqueFutureSignatures": 66,
+  "uniquePsychologicalVectors": 11,
+  "uniqueArchetypeVectorCombinations": 67,
+  "psychologicallyContrastedPairs": 98,
+  "exactPairRepeats": 0,
+  "futureSignatureRepeats": 134,
+  "futureSignatureGuardViolations": 0,
+  "manifestInvalid": 0,
+  "locationChanges": 9,
+  "stateMutations": 91,
+  "archetypeAlignedSelections": 69,
+  "compensatorySelections": 10,
+  "mostRepeatedVector": [
+    "approach",
+    37
+  ],
+  "mostRepeatedTargetVector": [
+    "figure|follow",
+    12
+  ],
+  "vectorCounts": {
+    "approach": 37,
+    "avoid": 35,
+    "follow": 25,
+    "explore": 25,
+    "reveal": 25,
+    "observe": 18,
+    "wait": 13,
+    "refuse": 11,
+    "alter": 4,
+    "protect": 4,
+    "control": 3
+  },
+  "targetVectorCounts": {
+    "figure|follow": 12,
+    "light|avoid": 10,
+    "scene|avoid": 8,
+    "figure|refuse": 8,
+    "figure|reveal": 7,
+    "window|approach": 7,
+    "figure|approach": 7,
+    "path|avoid": 6,
+    "window|observe": 6,
+    "shadow|follow": 6,
+    "door|approach": 5,
+    "light|wait": 5,
+    "photograph|observe": 5,
+    "light|reveal": 5,
+    "light|follow": 5,
+    "figure|observe": 5,
+    "path|wait": 4,
+    "basement|explore": 4,
+    "photograph|approach": 4,
+    "radio|approach": 4,
+    "light|alter": 4,
+    "shadow|approach": 4,
+    "photograph|protect": 4,
+    "water|explore": 4,
+    "machine|avoid": 4,
+    "water|reveal": 4,
+    "window|refuse": 3,
+    "window|avoid": 3,
+    "figure|avoid": 3,
+    "bridge|explore": 3,
+    "red_house_hallway|explore": 3,
+    "path|explore": 3,
+    "door|reveal": 3,
+    "photograph|reveal": 3,
+    "red_house_exterior|explore": 2,
+    "radio|wait": 2,
+    "bridge|approach": 2,
+    "machine|approach": 2,
+    "stairs|reveal": 2,
+    "water|approach": 2,
+    "radio|control": 2,
+    "red_house_doorstep|explore": 2,
+    "photograph|wait": 2,
+    "stairs|explore": 2,
+    "path|follow": 2,
+    "quiet_street|explore": 1,
+    "front_path|explore": 1,
+    "scene|observe": 1,
+    "radio|avoid": 1,
+    "machine|control": 1,
+    "stairs|observe": 1,
+    "path|reveal": 1
+  },
+  "trajectory": [
+    {
+      "step": 1,
+      "source": "library",
+      "scene": "red_house_exterior",
+      "activeArchetype": "shadow",
+      "pressure": 0.35,
+      "option1": "Kırmızı eve yaklaş",
+      "option1Vector": "explore",
+      "option2": "Kapının arkasına bak",
+      "option2Vector": "reveal",
+      "winner": "Kapının arkasına bak",
+      "visibleConsequence": "The space behind the established door becomes visible",
+      "stateChange": {
+        "target_entity": "door",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_door_look_behind_54"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "step": 2,
+      "source": "library",
+      "scene": "red_house_exterior",
+      "activeArchetype": "shadow",
+      "pressure": 0.3176,
+      "option1": "Figürü görmezden gel",
+      "option1Vector": "refuse",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "winner": "Figürü görmezden gel",
+      "visibleConsequence": "The figure remains present at the edge of attention",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "peripheral",
+        "opens": [],
+        "closes": [
+          "expanded_figure_ignore_43"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "step": 3,
+      "source": "library",
+      "scene": "red_house_exterior",
+      "activeArchetype": "shadow",
+      "pressure": 0.289088,
+      "option1": "Figüre yaklaş",
+      "option1Vector": "approach",
+      "option2": "Figürün gölgesini izle",
+      "option2Vector": "follow",
+      "winner": "Figüre yaklaş",
+      "visibleConsequence": "The anonymous figure is now closer in the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "figure_approach"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "step": 4,
+      "source": "library",
+      "scene": "red_house_exterior",
+      "activeArchetype": "shadow",
+      "pressure": 0.26399744,
+      "option1": "Ön yola ilerle",
+      "option1Vector": "explore",
+      "option2": "Figürden uzaklaş",
+      "option2Vector": "avoid",
+      "winner": "Ön yola ilerle",
+      "visibleConsequence": "The figure is now in the established front path",
+      "stateChange": {
+        "location": "red_house_exterior->front_path"
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "step": 5,
+      "source": "library",
+      "scene": "front_path",
+      "activeArchetype": "shadow",
+      "pressure": 0.24191774720000003,
+      "option1": "Kırmızı eve dön",
+      "option1Vector": "explore",
+      "option2": "Kapıya yaklaş",
+      "option2Vector": "approach",
+      "winner": "Kapıya yaklaş",
+      "visibleConsequence": "The established door is now directly before the figure",
+      "stateChange": {
+        "target_entity": "door",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "door_approach"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "step": 6,
+      "source": "library",
+      "scene": "front_path",
+      "activeArchetype": "shadow",
+      "pressure": 0.22248761753600002,
+      "option1": "Karanlıkta oyalan",
+      "option1Vector": "avoid",
+      "option2": "Yolun çatlağını izle",
+      "option2Vector": "follow",
+      "winner": "Karanlıkta oyalan",
+      "visibleConsequence": "The darkness of the current scene now gathers at its edges",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "scene_darkness"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "step": 7,
+      "source": "library",
+      "scene": "front_path",
+      "activeArchetype": "shadow",
+      "pressure": 0.20538910343168001,
+      "option1": "Sokağa doğru ilerle",
+      "option1Vector": "explore",
+      "option2": "Yoldaki izi ortaya çıkar",
+      "option2Vector": "reveal",
+      "winner": "Yoldaki izi ortaya çıkar",
+      "visibleConsequence": "A trace already on the path becomes visible",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_path_reveal_80"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "step": 8,
+      "source": "library",
+      "scene": "front_path",
+      "activeArchetype": "shadow",
+      "pressure": 0.19034241101987842,
+      "option1": "Yoldan kenara çekil",
+      "option1Vector": "avoid",
+      "option2": "Yolun başında bekle",
+      "option2Vector": "wait",
+      "winner": "Yoldan kenara çekil",
+      "visibleConsequence": "The figure is now outside the center of the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_path_avoid_76"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "step": 9,
+      "source": "library",
+      "scene": "front_path",
+      "activeArchetype": "shadow",
+      "pressure": 0.177101321697493,
+      "option1": "Figürü takip et",
+      "option1Vector": "follow",
+      "option2": "Yolun çevresinde dolaş",
+      "option2Vector": "explore",
+      "winner": "Figürü takip et",
+      "visibleConsequence": "The figure now leads through the existing scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "expanded_figure_follow_42"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "step": 10,
+      "source": "bounded_recovery",
+      "scene": "front_path",
+      "activeArchetype": "trickster",
+      "pressure": 0.17526231716570595,
+      "option1": "Kırmızı eve dön",
+      "option1Vector": "approach",
+      "option2": "Sokağa doğru ilerle",
+      "option2Vector": "follow",
+      "winner": "Kırmızı eve dön",
+      "visibleConsequence": "The anonymous figure is now outside the red house",
+      "stateChange": {
+        "location": "front_path->red_house_exterior"
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "step": 11,
+      "source": "bounded_recovery",
+      "scene": "red_house_exterior",
+      "activeArchetype": "trickster",
+      "pressure": 0.16383083910582125,
+      "option1": "Ön kapıyı aç",
+      "option1Vector": "explore",
+      "option2": "Figürden uzaklaş",
+      "option2Vector": "abandon",
+      "winner": "Ön kapıyı aç",
+      "visibleConsequence": "The established front door is now open",
+      "stateChange": null,
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "step": 12,
+      "source": "bounded_recovery",
+      "scene": "red_house_exterior",
+      "activeArchetype": "trickster",
+      "pressure": 0.1729711384131227,
+      "option1": "Kırmızı eve yaklaş",
+      "option1Vector": "approach",
+      "option2": "Çatlak yolda ilerle",
+      "option2Vector": "follow",
+      "winner": "Kırmızı eve yaklaş",
+      "visibleConsequence": "The anonymous figure is now at the red house doorstep",
+      "stateChange": {
+        "location": "red_house_exterior->red_house_doorstep"
+      },
+      "nextScene": "red_house_doorstep"
+    },
+    {
+      "step": 13,
+      "source": "library",
+      "scene": "red_house_doorstep",
+      "activeArchetype": "trickster",
+      "pressure": 0.16181460180354798,
+      "option1": "Kapının ardını dinle",
+      "option1Vector": "observe",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "winner": "Kapının ardını dinle",
+      "visibleConsequence": "The shadow beneath the established door is now visibly displaced",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "door_shadow_shifted",
+        "opens": [],
+        "closes": [
+          "door_listen"
+        ]
+      },
+      "nextScene": "red_house_doorstep"
+    },
+    {
+      "step": 14,
+      "source": "library",
+      "scene": "red_house_doorstep",
+      "activeArchetype": "trickster",
+      "pressure": 0.15199684958712223,
+      "option1": "Evin içine gir",
+      "option1Vector": "explore",
+      "option2": "Figürü görmezden gel",
+      "option2Vector": "refuse",
+      "winner": "Evin içine gir",
+      "visibleConsequence": "The figure is now in the established red house hallway",
+      "stateChange": {
+        "location": "red_house_doorstep->red_house_hallway"
+      },
+      "nextScene": "red_house_hallway"
+    },
+    {
+      "step": 15,
+      "source": "library",
+      "scene": "red_house_hallway",
+      "activeArchetype": "trickster",
+      "pressure": 0.16255722763666755,
+      "option1": "Merdivene yönel",
+      "option1Vector": "explore",
+      "option2": "Figüre yaklaş",
+      "option2Vector": "approach",
+      "winner": "Figüre yaklaş",
+      "visibleConsequence": "The anonymous figure is now closer in the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "figure_approach"
+        ]
+      },
+      "nextScene": "red_house_hallway"
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "scene": "red_house_exterior",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Pencereyi görmezden gel",
+      "option1Vector": "refuse",
+      "option1Target": "window",
+      "option2": "Kapıya yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "door",
+      "winner": "Pencereyi görmezden gel",
+      "visibleConsequence": "The established window fades from attention",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "peripheral",
+        "opens": [],
+        "closes": [
+          "expanded_window_ignore_113"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "round": 2,
+      "scene": "red_house_exterior",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Figürün gölgesini izle",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Karanlıkta oyalan",
+      "option2Vector": "avoid",
+      "option2Target": "scene",
+      "winner": "Karanlıkta oyalan",
+      "visibleConsequence": "The darkness of the current scene now gathers at its edges",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "scene_darkness"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "round": 3,
+      "scene": "front_path",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Kırmızı eve dön",
+      "option1Vector": "explore",
+      "option1Target": "red_house_exterior",
+      "option2": "Yolun başında bekle",
+      "option2Vector": "wait",
+      "option2Target": "path",
+      "winner": "Yolun başında bekle",
+      "visibleConsequence": "The established path remains open ahead",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "held",
+        "opens": [],
+        "closes": [
+          "expanded_path_hold_position_77"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "round": 4,
+      "scene": "front_path",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Sokağa doğru ilerle",
+      "option1Vector": "explore",
+      "option1Target": "quiet_street",
+      "option2": "Yoldan kenara çekil",
+      "option2Vector": "avoid",
+      "option2Target": "path",
+      "winner": "Sokağa doğru ilerle",
+      "visibleConsequence": "The figure is now in the established quiet street",
+      "stateChange": null,
+      "nextScene": "quiet_street"
+    },
+    {
+      "round": 5,
+      "scene": "machine_room",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Bodruma in",
+      "option1Vector": "explore",
+      "option1Target": "basement",
+      "option2": "Işığın altında bekle",
+      "option2Vector": "wait",
+      "option2Target": "light",
+      "winner": "Bodruma in",
+      "visibleConsequence": "The figure is now in the established basement",
+      "stateChange": null,
+      "nextScene": "basement"
+    },
+    {
+      "round": 6,
+      "scene": "basement",
+      "archetype": "trickster",
+      "pressure": 0.7504,
+      "option1": "Figürü görmezden gel",
+      "option1Vector": "refuse",
+      "option1Target": "figure",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "figure",
+      "winner": "Figürün arkasına bak",
+      "visibleConsequence": "A detail behind the figure becomes visible",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_figure_look_behind_44"
+        ]
+      },
+      "nextScene": "basement"
+    },
+    {
+      "round": 7,
+      "scene": "reflection_room",
+      "archetype": "self",
+      "pressure": 0.82,
+      "option1": "Pencerenin ardını dinle",
+      "option1Vector": "observe",
+      "option1Target": "window",
+      "option2": "Pencereye dokun",
+      "option2Vector": "approach",
+      "option2Target": "window",
+      "winner": "Pencereye dokun",
+      "visibleConsequence": "The established window now carries a faint handprint",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "altered",
+        "opens": [],
+        "closes": [
+          "window_touch"
+        ]
+      },
+      "nextScene": "reflection_room"
+    },
+    {
+      "round": 8,
+      "scene": "reflection_room",
+      "archetype": "self",
+      "pressure": 0.7312,
+      "option1": "Pencereden bak",
+      "option1Vector": "observe",
+      "option1Target": "window",
+      "option2": "Pencereden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "window",
+      "winner": "Pencereden bak",
+      "visibleConsequence": "The window now reflects a changed part of the scene",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "observed",
+        "opens": [],
+        "closes": [
+          "window_look"
+        ]
+      },
+      "nextScene": "reflection_room"
+    },
+    {
+      "round": 9,
+      "scene": "flooded_room",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Figürü takip et",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Işığın dışında kal",
+      "option2Vector": "avoid",
+      "option2Target": "light",
+      "winner": "Figürü takip et",
+      "visibleConsequence": "The figure now leads through the existing scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "expanded_figure_follow_42"
+        ]
+      },
+      "nextScene": "flooded_room"
+    },
+    {
+      "round": 10,
+      "scene": "flooded_room",
+      "archetype": "wise_figure",
+      "pressure": 0.7312,
+      "option1": "Figüre yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "figure",
+      "option2": "Figürden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "figure",
+      "winner": "Figürden uzaklaş",
+      "visibleConsequence": "The anonymous figure is now farther away",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "figure_avoid"
+        ]
+      },
+      "nextScene": "flooded_room"
+    },
+    {
+      "round": 11,
+      "scene": "radio_room",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Fotoğrafın kenarını incele",
+      "option1Vector": "observe",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafı çevir",
+      "option2Vector": "approach",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafı çevir",
+      "visibleConsequence": "The established photograph now shows a missing face",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "altered",
+        "opens": [],
+        "closes": [
+          "photo_turn"
+        ]
+      },
+      "nextScene": "radio_room"
+    },
+    {
+      "round": 12,
+      "scene": "radio_room",
+      "archetype": "child",
+      "pressure": 0.7312,
+      "option1": "Radyonun düğmesine dokun",
+      "option1Vector": "approach",
+      "option1Target": "radio",
+      "option2": "Radyonun yanında bekle",
+      "option2Vector": "wait",
+      "option2Target": "radio",
+      "winner": "Radyonun düğmesine dokun",
+      "visibleConsequence": "The established radio dial is now turned to a new position",
+      "stateChange": {
+        "target_entity": "radio",
+        "from_state": null,
+        "to_state": "touched",
+        "opens": [],
+        "closes": [
+          "expanded_radio_touch_120"
+        ]
+      },
+      "nextScene": "radio_room"
+    },
+    {
+      "round": 13,
+      "scene": "bridge_edge",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Karanlıkta oyalan",
+      "option1Vector": "avoid",
+      "option1Target": "scene",
+      "option2": "Gölgeyi izle",
+      "option2Vector": "follow",
+      "option2Target": "shadow",
+      "winner": "Karanlıkta oyalan",
+      "visibleConsequence": "The darkness of the current scene now gathers at its edges",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "scene_darkness"
+        ]
+      },
+      "nextScene": "bridge_edge"
+    },
+    {
+      "round": 14,
+      "scene": "bridge_edge",
+      "archetype": "mother_field",
+      "pressure": 0.7312,
+      "option1": "Köprüden geç",
+      "option1Vector": "explore",
+      "option1Target": "bridge",
+      "option2": "Köprünün kenarına ilerle",
+      "option2Vector": "approach",
+      "option2Target": "bridge",
+      "winner": "Köprünün kenarına ilerle",
+      "visibleConsequence": "The figure is now at the bridge edge",
+      "stateChange": {
+        "target_entity": "bridge",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "bridge_edge"
+        ]
+      },
+      "nextScene": "bridge_edge"
+    },
+    {
+      "round": 15,
+      "scene": "object_room",
+      "archetype": "anima_animus",
+      "pressure": 0.82,
+      "option1": "Işıktan uzaklaş",
+      "option1Vector": "avoid",
+      "option1Target": "light",
+      "option2": "Işığın vurduğu yere bak",
+      "option2Vector": "reveal",
+      "option2Target": "light",
+      "winner": "Işığın vurduğu yere bak",
+      "visibleConsequence": "A detail in the established light becomes visible",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_light_reveal_64"
+        ]
+      },
+      "nextScene": "object_room"
+    },
+    {
+      "round": 16,
+      "scene": "object_room",
+      "archetype": "anima_animus",
+      "pressure": 0.7312,
+      "option1": "Işığı gölgede bırak",
+      "option1Vector": "alter",
+      "option1Target": "light",
+      "option2": "Parıltıyı takip et",
+      "option2Vector": "follow",
+      "option2Target": "light",
+      "winner": "Işığı gölgede bırak",
+      "visibleConsequence": "The established light is partially swallowed by shadow",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "altered",
+        "opens": [],
+        "closes": [
+          "expanded_light_alter_65"
+        ]
+      },
+      "nextScene": "object_room"
+    },
+    {
+      "round": 17,
+      "scene": "stairwell",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Evin içine gir",
+      "option1Vector": "explore",
+      "option1Target": "red_house_hallway",
+      "option2": "Gölgeye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "shadow",
+      "winner": "Evin içine gir",
+      "visibleConsequence": "The figure is now in the established red house hallway",
+      "stateChange": null,
+      "nextScene": "red_house_hallway"
+    },
+    {
+      "round": 18,
+      "scene": "red_house_hallway",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Figürün gölgesini izle",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "figure",
+      "winner": "Figürün arkasına bak",
+      "visibleConsequence": "A detail behind the figure becomes visible",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_figure_look_behind_44"
+        ]
+      },
+      "nextScene": "red_house_hallway"
+    },
+    {
+      "round": 19,
+      "scene": "garden_path",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Işığın altında bekle",
+      "option1Vector": "wait",
+      "option1Target": "light",
+      "option2": "Yoldan kenara çekil",
+      "option2Vector": "avoid",
+      "option2Target": "path",
+      "winner": "Yoldan kenara çekil",
+      "visibleConsequence": "The figure is now outside the center of the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_path_avoid_76"
+        ]
+      },
+      "nextScene": "garden_path"
+    },
+    {
+      "round": 20,
+      "scene": "garden_path",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Yolda ilerle",
+      "option1Vector": "explore",
+      "option1Target": "path",
+      "option2": "Figürü görmezden gel",
+      "option2Vector": "refuse",
+      "option2Target": "figure",
+      "winner": "Yolda ilerle",
+      "visibleConsequence": "The figure is now farther along the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "moved",
+        "opens": [],
+        "closes": [
+          "path_continue"
+        ]
+      },
+      "nextScene": "garden_path"
+    },
+    {
+      "round": 21,
+      "scene": "glass_room",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Figürü izle",
+      "option1Vector": "observe",
+      "option1Target": "figure",
+      "option2": "Işığın dışında kal",
+      "option2Vector": "avoid",
+      "option2Target": "light",
+      "winner": "Figürü izle",
+      "visibleConsequence": "The anonymous figure now turns slightly away",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "observed",
+        "opens": [],
+        "closes": [
+          "figure_watch"
+        ]
+      },
+      "nextScene": "glass_room"
+    },
+    {
+      "round": 22,
+      "scene": "glass_room",
+      "archetype": "trickster",
+      "pressure": 0.7504,
+      "option1": "Işığı takip et",
+      "option1Vector": "follow",
+      "option1Target": "light",
+      "option2": "Figürden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "figure",
+      "winner": "Figürden uzaklaş",
+      "visibleConsequence": "The anonymous figure is now farther away",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "figure_avoid"
+        ]
+      },
+      "nextScene": "glass_room"
+    },
+    {
+      "round": 23,
+      "scene": "dark_room",
+      "archetype": "self",
+      "pressure": 0.82,
+      "option1": "Figüre yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "figure",
+      "option2": "Gölgenin izini sür",
+      "option2Vector": "follow",
+      "option2Target": "shadow",
+      "winner": "Gölgenin izini sür",
+      "visibleConsequence": "The shadow now points toward a hidden detail",
+      "stateChange": {
+        "target_entity": "shadow",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "shadow_trace"
+        ]
+      },
+      "nextScene": "dark_room"
+    },
+    {
+      "round": 24,
+      "scene": "photo_room",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Fotoğrafı koru",
+      "option1Vector": "protect",
+      "option1Target": "photograph",
+      "option2": "Karanlıkta oyalan",
+      "option2Vector": "avoid",
+      "option2Target": "scene",
+      "winner": "Karanlıkta oyalan",
+      "visibleConsequence": "The darkness of the current scene now gathers at its edges",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "scene_darkness"
+        ]
+      },
+      "nextScene": "photo_room"
+    },
+    {
+      "round": 25,
+      "scene": "machine_gallery",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Suyun ötesine geç",
+      "option1Vector": "explore",
+      "option1Target": "water",
+      "option2": "Makineye dokun",
+      "option2Vector": "approach",
+      "option2Target": "machine",
+      "winner": "Makineye dokun",
+      "visibleConsequence": "A thin light line is now visible across the established machine",
+      "stateChange": {
+        "target_entity": "machine",
+        "from_state": null,
+        "to_state": "touched",
+        "opens": [],
+        "closes": [
+          "expanded_machine_touch_103"
+        ]
+      },
+      "nextScene": "machine_gallery"
+    },
+    {
+      "round": 26,
+      "scene": "machine_gallery",
+      "archetype": "child",
+      "pressure": 0.7312,
+      "option1": "Işığın vurduğu yere bak",
+      "option1Vector": "reveal",
+      "option1Target": "light",
+      "option2": "Makineden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "machine",
+      "winner": "Işığın vurduğu yere bak",
+      "visibleConsequence": "A detail in the established light becomes visible",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_light_reveal_64"
+        ]
+      },
+      "nextScene": "machine_gallery"
+    },
+    {
+      "round": 27,
+      "scene": "threshold",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Işıktan uzaklaş",
+      "option1Vector": "avoid",
+      "option1Target": "light",
+      "option2": "Merdivenin arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "stairs",
+      "winner": "Işıktan uzaklaş",
+      "visibleConsequence": "The established light fades toward the edge of the scene",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_light_avoid_59"
+        ]
+      },
+      "nextScene": "threshold"
+    },
+    {
+      "round": 28,
+      "scene": "quiet_scene",
+      "archetype": "anima_animus",
+      "pressure": 0.82,
+      "option1": "Gölgeyi izle",
+      "option1Vector": "follow",
+      "option1Target": "shadow",
+      "option2": "Gölgeye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "shadow",
+      "winner": "Gölgeyi izle",
+      "visibleConsequence": "The established shadow now stretches across the scene",
+      "stateChange": {
+        "target_entity": "shadow",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "expanded_shadow_follow_66"
+        ]
+      },
+      "nextScene": "quiet_scene"
+    },
+    {
+      "round": 29,
+      "scene": "water_path",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Yolun başında bekle",
+      "option1Vector": "wait",
+      "option1Target": "path",
+      "option2": "Suya yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "water",
+      "winner": "Yolun başında bekle",
+      "visibleConsequence": "The established path remains open ahead",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "held",
+        "opens": [],
+        "closes": [
+          "expanded_path_hold_position_77"
+        ]
+      },
+      "nextScene": "water_path"
+    },
+    {
+      "round": 30,
+      "scene": "water_path",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Suyun altına bak",
+      "option1Vector": "reveal",
+      "option1Target": "water",
+      "option2": "Yoldan kenara çekil",
+      "option2Vector": "avoid",
+      "option2Target": "path",
+      "winner": "Yoldan kenara çekil",
+      "visibleConsequence": "The figure is now outside the center of the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_path_avoid_76"
+        ]
+      },
+      "nextScene": "water_path"
+    },
+    {
+      "round": 31,
+      "scene": "figure_room",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Kapıyı arala",
+      "option1Vector": "approach",
+      "option1Target": "door",
+      "option2": "Pencereden bak",
+      "option2Vector": "observe",
+      "option2Target": "window",
+      "winner": "Pencereden bak",
+      "visibleConsequence": "The window now reflects a changed part of the scene",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "observed",
+        "opens": [],
+        "closes": [
+          "window_look"
+        ]
+      },
+      "nextScene": "figure_room"
+    },
+    {
+      "round": 32,
+      "scene": "figure_room",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Figürün arkasına bak",
+      "option1Vector": "reveal",
+      "option1Target": "figure",
+      "option2": "Pencereye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "window",
+      "winner": "Figürün arkasına bak",
+      "visibleConsequence": "A detail behind the figure becomes visible",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_figure_look_behind_44"
+        ]
+      },
+      "nextScene": "figure_room"
+    },
+    {
+      "round": 33,
+      "scene": "mechanical_room",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Figürü görmezden gel",
+      "option1Vector": "refuse",
+      "option1Target": "figure",
+      "option2": "Radyoyu aç",
+      "option2Vector": "control",
+      "option2Target": "radio",
+      "winner": "Figürü görmezden gel",
+      "visibleConsequence": "The figure remains present at the edge of attention",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "peripheral",
+        "opens": [],
+        "closes": [
+          "expanded_figure_ignore_43"
+        ]
+      },
+      "nextScene": "mechanical_room"
+    },
+    {
+      "round": 34,
+      "scene": "mechanical_room",
+      "archetype": "trickster",
+      "pressure": 0.7504,
+      "option1": "Figürün gölgesini izle",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Figürden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "figure",
+      "winner": "Figürden uzaklaş",
+      "visibleConsequence": "The anonymous figure is now farther away",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "figure_avoid"
+        ]
+      },
+      "nextScene": "mechanical_room"
+    },
+    {
+      "round": 35,
+      "scene": "archive_room",
+      "archetype": "self",
+      "pressure": 0.82,
+      "option1": "Fotoğrafı çevir",
+      "option1Vector": "approach",
+      "option1Target": "photograph",
+      "option2": "Karanlıkta oyalan",
+      "option2Vector": "avoid",
+      "option2Target": "scene",
+      "winner": "Karanlıkta oyalan",
+      "visibleConsequence": "The darkness of the current scene now gathers at its edges",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "scene_darkness"
+        ]
+      },
+      "nextScene": "archive_room"
+    },
+    {
+      "round": 36,
+      "scene": "red_house_exterior",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Kırmızı eve yaklaş",
+      "option1Vector": "explore",
+      "option1Target": "red_house_doorstep",
+      "option2": "Figürü izle",
+      "option2Vector": "observe",
+      "option2Target": "figure",
+      "winner": "Figürü izle",
+      "visibleConsequence": "The anonymous figure now turns slightly away",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "observed",
+        "opens": [],
+        "closes": [
+          "figure_watch"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "round": 37,
+      "scene": "red_house_exterior",
+      "archetype": "wise_figure",
+      "pressure": 0.7312,
+      "option1": "Ön yola ilerle",
+      "option1Vector": "explore",
+      "option1Target": "front_path",
+      "option2": "Kapının arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "door",
+      "winner": "Ön yola ilerle",
+      "visibleConsequence": "The figure is now in the established front path",
+      "stateChange": null,
+      "nextScene": "front_path"
+    },
+    {
+      "round": 38,
+      "scene": "front_path",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Kırmızı eve dön",
+      "option1Vector": "explore",
+      "option1Target": "red_house_exterior",
+      "option2": "Figüre yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "figure",
+      "winner": "Kırmızı eve dön",
+      "visibleConsequence": "The figure is now in the established red house exterior",
+      "stateChange": null,
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "round": 39,
+      "scene": "red_house_exterior",
+      "archetype": "child",
+      "pressure": 0.7312,
+      "option1": "Kapının ardını dinle",
+      "option1Vector": "observe",
+      "option1Target": "scene",
+      "option2": "Figürü takip et",
+      "option2Vector": "follow",
+      "option2Target": "figure",
+      "winner": "Figürü takip et",
+      "visibleConsequence": "The figure now leads through the existing scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "expanded_figure_follow_42"
+        ]
+      },
+      "nextScene": "red_house_exterior"
+    },
+    {
+      "round": 40,
+      "scene": "machine_room",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Makineye dokun",
+      "option1Vector": "approach",
+      "option1Target": "machine",
+      "option2": "Parıltıyı takip et",
+      "option2Vector": "follow",
+      "option2Target": "light",
+      "winner": "Parıltıyı takip et",
+      "visibleConsequence": "The established light now leads the eye across the scene",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "light_follow"
+        ]
+      },
+      "nextScene": "machine_room"
+    },
+    {
+      "round": 41,
+      "scene": "machine_room",
+      "archetype": "mother_field",
+      "pressure": 0.7312,
+      "option1": "Bodruma in",
+      "option1Vector": "explore",
+      "option1Target": "basement",
+      "option2": "Makineden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "machine",
+      "winner": "Bodruma in",
+      "visibleConsequence": "The figure is now in the established basement",
+      "stateChange": null,
+      "nextScene": "basement"
+    },
+    {
+      "round": 42,
+      "scene": "reflection_room",
+      "archetype": "anima_animus",
+      "pressure": 0.82,
+      "option1": "Pencereyi görmezden gel",
+      "option1Vector": "refuse",
+      "option1Target": "window",
+      "option2": "Pencereden bak",
+      "option2Vector": "observe",
+      "option2Target": "window",
+      "winner": "Pencereyi görmezden gel",
+      "visibleConsequence": "The established window fades from attention",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "peripheral",
+        "opens": [],
+        "closes": [
+          "expanded_window_ignore_113"
+        ]
+      },
+      "nextScene": "reflection_room"
+    },
+    {
+      "round": 43,
+      "scene": "reflection_room",
+      "archetype": "anima_animus",
+      "pressure": 0.7312,
+      "option1": "Pencereye dokun",
+      "option1Vector": "approach",
+      "option1Target": "window",
+      "option2": "Pencereye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "window",
+      "winner": "Pencereye yaklaş",
+      "visibleConsequence": "The figure reaches the established window",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "expanded_window_approach_108"
+        ]
+      },
+      "nextScene": "reflection_room"
+    },
+    {
+      "round": 44,
+      "scene": "flooded_room",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Figürü görmezden gel",
+      "option1Vector": "refuse",
+      "option1Target": "figure",
+      "option2": "Işıktan uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "light",
+      "winner": "Işıktan uzaklaş",
+      "visibleConsequence": "The established light fades toward the edge of the scene",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_light_avoid_59"
+        ]
+      },
+      "nextScene": "flooded_room"
+    },
+    {
+      "round": 45,
+      "scene": "flooded_room",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Işığın altında bekle",
+      "option1Vector": "wait",
+      "option1Target": "light",
+      "option2": "Işığın vurduğu yere bak",
+      "option2Vector": "reveal",
+      "option2Target": "light",
+      "winner": "Işığın altında bekle",
+      "visibleConsequence": "The figure remains beneath the established light",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "held",
+        "opens": [],
+        "closes": [
+          "expanded_light_hold_position_62"
+        ]
+      },
+      "nextScene": "flooded_room"
+    },
+    {
+      "round": 46,
+      "scene": "radio_room",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Fotoğrafın kenarını incele",
+      "option1Vector": "observe",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafın arkasını ortaya çıkar",
+      "option2Vector": "reveal",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafın kenarını incele",
+      "visibleConsequence": "A hidden mark appears on the established photograph",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "inspected",
+        "opens": [],
+        "closes": [
+          "expanded_photograph_inspect_124"
+        ]
+      },
+      "nextScene": "radio_room"
+    },
+    {
+      "round": 47,
+      "scene": "radio_room",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Radyodan uzaklaş",
+      "option1Vector": "avoid",
+      "option1Target": "radio",
+      "option2": "Radyonun düğmesine dokun",
+      "option2Vector": "approach",
+      "option2Target": "radio",
+      "winner": "Radyonun düğmesine dokun",
+      "visibleConsequence": "The established radio dial is now turned to a new position",
+      "stateChange": {
+        "target_entity": "radio",
+        "from_state": null,
+        "to_state": "touched",
+        "opens": [],
+        "closes": [
+          "expanded_radio_touch_120"
+        ]
+      },
+      "nextScene": "radio_room"
+    },
+    {
+      "round": 48,
+      "scene": "bridge_edge",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Suyun altına bak",
+      "option1Vector": "reveal",
+      "option1Target": "water",
+      "option2": "Suyun ötesine geç",
+      "option2Vector": "explore",
+      "option2Target": "water",
+      "winner": "Suyun ötesine geç",
+      "visibleConsequence": "The figure reaches the far edge of the established water",
+      "stateChange": {
+        "target_entity": "water",
+        "from_state": null,
+        "to_state": "crossed",
+        "opens": [],
+        "closes": [
+          "expanded_water_cross_97"
+        ]
+      },
+      "nextScene": "bridge_edge"
+    },
+    {
+      "round": 49,
+      "scene": "bridge_edge",
+      "archetype": "trickster",
+      "pressure": 0.7504,
+      "option1": "Figürün arkasına bak",
+      "option1Vector": "reveal",
+      "option1Target": "figure",
+      "option2": "Köprüden geç",
+      "option2Vector": "explore",
+      "option2Target": "bridge",
+      "winner": "Figürün arkasına bak",
+      "visibleConsequence": "A detail behind the figure becomes visible",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_figure_look_behind_44"
+        ]
+      },
+      "nextScene": "bridge_edge"
+    },
+    {
+      "round": 50,
+      "scene": "object_room",
+      "archetype": "self",
+      "pressure": 0.82,
+      "option1": "Işığın dışında kal",
+      "option1Vector": "avoid",
+      "option1Target": "light",
+      "option2": "Kapıya yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "door",
+      "winner": "Işığın dışında kal",
+      "visibleConsequence": "The figure remains just beyond the established light",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_light_avoid_63"
+        ]
+      },
+      "nextScene": "object_room"
+    },
+    {
+      "round": 51,
+      "scene": "object_room",
+      "archetype": "self",
+      "pressure": 0.7312,
+      "option1": "Figüre yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "figure",
+      "option2": "Figürün gölgesini izle",
+      "option2Vector": "follow",
+      "option2Target": "figure",
+      "winner": "Figürün gölgesini izle",
+      "visibleConsequence": "The anonymous figure shadow now reaches across the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "figure_shadow"
+        ]
+      },
+      "nextScene": "object_room"
+    },
+    {
+      "round": 52,
+      "scene": "stairwell",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Evin içine gir",
+      "option1Vector": "explore",
+      "option1Target": "red_house_hallway",
+      "option2": "Karanlıkta oyalan",
+      "option2Vector": "avoid",
+      "option2Target": "scene",
+      "winner": "Karanlıkta oyalan",
+      "visibleConsequence": "The darkness of the current scene now gathers at its edges",
+      "stateChange": {
+        "target_entity": "scene",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "scene_darkness"
+        ]
+      },
+      "nextScene": "stairwell"
+    },
+    {
+      "round": 53,
+      "scene": "stairwell",
+      "archetype": "wise_figure",
+      "pressure": 0.7312,
+      "option1": "Bodruma in",
+      "option1Vector": "explore",
+      "option1Target": "basement",
+      "option2": "Figürü takip et",
+      "option2Vector": "follow",
+      "option2Target": "figure",
+      "winner": "Bodruma in",
+      "visibleConsequence": "The figure is now in the established basement",
+      "stateChange": null,
+      "nextScene": "basement"
+    },
+    {
+      "round": 54,
+      "scene": "garden_path",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Yoldan kenara çekil",
+      "option1Vector": "avoid",
+      "option1Target": "path",
+      "option2": "Yolun başında bekle",
+      "option2Vector": "wait",
+      "option2Target": "path",
+      "winner": "Yoldan kenara çekil",
+      "visibleConsequence": "The figure is now outside the center of the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_path_avoid_76"
+        ]
+      },
+      "nextScene": "garden_path"
+    },
+    {
+      "round": 55,
+      "scene": "garden_path",
+      "archetype": "child",
+      "pressure": 0.7312,
+      "option1": "Figürü görmezden gel",
+      "option1Vector": "refuse",
+      "option1Target": "figure",
+      "option2": "Yolun çevresinde dolaş",
+      "option2Vector": "explore",
+      "option2Target": "path",
+      "winner": "Yolun çevresinde dolaş",
+      "visibleConsequence": "The path appears different from its other side",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "repositioned",
+        "opens": [],
+        "closes": [
+          "expanded_path_circle_79"
+        ]
+      },
+      "nextScene": "garden_path"
+    },
+    {
+      "round": 56,
+      "scene": "glass_room",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Figürü izle",
+      "option1Vector": "observe",
+      "option1Target": "figure",
+      "option2": "Işıktan uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "light",
+      "winner": "Işıktan uzaklaş",
+      "visibleConsequence": "The established light fades toward the edge of the scene",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_light_avoid_59"
+        ]
+      },
+      "nextScene": "glass_room"
+    },
+    {
+      "round": 57,
+      "scene": "glass_room",
+      "archetype": "mother_field",
+      "pressure": 0.7312,
+      "option1": "Işığın vurduğu yere bak",
+      "option1Vector": "reveal",
+      "option1Target": "light",
+      "option2": "Işığı gölgede bırak",
+      "option2Vector": "alter",
+      "option2Target": "light",
+      "winner": "Işığın vurduğu yere bak",
+      "visibleConsequence": "A detail in the established light becomes visible",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_light_reveal_64"
+        ]
+      },
+      "nextScene": "glass_room"
+    },
+    {
+      "round": 58,
+      "scene": "dark_room",
+      "archetype": "anima_animus",
+      "pressure": 0.82,
+      "option1": "Gölgenin izini sür",
+      "option1Vector": "follow",
+      "option1Target": "shadow",
+      "option2": "Gölgeyi izle",
+      "option2Vector": "follow",
+      "option2Target": "shadow",
+      "winner": "Gölgenin izini sür",
+      "visibleConsequence": "The shadow now points toward a hidden detail",
+      "stateChange": {
+        "target_entity": "shadow",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "shadow_trace"
+        ]
+      },
+      "nextScene": "dark_room"
+    },
+    {
+      "round": 59,
+      "scene": "photo_room",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Fotoğrafı çevir",
+      "option1Vector": "approach",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafı koru",
+      "option2Vector": "protect",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafı çevir",
+      "visibleConsequence": "The established photograph now shows a missing face",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "altered",
+        "opens": [],
+        "closes": [
+          "photo_turn"
+        ]
+      },
+      "nextScene": "photo_room"
+    },
+    {
+      "round": 60,
+      "scene": "photo_room",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Fotoğrafı elinde tut",
+      "option1Vector": "wait",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafın kenarını incele",
+      "option2Vector": "observe",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafın kenarını incele",
+      "visibleConsequence": "A hidden mark appears on the established photograph",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "inspected",
+        "opens": [],
+        "closes": [
+          "expanded_photograph_inspect_124"
+        ]
+      },
+      "nextScene": "photo_room"
+    },
+    {
+      "round": 61,
+      "scene": "machine_gallery",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Parıltıyı takip et",
+      "option1Vector": "follow",
+      "option1Target": "light",
+      "option2": "Makineyi çalıştır",
+      "option2Vector": "control",
+      "option2Target": "machine",
+      "winner": "Makineyi çalıştır",
+      "visibleConsequence": "The established machine is now glowing with blue light",
+      "stateChange": {
+        "target_entity": "machine",
+        "from_state": null,
+        "to_state": "on",
+        "opens": [
+          "machine_deactivate",
+          "machine_inspect"
+        ],
+        "closes": [
+          "machine_start"
+        ]
+      },
+      "nextScene": "machine_gallery"
+    },
+    {
+      "round": 62,
+      "scene": "machine_gallery",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Makineden uzaklaş",
+      "option1Vector": "avoid",
+      "option1Target": "machine",
+      "option2": "Işığın altında bekle",
+      "option2Vector": "wait",
+      "option2Target": "light",
+      "winner": "Makineden uzaklaş",
+      "visibleConsequence": "The established machine is now farther behind the figure",
+      "stateChange": {
+        "target_entity": "machine",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "machine_leave"
+        ]
+      },
+      "nextScene": "machine_gallery"
+    },
+    {
+      "round": 63,
+      "scene": "threshold",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Basamakları geç",
+      "option1Vector": "explore",
+      "option1Target": "stairs",
+      "option2": "Kapıyı arala",
+      "option2Vector": "approach",
+      "option2Target": "door",
+      "winner": "Basamakları geç",
+      "visibleConsequence": "The figure reaches the far side of the established stairs",
+      "stateChange": {
+        "target_entity": "stairs",
+        "from_state": null,
+        "to_state": "crossed",
+        "opens": [],
+        "closes": [
+          "expanded_stairs_cross_89"
+        ]
+      },
+      "nextScene": "threshold"
+    },
+    {
+      "round": 64,
+      "scene": "threshold",
+      "archetype": "trickster",
+      "pressure": 0.7504,
+      "option1": "Karanlıkta oyalan",
+      "option1Vector": "avoid",
+      "option1Target": "scene",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "figure",
+      "winner": "Figürün arkasına bak",
+      "visibleConsequence": "A detail behind the figure becomes visible",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_figure_look_behind_44"
+        ]
+      },
+      "nextScene": "threshold"
+    },
+    {
+      "round": 65,
+      "scene": "quiet_scene",
+      "archetype": "self",
+      "pressure": 0.82,
+      "option1": "Işığın dışında kal",
+      "option1Vector": "avoid",
+      "option1Target": "light",
+      "option2": "Gölgeye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "shadow",
+      "winner": "Gölgeye yaklaş",
+      "visibleConsequence": "The figure reaches the edge of the established shadow",
+      "stateChange": {
+        "target_entity": "shadow",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "expanded_shadow_approach_68"
+        ]
+      },
+      "nextScene": "quiet_scene"
+    },
+    {
+      "round": 66,
+      "scene": "quiet_scene",
+      "archetype": "self",
+      "pressure": 0.7312,
+      "option1": "Figüre yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "figure",
+      "option2": "Figürü görmezden gel",
+      "option2Vector": "refuse",
+      "option2Target": "figure",
+      "winner": "Figüre yaklaş",
+      "visibleConsequence": "The anonymous figure is now closer in the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "figure_approach"
+        ]
+      },
+      "nextScene": "quiet_scene"
+    },
+    {
+      "round": 67,
+      "scene": "water_path",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Suyun altına bak",
+      "option1Vector": "reveal",
+      "option1Target": "water",
+      "option2": "Yolda ilerle",
+      "option2Vector": "explore",
+      "option2Target": "path",
+      "winner": "Suyun altına bak",
+      "visibleConsequence": "A submerged detail becomes visible in the established water",
+      "stateChange": {
+        "target_entity": "water",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_water_reveal_94"
+        ]
+      },
+      "nextScene": "water_path"
+    },
+    {
+      "round": 68,
+      "scene": "water_path",
+      "archetype": "wise_figure",
+      "pressure": 0.7312,
+      "option1": "Suya yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "water",
+      "option2": "Suyun ötesine geç",
+      "option2Vector": "explore",
+      "option2Target": "water",
+      "winner": "Suyun ötesine geç",
+      "visibleConsequence": "The figure reaches the far edge of the established water",
+      "stateChange": {
+        "target_entity": "water",
+        "from_state": null,
+        "to_state": "crossed",
+        "opens": [],
+        "closes": [
+          "expanded_water_cross_97"
+        ]
+      },
+      "nextScene": "water_path"
+    },
+    {
+      "round": 69,
+      "scene": "figure_room",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Işığı gölgede bırak",
+      "option1Vector": "alter",
+      "option1Target": "light",
+      "option2": "Pencereden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "window",
+      "winner": "Pencereden uzaklaş",
+      "visibleConsequence": "The established window becomes distant",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_window_avoid_109"
+        ]
+      },
+      "nextScene": "figure_room"
+    },
+    {
+      "round": 70,
+      "scene": "figure_room",
+      "archetype": "child",
+      "pressure": 0.7312,
+      "option1": "Figürün gölgesini izle",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Pencereye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "window",
+      "winner": "Figürün gölgesini izle",
+      "visibleConsequence": "The anonymous figure shadow now reaches across the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "figure_shadow"
+        ]
+      },
+      "nextScene": "figure_room"
+    },
+    {
+      "round": 71,
+      "scene": "mechanical_room",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Radyonun yanında bekle",
+      "option1Vector": "wait",
+      "option1Target": "radio",
+      "option2": "Figürü takip et",
+      "option2Vector": "follow",
+      "option2Target": "figure",
+      "winner": "Radyonun yanında bekle",
+      "visibleConsequence": "The established radio dial now holds a steady glow",
+      "stateChange": {
+        "target_entity": "radio",
+        "from_state": null,
+        "to_state": "held",
+        "opens": [],
+        "closes": [
+          "expanded_radio_hold_position_121"
+        ]
+      },
+      "nextScene": "mechanical_room"
+    },
+    {
+      "round": 72,
+      "scene": "mechanical_room",
+      "archetype": "mother_field",
+      "pressure": 0.7312,
+      "option1": "Radyoyu aç",
+      "option1Vector": "control",
+      "option1Target": "radio",
+      "option2": "Radyoya yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "radio",
+      "winner": "Radyoya yaklaş",
+      "visibleConsequence": "The established radio now fills the foreground",
+      "stateChange": {
+        "target_entity": "radio",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "expanded_radio_approach_118"
+        ]
+      },
+      "nextScene": "mechanical_room"
+    },
+    {
+      "round": 73,
+      "scene": "archive_room",
+      "archetype": "anima_animus",
+      "pressure": 0.82,
+      "option1": "Fotoğrafın arkasını ortaya çıkar",
+      "option1Vector": "reveal",
+      "option1Target": "photograph",
+      "option2": "Pencereden bak",
+      "option2Vector": "observe",
+      "option2Target": "window",
+      "winner": "Pencereden bak",
+      "visibleConsequence": "The window now reflects a changed part of the scene",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "observed",
+        "opens": [],
+        "closes": [
+          "window_look"
+        ]
+      },
+      "nextScene": "archive_room"
+    },
+    {
+      "round": 74,
+      "scene": "archive_room",
+      "archetype": "anima_animus",
+      "pressure": 0.7312,
+      "option1": "Pencereye dokun",
+      "option1Vector": "approach",
+      "option1Target": "window",
+      "option2": "Pencereyi görmezden gel",
+      "option2Vector": "refuse",
+      "option2Target": "window",
+      "winner": "Pencereye dokun",
+      "visibleConsequence": "The established window now carries a faint handprint",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "altered",
+        "opens": [],
+        "closes": [
+          "window_touch"
+        ]
+      },
+      "nextScene": "archive_room"
+    },
+    {
+      "round": 75,
+      "scene": "red_house_exterior",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Kırmızı eve yaklaş",
+      "option1Vector": "explore",
+      "option1Target": "red_house_doorstep",
+      "option2": "Kapıyı arala",
+      "option2Vector": "approach",
+      "option2Target": "door",
+      "winner": "Kırmızı eve yaklaş",
+      "visibleConsequence": "The figure is now in the established red house doorstep",
+      "stateChange": null,
+      "nextScene": "red_house_doorstep"
+    },
+    {
+      "round": 76,
+      "scene": "red_house_doorstep",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Evin içine gir",
+      "option1Vector": "explore",
+      "option1Target": "red_house_hallway",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "figure",
+      "winner": "Figürün arkasına bak",
+      "visibleConsequence": "A detail behind the figure becomes visible",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_figure_look_behind_44"
+        ]
+      },
+      "nextScene": "red_house_doorstep"
+    },
+    {
+      "round": 77,
+      "scene": "front_path",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Gölgeyi izle",
+      "option1Vector": "follow",
+      "option1Target": "shadow",
+      "option2": "Yoldan kenara çekil",
+      "option2Vector": "avoid",
+      "option2Target": "path",
+      "winner": "Yoldan kenara çekil",
+      "visibleConsequence": "The figure is now outside the center of the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_path_avoid_76"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "round": 78,
+      "scene": "front_path",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Yolun çatlağını izle",
+      "option1Vector": "follow",
+      "option1Target": "path",
+      "option2": "Yolun başında bekle",
+      "option2Vector": "wait",
+      "option2Target": "path",
+      "winner": "Yolun çatlağını izle",
+      "visibleConsequence": "The path crack now forms a visible direction",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "traced",
+        "opens": [],
+        "closes": [
+          "expanded_path_trace_75"
+        ]
+      },
+      "nextScene": "front_path"
+    },
+    {
+      "round": 79,
+      "scene": "machine_room",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Bodruma in",
+      "option1Vector": "explore",
+      "option1Target": "basement",
+      "option2": "Figürü izle",
+      "option2Vector": "observe",
+      "option2Target": "figure",
+      "winner": "Bodruma in",
+      "visibleConsequence": "The figure is now in the established basement",
+      "stateChange": null,
+      "nextScene": "basement"
+    },
+    {
+      "round": 80,
+      "scene": "basement",
+      "archetype": "trickster",
+      "pressure": 0.7504,
+      "option1": "Karanlıkta oyalan",
+      "option1Vector": "avoid",
+      "option1Target": "scene",
+      "option2": "Figürü görmezden gel",
+      "option2Vector": "refuse",
+      "option2Target": "figure",
+      "winner": "Figürü görmezden gel",
+      "visibleConsequence": "The figure remains present at the edge of attention",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "peripheral",
+        "opens": [],
+        "closes": [
+          "expanded_figure_ignore_43"
+        ]
+      },
+      "nextScene": "basement"
+    },
+    {
+      "round": 81,
+      "scene": "reflection_room",
+      "archetype": "self",
+      "pressure": 0.82,
+      "option1": "Figüre yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "figure",
+      "option2": "Pencereden uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "window",
+      "winner": "Pencereden uzaklaş",
+      "visibleConsequence": "The established window becomes distant",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_window_avoid_109"
+        ]
+      },
+      "nextScene": "reflection_room"
+    },
+    {
+      "round": 82,
+      "scene": "reflection_room",
+      "archetype": "self",
+      "pressure": 0.7312,
+      "option1": "Pencereye yaklaş",
+      "option1Vector": "approach",
+      "option1Target": "window",
+      "option2": "Pencerenin ardını dinle",
+      "option2Vector": "observe",
+      "option2Target": "window",
+      "winner": "Pencereye yaklaş",
+      "visibleConsequence": "The figure reaches the established window",
+      "stateChange": {
+        "target_entity": "window",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "expanded_window_approach_108"
+        ]
+      },
+      "nextScene": "reflection_room"
+    },
+    {
+      "round": 83,
+      "scene": "flooded_room",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Basamakları geç",
+      "option1Vector": "explore",
+      "option1Target": "stairs",
+      "option2": "Suyun altına bak",
+      "option2Vector": "reveal",
+      "option2Target": "water",
+      "winner": "Basamakları geç",
+      "visibleConsequence": "The figure reaches the far side of the established stairs",
+      "stateChange": {
+        "target_entity": "stairs",
+        "from_state": null,
+        "to_state": "crossed",
+        "opens": [],
+        "closes": [
+          "expanded_stairs_cross_89"
+        ]
+      },
+      "nextScene": "flooded_room"
+    },
+    {
+      "round": 84,
+      "scene": "flooded_room",
+      "archetype": "wise_figure",
+      "pressure": 0.7312,
+      "option1": "Figürün gölgesini izle",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Merdivenin arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "stairs",
+      "winner": "Merdivenin arkasına bak",
+      "visibleConsequence": "A recess behind the established stairs becomes visible",
+      "stateChange": {
+        "target_entity": "stairs",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_stairs_look_behind_88"
+        ]
+      },
+      "nextScene": "flooded_room"
+    },
+    {
+      "round": 85,
+      "scene": "radio_room",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Radyonun düğmesine dokun",
+      "option1Vector": "approach",
+      "option1Target": "radio",
+      "option2": "Fotoğrafın kenarını incele",
+      "option2Vector": "observe",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafın kenarını incele",
+      "visibleConsequence": "A hidden mark appears on the established photograph",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "inspected",
+        "opens": [],
+        "closes": [
+          "expanded_photograph_inspect_124"
+        ]
+      },
+      "nextScene": "radio_room"
+    },
+    {
+      "round": 86,
+      "scene": "radio_room",
+      "archetype": "child",
+      "pressure": 0.7504,
+      "option1": "Fotoğrafın arkasını ortaya çıkar",
+      "option1Vector": "reveal",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafı koru",
+      "option2Vector": "protect",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafın arkasını ortaya çıkar",
+      "visibleConsequence": "Writing appears on the established photograph's reverse",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_photograph_reveal_129"
+        ]
+      },
+      "nextScene": "radio_room"
+    },
+    {
+      "round": 87,
+      "scene": "bridge_edge",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Köprünün kenarına ilerle",
+      "option1Vector": "approach",
+      "option1Target": "bridge",
+      "option2": "Figürün arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "figure",
+      "winner": "Köprünün kenarına ilerle",
+      "visibleConsequence": "The figure is now at the bridge edge",
+      "stateChange": {
+        "target_entity": "bridge",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "bridge_edge"
+        ]
+      },
+      "nextScene": "bridge_edge"
+    },
+    {
+      "round": 88,
+      "scene": "bridge_edge",
+      "archetype": "mother_field",
+      "pressure": 0.7312,
+      "option1": "Köprüden geç",
+      "option1Vector": "explore",
+      "option1Target": "bridge",
+      "option2": "Figürü takip et",
+      "option2Vector": "follow",
+      "option2Target": "figure",
+      "winner": "Figürü takip et",
+      "visibleConsequence": "The figure now leads through the existing scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "expanded_figure_follow_42"
+        ]
+      },
+      "nextScene": "bridge_edge"
+    },
+    {
+      "round": 89,
+      "scene": "object_room",
+      "archetype": "anima_animus",
+      "pressure": 0.82,
+      "option1": "Kapının arkasına bak",
+      "option1Vector": "reveal",
+      "option1Target": "door",
+      "option2": "Işıktan uzaklaş",
+      "option2Vector": "avoid",
+      "option2Target": "light",
+      "winner": "Işıktan uzaklaş",
+      "visibleConsequence": "The established light fades toward the edge of the scene",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_light_avoid_59"
+        ]
+      },
+      "nextScene": "object_room"
+    },
+    {
+      "round": 90,
+      "scene": "object_room",
+      "archetype": "anima_animus",
+      "pressure": 0.7312,
+      "option1": "Işığın altında bekle",
+      "option1Vector": "wait",
+      "option1Target": "light",
+      "option2": "Işığı gölgede bırak",
+      "option2Vector": "alter",
+      "option2Target": "light",
+      "winner": "Işığın altında bekle",
+      "visibleConsequence": "The figure remains beneath the established light",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "held",
+        "opens": [],
+        "closes": [
+          "expanded_light_hold_position_62"
+        ]
+      },
+      "nextScene": "object_room"
+    },
+    {
+      "round": 91,
+      "scene": "stairwell",
+      "archetype": "shadow",
+      "pressure": 0.82,
+      "option1": "Basamakları izle",
+      "option1Vector": "observe",
+      "option1Target": "stairs",
+      "option2": "Figürü görmezden gel",
+      "option2Vector": "refuse",
+      "option2Target": "figure",
+      "winner": "Basamakları izle",
+      "visibleConsequence": "The established steps now disappear into shadow",
+      "stateChange": {
+        "target_entity": "stairs",
+        "from_state": null,
+        "to_state": "observed",
+        "opens": [],
+        "closes": [
+          "stairs_watch"
+        ]
+      },
+      "nextScene": "stairwell"
+    },
+    {
+      "round": 92,
+      "scene": "stairwell",
+      "archetype": "shadow",
+      "pressure": 0.7312,
+      "option1": "Karanlıkta oyalan",
+      "option1Vector": "avoid",
+      "option1Target": "scene",
+      "option2": "Gölgeye yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "shadow",
+      "winner": "Gölgeye yaklaş",
+      "visibleConsequence": "The figure reaches the edge of the established shadow",
+      "stateChange": {
+        "target_entity": "shadow",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "expanded_shadow_approach_68"
+        ]
+      },
+      "nextScene": "stairwell"
+    },
+    {
+      "round": 93,
+      "scene": "garden_path",
+      "archetype": "persona",
+      "pressure": 0.82,
+      "option1": "Yolun çatlağını izle",
+      "option1Vector": "follow",
+      "option1Target": "path",
+      "option2": "Figüre yaklaş",
+      "option2Vector": "approach",
+      "option2Target": "figure",
+      "winner": "Figüre yaklaş",
+      "visibleConsequence": "The anonymous figure is now closer in the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "near",
+        "opens": [],
+        "closes": [
+          "figure_approach"
+        ]
+      },
+      "nextScene": "garden_path"
+    },
+    {
+      "round": 94,
+      "scene": "garden_path",
+      "archetype": "persona",
+      "pressure": 0.7312,
+      "option1": "Yoldan kenara çekil",
+      "option1Vector": "avoid",
+      "option1Target": "path",
+      "option2": "Yoldaki izi ortaya çıkar",
+      "option2Vector": "reveal",
+      "option2Target": "path",
+      "winner": "Yoldan kenara çekil",
+      "visibleConsequence": "The figure is now outside the center of the established path",
+      "stateChange": {
+        "target_entity": "path",
+        "from_state": null,
+        "to_state": "far",
+        "opens": [],
+        "closes": [
+          "expanded_path_avoid_76"
+        ]
+      },
+      "nextScene": "garden_path"
+    },
+    {
+      "round": 95,
+      "scene": "glass_room",
+      "archetype": "trickster",
+      "pressure": 0.82,
+      "option1": "Figürün gölgesini izle",
+      "option1Vector": "follow",
+      "option1Target": "figure",
+      "option2": "Işığın dışında kal",
+      "option2Vector": "avoid",
+      "option2Target": "light",
+      "winner": "Figürün gölgesini izle",
+      "visibleConsequence": "The anonymous figure shadow now reaches across the scene",
+      "stateChange": {
+        "target_entity": "figure",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "figure_shadow"
+        ]
+      },
+      "nextScene": "glass_room"
+    },
+    {
+      "round": 96,
+      "scene": "photo_room",
+      "archetype": "wise_figure",
+      "pressure": 0.82,
+      "option1": "Fotoğrafı çevir",
+      "option1Vector": "approach",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafı elinde tut",
+      "option2Vector": "wait",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafı elinde tut",
+      "visibleConsequence": "The established photograph is now held closer to the figure",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "held",
+        "opens": [],
+        "closes": [
+          "expanded_photograph_hold_position_128"
+        ]
+      },
+      "nextScene": "photo_room"
+    },
+    {
+      "round": 97,
+      "scene": "photo_room",
+      "archetype": "wise_figure",
+      "pressure": 0.7312,
+      "option1": "Fotoğrafın kenarını incele",
+      "option1Vector": "observe",
+      "option1Target": "photograph",
+      "option2": "Fotoğrafı koru",
+      "option2Vector": "protect",
+      "option2Target": "photograph",
+      "winner": "Fotoğrafın kenarını incele",
+      "visibleConsequence": "A hidden mark appears on the established photograph",
+      "stateChange": {
+        "target_entity": "photograph",
+        "from_state": null,
+        "to_state": "inspected",
+        "opens": [],
+        "closes": [
+          "expanded_photograph_inspect_124"
+        ]
+      },
+      "nextScene": "photo_room"
+    },
+    {
+      "round": 98,
+      "scene": "machine_gallery",
+      "archetype": "child",
+      "pressure": 0.82,
+      "option1": "Işığın vurduğu yere bak",
+      "option1Vector": "reveal",
+      "option1Target": "light",
+      "option2": "Suyun ötesine geç",
+      "option2Vector": "explore",
+      "option2Target": "water",
+      "winner": "Işığın vurduğu yere bak",
+      "visibleConsequence": "A detail in the established light becomes visible",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_light_reveal_64"
+        ]
+      },
+      "nextScene": "machine_gallery"
+    },
+    {
+      "round": 99,
+      "scene": "machine_gallery",
+      "archetype": "child",
+      "pressure": 0.7312,
+      "option1": "Makineden uzaklaş",
+      "option1Vector": "avoid",
+      "option1Target": "machine",
+      "option2": "Işığı takip et",
+      "option2Vector": "follow",
+      "option2Target": "light",
+      "winner": "Işığı takip et",
+      "visibleConsequence": "The established light leads toward a declared opening",
+      "stateChange": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "expanded_light_follow_61"
+        ]
+      },
+      "nextScene": "machine_gallery"
+    },
+    {
+      "round": 100,
+      "scene": "threshold",
+      "archetype": "mother_field",
+      "pressure": 0.82,
+      "option1": "Figürü izle",
+      "option1Vector": "observe",
+      "option1Target": "figure",
+      "option2": "Kapının arkasına bak",
+      "option2Vector": "reveal",
+      "option2Target": "door",
+      "winner": "Kapının arkasına bak",
+      "visibleConsequence": "The space behind the established door becomes visible",
+      "stateChange": {
+        "target_entity": "door",
+        "from_state": null,
+        "to_state": "revealed",
+        "opens": [],
+        "closes": [
+          "expanded_door_look_behind_54"
+        ]
+      },
+      "nextScene": "threshold"
+    }
+  ]
+}

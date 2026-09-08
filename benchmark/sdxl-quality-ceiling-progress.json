@@ -1,0 +1,1141 @@
+{
+  "createdAt": "2026-08-30T18:09:13.027Z",
+  "profiles": {
+    "A": {
+      "settings": {
+        "checkpoint": "sdxl_lightning_4step.safetensors",
+        "width": 768,
+        "height": 448,
+        "steps": 4
+      },
+      "warmup": {
+        "promptId": "94afe3c2-0c6e-418e-8c5a-a90892d2f8e1",
+        "latency": 60.046536700000004,
+        "serverLatency": 60.047,
+        "peakVramMiB": 7482,
+        "peakGpuPercent": 100,
+        "filename": "A_warmup_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\bench\\A_warmup_00001_.png"
+      },
+      "samples": [
+        {
+          "promptId": "f365684e-faf8-4f6b-8cfb-3226e70c5b1d",
+          "latency": 5.668337099999997,
+          "serverLatency": 5.668,
+          "peakVramMiB": 7514,
+          "peakGpuPercent": 93,
+          "filename": "A_perf_0_1788113413104_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\A_perf_0_1788113413104_00001_.png"
+        },
+        {
+          "promptId": "1a75f404-5291-4a31-8f2d-60caa62f7b5c",
+          "latency": 3.5062007000000013,
+          "serverLatency": 3.506,
+          "peakVramMiB": 7514,
+          "peakGpuPercent": 90,
+          "filename": "A_perf_1_1788113418774_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\A_perf_1_1788113418774_00001_.png"
+        },
+        {
+          "promptId": "d6da9b8e-5d2a-40a5-b38f-74b7f40bd7c1",
+          "latency": 3.1579250000000028,
+          "serverLatency": 3.158,
+          "peakVramMiB": 7514,
+          "peakGpuPercent": 83,
+          "filename": "A_perf_2_1788113422281_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\A_perf_2_1788113422281_00001_.png"
+        },
+        {
+          "promptId": "07fb9d31-5979-43da-8bf8-114893edd027",
+          "latency": 5.354070299999992,
+          "serverLatency": 5.354,
+          "peakVramMiB": 7481,
+          "peakGpuPercent": 84,
+          "filename": "A_perf_3_1788113425440_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\A_perf_3_1788113425440_00001_.png"
+        },
+        {
+          "promptId": "cc2d64f7-2eba-4c1f-8561-0582570de097",
+          "latency": 2.7697804999999933,
+          "serverLatency": 2.77,
+          "peakVramMiB": 7481,
+          "peakGpuPercent": 84,
+          "filename": "A_perf_4_1788113430796_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\A_perf_4_1788113430796_00001_.png"
+        }
+      ],
+      "p50": 3.5062007000000013,
+      "p95": 5.354070299999992,
+      "maxVram": 7514
+    },
+    "B": {
+      "settings": {
+        "checkpoint": "sdxl_lightning_8step.safetensors",
+        "width": 768,
+        "height": 448,
+        "steps": 8
+      },
+      "warmup": {
+        "promptId": "ee6442f5-a85a-412b-9c47-56b8c49778e4",
+        "latency": 60.46751,
+        "serverLatency": 60.468,
+        "peakVramMiB": 7513,
+        "peakGpuPercent": 100,
+        "filename": "B_warmup_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\bench\\B_warmup_00001_.png"
+      },
+      "samples": [
+        {
+          "promptId": "d6bf95b1-ea2f-4629-9506-064cc5d4eb2e",
+          "latency": 6.6662277999999935,
+          "serverLatency": 6.667,
+          "peakVramMiB": 7513,
+          "peakGpuPercent": 60,
+          "filename": "B_perf_0_1788113494039_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\B_perf_0_1788113494039_00001_.png"
+        },
+        {
+          "promptId": "d05cc0b0-0c10-4380-9c4a-681b0dd3095f",
+          "latency": 2.9763907000000183,
+          "serverLatency": 2.976,
+          "peakVramMiB": 7481,
+          "peakGpuPercent": 54,
+          "filename": "B_perf_1_1788113500724_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\B_perf_1_1788113500724_00001_.png"
+        },
+        {
+          "promptId": "ee31bb37-a5e3-4278-b124-650a16a21edd",
+          "latency": 3.1959725000000034,
+          "serverLatency": 3.196,
+          "peakVramMiB": 7545,
+          "peakGpuPercent": 58,
+          "filename": "B_perf_2_1788113503701_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\B_perf_2_1788113503701_00001_.png"
+        },
+        {
+          "promptId": "28b3cbc5-6aa5-4752-8afd-6163fbca30fd",
+          "latency": 2.729381500000018,
+          "serverLatency": 2.73,
+          "peakVramMiB": 7449,
+          "peakGpuPercent": 55,
+          "filename": "B_perf_3_1788113506898_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\B_perf_3_1788113506898_00001_.png"
+        },
+        {
+          "promptId": "5387942e-58f2-425c-9404-32c0ceec6dab",
+          "latency": 2.688638100000011,
+          "serverLatency": 2.689,
+          "peakVramMiB": 7513,
+          "peakGpuPercent": 71,
+          "filename": "B_perf_4_1788113509628_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\B_perf_4_1788113509628_00001_.png"
+        }
+      ],
+      "p50": 2.9763907000000183,
+      "p95": 3.1959725000000034,
+      "maxVram": 7545
+    },
+    "C": {
+      "settings": {
+        "checkpoint": "sdxl_lightning_4step.safetensors",
+        "width": 1024,
+        "height": 576,
+        "steps": 4
+      },
+      "warmup": {
+        "promptId": "758bb7e5-be1b-4a2b-acc4-d2ed70975a12",
+        "latency": 59.70784329999998,
+        "serverLatency": 59.708,
+        "peakVramMiB": 7513,
+        "peakGpuPercent": 99,
+        "filename": "C_warmup_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\bench\\C_warmup_00001_.png"
+      },
+      "samples": [
+        {
+          "promptId": "179137cc-b3f3-4366-8854-3106b3abca03",
+          "latency": 6.196493500000011,
+          "serverLatency": 6.196,
+          "peakVramMiB": 7513,
+          "peakGpuPercent": 93,
+          "filename": "C_perf_0_1788113572026_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\C_perf_0_1788113572026_00001_.png"
+        },
+        {
+          "promptId": "cb092196-35b9-458e-a80e-d03c724ba302",
+          "latency": 2.9950648999999974,
+          "serverLatency": 2.995,
+          "peakVramMiB": 7513,
+          "peakGpuPercent": 76,
+          "filename": "C_perf_1_1788113578224_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\C_perf_1_1788113578224_00001_.png"
+        },
+        {
+          "promptId": "8ae744f6-19cf-4451-a950-8e33c04c213f",
+          "latency": 2.708067699999985,
+          "serverLatency": 2.708,
+          "peakVramMiB": 7513,
+          "peakGpuPercent": 87,
+          "filename": "C_perf_2_1788113581221_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\C_perf_2_1788113581221_00001_.png"
+        },
+        {
+          "promptId": "625ca3a7-2f59-454f-b459-0d0a5974c1f6",
+          "latency": 4.00751019999999,
+          "serverLatency": 4.008,
+          "peakVramMiB": 7545,
+          "peakGpuPercent": 91,
+          "filename": "C_perf_3_1788113583929_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\C_perf_3_1788113583929_00001_.png"
+        },
+        {
+          "promptId": "e2e4f1b5-5648-41b0-a3f9-c777d81c8f60",
+          "latency": 2.214566500000015,
+          "serverLatency": 2.214,
+          "peakVramMiB": 7417,
+          "peakGpuPercent": 66,
+          "filename": "C_perf_4_1788113587938_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\C_perf_4_1788113587938_00001_.png"
+        }
+      ],
+      "p50": 2.9950648999999974,
+      "p95": 4.00751019999999,
+      "maxVram": 7545
+    },
+    "D": {
+      "settings": {
+        "checkpoint": "sdxl_lightning_8step.safetensors",
+        "width": 1024,
+        "height": 576,
+        "steps": 8
+      },
+      "warmup": {
+        "promptId": "ea5f7340-11c4-46a6-b4bf-3983d977aa48",
+        "latency": 59.67313719999997,
+        "serverLatency": 59.672,
+        "peakVramMiB": 7481,
+        "peakGpuPercent": 84,
+        "filename": "D_warmup_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\bench\\D_warmup_00001_.png"
+      },
+      "samples": [
+        {
+          "promptId": "b5a46990-9da5-4606-b482-f7fdd1a11a1e",
+          "latency": 6.631680200000003,
+          "serverLatency": 6.631,
+          "peakVramMiB": 7513,
+          "peakGpuPercent": 91,
+          "filename": "D_perf_0_1788113649827_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\D_perf_0_1788113649827_00001_.png"
+        },
+        {
+          "promptId": "2ee4723e-2bec-4f5f-a7a1-ccf50b916e54",
+          "latency": 3.7171742000000085,
+          "serverLatency": 3.718,
+          "peakVramMiB": 7489,
+          "peakGpuPercent": 83,
+          "filename": "D_perf_1_1788113656484_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\D_perf_1_1788113656484_00001_.png"
+        },
+        {
+          "promptId": "79ae1976-900a-44a4-af71-18286bdcc8bd",
+          "latency": 2.9661592000000527,
+          "serverLatency": 2.966,
+          "peakVramMiB": 7425,
+          "peakGpuPercent": 79,
+          "filename": "D_perf_2_1788113660203_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\D_perf_2_1788113660203_00001_.png"
+        },
+        {
+          "promptId": "c9577e33-9fd3-4169-b4ca-ad465f5c5e33",
+          "latency": 3.7234789000000457,
+          "serverLatency": 3.723,
+          "peakVramMiB": 7457,
+          "peakGpuPercent": 78,
+          "filename": "D_perf_3_1788113663169_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\D_perf_3_1788113663169_00001_.png"
+        },
+        {
+          "promptId": "9710d380-47b6-4abf-91a2-d5612a68fa16",
+          "latency": 2.9363429999999933,
+          "serverLatency": 2.936,
+          "peakVramMiB": 7457,
+          "peakGpuPercent": 81,
+          "filename": "D_perf_4_1788113666893_00001_.png",
+          "path": "benchmark\\runtime\\8192\\output\\bench\\D_perf_4_1788113666893_00001_.png"
+        }
+      ],
+      "p50": 3.7171742000000085,
+      "p95": 3.7234789000000457,
+      "maxVram": 7513
+    }
+  },
+  "quality": {
+    "A": [
+      {
+        "name": "foggy bridge",
+        "state": "a lone protagonist standing on a foggy bridge",
+        "promptId": "7e56e5f3-9814-4f62-85ad-1dd14ebe45d2",
+        "latency": 57.92400790000003,
+        "serverLatency": 57.925,
+        "peakVramMiB": 7545,
+        "peakGpuPercent": 75,
+        "filename": "A_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_01_00001_.png"
+      },
+      {
+        "name": "beneath bridge",
+        "state": "the same protagonist beneath the bridge beside one glowing light",
+        "promptId": "5ecf1568-48db-4ad6-b067-0719744ff1bb",
+        "latency": 5.789023400000006,
+        "serverLatency": 5.789,
+        "peakVramMiB": 7513,
+        "peakGpuPercent": 57,
+        "filename": "A_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_02_00001_.png"
+      },
+      {
+        "name": "red house",
+        "state": "an abandoned red house exterior at night",
+        "promptId": "bf8211ef-64bd-4a40-9f4f-4584fd7c9161",
+        "latency": 2.9728914999999687,
+        "serverLatency": 2.973,
+        "peakVramMiB": 7545,
+        "peakGpuPercent": 72,
+        "filename": "A_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_03_00001_.png"
+      },
+      {
+        "name": "wooden hallway",
+        "state": "the interior wooden hallway of that red house",
+        "promptId": "b54fe05b-f7f4-494c-acda-b265bd23e1e5",
+        "latency": 2.8100562999999967,
+        "serverLatency": 2.81,
+        "peakVramMiB": 7425,
+        "peakGpuPercent": 81,
+        "filename": "A_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_04_00001_.png"
+      },
+      {
+        "name": "basement",
+        "state": "an underground basement beneath the house",
+        "promptId": "cb82a89a-aedb-47b6-9418-fac12a372df0",
+        "latency": 2.668385199999961,
+        "serverLatency": 2.668,
+        "peakVramMiB": 7425,
+        "peakGpuPercent": 85,
+        "filename": "A_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_05_00001_.png"
+      },
+      {
+        "name": "machine",
+        "state": "a strange large machine clearly visible in the room",
+        "promptId": "8cfc900f-5906-46b2-b73a-e27959473ee7",
+        "latency": 2.529473400000017,
+        "serverLatency": 2.53,
+        "peakVramMiB": 7449,
+        "peakGpuPercent": 86,
+        "filename": "A_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_06_00001_.png"
+      },
+      {
+        "name": "activated machine",
+        "state": "the same machine visibly activated with blue illumination",
+        "promptId": "a4b06102-10a9-4a85-b453-1703eacd349d",
+        "latency": 2.243938400000043,
+        "serverLatency": 2.243,
+        "peakVramMiB": 7517,
+        "peakGpuPercent": 90,
+        "filename": "A_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_07_00001_.png"
+      },
+      {
+        "name": "flooded room",
+        "state": "a room visibly flooded with reflective water",
+        "promptId": "17e9e36f-03bf-4cb3-b239-001a1df4c9d4",
+        "latency": 2.0562476000000025,
+        "serverLatency": 2.056,
+        "peakVramMiB": 7485,
+        "peakGpuPercent": 91,
+        "filename": "A_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_08_00001_.png"
+      },
+      {
+        "name": "submerged tunnel",
+        "state": "a submerged tunnel entrance with water and mist",
+        "promptId": "1bfa83c4-eb69-4926-bf6d-2e46d63799aa",
+        "latency": 2.47023470000003,
+        "serverLatency": 2.47,
+        "peakVramMiB": 7581,
+        "peakGpuPercent": 91,
+        "filename": "A_09_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_09_00001_.png"
+      },
+      {
+        "name": "portal landscape",
+        "state": "a surreal outdoor landscape with a clearly visible luminous portal",
+        "promptId": "4ea94a51-e3e1-4635-8aff-72176ecef02d",
+        "latency": 3.9691947999999977,
+        "serverLatency": 3.97,
+        "peakVramMiB": 7549,
+        "peakGpuPercent": 53,
+        "filename": "A_10_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_10_00001_.png"
+      },
+      {
+        "name": "three objects",
+        "state": "one scene clearly showing a lantern, a mirror, and a brass key",
+        "promptId": "e62ee2ca-427f-4a21-8c3f-8f50a7712911",
+        "latency": 2.267013399999996,
+        "serverLatency": 2.268,
+        "peakVramMiB": 7581,
+        "peakGpuPercent": 68,
+        "filename": "A_11_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_11_00001_.png"
+      },
+      {
+        "name": "spatial composition",
+        "state": "the protagonist standing in a corridor facing a portal while a staircase descends on the right",
+        "promptId": "08d0f445-048d-4c5b-bc81-3d5fecb0f11b",
+        "latency": 2.2312516999999645,
+        "serverLatency": 2.232,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 74,
+        "filename": "A_12_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\A_12_00001_.png"
+      }
+    ],
+    "B": [
+      {
+        "name": "foggy bridge",
+        "state": "a lone protagonist standing on a foggy bridge",
+        "promptId": "949f24ff-ae72-42fa-854f-d0dbdf3ac591",
+        "latency": 58.99426039999997,
+        "serverLatency": 58.994,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 100,
+        "filename": "B_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_01_00001_.png"
+      },
+      {
+        "name": "beneath bridge",
+        "state": "the same protagonist beneath the bridge beside one glowing light",
+        "promptId": "ad13bccd-2ae2-4852-a058-1fc14d01ba93",
+        "latency": 7.180868499999982,
+        "serverLatency": 7.181,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 66,
+        "filename": "B_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_02_00001_.png"
+      },
+      {
+        "name": "red house",
+        "state": "an abandoned red house exterior at night",
+        "promptId": "0849fd85-5b09-4aa4-b2e6-3d4de19270b5",
+        "latency": 4.4490455000000075,
+        "serverLatency": 4.449,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 69,
+        "filename": "B_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_03_00001_.png"
+      },
+      {
+        "name": "wooden hallway",
+        "state": "the interior wooden hallway of that red house",
+        "promptId": "add782d3-0b59-4ace-9952-5796f574f052",
+        "latency": 3.4413867000000318,
+        "serverLatency": 3.441,
+        "peakVramMiB": 7524,
+        "peakGpuPercent": 56,
+        "filename": "B_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_04_00001_.png"
+      },
+      {
+        "name": "basement",
+        "state": "an underground basement beneath the house",
+        "promptId": "4921d78f-17c0-4ad6-b866-e0d3e24f6311",
+        "latency": 2.7657100000000208,
+        "serverLatency": 2.766,
+        "peakVramMiB": 7396,
+        "peakGpuPercent": 81,
+        "filename": "B_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_05_00001_.png"
+      },
+      {
+        "name": "machine",
+        "state": "a strange large machine clearly visible in the room",
+        "promptId": "75173f4f-919e-410e-b5a1-2dc0a9bda046",
+        "latency": 2.7561746000000276,
+        "serverLatency": 2.756,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 81,
+        "filename": "B_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_06_00001_.png"
+      },
+      {
+        "name": "activated machine",
+        "state": "the same machine visibly activated with blue illumination",
+        "promptId": "a52c18b5-753f-4169-9c8e-21f138d95fe9",
+        "latency": 2.935759300000034,
+        "serverLatency": 2.936,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 82,
+        "filename": "B_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_07_00001_.png"
+      },
+      {
+        "name": "flooded room",
+        "state": "a room visibly flooded with reflective water",
+        "promptId": "0d124a2d-2518-442e-bf1c-6dc7f28aa5b2",
+        "latency": 2.9583647999999814,
+        "serverLatency": 2.958,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 91,
+        "filename": "B_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_08_00001_.png"
+      },
+      {
+        "name": "submerged tunnel",
+        "state": "a submerged tunnel entrance with water and mist",
+        "promptId": "a9f1385e-0f03-4c20-85d8-478dbece2797",
+        "latency": 2.9364563000000197,
+        "serverLatency": 2.936,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 91,
+        "filename": "B_09_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_09_00001_.png"
+      },
+      {
+        "name": "portal landscape",
+        "state": "a surreal outdoor landscape with a clearly visible luminous portal",
+        "promptId": "bd16382b-229a-49a5-9e7c-2c60656b7839",
+        "latency": 3.000117399999988,
+        "serverLatency": 3,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 59,
+        "filename": "B_10_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_10_00001_.png"
+      },
+      {
+        "name": "three objects",
+        "state": "one scene clearly showing a lantern, a mirror, and a brass key",
+        "promptId": "98bf54fe-263f-4e86-b653-20084060dbf8",
+        "latency": 2.9686898999999976,
+        "serverLatency": 2.969,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 51,
+        "filename": "B_11_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_11_00001_.png"
+      },
+      {
+        "name": "spatial composition",
+        "state": "the protagonist standing in a corridor facing a portal while a staircase descends on the right",
+        "promptId": "b8ad973f-b8af-4900-afea-24fcde73ad54",
+        "latency": 2.957199099999969,
+        "serverLatency": 2.957,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 55,
+        "filename": "B_12_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\B_12_00001_.png"
+      }
+    ],
+    "C": [
+      {
+        "name": "foggy bridge",
+        "state": "a lone protagonist standing on a foggy bridge",
+        "promptId": "0ee35c63-0618-4946-bb6d-292e0f57ebef",
+        "latency": 58.302182199999926,
+        "serverLatency": 58.302,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 95,
+        "filename": "C_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_01_00001_.png"
+      },
+      {
+        "name": "beneath bridge",
+        "state": "the same protagonist beneath the bridge beside one glowing light",
+        "promptId": "f259e67d-9968-4c0e-a37b-61a238442089",
+        "latency": 6.700854900000035,
+        "serverLatency": 6.7,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 60,
+        "filename": "C_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_02_00001_.png"
+      },
+      {
+        "name": "red house",
+        "state": "an abandoned red house exterior at night",
+        "promptId": "cc32b06b-7e0c-442e-b94b-4c0216765ae0",
+        "latency": 4.06632620000001,
+        "serverLatency": 4.066,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 84,
+        "filename": "C_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_03_00001_.png"
+      },
+      {
+        "name": "wooden hallway",
+        "state": "the interior wooden hallway of that red house",
+        "promptId": "20763ec6-f2e2-46a2-a5c7-e444d40b708f",
+        "latency": 3.0077419999999693,
+        "serverLatency": 3.008,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 90,
+        "filename": "C_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_04_00001_.png"
+      },
+      {
+        "name": "basement",
+        "state": "an underground basement beneath the house",
+        "promptId": "98b4846c-500d-467b-9df4-f4b62bd3e080",
+        "latency": 2.245222599999979,
+        "serverLatency": 2.245,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 90,
+        "filename": "C_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_05_00001_.png"
+      },
+      {
+        "name": "machine",
+        "state": "a strange large machine clearly visible in the room",
+        "promptId": "a1878295-91ce-4cb2-85be-738ec0b0ecae",
+        "latency": 2.2249818000000667,
+        "serverLatency": 2.225,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 90,
+        "filename": "C_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_06_00001_.png"
+      },
+      {
+        "name": "activated machine",
+        "state": "the same machine visibly activated with blue illumination",
+        "promptId": "1040742a-92de-45dc-a5f0-e6b80e458fb6",
+        "latency": 2.2391628999999957,
+        "serverLatency": 2.239,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 90,
+        "filename": "C_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_07_00001_.png"
+      },
+      {
+        "name": "flooded room",
+        "state": "a room visibly flooded with reflective water",
+        "promptId": "c054e1a8-98b5-41f5-bc10-71fb3e17a308",
+        "latency": 2.1863209999999964,
+        "serverLatency": 2.187,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 76,
+        "filename": "C_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_08_00001_.png"
+      },
+      {
+        "name": "submerged tunnel",
+        "state": "a submerged tunnel entrance with water and mist",
+        "promptId": "056f0d78-61c7-4f96-9899-b157bdfc469d",
+        "latency": 1.9779583000000567,
+        "serverLatency": 1.978,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 85,
+        "filename": "C_09_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_09_00001_.png"
+      },
+      {
+        "name": "portal landscape",
+        "state": "a surreal outdoor landscape with a clearly visible luminous portal",
+        "promptId": "18b2a1c5-2f25-4c1c-b7bb-6555a3d2a19f",
+        "latency": 2.0056524000000207,
+        "serverLatency": 2.006,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 85,
+        "filename": "C_10_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_10_00001_.png"
+      },
+      {
+        "name": "three objects",
+        "state": "one scene clearly showing a lantern, a mirror, and a brass key",
+        "promptId": "91dc295d-67c9-48bd-952a-6b94e52cf528",
+        "latency": 2.008353499999968,
+        "serverLatency": 2.009,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 85,
+        "filename": "C_11_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_11_00001_.png"
+      },
+      {
+        "name": "spatial composition",
+        "state": "the protagonist standing in a corridor facing a portal while a staircase descends on the right",
+        "promptId": "a476d3c0-042c-4e30-8966-9a0412238639",
+        "latency": 2.0060347000000767,
+        "serverLatency": 2.006,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 84,
+        "filename": "C_12_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\C_12_00001_.png"
+      }
+    ],
+    "D": [
+      {
+        "name": "foggy bridge",
+        "state": "a lone protagonist standing on a foggy bridge",
+        "promptId": "cb0d4a2c-6cf1-44e9-b812-bf222c185320",
+        "latency": 59.71020740000007,
+        "serverLatency": 59.711,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 100,
+        "filename": "D_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_01_00001_.png"
+      },
+      {
+        "name": "beneath bridge",
+        "state": "the same protagonist beneath the bridge beside one glowing light",
+        "promptId": "679c0845-a8a8-4aa4-a0f3-89b6c21ab256",
+        "latency": 6.664250299999956,
+        "serverLatency": 6.664,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 93,
+        "filename": "D_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_02_00001_.png"
+      },
+      {
+        "name": "red house",
+        "state": "an abandoned red house exterior at night",
+        "promptId": "dfad30ab-fa89-4b18-8417-2873f466d4f1",
+        "latency": 3.3228715999999547,
+        "serverLatency": 3.323,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 83,
+        "filename": "D_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_03_00001_.png"
+      },
+      {
+        "name": "wooden hallway",
+        "state": "the interior wooden hallway of that red house",
+        "promptId": "75ad3d50-3733-4b68-b7c7-8a44e23bce2b",
+        "latency": 2.699152000000002,
+        "serverLatency": 2.699,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 81,
+        "filename": "D_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_04_00001_.png"
+      },
+      {
+        "name": "basement",
+        "state": "an underground basement beneath the house",
+        "promptId": "8e94e416-2264-4eab-8f51-58ca4d76a64e",
+        "latency": 2.934182700000005,
+        "serverLatency": 2.934,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 93,
+        "filename": "D_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_05_00001_.png"
+      },
+      {
+        "name": "machine",
+        "state": "a strange large machine clearly visible in the room",
+        "promptId": "085e7c8e-5d26-454e-8c9e-3657aa8f8a56",
+        "latency": 2.7336951999999584,
+        "serverLatency": 2.733,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 93,
+        "filename": "D_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_06_00001_.png"
+      },
+      {
+        "name": "activated machine",
+        "state": "the same machine visibly activated with blue illumination",
+        "promptId": "843b5008-f006-4382-8ec7-7166106410e1",
+        "latency": 2.9237199000000254,
+        "serverLatency": 2.924,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 91,
+        "filename": "D_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_07_00001_.png"
+      },
+      {
+        "name": "flooded room",
+        "state": "a room visibly flooded with reflective water",
+        "promptId": "770d7d5a-3d4d-450e-adcc-d7793df47945",
+        "latency": 3.026580900000059,
+        "serverLatency": 3.027,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 77,
+        "filename": "D_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_08_00001_.png"
+      },
+      {
+        "name": "submerged tunnel",
+        "state": "a submerged tunnel entrance with water and mist",
+        "promptId": "5faaad2e-6c1c-4679-a244-cbe8af9f194b",
+        "latency": 2.7496510000000707,
+        "serverLatency": 2.75,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 86,
+        "filename": "D_09_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_09_00001_.png"
+      },
+      {
+        "name": "portal landscape",
+        "state": "a surreal outdoor landscape with a clearly visible luminous portal",
+        "promptId": "6d749af7-01ad-4ff0-afaa-cd0fbbaecc4a",
+        "latency": 2.7126391000000294,
+        "serverLatency": 2.712,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 88,
+        "filename": "D_10_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_10_00001_.png"
+      },
+      {
+        "name": "three objects",
+        "state": "one scene clearly showing a lantern, a mirror, and a brass key",
+        "promptId": "8e5de763-f1d4-4341-be09-ee9971a4ec0a",
+        "latency": 2.9668485999999104,
+        "serverLatency": 2.966,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 88,
+        "filename": "D_11_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_11_00001_.png"
+      },
+      {
+        "name": "spatial composition",
+        "state": "the protagonist standing in a corridor facing a portal while a staircase descends on the right",
+        "promptId": "5899c966-449a-4bf7-a015-231bc9607315",
+        "latency": 2.747269699999946,
+        "serverLatency": 2.748,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 91,
+        "filename": "D_12_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\quality\\D_12_00001_.png"
+      }
+    ]
+  },
+  "continuity": {
+    "A": [
+      {
+        "state": "foggy bridge",
+        "promptId": "f230492d-b979-4ca8-a4ec-277cce3a5a8c",
+        "latency": 3.3366973,
+        "serverLatency": 3.337,
+        "peakVramMiB": 7581,
+        "peakGpuPercent": 80,
+        "filename": "A_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_01_00001_.png"
+      },
+      {
+        "state": "beneath the same bridge",
+        "promptId": "b64c4d80-c1ff-4975-b56f-a51784436ecc",
+        "latency": 2.0309314000000014,
+        "serverLatency": 2.031,
+        "peakVramMiB": 7559,
+        "peakGpuPercent": 52,
+        "filename": "A_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_02_00001_.png"
+      },
+      {
+        "state": "forest path",
+        "promptId": "42da706d-3cbf-4075-a905-44526c2030fe",
+        "latency": 3.2478820000000415,
+        "serverLatency": 3.248,
+        "peakVramMiB": 7529,
+        "peakGpuPercent": 59,
+        "filename": "A_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_03_00001_.png"
+      },
+      {
+        "state": "red house exterior",
+        "promptId": "44d73e54-e4b7-4678-bb14-20ba782b2f05",
+        "latency": 2.723768599999952,
+        "serverLatency": 2.724,
+        "peakVramMiB": 7337,
+        "peakGpuPercent": 48,
+        "filename": "A_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_04_00001_.png"
+      },
+      {
+        "state": "wooden hallway",
+        "promptId": "def89f04-6464-4c0c-9c1f-fbcecae9f747",
+        "latency": 2.294688599999994,
+        "serverLatency": 2.295,
+        "peakVramMiB": 7561,
+        "peakGpuPercent": 48,
+        "filename": "A_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_05_00001_.png"
+      },
+      {
+        "state": "basement",
+        "promptId": "07229956-071a-45e9-aaf6-67dacd4d8f6d",
+        "latency": 2.0207482999999775,
+        "serverLatency": 2.02,
+        "peakVramMiB": 7659,
+        "peakGpuPercent": 89,
+        "filename": "A_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_06_00001_.png"
+      },
+      {
+        "state": "machine room",
+        "promptId": "afd222b0-204c-4130-8199-733f29835f4d",
+        "latency": 2.2338207000000403,
+        "serverLatency": 2.233,
+        "peakVramMiB": 7595,
+        "peakGpuPercent": 89,
+        "filename": "A_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_07_00001_.png"
+      },
+      {
+        "state": "activated machine",
+        "promptId": "b24300f2-8500-4760-9b29-cc18cb4f942b",
+        "latency": 2.304466799999995,
+        "serverLatency": 2.304,
+        "peakVramMiB": 7275,
+        "peakGpuPercent": 85,
+        "filename": "A_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\A_08_00001_.png"
+      }
+    ],
+    "B": [
+      {
+        "state": "foggy bridge",
+        "promptId": "f147fcec-13ca-4b08-9dfd-aff4f0f73450",
+        "latency": 2.732350900000078,
+        "serverLatency": 2.732,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 61,
+        "filename": "B_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_01_00001_.png"
+      },
+      {
+        "state": "beneath the same bridge",
+        "promptId": "c02a418e-23e7-44cd-a73d-9b4bd08579b6",
+        "latency": 2.983817800000077,
+        "serverLatency": 2.984,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 74,
+        "filename": "B_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_02_00001_.png"
+      },
+      {
+        "state": "forest path",
+        "promptId": "f2b4374b-7425-412b-8694-8c9a6e6c7270",
+        "latency": 3.0829015999999827,
+        "serverLatency": 3.083,
+        "peakVramMiB": 7524,
+        "peakGpuPercent": 61,
+        "filename": "B_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_03_00001_.png"
+      },
+      {
+        "state": "red house exterior",
+        "promptId": "1a3433f6-d177-4ad5-b4d7-5854e06e2106",
+        "latency": 2.997042699999991,
+        "serverLatency": 2.997,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 56,
+        "filename": "B_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_04_00001_.png"
+      },
+      {
+        "state": "wooden hallway",
+        "promptId": "98b0c0ac-51a0-4ca0-8b8a-0428389763fc",
+        "latency": 2.9784893000000157,
+        "serverLatency": 2.978,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 51,
+        "filename": "B_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_05_00001_.png"
+      },
+      {
+        "state": "basement",
+        "promptId": "0b09a4e1-d825-4dac-a287-11cd65771c4c",
+        "latency": 2.968127199999988,
+        "serverLatency": 2.968,
+        "peakVramMiB": 7396,
+        "peakGpuPercent": 60,
+        "filename": "B_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_06_00001_.png"
+      },
+      {
+        "state": "machine room",
+        "promptId": "520f79dd-d904-4200-90ea-c2c013a3bc85",
+        "latency": 3.003686800000025,
+        "serverLatency": 3.003,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 69,
+        "filename": "B_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_07_00001_.png"
+      },
+      {
+        "state": "activated machine",
+        "promptId": "4a05b234-8cae-4248-afca-b2129389f4a5",
+        "latency": 2.75306389999995,
+        "serverLatency": 2.753,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 78,
+        "filename": "B_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\B_08_00001_.png"
+      }
+    ],
+    "C": [
+      {
+        "state": "foggy bridge",
+        "promptId": "3ef55e48-f5ef-4036-8de0-7e49f84dc19c",
+        "latency": 2.33834859999991,
+        "serverLatency": 2.338,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 84,
+        "filename": "C_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_01_00001_.png"
+      },
+      {
+        "state": "beneath the same bridge",
+        "promptId": "13a0bbf8-66a5-4804-97ea-85a925a0b1e2",
+        "latency": 1.9957277000000468,
+        "serverLatency": 1.996,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 86,
+        "filename": "C_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_02_00001_.png"
+      },
+      {
+        "state": "forest path",
+        "promptId": "4530bdf1-7213-427b-bde9-9da6e4648ffc",
+        "latency": 2.3077978000000585,
+        "serverLatency": 2.308,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 89,
+        "filename": "C_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_03_00001_.png"
+      },
+      {
+        "state": "red house exterior",
+        "promptId": "b45d4cb6-875c-4bb4-b904-2812ac04722f",
+        "latency": 2.230299299999955,
+        "serverLatency": 2.23,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 78,
+        "filename": "C_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_04_00001_.png"
+      },
+      {
+        "state": "wooden hallway",
+        "promptId": "d0e9b50f-c0f7-4bc1-b761-a15267e07f2e",
+        "latency": 2.3030757999999913,
+        "serverLatency": 2.303,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 91,
+        "filename": "C_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_05_00001_.png"
+      },
+      {
+        "state": "basement",
+        "promptId": "224345aa-b39d-4ffc-a21b-88ab02ae35db",
+        "latency": 2.186552500000107,
+        "serverLatency": 2.186,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 91,
+        "filename": "C_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_06_00001_.png"
+      },
+      {
+        "state": "machine room",
+        "promptId": "c2fae9f6-c985-40cb-9923-4eaaf584d626",
+        "latency": 1.9965884000000078,
+        "serverLatency": 1.996,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 86,
+        "filename": "C_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_07_00001_.png"
+      },
+      {
+        "state": "activated machine",
+        "promptId": "158bd246-e1ec-4183-a46b-5085bd3fff81",
+        "latency": 2.0192526000000073,
+        "serverLatency": 2.019,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 91,
+        "filename": "C_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\C_08_00001_.png"
+      }
+    ],
+    "D": [
+      {
+        "state": "foggy bridge",
+        "promptId": "46ac5caa-c0d0-4f5a-a08e-5def24f753f1",
+        "latency": 2.693478699999978,
+        "serverLatency": 2.694,
+        "peakVramMiB": 7428,
+        "peakGpuPercent": 91,
+        "filename": "D_01_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_01_00001_.png"
+      },
+      {
+        "state": "beneath the same bridge",
+        "promptId": "7ad5f14f-95ad-4181-b6a9-7f2fa1286f14",
+        "latency": 2.7594133000000145,
+        "serverLatency": 2.759,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 86,
+        "filename": "D_02_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_02_00001_.png"
+      },
+      {
+        "state": "forest path",
+        "promptId": "01b2bea4-896f-4811-ad5a-599a8b78bf23",
+        "latency": 3.060570500000031,
+        "serverLatency": 3.06,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 96,
+        "filename": "D_03_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_03_00001_.png"
+      },
+      {
+        "state": "red house exterior",
+        "promptId": "529c2e3a-1fff-49aa-901e-ce9121aa0666",
+        "latency": 2.7129806999999566,
+        "serverLatency": 2.713,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 96,
+        "filename": "D_04_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_04_00001_.png"
+      },
+      {
+        "state": "wooden hallway",
+        "promptId": "405516ad-7dc7-4c98-bed5-d8122195a946",
+        "latency": 2.6801689999999945,
+        "serverLatency": 2.68,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 90,
+        "filename": "D_05_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_05_00001_.png"
+      },
+      {
+        "state": "basement",
+        "promptId": "4229bcdf-725d-4873-bb64-44203c22537a",
+        "latency": 3.010331799999927,
+        "serverLatency": 3.01,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 90,
+        "filename": "D_06_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_06_00001_.png"
+      },
+      {
+        "state": "machine room",
+        "promptId": "835a6e25-811a-462b-b722-489f074aaa07",
+        "latency": 2.944456699999981,
+        "serverLatency": 2.944,
+        "peakVramMiB": 7492,
+        "peakGpuPercent": 76,
+        "filename": "D_07_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_07_00001_.png"
+      },
+      {
+        "state": "activated machine",
+        "promptId": "0dd254f7-ece9-42fe-90b6-cbb85b727c38",
+        "latency": 2.7072772999999577,
+        "serverLatency": 2.707,
+        "peakVramMiB": 7460,
+        "peakGpuPercent": 86,
+        "filename": "D_08_00001_.png",
+        "path": "benchmark\\runtime\\8192\\output\\continuity\\D_08_00001_.png"
+      }
+    ]
+  }
+}

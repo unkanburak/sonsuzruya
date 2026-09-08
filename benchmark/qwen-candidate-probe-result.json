@@ -1,0 +1,17 @@
+{
+  "endpoint": "http://127.0.0.1:8080",
+  "timeoutMs": 120000,
+  "promptChars": 996,
+  "httpStatus": 200,
+  "latencyMs": 18285.8,
+  "content": "{\"candidates\":[{\"tr\":\"Işıkla ileri gider\",\"result\":\"Işık yoluyla köprünün diğer tarafına ulaşır\",\"family\":\"travel\"},{\"tr\":\"Lanternı çözer\",\"result\":\"Lanternın parlaması köprünün altında parlıyor\",\"family\":\"object interaction\"},{\"tr\":\"Bulutları takip eder\",\"result\":\"Bulutların sıradaki yerini takip eder\",\"family\":\"atmosphere\"},{\"tr\":\"Suyla konuşur\",\"result\":\"Suyla bilinçaltı düşüncelerini paylaşır\",\"family\":\"symbolic discovery\"},{\"tr\":\"Köprüyü anımsar\",\"result\":\"Köprünün sonunda bir anı anımsar\",\"family\":\"memory trace\"},{\"tr\":\"Dünya çapında dolaşır\",\"result\":\"Dünya çapında bir yolculuk başlar\",\"family\":\"psychological shift",
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 252,
+    "total_tokens": 444,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "error": null
+}

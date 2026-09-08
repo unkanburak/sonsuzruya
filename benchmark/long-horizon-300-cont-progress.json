@@ -1,0 +1,633 @@
+{
+  "startScene": 5178,
+  "targetScene": 5235,
+  "rows": [
+    {
+      "scene": 5178,
+      "location": "front_path",
+      "options": [
+        "Kırmızı eve dön",
+        "Yolun çatlağını izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5179,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Kapıya yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5180,
+      "location": "red_house_exterior",
+      "options": [
+        "Figüre yaklaş",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5181,
+      "location": "red_house_exterior",
+      "options": [
+        "Kapının arkasına bak",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5182,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5183,
+      "location": "red_house_doorstep",
+      "options": [
+        "Kırmızı eve dön",
+        "Kapıya yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5184,
+      "location": "red_house_doorstep",
+      "options": [
+        "Evin içine gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5185,
+      "location": "red_house_hallway",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5186,
+      "location": "red_house_hallway",
+      "options": [
+        "Merdivene yönel",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5187,
+      "location": "stairwell",
+      "options": [
+        "Karanlıkta oyalan",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5188,
+      "location": "stairwell",
+      "options": [
+        "Evin içine gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5189,
+      "location": "red_house_hallway",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürü takip et"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5190,
+      "location": "red_house_hallway",
+      "options": [
+        "Merdivene yönel",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5191,
+      "location": "stairwell",
+      "options": [
+        "Evin içine gir",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5192,
+      "location": "stairwell",
+      "options": [
+        "Bodruma in",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5193,
+      "location": "basement",
+      "options": [
+        "Bodrum kapısına yaklaş",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5194,
+      "location": "basement",
+      "options": [
+        "Makine odasına gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5195,
+      "location": "machine_room",
+      "options": [
+        "Makineye dokun",
+        "Makineden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5196,
+      "location": "machine_room",
+      "options": [
+        "Makineyi çalıştır",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5197,
+      "location": "machine_room",
+      "options": [
+        "Bodruma in",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5198,
+      "location": "machine_room",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5199,
+      "location": "control_room",
+      "options": [
+        "Karanlıkta oyalan",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5200,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5201,
+      "location": "machine_room",
+      "options": [
+        "Bodruma in",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5202,
+      "location": "machine_room",
+      "options": [
+        "Kontrol odasına gir",
+        "Makineye dokun"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5203,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5204,
+      "location": "control_room",
+      "options": [
+        "Figürün gölgesini izle",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5205,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5206,
+      "location": "control_room",
+      "options": [
+        "Gizli tünele gir",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5207,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5208,
+      "location": "hidden_tunnel",
+      "options": [
+        "Ara sokağa sap",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5209,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5210,
+      "location": "alley_mouth",
+      "options": [
+        "Gizli tünele gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5211,
+      "location": "hidden_tunnel",
+      "options": [
+        "Karanlıkta oyalan",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5212,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5213,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5214,
+      "location": "control_room",
+      "options": [
+        "Gizli tünele gir",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5215,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5216,
+      "location": "hidden_tunnel",
+      "options": [
+        "Figürden uzaklaş",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5217,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürü takip et"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5218,
+      "location": "hidden_tunnel",
+      "options": [
+        "Ara sokağa sap",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5219,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5220,
+      "location": "alley_mouth",
+      "options": [
+        "Figürü görmezden gel",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5221,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5222,
+      "location": "alley_mouth",
+      "options": [
+        "Gizli tünele gir",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5223,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5224,
+      "location": "hidden_tunnel",
+      "options": [
+        "Ara sokağa sap",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5225,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5226,
+      "location": "alley_mouth",
+      "options": [
+        "Gizli tünele gir",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5227,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Ara sokağa sap"
+      ],
+      "source": "bounded_recovery_exhausted",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5228,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figürü takip et"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5229,
+      "location": "quiet_street",
+      "options": [
+        "Ön yola ilerle",
+        "Sokağı takip et"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5230,
+      "location": "quiet_street",
+      "options": [
+        "Kırmızı eve dön",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5231,
+      "location": "red_house_exterior",
+      "options": [
+        "Figürün arkasına bak",
+        "Kapının ardını dinle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5232,
+      "location": "red_house_exterior",
+      "options": [
+        "Figürü görmezden gel",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5233,
+      "location": "red_house_exterior",
+      "options": [
+        "Figürden uzaklaş",
+        "Kapının arkasına bak"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    },
+    {
+      "scene": 5234,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202,
+      "optionsReady": true
+    }
+  ]
+}

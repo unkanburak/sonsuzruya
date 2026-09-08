@@ -1,0 +1,210 @@
+{
+  "principle": "Bir özellik yayını açmak için zorunlu değilse MVP’ye eklenmeyecek.",
+  "startedAt": "2026-08-29T14:38:10.896Z",
+  "voteSeconds": 6,
+  "rounds": [
+    {
+      "round": 1,
+      "candidates": [
+        {
+          "outcome": "A glowing portal appears",
+          "readyAtSeconds": 28.4242803,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "The corridor fills with light",
+          "readyAtSeconds": 30.7797607,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 30.7797649,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 2,
+      "candidates": [
+        {
+          "outcome": "Floating orbs appear",
+          "readyAtSeconds": 20.165587900000002,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "A misty bridge appears",
+          "readyAtSeconds": 20.165906100000004,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.165910500000003,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 3,
+      "candidates": [
+        {
+          "outcome": "A glowing tree grows",
+          "readyAtSeconds": 20.122489400000006,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "A doorway opens into bright light",
+          "readyAtSeconds": 20.187404299999994,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.187430099999997,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 4,
+      "candidates": [
+        {
+          "outcome": "The sky turns crimson",
+          "readyAtSeconds": 20.2533977,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "The room fills with water",
+          "readyAtSeconds": 20.253474,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.253477899999996,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 5,
+      "candidates": [
+        {
+          "outcome": "The floor becomes a giant mirror",
+          "readyAtSeconds": 34.09858110000001,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "A glowing portal appears",
+          "readyAtSeconds": 36.4718365,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 36.47184490000001,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 6,
+      "candidates": [
+        {
+          "outcome": "The corridor fills with light",
+          "readyAtSeconds": 20.245075699999987,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "Floating orbs appear",
+          "readyAtSeconds": 20.244582999999984,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.2451097,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 7,
+      "candidates": [
+        {
+          "outcome": "A misty bridge appears",
+          "readyAtSeconds": 20.071848999999986,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "The sky turns crimson",
+          "readyAtSeconds": 20.071357900000002,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.07185740000001,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 8,
+      "candidates": [
+        {
+          "outcome": "A doorway opens into bright light",
+          "readyAtSeconds": 22.675746000000014,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "The room fills with water",
+          "readyAtSeconds": 24.364596900000006,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 24.3646354,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 9,
+      "candidates": [
+        {
+          "outcome": "A glowing tree grows",
+          "readyAtSeconds": 20.16369160000002,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "The floor becomes a giant mirror",
+          "readyAtSeconds": 20.164007600000012,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.164011400000017,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    },
+    {
+      "round": 10,
+      "candidates": [
+        {
+          "outcome": "A glowing portal appears",
+          "readyAtSeconds": 20.065839100000012,
+          "ready": false,
+          "error": "timeout"
+        },
+        {
+          "outcome": "A misty bridge appears",
+          "readyAtSeconds": 20.067510100000014,
+          "ready": false,
+          "error": "timeout"
+        }
+      ],
+      "elapsedSeconds": 20.067513000000005,
+      "voteLockSeconds": 6,
+      "bothReadyByLock": false
+    }
+  ],
+  "finishedAt": "2026-08-29T14:42:03.682Z",
+  "readyRate": 0,
+  "decision": "STAY_IMAGE_MOTION"
+}

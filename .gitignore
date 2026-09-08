@@ -1,0 +1,36 @@
+node_modules/
+app-runtime*.log
+state/current.json
+state/events.jsonl
+state/soak-report.json
+
+# Local runtime/output data and machine-specific logs
+runtime/
+benchmark/runtime/
+*.log
+state/events.jsonl.*
+
+# Large generated benchmark media and local binaries
+benchmark/**/*.png
+benchmark/**/*.jpg
+benchmark/**/*.jpeg
+benchmark/**/*.mp4
+benchmark/**/*.wav
+benchmark/**/*.safetensors
+benchmark/**/*.gguf
+benchmark/**/*.exe
+*.zip
+*.mp4
+*.webm
+*.wav
+state/*.jsonl*
+benchmark/**/*.stderr.log
+benchmark/**/*.stdout.txt
+
+# Local model/media caches
+models/
+ComfyUI_windows_portable/
+
+# Embedded research repositories are maintained separately
+research/Causal-Forcing/
+research/infinte-tv/

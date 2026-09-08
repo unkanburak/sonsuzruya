@@ -1,0 +1,17 @@
+{
+  "endpoint": "http://127.0.0.1:8080",
+  "timeoutMs": 120000,
+  "promptChars": 436,
+  "httpStatus": 200,
+  "latencyMs": 4668.6,
+  "content": "{\"candidates\":[\"Mist covers the bridge's edge\",\"Silver fog approaches the figure\",\"Distant water reflects the mist\",\"Figure steps onto the bridge\",\"Mist thickens around the lantern\",\"Fog hides the approaching figure\"]}",
+  "usage": {
+    "completion_tokens": 46,
+    "prompt_tokens": 108,
+    "total_tokens": 154,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,507 @@
+{
+  "startScene": 4291,
+  "targetScene": 4341,
+  "endScene": 4341,
+  "rows": [
+    {
+      "scene": 4291,
+      "location": "machine_room",
+      "options": [
+        "Kontrol odasına gir",
+        "Makinenin sesini takip et"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4292,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4293,
+      "location": "control_room",
+      "options": [
+        "Gizli tünele gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4294,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürü takip et"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4295,
+      "location": "hidden_tunnel",
+      "options": [
+        "Ara sokağa sap",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4296,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4297,
+      "location": "alley_mouth",
+      "options": [
+        "Gizli tünele gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4298,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4299,
+      "location": "hidden_tunnel",
+      "options": [
+        "Ara sokağa sap",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4300,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4301,
+      "location": "alley_mouth",
+      "options": [
+        "Gizli tünele gir",
+        "Figürü takip et"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4302,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4303,
+      "location": "hidden_tunnel",
+      "options": [
+        "Ara sokağa sap",
+        "Figürü takip et"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4304,
+      "location": "alley_mouth",
+      "options": [
+        "Sokağa doğru ilerle",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4305,
+      "location": "alley_mouth",
+      "options": [
+        "Gizli tünele gir",
+        "Figürden uzaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4306,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Figürden uzaklaş"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4307,
+      "location": "hidden_tunnel",
+      "options": [
+        "Kontrol odasına gir",
+        "Ara sokağa sap"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4308,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4309,
+      "location": "control_room",
+      "options": [
+        "Makine odasına gir",
+        "Figürden uzaklaş"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4310,
+      "location": "machine_room",
+      "options": [
+        "Makineyi çalıştır",
+        "Figürün arkasına bak"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4311,
+      "location": "machine_room",
+      "options": [
+        "Bodruma in",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4312,
+      "location": "basement",
+      "options": [
+        "Bodrum kapısına yaklaş",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4313,
+      "location": "basement",
+      "options": [
+        "Bodrum kapısına yaklaş",
+        "Figürden uzaklaş"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4314,
+      "location": "basement_door",
+      "options": [
+        "Evin içine gir",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4315,
+      "location": "basement_door",
+      "options": [
+        "Figürü görmezden gel",
+        "Kapının ardını dinle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4316,
+      "location": "basement_door",
+      "options": [
+        "Evin içine gir",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4317,
+      "location": "basement_door",
+      "options": [
+        "Evin içine gir",
+        "Figürden uzaklaş"
+      ],
+      "source": "bounded_recovery_exhausted,library",
+      "status": 202
+    },
+    {
+      "scene": 4318,
+      "location": "red_house_hallway",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figüre yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4319,
+      "location": "red_house_hallway",
+      "options": [
+        "Merdivene yönel",
+        "Figürden uzaklaş"
+      ],
+      "source": "bounded_recovery_exhausted,library",
+      "status": 202
+    },
+    {
+      "scene": 4320,
+      "location": "stairwell",
+      "options": [
+        "Evin içine gir",
+        "Figürden uzaklaş"
+      ],
+      "source": "bounded_recovery_exhausted,library",
+      "status": 202
+    },
+    {
+      "scene": 4321,
+      "location": "stairwell",
+      "options": [
+        "Evin içine gir",
+        "Bodruma in"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4322,
+      "location": "red_house_hallway",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4323,
+      "location": "red_house_hallway",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürden uzaklaş"
+      ],
+      "source": "bounded_recovery_exhausted,library",
+      "status": 202
+    },
+    {
+      "scene": 4324,
+      "location": "red_house_doorstep",
+      "options": [
+        "Kırmızı eve dön",
+        "Kapıyı kapat"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4325,
+      "location": "red_house_doorstep",
+      "options": [
+        "Kırmızı eve dön",
+        "Ön kapıyı aç"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4326,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Ön kapıyı aç"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4327,
+      "location": "red_house_exterior",
+      "options": [
+        "Ön yola ilerle",
+        "Figürden uzaklaş"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4328,
+      "location": "front_path",
+      "options": [
+        "Yolda ilerle",
+        "Figürü görmezden gel"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4329,
+      "location": "front_path",
+      "options": [
+        "Yolun çatlağını izle",
+        "Yoldan kenara çekil"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4330,
+      "location": "front_path",
+      "options": [
+        "Kapının arkasına bak",
+        "Yoldaki izi ortaya çıkar"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4331,
+      "location": "front_path",
+      "options": [
+        "Kırmızı eve dön",
+        "Figürün gölgesini izle"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4332,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürü takip et"
+      ],
+      "source": "bounded_recovery_exhausted,library",
+      "status": 202
+    },
+    {
+      "scene": 4333,
+      "location": "red_house_exterior",
+      "options": [
+        "Çatlak yolda ilerle",
+        "Figürden uzaklaş"
+      ],
+      "source": "library,scene_bound_recovery",
+      "status": 202
+    },
+    {
+      "scene": 4334,
+      "location": "front_path",
+      "options": [
+        "Yolun çevresinde dolaş",
+        "Kapının ardını dinle"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4335,
+      "location": "front_path",
+      "options": [
+        "Kırmızı eve dön",
+        "Yoldan kenara çekil"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4336,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Karanlıkta oyalan"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4337,
+      "location": "red_house_exterior",
+      "options": [
+        "Kırmızı eve yaklaş",
+        "Figürden uzaklaş"
+      ],
+      "source": "library,scene_bound_recovery,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4338,
+      "location": "red_house_doorstep",
+      "options": [
+        "Kırmızı eve dön",
+        "Kapıya yaklaş"
+      ],
+      "source": "library",
+      "status": 202
+    },
+    {
+      "scene": 4339,
+      "location": "red_house_doorstep",
+      "options": [
+        "Kırmızı eve dön",
+        "Ön kapıyı aç"
+      ],
+      "source": "library,bounded_recovery_exhausted",
+      "status": 202
+    },
+    {
+      "scene": 4340,
+      "location": "red_house_exterior",
+      "options": [
+        "Çatlak yolda ilerle",
+        "Front yol is visibleyi incele"
+      ],
+      "source": "scene_bound_recovery,qwen",
+      "status": 202
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "endpoint": "http://127.0.0.1:8080",
+  "timeoutMs": 120000,
+  "promptChars": 2859,
+  "httpStatus": 200,
+  "latencyMs": 37261.5,
+  "content": "{\n  \"option_1_tr\": \"Köprünün sonuna ilerle\",\n  \"option_1_en\": \"Proceed to the end of the bridge\",\n  \"option_1_result_prompt_en\": \"The character is now at the end of a misty bridge, where the fog thins and the path curves into an unfamiliar landscape.\",\n  \"option_1_scene_anchors\": [\"bridge\", \"fog\", \"landscape\"],\n  \"option_1_state_patch\": {\"current_location\":\"end_of_bridge\",\"character_state\":\"standing_at_end\",\"important_objects\":[\"old_lantern\"],\"open_hooks\":[\"fog_thins\"],\"recent_events\":[\"left_the_house\",\"entered_the_tunnel\",\"reached_the_bridge\",\"proceeded_to_end\"],\"recent_options\":[\"Köprünün sonuna ilerle\",\"Köprünün altındaki ışığa in\",\"Tünele gir\",\"Kapıyı aç\"],\"tone\":\"mysterious_surreal\"},\n  \"option_1_intent\": \"travel\",\n  \"option_1_psyche_delta\": {\"field\":\"threshold\",\"tensions\":{\"approach_avoidance\":0.6,\"control_release\":0.4},\"compensation_pressure\":0.5},\n  \"option_1_symbol_delta\": {\"symbol\":\"light\",\"appearances\":3,\"strength\":0.7,\"contexts\":[\"tunnel\",\"bridge\"],\"last_intent\":\"discovery\",\"earned\":true},\n  \"option_1_archetypal_role\": \"Explorer\",\n  \"option_2_tr\": \"Köprünün altındaki ış",
+  "usage": {
+    "completion_tokens": 320,
+    "prompt_tokens": 725,
+    "total_tokens": 1045,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "error": null
+}

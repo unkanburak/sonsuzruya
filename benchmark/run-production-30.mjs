@@ -1,0 +1,4 @@
+const sleep=ms=>new Promise(r=>setTimeout(r,ms)); const base='http://127.0.0.1:3000';
+async function get(){return (await (await fetch(base+'/api/state')).json())}
+async function main(){const rows=[];for(let i=0;i<30;i++){let s=await get();const start=s.sceneNumber;const t=Date.now();const vote=(i%2?'2':'1');const v=await fetch(base+'/api/debug/vote',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({userId:`local-soak-${Date.now()}-${i}`,vote})});if(!v.ok)throw Error(`vote_failed_${i}`);while(Date.now()-t<90000){await sleep(500);s=await get();if(s.sceneNumber>start&&s.phase==='PLAYING_VOTING')break}rows.push({turn:i+1,from:start,to:s.sceneNumber,seconds:(Date.now()-t)/1000,advanced:s.sceneNumber>start});console.log(JSON.stringify(rows.at(-1)));if(s.sceneNumber<=start)break}console.log(JSON.stringify({turns:rows.length,completed:rows.filter(x=>x.advanced).length,rows},null,2))}
+main().catch(e=>{console.error(e);process.exitCode=1});

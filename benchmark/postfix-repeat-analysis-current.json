@@ -1,0 +1,1389 @@
+{
+  "events": 300,
+  "uniquePairs": 121,
+  "top": [
+    {
+      "count": 8,
+      "pair": "figüre yaklaş :: the anonymous figure is now closer in the scene || kontrol odasına gir :: the figure is now in the established control room",
+      "rows": [
+        {
+          "scene": 4627,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4654,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4675,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4697,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4721,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4745,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4785,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4874,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figüre yaklaş"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 8,
+      "pair": "figürü görmezden gel :: the figure remains present at the edge of attention || karanlıkta oyalan :: the darkness of the current scene now gathers at its edges",
+      "rows": [
+        {
+          "scene": 4629,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4653,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4688,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4747,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4775,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4820,
+          "location": "front_path",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4843,
+          "location": "red_house_doorstep",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4877,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürü görmezden gel"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 7,
+      "pair": "figürün arkasına bak :: a detail behind the figure becomes visible || kontrol odasına gir :: the figure is now in the established control room",
+      "rows": [
+        {
+          "scene": 4617,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4649,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4671,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4693,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4717,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4789,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4880,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün arkasına bak"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 7,
+      "pair": "figürün arkasına bak :: a detail behind the figure becomes visible || sokağa doğru ilerle :: the figure is now in the established quiet street",
+      "rows": [
+        {
+          "scene": 4619,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4673,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4695,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4719,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4748,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4787,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4878,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figürün arkasına bak"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 7,
+      "pair": "figürün arkasına bak :: a detail behind the figure becomes visible || gizli tünele gir :: the figure is now in the established hidden tunnel",
+      "rows": [
+        {
+          "scene": 4626,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4652,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4682,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4706,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4744,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4784,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4873,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün arkasına bak"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 7,
+      "pair": "figürün arkasına bak :: a detail behind the figure becomes visible || karanlıkta oyalan :: the darkness of the current scene now gathers at its edges",
+      "rows": [
+        {
+          "scene": 4656,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4678,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Figürün arkasına bak",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4711,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4777,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Figürün arkasına bak",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4802,
+          "location": "front_path",
+          "source": "library",
+          "options": [
+            "Karanlıkta oyalan",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4860,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Figürün arkasına bak",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4882,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Figürün arkasına bak",
+            "Karanlıkta oyalan"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "pair": "evin içine gir :: the figure is now in the established red house hallway || figürün arkasına bak :: a detail behind the figure becomes visible",
+      "rows": [
+        {
+          "scene": 4607,
+          "location": "stairwell",
+          "source": "library",
+          "options": [
+            "Evin içine gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4636,
+          "location": "red_house_doorstep",
+          "source": "library",
+          "options": [
+            "Evin içine gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4733,
+          "location": "stairwell",
+          "source": "library",
+          "options": [
+            "Evin içine gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4768,
+          "location": "red_house_doorstep",
+          "source": "library",
+          "options": [
+            "Evin içine gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4847,
+          "location": "red_house_doorstep",
+          "source": "library",
+          "options": [
+            "Evin içine gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4892,
+          "location": "stairwell",
+          "source": "library",
+          "options": [
+            "Evin içine gir",
+            "Figürün arkasına bak"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "pair": "figürü görmezden gel :: the figure remains present at the edge of attention || kontrol odasına gir :: the figure is now in the established control room",
+      "rows": [
+        {
+          "scene": 4614,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4646,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4677,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4703,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4740,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4870,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürü görmezden gel"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "pair": "figüre yaklaş :: the anonymous figure is now closer in the scene || makine odasına gir :: the figure is now in the established machine room",
+      "rows": [
+        {
+          "scene": 4615,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4669,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4715,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4741,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4783,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4868,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figüre yaklaş"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "pair": "ara sokağa sap :: the figure is now in the established alley mouth || figürün arkasına bak :: a detail behind the figure becomes visible",
+      "rows": [
+        {
+          "scene": 4622,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4660,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4684,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4708,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4746,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4875,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figürün arkasına bak"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "pair": "figürün arkasına bak :: a detail behind the figure becomes visible || makine odasına gir :: the figure is now in the established machine room",
+      "rows": [
+        {
+          "scene": 4647,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4713,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4736,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4780,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4853,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figürün arkasına bak"
+          ]
+        },
+        {
+          "scene": 4895,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Makine odasına gir",
+            "Figürün arkasına bak"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "kapının ardını dinle :: the shadow beneath the established door is now visibly displaced || kapının arkasına bak :: the space behind the established door becomes visible",
+      "rows": [
+        {
+          "scene": 4599,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kapının arkasına bak",
+            "Kapının ardını dinle"
+          ]
+        },
+        {
+          "scene": 4633,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kapının arkasına bak",
+            "Kapının ardını dinle"
+          ]
+        },
+        {
+          "scene": 4727,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kapının arkasına bak",
+            "Kapının ardını dinle"
+          ]
+        },
+        {
+          "scene": 4765,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kapının arkasına bak",
+            "Kapının ardını dinle"
+          ]
+        },
+        {
+          "scene": 4886,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kapının arkasına bak",
+            "Kapının ardını dinle"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "karanlıkta oyalan :: the darkness of the current scene now gathers at its edges || kırmızı eve dön :: the figure is now in the established red house exterior",
+      "rows": [
+        {
+          "scene": 4603,
+          "location": "red_house_doorstep",
+          "source": "library",
+          "options": [
+            "Kırmızı eve dön",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4726,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Kırmızı eve dön",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4764,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Kırmızı eve dön",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4832,
+          "location": "front_path",
+          "source": "library",
+          "options": [
+            "Kırmızı eve dön",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4888,
+          "location": "red_house_doorstep",
+          "source": "library",
+          "options": [
+            "Kırmızı eve dön",
+            "Karanlıkta oyalan"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "figüre yaklaş :: the anonymous figure is now closer in the scene || gizli tünele gir :: the figure is now in the established hidden tunnel",
+      "rows": [
+        {
+          "scene": 4620,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4658,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4686,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4710,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4879,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figüre yaklaş"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "figürün gölgesini izle :: the anonymous figure shadow now reaches across the scene || kontrol odasına gir :: the figure is now in the established control room",
+      "rows": [
+        {
+          "scene": 4621,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4668,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4690,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4712,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4782,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Kontrol odasına gir",
+            "Figürün gölgesini izle"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "figüre yaklaş :: the anonymous figure is now closer in the scene || sokağa doğru ilerle :: the figure is now in the established quiet street",
+      "rows": [
+        {
+          "scene": 4623,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4651,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4681,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4705,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4876,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Sokağa doğru ilerle",
+            "Figüre yaklaş"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "sokağı takip et :: the figure is now farther along the established street || ön yola ilerle :: the figure is now in the established front path",
+      "rows": [
+        {
+          "scene": 4631,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Ön yola ilerle",
+            "Sokağı takip et"
+          ]
+        },
+        {
+          "scene": 4725,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Ön yola ilerle",
+            "Sokağı takip et"
+          ]
+        },
+        {
+          "scene": 4749,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Ön yola ilerle",
+            "Sokağı takip et"
+          ]
+        },
+        {
+          "scene": 4809,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Ön yola ilerle",
+            "Sokağı takip et"
+          ]
+        },
+        {
+          "scene": 4884,
+          "location": "quiet_street",
+          "source": "library",
+          "options": [
+            "Ön yola ilerle",
+            "Sokağı takip et"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "pair": "ara sokağa sap :: the figure is now in the established alley mouth || figüre yaklaş :: the anonymous figure is now closer in the scene",
+      "rows": [
+        {
+          "scene": 4664,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4694,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4718,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4790,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4881,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Figüre yaklaş"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "karanlıkta oyalan :: the darkness of the current scene now gathers at its edges || kırmızı eve yaklaş :: the figure is now in the established red house doorstep",
+      "rows": [
+        {
+          "scene": 4600,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4766,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4839,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4890,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Karanlıkta oyalan"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "figürün gölgesini izle :: the anonymous figure shadow now reaches across the scene || kırmızı eve yaklaş :: the figure is now in the established red house doorstep",
+      "rows": [
+        {
+          "scene": 4605,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4769,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4811,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4836,
+          "location": "red_house_exterior",
+          "source": "library",
+          "options": [
+            "Kırmızı eve yaklaş",
+            "Figürün gölgesini izle"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "figüre yaklaş :: the anonymous figure is now closer in the scene || merdivene yönel :: the figure is now in the established stairwell",
+      "rows": [
+        {
+          "scene": 4606,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Merdivene yönel",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4732,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Merdivene yönel",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4770,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Merdivene yönel",
+            "Figüre yaklaş"
+          ]
+        },
+        {
+          "scene": 4891,
+          "location": "red_house_hallway",
+          "source": "library",
+          "options": [
+            "Merdivene yönel",
+            "Figüre yaklaş"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "bodrum kapısına yaklaş :: the figure is now in the established basement door || figürü görmezden gel :: the figure remains present at the edge of attention",
+      "rows": [
+        {
+          "scene": 4609,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Bodrum kapısına yaklaş",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4641,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Bodrum kapısına yaklaş",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4735,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Bodrum kapısına yaklaş",
+            "Figürü görmezden gel"
+          ]
+        },
+        {
+          "scene": 4779,
+          "location": "basement",
+          "source": "library",
+          "options": [
+            "Bodrum kapısına yaklaş",
+            "Figürü görmezden gel"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "bodruma in :: the figure is now in the established basement || makineyi çalıştır :: the established machine is now glowing with blue light",
+      "rows": [
+        {
+          "scene": 4613,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Bodruma in",
+            "Makineyi çalıştır"
+          ]
+        },
+        {
+          "scene": 4739,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Bodruma in",
+            "Makineyi çalıştır"
+          ]
+        },
+        {
+          "scene": 4778,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Bodruma in",
+            "Makineyi çalıştır"
+          ]
+        },
+        {
+          "scene": 4859,
+          "location": "machine_room",
+          "source": "library",
+          "options": [
+            "Bodruma in",
+            "Makineyi çalıştır"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "figürün gölgesini izle :: the anonymous figure shadow now reaches across the scene || gizli tünele gir :: the figure is now in the established hidden tunnel",
+      "rows": [
+        {
+          "scene": 4616,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4648,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4692,
+          "location": "control_room",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün gölgesini izle"
+          ]
+        },
+        {
+          "scene": 4720,
+          "location": "alley_mouth",
+          "source": "library",
+          "options": [
+            "Gizli tünele gir",
+            "Figürün gölgesini izle"
+          ]
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "pair": "ara sokağa sap :: the figure is now in the established alley mouth || karanlıkta oyalan :: the darkness of the current scene now gathers at its edges",
+      "rows": [
+        {
+          "scene": 4618,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4698,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4722,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Karanlıkta oyalan"
+          ]
+        },
+        {
+          "scene": 4871,
+          "location": "hidden_tunnel",
+          "source": "library",
+          "options": [
+            "Ara sokağa sap",
+            "Karanlıkta oyalan"
+          ]
+        }
+      ]
+    }
+  ]
+}

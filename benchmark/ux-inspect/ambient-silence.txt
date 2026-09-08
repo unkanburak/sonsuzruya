@@ -1,0 +1,18 @@
+Input #0, mp3, from 'assets/audio/ambient_main.mp3':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Duration: 00:01:30.04, start: 0.025057, bitrate: 96 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 96 kb/s
+      Metadata:
+        encoder         : Lavc61.19
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+      Metadata:
+        encoder         : Lavc61.19.100 pcm_s16le
+[out#0/null @ 00000183b6040740] video:0KiB audio:15504KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:30.00 bitrate=N/A speed=1.11e+03x    

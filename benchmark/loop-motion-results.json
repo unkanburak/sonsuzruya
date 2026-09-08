@@ -1,0 +1,433 @@
+{
+  "startedAt": "2026-08-30T08:55:15.978Z",
+  "approach": "deterministic FFmpeg zoom/drift loop from one image",
+  "samples": [
+    [
+      "initial-room",
+      "public/initial.png",
+      "indoor corridor / central figure"
+    ],
+    [
+      "run1-a",
+      "benchmark/frames/run1_01.png",
+      "indoor / dark"
+    ],
+    [
+      "run1-b",
+      "benchmark/frames/run1_02.png",
+      "indoor / brighter"
+    ],
+    [
+      "run1-c",
+      "benchmark/frames/run1_03.png",
+      "indoor / central figure"
+    ],
+    [
+      "run2-a",
+      "benchmark/frames/run2_01.png",
+      "outdoor or transition"
+    ],
+    [
+      "run2-b",
+      "benchmark/frames/run2_02.png",
+      "outdoor / atmospheric"
+    ],
+    [
+      "run2-c",
+      "benchmark/frames/run2_03.png",
+      "darker scene"
+    ],
+    [
+      "run3-a",
+      "benchmark/frames/run3_01.png",
+      "surreal / central figure"
+    ],
+    [
+      "i2v-portal",
+      "benchmark/frames/i2v_run3_01.png",
+      "surreal portal / glow"
+    ],
+    [
+      "i2v-tunnel",
+      "benchmark/frames/i2v_run2_01.png",
+      "tunnel / dark transition"
+    ]
+  ],
+  "results": [
+    {
+      "id": "initial-room",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\public\\initial.png",
+      "category": "indoor corridor / central figure",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\initial-room.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 0.8666670000000001,
+          "fileBytes": 50617,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\initial-room.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.3606829999999999,
+          "fileBytes": 13363,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\initial-room.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.6338479000000001,
+          "fileBytes": 186100,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run1-a",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run1_01.png",
+      "category": "indoor / dark",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-a.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.1652187999999997,
+          "fileBytes": 58459,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-a.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.7311196,
+          "fileBytes": 22927,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-a.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.391956300000001,
+          "fileBytes": 441802,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run1-b",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run1_02.png",
+      "category": "indoor / brighter",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-b.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.0121396999999996,
+          "fileBytes": 62830,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-b.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.775321,
+          "fileBytes": 26785,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-b.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.3814697,
+          "fileBytes": 507214,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run1-c",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run1_03.png",
+      "category": "indoor / central figure",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-c.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.956966300000002,
+          "fileBytes": 62477,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-c.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.9551655000000028,
+          "fileBytes": 25458,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run1-c.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.4439570999999995,
+          "fileBytes": 501534,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run2-a",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run2_01.png",
+      "category": "outdoor or transition",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-a.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 0.9949747000000024,
+          "fileBytes": 40980,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-a.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.0272410999999995,
+          "fileBytes": 16893,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-a.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.2401561999999977,
+          "fileBytes": 294354,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run2-b",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run2_02.png",
+      "category": "outdoor / atmospheric",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-b.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.4064380000000019,
+          "fileBytes": 37367,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-b.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.7598698999999978,
+          "fileBytes": 14448,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-b.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.3872453000000022,
+          "fileBytes": 266284,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run2-c",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run2_03.png",
+      "category": "darker scene",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-c.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.0669760000000024,
+          "fileBytes": 36820,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-c.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.162378199999999,
+          "fileBytes": 13878,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run2-c.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.1378838999999936,
+          "fileBytes": 261102,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "run3-a",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\run3_01.png",
+      "category": "surreal / central figure",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run3-a.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.2465020000000004,
+          "fileBytes": 49252,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run3-a.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.004469400000002,
+          "fileBytes": 15852,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\run3-a.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.6769801999999983,
+          "fileBytes": 301196,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "i2v-portal",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\i2v_run3_01.png",
+      "category": "surreal portal / glow",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\i2v-portal.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.1969536999999981,
+          "fileBytes": 92806,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\i2v-portal.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 3.4555570000000007,
+          "fileBytes": 35172,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\i2v-portal.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.579459800000004,
+          "fileBytes": 597096,
+          "success": true
+        }
+      }
+    },
+    {
+      "id": "i2v-tunnel",
+      "sourceImage": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\frames\\i2v_run2_01.png",
+      "category": "tunnel / dark transition",
+      "formats": {
+        "mp4": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\i2v-tunnel.mp4",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 1.1003156000000016,
+          "fileBytes": 92697,
+          "success": true
+        },
+        "webm": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\i2v-tunnel.webm",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 3.2066886000000014,
+          "fileBytes": 35337,
+          "success": true
+        },
+        "webp": {
+          "output": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\loop-motion\\i2v-tunnel.webp",
+          "durationSeconds": 4,
+          "resolution": "768x448",
+          "fps": 12,
+          "renderSeconds": 2.649660499999998,
+          "fileBytes": 598670,
+          "success": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mp4": {
+      "success": 10,
+      "renderSeconds": {
+        "average": 1.2013151800000006,
+        "p95": 1.956966300000002
+      },
+      "fileBytes": {
+        "average": 58430.5,
+        "p95": 92806
+      }
+    },
+    "webm": {
+      "success": 10,
+      "renderSeconds": {
+        "average": 2.5438493299999996,
+        "p95": 3.4555570000000007
+      },
+      "fileBytes": {
+        "average": 22011.3,
+        "p95": 35337
+      }
+    },
+    "webp": {
+      "success": 10,
+      "renderSeconds": {
+        "average": 2.3522616899999997,
+        "p95": 2.6769801999999983
+      },
+      "fileBytes": {
+        "average": 395535.2,
+        "p95": 598670
+      }
+    }
+  }
+}

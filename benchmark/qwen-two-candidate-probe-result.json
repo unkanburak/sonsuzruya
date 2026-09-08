@@ -1,0 +1,213 @@
+{
+  "rows": [
+    {
+      "index": 1,
+      "elapsedMs": 3603,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 26,
+      "contentBytes": 98,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 2,
+      "elapsedMs": 2801,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 3,
+      "elapsedMs": 2766,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 4,
+      "elapsedMs": 2850,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 38,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 5,
+      "elapsedMs": 2161,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 28,
+      "contentBytes": 127,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 6,
+      "elapsedMs": 3033,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 40,
+      "contentBytes": 151,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 7,
+      "elapsedMs": 2804,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 8,
+      "elapsedMs": 2461,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 32,
+      "contentBytes": 124,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 9,
+      "elapsedMs": 1965,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 25,
+      "contentBytes": 104,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 10,
+      "elapsedMs": 2467,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 32,
+      "contentBytes": 126,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 11,
+      "elapsedMs": 2850,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 12,
+      "elapsedMs": 2491,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 32,
+      "contentBytes": 126,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 13,
+      "elapsedMs": 1999,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 23,
+      "contentBytes": 92,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 14,
+      "elapsedMs": 2745,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 33,
+      "contentBytes": 126,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 15,
+      "elapsedMs": 2970,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 16,
+      "elapsedMs": 2831,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 34,
+      "contentBytes": 130,
+      "completeJson": true,
+      "pairCount": 1
+    },
+    {
+      "index": 17,
+      "elapsedMs": 3064,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 18,
+      "elapsedMs": 2279,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 27,
+      "contentBytes": 113,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 19,
+      "elapsedMs": 2810,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 37,
+      "contentBytes": 161,
+      "completeJson": true,
+      "pairCount": 2
+    },
+    {
+      "index": 20,
+      "elapsedMs": 3856,
+      "status": 200,
+      "finishReason": "stop",
+      "outputTokens": 51,
+      "contentBytes": 216,
+      "completeJson": false,
+      "pairCount": 0
+    }
+  ],
+  "summary": {
+    "count": 20,
+    "complete": 18,
+    "p50Ms": 2804,
+    "p95Ms": 3603,
+    "finishReasons": {
+      "stop": 20
+    }
+  }
+}

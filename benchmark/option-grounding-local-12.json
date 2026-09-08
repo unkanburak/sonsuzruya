@@ -1,0 +1,209 @@
+{
+  "completed": 12,
+  "trace": [
+    {
+      "round": 1,
+      "fromScene": 13514,
+      "toScene": 13515,
+      "vote": "1",
+      "options": [
+        "Bozuk saate bak",
+        "Sis yoğunlaşsın — parıltının eşiğinde"
+      ],
+      "nextOptions": [
+        "Alt kata geç — parıltının kıyısında",
+        "Sis çöksün"
+      ],
+      "elapsedSeconds": 14.87,
+      "media": "/generated/live/scene_13515_1788209807188_cc70d3c2_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 2,
+      "fromScene": 13516,
+      "toScene": 13517,
+      "vote": "2",
+      "options": [
+        "Telefonu sessize al",
+        "Kürelerin altına ilerle"
+      ],
+      "nextOptions": [
+        "Basamakların sonuna ulaş",
+        "Işıklı küreleri izle — merdivenin ardında"
+      ],
+      "elapsedSeconds": 14.929,
+      "media": "/generated/live/scene_13517_1788209837465_82caecf4_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 3,
+      "fromScene": 13518,
+      "toScene": 13519,
+      "vote": "1",
+      "options": [
+        "Fotoğrafı çevir",
+        "Yağmurun altında bekle"
+      ],
+      "nextOptions": [
+        "Yağmur başlasın",
+        "Sisin içine bak"
+      ],
+      "elapsedSeconds": 14.934,
+      "media": "/generated/live/scene_13519_1788209867787_4cbd2378_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 4,
+      "fromScene": 13520,
+      "toScene": 13521,
+      "vote": "2",
+      "options": [
+        "Alt kata geç",
+        "Sis çöksün"
+      ],
+      "nextOptions": [
+        "Bozuk saate bak",
+        "Telefonu sessize al"
+      ],
+      "elapsedSeconds": 14.828,
+      "media": "/generated/live/scene_13521_1788209898142_c05a8fe3_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 5,
+      "fromScene": 13522,
+      "toScene": 13523,
+      "vote": "1",
+      "options": [
+        "Merdivenden in",
+        "Kürelerin altına ilerle"
+      ],
+      "nextOptions": [
+        "Yağmurun altında bekle",
+        "Işıklı küreleri izle"
+      ],
+      "elapsedSeconds": 14.663,
+      "media": "/generated/live/scene_13523_1788209928475_6d04e80e_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 6,
+      "fromScene": 13524,
+      "toScene": 13525,
+      "vote": "2",
+      "options": [
+        "Fotoğrafı çevir",
+        "Basamakların sonuna ulaş"
+      ],
+      "nextOptions": [
+        "stairwell bottomnin ışığını izle",
+        "Alt kata geç"
+      ],
+      "elapsedSeconds": 14.962,
+      "media": "/generated/live/scene_13525_1788209958831_4b7a91e0_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 7,
+      "fromScene": 13526,
+      "toScene": 13527,
+      "vote": "1",
+      "options": [
+        "Telefonu sessize al",
+        "Bozuk saate bak — parıltının yankısında"
+      ],
+      "nextOptions": [
+        "Merdivenden in — parıltının eşiğinde",
+        "Kürelerin altına ilerle"
+      ],
+      "elapsedSeconds": 14.927,
+      "media": "/generated/live/scene_13527_1788209989171_ee1446ac_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 8,
+      "fromScene": 13528,
+      "toScene": 13529,
+      "vote": "2",
+      "options": [
+        "Yağmurun altında bekle",
+        "Işıklı küreleri izle"
+      ],
+      "nextOptions": [
+        "Fotoğrafı çevir",
+        "Basamakların sonuna ulaş — ağacın eşiğinde"
+      ],
+      "elapsedSeconds": 14.902,
+      "media": "/generated/live/scene_13529_1788210019506_19dd8180_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 9,
+      "fromScene": 13530,
+      "toScene": 13531,
+      "vote": "1",
+      "options": [
+        "Sisin içine bak — ağacın kıyısında",
+        "Yağmur başlasın"
+      ],
+      "nextOptions": [
+        "Bozuk saate bak",
+        "Sis çöksün"
+      ],
+      "elapsedSeconds": 14.836,
+      "media": "/generated/live/scene_13531_1788210049775_fd39b3e9_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 10,
+      "fromScene": 13532,
+      "toScene": 13533,
+      "vote": "2",
+      "options": [
+        "Alt kata geç",
+        "Sis yoğunlaşsın"
+      ],
+      "nextOptions": [
+        "Yağmurun altında bekle — ağacın ışığında",
+        "Kürelerin altına ilerle"
+      ],
+      "elapsedSeconds": 14.902,
+      "media": "/generated/live/scene_13533_1788210080124_e8df5b71_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 11,
+      "fromScene": 13534,
+      "toScene": 13535,
+      "vote": "1",
+      "options": [
+        "Merdivenden in",
+        "Telefonu sessize al"
+      ],
+      "nextOptions": [
+        "Basamakların sonuna ulaş",
+        "Işıklı küreleri izle"
+      ],
+      "elapsedSeconds": 14.953,
+      "media": "/generated/live/scene_13535_1788210110460_2af3ad33_00001_.png",
+      "phase": "NEXT_READY"
+    },
+    {
+      "round": 12,
+      "fromScene": 13536,
+      "toScene": 13537,
+      "vote": "2",
+      "options": [
+        "Fotoğrafı çevir — parıltının ardından",
+        "Bozuk saate bak"
+      ],
+      "nextOptions": [
+        "stairwell bottomnin ışığını izle",
+        "Alt kata geç"
+      ],
+      "elapsedSeconds": 14.895,
+      "media": "/generated/live/scene_13537_1788210140784_cd24ffec_00001_.png",
+      "phase": "NEXT_READY"
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "started": "2026-08-30T20:32:51.969Z",
+  "finished": "2026-08-30T20:44:56.957Z",
+  "rows": [
+    {
+      "turn": 1,
+      "fromScene": 7291,
+      "toScene": 7292,
+      "seconds": 8.853491,
+      "media": "/generated/live/scene_07292_1788121972306_9e0333dd_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 3,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 724,
+        "stateBytes": 3105,
+        "logBytes": 3555866
+      }
+    },
+    {
+      "turn": 2,
+      "fromScene": 7292,
+      "toScene": 7293,
+      "seconds": 14.585926500000001,
+      "media": "/generated/live/scene_07293_1788121986897_52ec034b_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 4,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 745,
+        "stateBytes": 3273,
+        "logBytes": 3556518
+      }
+    },
+    {
+      "turn": 3,
+      "fromScene": 7293,
+      "toScene": 7294,
+      "seconds": 14.596426900000003,
+      "media": "/generated/live/scene_07294_1788122001466_f2336ecd_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 5,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 747,
+        "stateBytes": 3323,
+        "logBytes": 3557179
+      }
+    },
+    {
+      "turn": 4,
+      "fromScene": 7294,
+      "toScene": 7295,
+      "seconds": 14.597886900000004,
+      "media": "/generated/live/scene_07295_1788122016094_8e6b5703_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 6,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 728,
+        "stateBytes": 3231,
+        "logBytes": 3557827
+      }
+    },
+    {
+      "turn": 5,
+      "fromScene": 7295,
+      "toScene": 7296,
+      "seconds": 14.627551200000001,
+      "media": "/generated/live/scene_07296_1788122030713_e5f6ce14_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 7,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 731,
+        "stateBytes": 3178,
+        "logBytes": 3558485
+      }
+    },
+    {
+      "turn": 6,
+      "fromScene": 7296,
+      "toScene": 7297,
+      "seconds": 14.604323300000004,
+      "media": "/generated/live/scene_07297_1788122045340_d66e9fc4_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 8,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 711,
+        "stateBytes": 3188,
+        "logBytes": 3559146
+      }
+    },
+    {
+      "turn": 7,
+      "fromScene": 7297,
+      "toScene": 7298,
+      "seconds": 14.609686000000002,
+      "media": "/generated/live/scene_07298_1788122059937_b22020dc_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 9,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 727,
+        "stateBytes": 3193,
+        "logBytes": 3559799
+      }
+    },
+    {
+      "turn": 8,
+      "fromScene": 7298,
+      "toScene": 7299,
+      "seconds": 14.458051100000011,
+      "media": "/generated/live/scene_07299_1788122074508_6d54a4dd_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 10,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 727,
+        "stateBytes": 3156,
+        "logBytes": 3560450
+      }
+    },
+    {
+      "turn": 9,
+      "fromScene": 7299,
+      "toScene": 7300,
+      "seconds": 14.4868373,
+      "media": "/generated/live/scene_07300_1788122089006_79accfeb_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 11,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 706,
+        "stateBytes": 3066,
+        "logBytes": 3561115
+      }
+    },
+    {
+      "turn": 10,
+      "fromScene": 7300,
+      "toScene": 7301,
+      "seconds": 14.474389400000014,
+      "media": "/generated/live/scene_07301_1788122103472_e8bf6930_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 12,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 723,
+        "stateBytes": 3157,
+        "logBytes": 3561772
+      }
+    },
+    {
+      "turn": 11,
+      "fromScene": 7301,
+      "toScene": 7302,
+      "seconds": 14.574364700000006,
+      "media": "/generated/live/scene_07302_1788122117965_881de4ad_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 13,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 719,
+        "stateBytes": 3226,
+        "logBytes": 3562421
+      }
+    },
+    {
+      "turn": 12,
+      "fromScene": 7302,
+      "toScene": 7303,
+      "seconds": 14.622718300000008,
+      "media": "/generated/live/scene_07303_1788122132549_366dd997_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 14,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 715,
+        "stateBytes": 3131,
+        "logBytes": 3563081
+      }
+    },
+    {
+      "turn": 13,
+      "fromScene": 7303,
+      "toScene": 7304,
+      "seconds": 14.649501599999988,
+      "media": "/generated/live/scene_07304_1788122147168_e1c5be7d_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 15,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 717,
+        "stateBytes": 3213,
+        "logBytes": 3563734
+      }
+    },
+    {
+      "turn": 14,
+      "fromScene": 7304,
+      "toScene": 7305,
+      "seconds": 14.014761499999993,
+      "media": "/generated/live/scene_07305_1788122161244_7e5bda51_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 16,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 715,
+        "stateBytes": 3207,
+        "logBytes": 3564383
+      }
+    },
+    {
+      "turn": 15,
+      "fromScene": 7305,
+      "toScene": 7306,
+      "seconds": 14.586679000000004,
+      "media": "/generated/live/scene_07306_1788122175830_56d7d116_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 17,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 739,
+        "stateBytes": 3348,
+        "logBytes": 3565043
+      }
+    },
+    {
+      "turn": 16,
+      "fromScene": 7306,
+      "toScene": 7307,
+      "seconds": 14.550357900000003,
+      "media": "/generated/live/scene_07307_1788122190410_b787d48a_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 18,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 763,
+        "stateBytes": 3417,
+        "logBytes": 3565697
+      }
+    },
+    {
+      "turn": 17,
+      "fromScene": 7307,
+      "toScene": 7308,
+      "seconds": 14.460200799999992,
+      "media": "/generated/live/scene_07308_1788122204964_b9023f3d_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 19,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 762,
+        "stateBytes": 3184,
+        "logBytes": 3566350
+      }
+    },
+    {
+      "turn": 18,
+      "fromScene": 7308,
+      "toScene": 7309,
+      "seconds": 14.506855999999999,
+      "media": "/generated/live/scene_07309_1788122219457_b131b3bf_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 20,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 741,
+        "stateBytes": 3272,
+        "logBytes": 3567007
+      }
+    },
+    {
+      "turn": 19,
+      "fromScene": 7309,
+      "toScene": 7310,
+      "seconds": 14.449157100000011,
+      "media": "/generated/live/scene_07310_1788122233942_0dd893ca_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 21,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 736,
+        "stateBytes": 3281,
+        "logBytes": 3567782
+      }
+    },
+    {
+      "turn": 20,
+      "fromScene": 7310,
+      "toScene": 7311,
+      "seconds": 14.538846299999976,
+      "media": "/generated/live/scene_07311_1788122248405_6d2d9702_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 22,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 757,
+        "stateBytes": 3399,
+        "logBytes": 3568318
+      }
+    },
+    {
+      "turn": 21,
+      "fromScene": 7311,
+      "toScene": 7312,
+      "seconds": 14.601402000000002,
+      "media": "/generated/live/scene_07312_1788122262942_4c82b31e_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 23,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 762,
+        "stateBytes": 3326,
+        "logBytes": 3568975
+      }
+    },
+    {
+      "turn": 22,
+      "fromScene": 7312,
+      "toScene": 7313,
+      "seconds": 14.665987800000003,
+      "media": "/generated/live/scene_07313_1788122277545_3f331049_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 24,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 769,
+        "stateBytes": 3229,
+        "logBytes": 3569636
+      }
+    },
+    {
+      "turn": 23,
+      "fromScene": 7313,
+      "toScene": 7314,
+      "seconds": 14.646609000000055,
+      "media": "/generated/live/scene_07314_1788122292206_da5dae43_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 25,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 728,
+        "stateBytes": 3140,
+        "logBytes": 3570291
+      }
+    },
+    {
+      "turn": 24,
+      "fromScene": 7314,
+      "toScene": 7315,
+      "seconds": 14.641577800000029,
+      "media": "/generated/live/scene_07315_1788122306856_4ba57256_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 26,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 709,
+        "stateBytes": 3195,
+        "logBytes": 3570943
+      }
+    },
+    {
+      "turn": 25,
+      "fromScene": 7315,
+      "toScene": 7316,
+      "seconds": 14.596437000000034,
+      "media": "/generated/live/scene_07316_1788122321509_c8883c08_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 27,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 726,
+        "stateBytes": 3291,
+        "logBytes": 3571593
+      }
+    },
+    {
+      "turn": 26,
+      "fromScene": 7316,
+      "toScene": 7317,
+      "seconds": 14.58161910000001,
+      "media": "/generated/live/scene_07317_1788122336087_86cf4bcb_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 28,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 720,
+        "stateBytes": 3241,
+        "logBytes": 3572242
+      }
+    },
+    {
+      "turn": 27,
+      "fromScene": 7317,
+      "toScene": 7318,
+      "seconds": 14.663846299999976,
+      "media": "/generated/live/scene_07318_1788122350693_08749b3d_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 29,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 727,
+        "stateBytes": 3215,
+        "logBytes": 3572896
+      }
+    },
+    {
+      "turn": 28,
+      "fromScene": 7318,
+      "toScene": 7319,
+      "seconds": 14.722741399999999,
+      "media": "/generated/live/scene_07319_1788122365356_e2a590ee_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 30,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 752,
+        "stateBytes": 3213,
+        "logBytes": 3573557
+      }
+    },
+    {
+      "turn": 29,
+      "fromScene": 7319,
+      "toScene": 7320,
+      "seconds": 14.751036299999978,
+      "media": "/generated/live/scene_07320_1788122380078_2962dc8f_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 31,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 746,
+        "stateBytes": 3068,
+        "logBytes": 3574222
+      }
+    },
+    {
+      "turn": 30,
+      "fromScene": 7320,
+      "toScene": 7321,
+      "seconds": 15.000992299999984,
+      "media": "/generated/live/scene_07321_1788122394830_58a64213_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 32,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 740,
+        "stateBytes": 3218,
+        "logBytes": 3574879
+      }
+    },
+    {
+      "turn": 31,
+      "fromScene": 7321,
+      "toScene": 7322,
+      "seconds": 14.708566400000011,
+      "media": "/generated/live/scene_07322_1788122409841_cb6666f0_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 33,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 723,
+        "stateBytes": 3209,
+        "logBytes": 3575529
+      }
+    },
+    {
+      "turn": 32,
+      "fromScene": 7322,
+      "toScene": 7323,
+      "seconds": 14.6042059,
+      "media": "/generated/live/scene_07323_1788122424546_5e54d57d_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 34,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 722,
+        "stateBytes": 3222,
+        "logBytes": 3576190
+      }
+    },
+    {
+      "turn": 33,
+      "fromScene": 7323,
+      "toScene": 7324,
+      "seconds": 14.657510999999998,
+      "media": "/generated/live/scene_07324_1788122439158_9f68957c_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 35,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 755,
+        "stateBytes": 3384,
+        "logBytes": 3576853
+      }
+    },
+    {
+      "turn": 34,
+      "fromScene": 7324,
+      "toScene": 7325,
+      "seconds": 14.677264099999972,
+      "media": "/generated/live/scene_07325_1788122453791_99419860_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 36,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 766,
+        "stateBytes": 3200,
+        "logBytes": 3577507
+      }
+    },
+    {
+      "turn": 35,
+      "fromScene": 7325,
+      "toScene": 7326,
+      "seconds": 14.661886699999974,
+      "media": "/generated/live/scene_07326_1788122468507_6746e7fe_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 37,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 748,
+        "stateBytes": 3211,
+        "logBytes": 3578167
+      }
+    },
+    {
+      "turn": 36,
+      "fromScene": 7326,
+      "toScene": 7327,
+      "seconds": 14.889435600000025,
+      "media": "/generated/live/scene_07327_1788122483136_9844b024_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 38,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 742,
+        "stateBytes": 3160,
+        "logBytes": 3578819
+      }
+    },
+    {
+      "turn": 37,
+      "fromScene": 7327,
+      "toScene": 7328,
+      "seconds": 14.603018399999943,
+      "media": "/generated/live/scene_07328_1788122498037_55de0278_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 39,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 718,
+        "stateBytes": 3192,
+        "logBytes": 3579474
+      }
+    },
+    {
+      "turn": 38,
+      "fromScene": 7328,
+      "toScene": 7329,
+      "seconds": 14.590330199999968,
+      "media": "/generated/live/scene_07329_1788122512629_5d381892_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 40,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 719,
+        "stateBytes": 3189,
+        "logBytes": 3580125
+      }
+    },
+    {
+      "turn": 39,
+      "fromScene": 7329,
+      "toScene": 7330,
+      "seconds": 14.600501600000076,
+      "media": "/generated/live/scene_07330_1788122527245_2fb8ab80_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 41,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 746,
+        "stateBytes": 3339,
+        "logBytes": 3580786
+      }
+    },
+    {
+      "turn": 40,
+      "fromScene": 7330,
+      "toScene": 7331,
+      "seconds": 14.638334000000032,
+      "media": "/generated/live/scene_07331_1788122541831_7e559706_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 42,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 749,
+        "stateBytes": 3188,
+        "logBytes": 3581450
+      }
+    },
+    {
+      "turn": 41,
+      "fromScene": 7331,
+      "toScene": 7332,
+      "seconds": 14.618430599999963,
+      "media": "/generated/live/scene_07332_1788122556472_7bef5c1f_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 43,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 769,
+        "stateBytes": 3189,
+        "logBytes": 3582098
+      }
+    },
+    {
+      "turn": 42,
+      "fromScene": 7332,
+      "toScene": 7333,
+      "seconds": 14.846763700000011,
+      "media": "/generated/live/scene_07333_1788122571114_74dceb88_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 44,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 734,
+        "stateBytes": 3153,
+        "logBytes": 3582745
+      }
+    },
+    {
+      "turn": 43,
+      "fromScene": 7333,
+      "toScene": 7334,
+      "seconds": 14.634592999999994,
+      "media": "/generated/live/scene_07334_1788122585967_bb59e965_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 45,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 733,
+        "stateBytes": 3265,
+        "logBytes": 3583404
+      }
+    },
+    {
+      "turn": 44,
+      "fromScene": 7334,
+      "toScene": 7335,
+      "seconds": 14.753632199999993,
+      "media": "/generated/live/scene_07335_1788122600584_7c05264e_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 46,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 743,
+        "stateBytes": 3218,
+        "logBytes": 3584067
+      }
+    },
+    {
+      "turn": 45,
+      "fromScene": 7335,
+      "toScene": 7336,
+      "seconds": 14.56387249999994,
+      "media": "/generated/live/scene_07336_1788122615336_bbe8e6ea_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 47,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 772,
+        "stateBytes": 3306,
+        "logBytes": 3584728
+      }
+    },
+    {
+      "turn": 46,
+      "fromScene": 7336,
+      "toScene": 7337,
+      "seconds": 14.656066200000001,
+      "media": "/generated/live/scene_07337_1788122629912_b1167d0e_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 48,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 772,
+        "stateBytes": 3281,
+        "logBytes": 3585383
+      }
+    },
+    {
+      "turn": 47,
+      "fromScene": 7337,
+      "toScene": 7338,
+      "seconds": 14.585342999999993,
+      "media": "/generated/live/scene_07338_1788122644557_baf9de04_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 49,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 769,
+        "stateBytes": 3310,
+        "logBytes": 3586036
+      }
+    },
+    {
+      "turn": 48,
+      "fromScene": 7338,
+      "toScene": 7339,
+      "seconds": 14.58016559999995,
+      "media": "/generated/live/scene_07339_1788122659129_5aaea1fb_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 50,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 733,
+        "stateBytes": 3188,
+        "logBytes": 3586688
+      }
+    },
+    {
+      "turn": 49,
+      "fromScene": 7339,
+      "toScene": 7340,
+      "seconds": 14.655371299999999,
+      "media": "/generated/live/scene_07340_1788122673740_f0662e2a_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 51,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 716,
+        "stateBytes": 3259,
+        "logBytes": 3587337
+      }
+    },
+    {
+      "turn": 50,
+      "fromScene": 7340,
+      "toScene": 7341,
+      "seconds": 14.62395960000006,
+      "media": "/generated/live/scene_07341_1788122688379_0a89f047_00001_.png",
+      "diagnostics": {
+        "generationFailures": 0,
+        "loopSuccess": 52,
+        "loopErrors": 0,
+        "staleLoops": 0,
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "storyStateBytes": 741,
+        "stateBytes": 3159,
+        "logBytes": 3587986
+      }
+    }
+  ]
+}

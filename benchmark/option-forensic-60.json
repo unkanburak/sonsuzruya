@@ -1,0 +1,4387 @@
+{
+  "startedAt": "2026-08-31T20:16:52.894Z",
+  "finishedAt": "2026-08-31T20:29:38.298Z",
+  "rounds": [
+    {
+      "round": 1,
+      "roundId": "r-13305-1788207414201-rboxmm",
+      "scene": 13305,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now beside a window with a distant glowing light. MUST SHOW: The character is now beside a window with a distant glowing light. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "approached_the_window",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 2
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Aynalı odaya gir"
+      ],
+      "finalOptions": [
+        "Basamakların sonuna ulaş",
+        "Fotoğrafı çevir"
+      ],
+      "options": [
+        {
+          "label": "Basamakların sonuna ulaş",
+          "family": "DISCOVERY",
+          "intent": "other",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Fotoğrafı çevir",
+          "family": "MEMORY",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.234,
+      "nextScene": 13306
+    },
+    {
+      "round": 2,
+      "roundId": "r-13306-1788207423655-y3kmgl",
+      "scene": 13306,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now holding an old family photograph face down on the table.. MUST SHOW: The character is now holding an old family photograph face down on the table.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "turned_the_old_photograph",
+      "activeAnchors": [
+        {
+          "text": "a mysterious car",
+          "ttl": 1
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 2
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabaya bin",
+        "Yansıyan koridora ilerle"
+      ],
+      "finalOptions": [
+        "Uzun koridoru takip et",
+        "Aynalı odaya gir"
+      ],
+      "options": [
+        {
+          "label": "Uzun koridoru takip et",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynalı odaya gir",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.428,
+      "nextScene": 13307
+    },
+    {
+      "round": 3,
+      "roundId": "r-13307-1788207433107-hchow2",
+      "scene": 13307,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: an old photograph on the table. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now farther along a long dim corridor. MUST SHOW: The character is now farther along a long dim corridor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_long_corridor",
+      "activeAnchors": [
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 1
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 2
+        },
+        {
+          "text": "a long dim corridor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Aralık kapıyı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Alt kata geç",
+        "Kürelerin altına ilerle"
+      ],
+      "options": [
+        {
+          "label": "Alt kata geç",
+          "family": "DISCOVERY",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kürelerin altına ilerle",
+          "family": "DISCOVERY",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.484,
+      "nextScene": 13308
+    },
+    {
+      "round": 4,
+      "roundId": "r-13308-1788207442584-imxwc8",
+      "scene": 13308,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CURRENT RESULT STATE: The character is now standing beneath several large glowing orbs.. MUST SHOW: The character is now standing beneath several large glowing orbs.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "found_floating_glowing_orbs",
+      "activeAnchors": [
+        {
+          "text": "an old photograph on the table",
+          "ttl": 1
+        },
+        {
+          "text": "a long dim corridor",
+          "ttl": 2
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Durgun suya yaklaş"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis yoğunlaşsın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.548,
+      "nextScene": 13309
+    },
+    {
+      "round": 5,
+      "roundId": "r-13309-1788207452168-171cdr",
+      "scene": 13309,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. CONTINUITY MOTIF: large glowing orbs. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now facing a slightly open strange doorway.. MUST SHOW: The character is now facing a slightly open strange doorway.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "a long dim corridor",
+          "ttl": 1
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Masadaki fişi incele",
+        "Boş sınıfta sessiz kal"
+      ],
+      "finalOptions": [
+        "Arabaya bin",
+        "Durgun suya yaklaş — parıltının uzağında"
+      ],
+      "options": [
+        {
+          "label": "Arabaya bin",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş — parıltının uzağında",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.949,
+      "nextScene": 13310
+    },
+    {
+      "round": 6,
+      "roundId": "r-13310-1788207462119-9p30h7",
+      "scene": 13310,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CURRENT RESULT STATE: The character is now standing beside still reflective water on the floor. MUST SHOW: The character is now standing beside still reflective water on the floor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_room_filled_with_water",
+      "activeAnchors": [
+        {
+          "text": "large glowing orbs",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Radyoyu dinle",
+        "Sisin içine bak"
+      ],
+      "finalOptions": [
+        "Masadaki fişi incele — kapının ardından",
+        "Sis çöksün"
+      ],
+      "options": [
+        {
+          "label": "Masadaki fişi incele — kapının ardından",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.724,
+      "nextScene": 13311
+    },
+    {
+      "round": 7,
+      "roundId": "r-13311-1788207476834-udquc0",
+      "scene": 13311,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. CONTINUITY MOTIF: still reflective water on the floor. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now studying a single paper receipt on a kitchen table. The same flooded room remains part of the scene. MUST SHOW: The character is now studying a single paper receipt on a kitchen table. The same flooded room remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "studied_the_paper_receipt",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 2
+        },
+        {
+          "text": "a paper receipt on a kitchen table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Aynalı odaya gir"
+      ],
+      "finalOptions": [
+        "Telefonu sessize al",
+        "Boş sınıfta sessiz kal"
+      ],
+      "options": [
+        {
+          "label": "Telefonu sessize al",
+          "family": "OBJECT_EXCHANGE",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Boş sınıfta sessiz kal",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.608,
+      "nextScene": 13312
+    },
+    {
+      "round": 8,
+      "roundId": "r-13312-1788207491452-4ig9d5",
+      "scene": 13312,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: seated or profile composition, medium framing, protagonist off-center. CONTINUITY MOTIF: a paper receipt on a kitchen table. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now sitting alone in an empty classroom with wooden desks. The same flooded room remains part of the scene. MUST SHOW: The character is now sitting alone in an empty classroom with wooden desks. The same flooded room remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "sat_silently_in_the_empty_classroom",
+      "activeAnchors": [
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 1
+        },
+        {
+          "text": "a paper receipt on a kitchen table",
+          "ttl": 2
+        },
+        {
+          "text": "empty classroom with wooden desks",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Aralık kapıyı izle",
+        "En uzun aynaya bak"
+      ],
+      "finalOptions": [
+        "Kapının eşiğine ilerle",
+        "Çay fincanını koru"
+      ],
+      "options": [
+        {
+          "label": "Kapının eşiğine ilerle",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Çay fincanını koru",
+          "family": "NON_ACTION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 15.191,
+      "nextScene": 13313
+    },
+    {
+      "round": 9,
+      "roundId": "r-13313-1788207506636-vnze0m",
+      "scene": 13313,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing at the threshold of a strange doorway. The same current atmosphere remains part of the scene. MUST SHOW: The character is now standing at the threshold of a strange doorway. The same current atmosphere remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "a paper receipt on a kitchen table",
+          "ttl": 1
+        },
+        {
+          "text": "empty classroom with wooden desks",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabaya bin",
+        "En uzun aynaya bak"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Fotoğrafı çevir"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Fotoğrafı çevir",
+          "family": "MEMORY",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 15.21,
+      "nextScene": 13314
+    },
+    {
+      "round": 10,
+      "roundId": "r-13314-1788207521838-0dqwp6",
+      "scene": 13314,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: close profile or over-the-shoulder framing focused on the object, not a centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now holding an old family photograph face down on the table.. MUST SHOW: The character is now holding an old family photograph face down on the table.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "turned_the_old_photograph",
+      "activeAnchors": [
+        {
+          "text": "empty classroom with wooden desks",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Uzun koridoru takip et",
+        "Durgun suya yaklaş"
+      ],
+      "finalOptions": [
+        "Arabaya bin",
+        "En uzun aynaya bak"
+      ],
+      "options": [
+        {
+          "label": "Arabaya bin",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "En uzun aynaya bak",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 15.002,
+      "nextScene": 13315
+    },
+    {
+      "round": 11,
+      "roundId": "r-13315-1788207536864-o3k9r8",
+      "scene": 13315,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: quiet medium shot focused on the seated situation and nearby objects. CONTINUITY MOTIF: an old photograph on the table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now sitting inside a mysterious car. MUST SHOW: The character is now sitting inside a mysterious car. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mysterious_car",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 2
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Penceredeki ışığı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Pencereye yaklaş",
+        "Sisin içine bak"
+      ],
+      "options": [
+        {
+          "label": "Pencereye yaklaş",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sisin içine bak",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.612,
+      "nextScene": 13316
+    },
+    {
+      "round": 12,
+      "roundId": "r-13316-1788207551468-e2u1sd",
+      "scene": 13316,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The current environment is now veiled by thick silver fog. MUST SHOW: The current environment is now veiled by thick silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "an old photograph on the table",
+          "ttl": 1
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Işığın kaynağına yaklaş",
+        "Gökyüzündeki ışığı izle"
+      ],
+      "finalOptions": [
+        "Penceredeki ışığı izle",
+        "Yağmur başlasın"
+      ],
+      "options": [
+        {
+          "label": "Penceredeki ışığı izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Yağmur başlasın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.688,
+      "nextScene": 13317
+    },
+    {
+      "round": 13,
+      "roundId": "r-13317-1788207566180-go8kok",
+      "scene": 13317,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now beside a window with a distant glowing light. MUST SHOW: The character is now beside a window with a distant glowing light. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "approached_the_window",
+      "activeAnchors": [
+        {
+          "text": "a mysterious car",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Telefonu sessize al",
+        "Aynalı odaya gir"
+      ],
+      "finalOptions": [
+        "Uzun koridoru takip et",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Uzun koridoru takip et",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.692,
+      "nextScene": 13318
+    },
+    {
+      "round": 14,
+      "roundId": "r-13318-1788207580857-r1dzbj",
+      "scene": 13318,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CURRENT RESULT STATE: The character is now standing beside still reflective water on the floor. MUST SHOW: The character is now standing beside still reflective water on the floor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_room_filled_with_water",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 2
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Bozuk saate bak",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Radyoyu dinle",
+        "Aynaların arasından ilerle — suyun eşiğinde"
+      ],
+      "options": [
+        {
+          "label": "Radyoyu dinle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynaların arasından ilerle — suyun eşiğinde",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.645,
+      "nextScene": 13319
+    },
+    {
+      "round": 15,
+      "roundId": "r-13319-1788207595520-hbx8lc",
+      "scene": 13319,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. CONTINUITY MOTIF: still reflective water on the floor. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now beside an old radio playing in the quiet room. MUST SHOW: The character is now beside an old radio playing in the quiet room. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "listened_to_the_old_radio",
+      "activeAnchors": [
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 1
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 2
+        },
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Koridorun sonuna ilerle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Sis çöksün"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.684,
+      "nextScene": 13320
+    },
+    {
+      "round": 16,
+      "roundId": "r-13320-1788207610213-bis5xm",
+      "scene": 13320,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: an old radio on a quiet table. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The current environment is now covered in thick silver fog. MUST SHOW: The current environment is now covered in thick silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 1
+        },
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Koridordan ilerle",
+        "Kürelerin altına ilerle"
+      ],
+      "finalOptions": [
+        "Koridorun sonuna ilerle",
+        "Sisin içine bak"
+      ],
+      "options": [
+        {
+          "label": "Koridorun sonuna ilerle",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sisin içine bak",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.665,
+      "nextScene": 13321
+    },
+    {
+      "round": 17,
+      "roundId": "r-13321-1788207624879-n63130",
+      "scene": 13321,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now near the far end of a long dim corridor. MUST SHOW: The character is now near the far end of a long dim corridor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_long_corridor",
+      "activeAnchors": [
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "a long dim corridor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Durgun suya yaklaş"
+      ],
+      "finalOptions": [
+        "Basamakların sonuna ulaş",
+        "Kürelerin altına ilerle"
+      ],
+      "options": [
+        {
+          "label": "Basamakların sonuna ulaş",
+          "family": "DISCOVERY",
+          "intent": "other",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kürelerin altına ilerle",
+          "family": "DISCOVERY",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.655,
+      "nextScene": 13322
+    },
+    {
+      "round": 18,
+      "roundId": "r-13322-1788207639550-vsru8b",
+      "scene": 13322,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing beneath several large glowing orbs.. MUST SHOW: The character is now standing beneath several large glowing orbs.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "found_floating_glowing_orbs",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "a long dim corridor",
+          "ttl": 2
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapıdan çık",
+        "Aynalı odaya gir"
+      ],
+      "finalOptions": [
+        "Kapının eşiğine ilerle",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Kapının eşiğine ilerle",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.69,
+      "nextScene": 13323
+    },
+    {
+      "round": 19,
+      "roundId": "r-13323-1788207654233-6yfdvs",
+      "scene": 13323,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: large glowing orbs. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing at the threshold of a strange doorway.. MUST SHOW: The character is now standing at the threshold of a strange doorway.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "a long dim corridor",
+          "ttl": 1
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabaya bin",
+        "Aynalı odaya gir"
+      ],
+      "finalOptions": [
+        "Arabanın camından bak",
+        "Fotoğrafı çevir"
+      ],
+      "options": [
+        {
+          "label": "Arabanın camından bak",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Fotoğrafı çevir",
+          "family": "MEMORY",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.66,
+      "nextScene": 13324
+    },
+    {
+      "round": 20,
+      "roundId": "r-13324-1788207668892-qcxuh6",
+      "scene": 13324,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now holding an old family photograph face down on the table.. MUST SHOW: The character is now holding an old family photograph face down on the table.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "turned_the_old_photograph",
+      "activeAnchors": [
+        {
+          "text": "large glowing orbs",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencereye yaklaş",
+        "Çay fincanını koru"
+      ],
+      "finalOptions": [
+        "Arabaya bin",
+        "Boş sınıfta sessiz kal — parıltının uzağında"
+      ],
+      "options": [
+        {
+          "label": "Arabaya bin",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Boş sınıfta sessiz kal — parıltının uzağında",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.652,
+      "nextScene": 13325
+    },
+    {
+      "round": 21,
+      "roundId": "r-13325-1788207683564-9hhoky",
+      "scene": 13325,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: seated or profile composition, medium framing, protagonist off-center. CONTINUITY MOTIF: an old photograph on the table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now sitting inside a mysterious car. MUST SHOW: The character is now sitting inside a mysterious car. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mysterious_car",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 2
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Penceredeki ışığı izle",
+        "Yağmurun altında bekle"
+      ],
+      "finalOptions": [
+        "Pencereye yaklaş — kapının ardından",
+        "Yağmur başlasın"
+      ],
+      "options": [
+        {
+          "label": "Pencereye yaklaş — kapının ardından",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Yağmur başlasın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.674,
+      "nextScene": 13326
+    },
+    {
+      "round": 22,
+      "roundId": "r-13326-1788207698241-vezeh6",
+      "scene": 13326,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: Rain is now falling across the visible environment. MUST SHOW: Rain is now falling across the visible environment. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "rain_started_falling",
+      "activeAnchors": [
+        {
+          "text": "an old photograph on the table",
+          "ttl": 1
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 2
+        },
+        {
+          "text": "rain on the environment",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencereden dışarı bak",
+        "Gökyüzündeki ışığı izle"
+      ],
+      "finalOptions": [
+        "Penceredeki ışığı izle",
+        "Sisin içine bak"
+      ],
+      "options": [
+        {
+          "label": "Penceredeki ışığı izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sisin içine bak",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.639,
+      "nextScene": 13327
+    },
+    {
+      "round": 23,
+      "roundId": "r-13327-1788207712875-zoswkg",
+      "scene": 13327,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: rain on the environment. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now beside a window with a distant glowing light. MUST SHOW: The character is now beside a window with a distant glowing light. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "approached_the_window",
+      "activeAnchors": [
+        {
+          "text": "a mysterious car",
+          "ttl": 1
+        },
+        {
+          "text": "rain on the environment",
+          "ttl": 2
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Masadaki fişi incele",
+        "Çay fincanını koru"
+      ],
+      "finalOptions": [
+        "Basamakların sonuna ulaş",
+        "Durgun suya yaklaş — parıltının altında"
+      ],
+      "options": [
+        {
+          "label": "Basamakların sonuna ulaş",
+          "family": "DISCOVERY",
+          "intent": "other",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş — parıltının altında",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.691,
+      "nextScene": 13328
+    },
+    {
+      "round": 24,
+      "roundId": "r-13328-1788207727577-43lu4t",
+      "scene": 13328,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CURRENT RESULT STATE: The character is now standing beside still reflective water on the floor. MUST SHOW: The character is now standing beside still reflective water on the floor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_room_filled_with_water",
+      "activeAnchors": [
+        {
+          "text": "rain on the environment",
+          "ttl": 1
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 2
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Aralık kapıyı izle",
+        "Aynaların arasından ilerle"
+      ],
+      "finalOptions": [
+        "Masadaki fişi incele — parıltının ötesinde",
+        "Aynalı odaya gir"
+      ],
+      "options": [
+        {
+          "label": "Masadaki fişi incele — parıltının ötesinde",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynalı odaya gir",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 15.146,
+      "nextScene": 13329
+    },
+    {
+      "round": 25,
+      "roundId": "r-13329-1788207742715-mz3t5d",
+      "scene": 13329,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. CONTINUITY MOTIF: still reflective water on the floor. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now studying a single paper receipt on a kitchen table. The same flooded room remains part of the scene. MUST SHOW: The character is now studying a single paper receipt on a kitchen table. The same flooded room remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "studied_the_paper_receipt",
+      "activeAnchors": [
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 1
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 2
+        },
+        {
+          "text": "a paper receipt on a kitchen table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabanın camından bak",
+        "Çay fincanını koru"
+      ],
+      "finalOptions": [
+        "Arabaya bin",
+        "Boş sınıfta sessiz kal"
+      ],
+      "options": [
+        {
+          "label": "Arabaya bin",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Boş sınıfta sessiz kal",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.645,
+      "nextScene": 13330
+    },
+    {
+      "round": 26,
+      "roundId": "r-13330-1788207757357-lqd2vd",
+      "scene": 13330,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: seated or profile composition, medium framing, protagonist off-center. CONTINUITY MOTIF: a paper receipt on a kitchen table. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now sitting alone in an empty classroom with wooden desks. The same flooded room remains part of the scene. MUST SHOW: The character is now sitting alone in an empty classroom with wooden desks. The same flooded room remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "sat_silently_in_the_empty_classroom",
+      "activeAnchors": [
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 1
+        },
+        {
+          "text": "a paper receipt on a kitchen table",
+          "ttl": 2
+        },
+        {
+          "text": "empty classroom with wooden desks",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencereye yaklaş",
+        "Aynaların arasından ilerle"
+      ],
+      "finalOptions": [
+        "Arabanın camından bak",
+        "Çay fincanını koru"
+      ],
+      "options": [
+        {
+          "label": "Arabanın camından bak",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Çay fincanını koru",
+          "family": "NON_ACTION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.629,
+      "nextScene": 13331
+    },
+    {
+      "round": 27,
+      "roundId": "r-13331-1788207772000-mmzoj4",
+      "scene": 13331,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now looking through the window of a mysterious car. MUST SHOW: The character is now looking through the window of a mysterious car. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mysterious_car",
+      "activeAnchors": [
+        {
+          "text": "a paper receipt on a kitchen table",
+          "ttl": 1
+        },
+        {
+          "text": "empty classroom with wooden desks",
+          "ttl": 2
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Aralık kapıyı izle",
+        "En uzun aynaya bak"
+      ],
+      "finalOptions": [
+        "Pencereye yaklaş",
+        "Fotoğrafı çevir"
+      ],
+      "options": [
+        {
+          "label": "Pencereye yaklaş",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Fotoğrafı çevir",
+          "family": "MEMORY",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.631,
+      "nextScene": 13332
+    },
+    {
+      "round": 28,
+      "roundId": "r-13332-1788207786633-hasu1m",
+      "scene": 13332,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: close profile or over-the-shoulder framing focused on the object, not a centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now holding an old family photograph face down on the table.. MUST SHOW: The character is now holding an old family photograph face down on the table.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "turned_the_old_photograph",
+      "activeAnchors": [
+        {
+          "text": "empty classroom with wooden desks",
+          "ttl": 1
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 2
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Basamakların sonuna ulaş",
+        "Durgun suya yaklaş"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Çamaşır makinesini bekle"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Çamaşır makinesini bekle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.649,
+      "nextScene": 13333
+    },
+    {
+      "round": 29,
+      "roundId": "r-13333-1788207801288-1dmret",
+      "scene": 13333,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. CONTINUITY MOTIF: an old photograph on the table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now facing a slightly open strange doorway.. MUST SHOW: The character is now facing a slightly open strange doorway.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "a mysterious car",
+          "ttl": 1
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Basamakların sonuna ulaş",
+        "Yansıyan koridora ilerle"
+      ],
+      "finalOptions": [
+        "Uzun koridoru takip et",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Uzun koridoru takip et",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": true,
+      "transitionSeconds": 14.668,
+      "nextScene": 13334
+    },
+    {
+      "round": 30,
+      "roundId": "r-13334-1788207815961-jroqqp",
+      "scene": 13334,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CURRENT RESULT STATE: The character is now standing beside still reflective water on the floor. MUST SHOW: The character is now standing beside still reflective water on the floor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_room_filled_with_water",
+      "activeAnchors": [
+        {
+          "text": "an old photograph on the table",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "strange_landscape",
+        "mirror_reflection",
+        "source_of_orbs"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Işığa doğru ilerle",
+        "Sisin içine bak"
+      ],
+      "finalOptions": [
+        "Işığın kaynağına yaklaş",
+        "Sis çöksün — suyun eşiğinde"
+      ],
+      "options": [
+        {
+          "label": "Işığın kaynağına yaklaş",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün — suyun eşiğinde",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.644,
+      "nextScene": 13335
+    },
+    {
+      "round": 31,
+      "roundId": "r-13335-1788207830604-87vgzt",
+      "scene": 13335,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: still reflective water on the floor. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now standing near the source of a clear glowing light. MUST SHOW: The character is now standing near the source of a clear glowing light. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "followed_the_glowing_light",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 2
+        },
+        {
+          "text": "a clear glowing light on a dark path",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Radyoyu dinle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Işığa doğru ilerle — ışığın kıyısında",
+        "Sisin içine bak"
+      ],
+      "options": [
+        {
+          "label": "Işığa doğru ilerle — ışığın kıyısında",
+          "family": "DISCOVERY",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sisin içine bak",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.651,
+      "nextScene": 13336
+    },
+    {
+      "round": 32,
+      "roundId": "r-13336-1788207845257-aeqcq6",
+      "scene": 13336,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CURRENT RESULT STATE: The current environment is now veiled by thick silver fog. MUST SHOW: The current environment is now veiled by thick silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 1
+        },
+        {
+          "text": "a clear glowing light on a dark path",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Ağacın ışığına yaklaş",
+        "Gökyüzündeki ışığı izle"
+      ],
+      "finalOptions": [
+        "Ormandaki ağacı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "options": [
+        {
+          "label": "Ormandaki ağacı izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis yoğunlaşsın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.684,
+      "nextScene": 13337
+    },
+    {
+      "round": 33,
+      "roundId": "r-13337-1788207859952-w10hgz",
+      "scene": 13337,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: asymmetric environmental wide shot, protagonist small or off-center. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now facing a large glowing tree in a misty forest.. MUST SHOW: The character is now facing a large glowing tree in a misty forest.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "found_the_glowing_tree",
+      "activeAnchors": [
+        {
+          "text": "a clear glowing light on a dark path",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "a large glowing tree",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Ağacın ışığına yaklaş",
+        "En uzun aynaya bak"
+      ],
+      "finalOptions": [
+        "Parlayan ağacın gölgesine git",
+        "Aynalı odaya gir"
+      ],
+      "options": [
+        {
+          "label": "Parlayan ağacın gölgesine git",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynalı odaya gir",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 13.434,
+      "nextScene": 13338
+    },
+    {
+      "round": 34,
+      "roundId": "r-13338-1788207873386-2euaa0",
+      "scene": 13338,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing inside a room lined with giant mirrors. MUST SHOW: The character is now standing inside a room lined with giant mirrors. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mirror_room",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "a large glowing tree",
+          "ttl": 2
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Sis çöksün"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Kürelerin altına ilerle"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kürelerin altına ilerle",
+          "family": "DISCOVERY",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.284,
+      "nextScene": 13339
+    },
+    {
+      "round": 35,
+      "roundId": "r-13339-1788207883680-8x65i2",
+      "scene": 13339,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now facing a slightly open strange doorway. The same mirror remains part of the scene. MUST SHOW: The character is now facing a slightly open strange doorway. The same mirror remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "a large glowing tree",
+          "ttl": 1
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Uzun koridoru takip et",
+        "Fotoğrafı çevir"
+      ],
+      "finalOptions": [
+        "Kapıdan çık",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Kapıdan çık",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.998,
+      "nextScene": 13340
+    },
+    {
+      "round": 36,
+      "roundId": "r-13340-1788207893679-anyk7c",
+      "scene": 13340,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CURRENT RESULT STATE: The character is now standing beside still reflective water on the floor. MUST SHOW: The character is now standing beside still reflective water on the floor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_room_filled_with_water",
+      "activeAnchors": [
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Koridorun sonuna ilerle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Uzun koridoru takip et",
+        "Sis çöksün — odanın uzağında"
+      ],
+      "options": [
+        {
+          "label": "Uzun koridoru takip et",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün — odanın uzağında",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.103,
+      "nextScene": 13341
+    },
+    {
+      "round": 37,
+      "roundId": "r-13341-1788207903789-3djmbk",
+      "scene": 13341,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: still reflective water on the floor. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now farther along a long dim corridor. MUST SHOW: The character is now farther along a long dim corridor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_long_corridor",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 2
+        },
+        {
+          "text": "a long dim corridor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Bozuk saate bak",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Basamakların sonuna ulaş — kapının ardından",
+        "Sisin içine bak"
+      ],
+      "options": [
+        {
+          "label": "Basamakların sonuna ulaş — kapının ardından",
+          "family": "NAVIGATION",
+          "intent": "other",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sisin içine bak",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.047,
+      "nextScene": 13342
+    },
+    {
+      "round": 38,
+      "roundId": "r-13342-1788207913834-gz6lw3",
+      "scene": 13342,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. CURRENT RESULT STATE: The current environment is now veiled by thick silver fog. MUST SHOW: The current environment is now veiled by thick silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 1
+        },
+        {
+          "text": "a long dim corridor",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Bozuk saate bak",
+        "Kürelerin altına ilerle"
+      ],
+      "finalOptions": [
+        "Radyoyu dinle",
+        "Sis yoğunlaşsın"
+      ],
+      "options": [
+        {
+          "label": "Radyoyu dinle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis yoğunlaşsın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.114,
+      "nextScene": 13343
+    },
+    {
+      "round": 39,
+      "roundId": "r-13343-1788207923952-biljt9",
+      "scene": 13343,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now beside an old radio playing in the quiet room. MUST SHOW: The character is now beside an old radio playing in the quiet room. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "listened_to_the_old_radio",
+      "activeAnchors": [
+        {
+          "text": "a long dim corridor",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Aralık kapıyı izle",
+        "Durgun suya yaklaş"
+      ],
+      "finalOptions": [
+        "Fotoğrafı çevir",
+        "Kürelerin altına ilerle"
+      ],
+      "options": [
+        {
+          "label": "Fotoğrafı çevir",
+          "family": "MEMORY",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kürelerin altına ilerle",
+          "family": "DISCOVERY",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.941,
+      "nextScene": 13344
+    },
+    {
+      "round": 40,
+      "roundId": "r-13344-1788207933899-q13i5l",
+      "scene": 13344,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: an old radio on a quiet table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing beneath several large glowing orbs.. MUST SHOW: The character is now standing beneath several large glowing orbs.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "found_floating_glowing_orbs",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 2
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Sis çöksün"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.124,
+      "nextScene": 13345
+    },
+    {
+      "round": 41,
+      "roundId": "r-13345-1788207944025-fbedmr",
+      "scene": 13345,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: large glowing orbs. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now facing a slightly open strange doorway.. MUST SHOW: The character is now facing a slightly open strange doorway.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 1
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabanın camından bak",
+        "Aynalı odaya gir"
+      ],
+      "finalOptions": [
+        "Pencereye yaklaş",
+        "En uzun aynaya bak"
+      ],
+      "options": [
+        {
+          "label": "Pencereye yaklaş",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "En uzun aynaya bak",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.145,
+      "nextScene": 13346
+    },
+    {
+      "round": 42,
+      "roundId": "r-13346-1788207954167-7nc2de",
+      "scene": 13346,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now facing one giant mirror in a dim room.. MUST SHOW: The character is now facing one giant mirror in a dim room.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mirror_room",
+      "activeAnchors": [
+        {
+          "text": "large glowing orbs",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Penceredeki ışığı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Bozuk saate bak",
+        "Sis çöksün — ağacın yankısında"
+      ],
+      "options": [
+        {
+          "label": "Bozuk saate bak",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün — ağacın yankısında",
+          "family": "MEMORY",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.995,
+      "nextScene": 13347
+    },
+    {
+      "round": 43,
+      "roundId": "r-13347-1788207964171-kcqdid",
+      "scene": 13347,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now examining a broken wristwatch on a wooden table. The same mirror remains part of the scene. MUST SHOW: The character is now examining a broken wristwatch on a wooden table. The same mirror remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "examined_the_broken_watch",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 2
+        },
+        {
+          "text": "a broken wristwatch on a wooden table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Fotoğrafı çevir",
+        "Sisin içine bak"
+      ],
+      "finalOptions": [
+        "Penceredeki ışığı izle — parıltının eşiğinde",
+        "Sis yoğunlaşsın"
+      ],
+      "options": [
+        {
+          "label": "Penceredeki ışığı izle — parıltının eşiğinde",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis yoğunlaşsın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.112,
+      "nextScene": 13348
+    },
+    {
+      "round": 44,
+      "roundId": "r-13348-1788207974285-jlq982",
+      "scene": 13348,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: a broken wristwatch on a wooden table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The current environment is now filled with denser silver fog. MUST SHOW: The current environment is now filled with denser silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 1
+        },
+        {
+          "text": "a broken wristwatch on a wooden table",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Uzun koridoru takip et",
+        "Kürelerin altına ilerle"
+      ],
+      "finalOptions": [
+        "Fotoğrafı çevir",
+        "Sisin içine bak"
+      ],
+      "options": [
+        {
+          "label": "Fotoğrafı çevir",
+          "family": "MEMORY",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sisin içine bak",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.886,
+      "nextScene": 13349
+    },
+    {
+      "round": 45,
+      "roundId": "r-13349-1788207984172-kohgum",
+      "scene": 13349,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: close profile or over-the-shoulder framing focused on the object, not a centered standing silhouette. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now holding an old family photograph face down on the table. The same mirror remains part of the scene. MUST SHOW: The character is now holding an old family photograph face down on the table. The same mirror remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "turned_the_old_photograph",
+      "activeAnchors": [
+        {
+          "text": "a broken wristwatch on a wooden table",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencereye yaklaş",
+        "Işıklı küreleri izle"
+      ],
+      "finalOptions": [
+        "Uzun koridoru takip et",
+        "Kürelerin altına ilerle — sisin eşiğinde"
+      ],
+      "options": [
+        {
+          "label": "Uzun koridoru takip et",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kürelerin altına ilerle — sisin eşiğinde",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.003,
+      "nextScene": 13350
+    },
+    {
+      "round": 46,
+      "roundId": "r-13350-1788207994175-rswgu7",
+      "scene": 13350,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: an old photograph on the table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing beneath several large glowing orbs. The same mirror remains part of the scene. MUST SHOW: The character is now standing beneath several large glowing orbs. The same mirror remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "found_floating_glowing_orbs",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "an old photograph on the table",
+          "ttl": 2
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "mirror_reflection",
+        "source_of_orbs",
+        "source_of_light"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Basamakların sonuna ulaş",
+        "Sis çöksün"
+      ],
+      "finalOptions": [
+        "Pencereye yaklaş",
+        "Işıklı küreleri izle"
+      ],
+      "options": [
+        {
+          "label": "Pencereye yaklaş",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Işıklı küreleri izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.656,
+      "nextScene": 13351
+    },
+    {
+      "round": 47,
+      "roundId": "r-13351-1788208003833-neg4ft",
+      "scene": 13351,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: asymmetric environmental wide shot, protagonist small or off-center. CONTINUITY MOTIF: large glowing orbs. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing beside a window overlooking a strange landscape. MUST SHOW: The character is now standing beside a window overlooking a strange landscape. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "approached_the_window",
+      "activeAnchors": [
+        {
+          "text": "an old photograph on the table",
+          "ttl": 1
+        },
+        {
+          "text": "large glowing orbs",
+          "ttl": 2
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_orbs",
+        "source_of_light",
+        "strange_landscape"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabaya bin",
+        "Yansıyan koridora ilerle"
+      ],
+      "finalOptions": [
+        "Arabanın camından bak",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Arabanın camından bak",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.803,
+      "nextScene": 13352
+    },
+    {
+      "round": 48,
+      "roundId": "r-13352-1788208013641-p2ulxv",
+      "scene": 13352,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. CURRENT RESULT STATE: The character is now standing beside still reflective water on the floor. MUST SHOW: The character is now standing beside still reflective water on the floor. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_room_filled_with_water",
+      "activeAnchors": [
+        {
+          "text": "large glowing orbs",
+          "ttl": 1
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 2
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_orbs",
+        "source_of_light",
+        "strange_landscape"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Koridorun sonuna ilerle",
+        "Sisin içine bak"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis yoğunlaşsın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": true,
+      "transitionSeconds": 9.648,
+      "nextScene": 13353
+    },
+    {
+      "round": 49,
+      "roundId": "r-13353-1788208023293-ildf3x",
+      "scene": 13353,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: still reflective water on the floor. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The character is now facing a slightly open strange doorway. The same flooded room remains part of the scene. MUST SHOW: The character is now facing a slightly open strange doorway. The same flooded room remains part of the scene. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "stepped_out_through_the_door",
+      "activeAnchors": [
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 1
+        },
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 2
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_orbs",
+        "source_of_light",
+        "strange_landscape"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Penceredeki ışığı izle",
+        "Aynaların arasından ilerle"
+      ],
+      "finalOptions": [
+        "Arabaya bin",
+        "Çay fincanını koru"
+      ],
+      "options": [
+        {
+          "label": "Arabaya bin",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Çay fincanını koru",
+          "family": "NON_ACTION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.711,
+      "nextScene": 13354
+    },
+    {
+      "round": 50,
+      "roundId": "r-13354-1788208037999-h1r9i2",
+      "scene": 13354,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. CURRENT RESULT STATE: The character is now protecting a warm cup of tea on a kitchen table.. MUST SHOW: The character is now protecting a warm cup of tea on a kitchen table.. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "protected_the_warm_cup",
+      "activeAnchors": [
+        {
+          "text": "still reflective water on the floor",
+          "ttl": 1
+        },
+        {
+          "text": "a strange doorway",
+          "ttl": 2
+        },
+        {
+          "text": "a warm cup of tea on a kitchen table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_orbs",
+        "source_of_light",
+        "strange_landscape"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencereye yaklaş",
+        "Boş sınıfta sessiz kal"
+      ],
+      "finalOptions": [
+        "Penceredeki ışığı izle",
+        "Aynaların arasından ilerle"
+      ],
+      "options": [
+        {
+          "label": "Penceredeki ışığı izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynaların arasından ilerle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.613,
+      "nextScene": 13355
+    },
+    {
+      "round": 51,
+      "roundId": "r-13355-1788208052616-q410wb",
+      "scene": 13355,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: a warm cup of tea on a kitchen table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now beside a window with a distant glowing light. MUST SHOW: The character is now beside a window with a distant glowing light. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "approached_the_window",
+      "activeAnchors": [
+        {
+          "text": "a strange doorway",
+          "ttl": 1
+        },
+        {
+          "text": "a warm cup of tea on a kitchen table",
+          "ttl": 2
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_orbs",
+        "source_of_light",
+        "strange_landscape"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabayı sisli yola çıkar",
+        "Durgun suya yaklaş"
+      ],
+      "finalOptions": [
+        "Pencereye yaklaş",
+        "Aynalı odaya gir"
+      ],
+      "options": [
+        {
+          "label": "Pencereye yaklaş",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynalı odaya gir",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 12.103,
+      "nextScene": 13356
+    },
+    {
+      "round": 52,
+      "roundId": "r-13356-1788208064730-swnqkt",
+      "scene": 13356,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing inside a room lined with giant mirrors. MUST SHOW: The character is now standing inside a room lined with giant mirrors. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mirror_room",
+      "activeAnchors": [
+        {
+          "text": "a warm cup of tea on a kitchen table",
+          "ttl": 1
+        },
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 2
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Arabayı tünele sür",
+        "Yansıyan koridora ilerle"
+      ],
+      "finalOptions": [
+        "Arabayı sisli yola çıkar",
+        "Durgun suya yaklaş"
+      ],
+      "options": [
+        {
+          "label": "Arabayı sisli yola çıkar",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Durgun suya yaklaş",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "active_character"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 9.922,
+      "nextScene": 13357
+    },
+    {
+      "round": 53,
+      "roundId": "r-13357-1788208074650-tccind",
+      "scene": 13357,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental wide shot, protagonist small or off-center. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now inside a mysterious car on a misty road. MUST SHOW: The character is now inside a mysterious car on a misty road. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mysterious_car",
+      "activeAnchors": [
+        {
+          "text": "a strange landscape beyond the window",
+          "ttl": 1
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 2
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Radyoyu dinle",
+        "Sis yoğunlaşsın"
+      ],
+      "finalOptions": [
+        "Bozuk saate bak",
+        "Sis çöksün"
+      ],
+      "options": [
+        {
+          "label": "Bozuk saate bak",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "inspect",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.002,
+      "nextScene": 13358
+    },
+    {
+      "round": 54,
+      "roundId": "r-13358-1788208084657-qo36xi",
+      "scene": 13358,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The current environment is now covered in thick silver fog. MUST SHOW: The current environment is now covered in thick silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 1
+        },
+        {
+          "text": "a mysterious car",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencerenin yanındaki kapıya geç",
+        "Kızıl portala yaklaş"
+      ],
+      "finalOptions": [
+        "Radyoyu dinle",
+        "Yağmur başlasın — sisin altında"
+      ],
+      "options": [
+        {
+          "label": "Radyoyu dinle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Yağmur başlasın — sisin altında",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.194,
+      "nextScene": 13359
+    },
+    {
+      "round": 55,
+      "roundId": "r-13359-1788208094849-5u4l9l",
+      "scene": 13359,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: exists in the dream but need not be visible. HUMAN FIGURES: omit the figure unless cropped hands are necessary; let the object or event carry the result, using an object-focused or hands-only frame when appropriate. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: ABSENT_OR_OBJECT_LED. COMPOSITION: object-focused medium framing, the protagonist interacting with the required object, off-center composition. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now beside an old radio playing in the quiet room. MUST SHOW: The character is now beside an old radio playing in the quiet room. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "listened_to_the_old_radio",
+      "activeAnchors": [
+        {
+          "text": "a mysterious car",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Işığın kaynağına yaklaş",
+        "Kızıl ufku takip et"
+      ],
+      "finalOptions": [
+        "Pencerenin yanındaki kapıya geç",
+        "Gökyüzündeki ışığı izle"
+      ],
+      "options": [
+        {
+          "label": "Pencerenin yanındaki kapıya geç",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Gökyüzündeki ışığı izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.657,
+      "nextScene": 13360
+    },
+    {
+      "round": 56,
+      "roundId": "r-13360-1788208109502-rxd51k",
+      "scene": 13360,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: side or over-the-shoulder exterior framing, avoid a centered silhouette. CONTINUITY MOTIF: an old radio on a quiet table. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: A bright light is now visible beneath the deep crimson sky. MUST SHOW: A bright light is now visible beneath the deep crimson sky. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_sky_turned_crimson",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 2
+        },
+        {
+          "text": "a deep crimson sky",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Pencereye yaklaş",
+        "Yağmurun altında bekle"
+      ],
+      "finalOptions": [
+        "Işığın kaynağına yaklaş",
+        "Kızıl ufku takip et"
+      ],
+      "options": [
+        {
+          "label": "Işığın kaynağına yaklaş",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kızıl ufku takip et",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": false,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.63,
+      "nextScene": 13361
+    },
+    {
+      "round": 57,
+      "roundId": "r-13361-1788208124133-fl1tly",
+      "scene": 13361,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: a deep crimson sky. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now standing near the source of a clear glowing light. MUST SHOW: The character is now standing near the source of a clear glowing light. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "followed_the_glowing_light",
+      "activeAnchors": [
+        {
+          "text": "an old radio on a quiet table",
+          "ttl": 1
+        },
+        {
+          "text": "a deep crimson sky",
+          "ttl": 2
+        },
+        {
+          "text": "a clear glowing light on a dark path",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Ağacın ışığına yaklaş",
+        "Sis çöksün"
+      ],
+      "finalOptions": [
+        "Ormandaki ağacı izle",
+        "Sis yoğunlaşsın"
+      ],
+      "options": [
+        {
+          "label": "Ormandaki ağacı izle",
+          "family": "NON_ACTION",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis yoğunlaşsın",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 0,
+          "groundedBy": [
+            "symbolic_prior"
+          ],
+          "visuallyGrounded": "no",
+          "contradictionRisk": "high",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": true,
+      "transitionSeconds": 14.63,
+      "nextScene": 13362
+    },
+    {
+      "round": 58,
+      "roundId": "r-13362-1788208138763-krbuqt",
+      "scene": 13362,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: asymmetric environmental composition, no centered standing silhouette. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The current environment is now filled with denser silver fog. MUST SHOW: The current environment is now filled with denser silver fog. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "the_environment_filled_with_fog",
+      "activeAnchors": [
+        {
+          "text": "a deep crimson sky",
+          "ttl": 1
+        },
+        {
+          "text": "a clear glowing light on a dark path",
+          "ttl": 2
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Parlayan ağacın gölgesine git",
+        "Sisin içine bak"
+      ],
+      "finalOptions": [
+        "Ağacın ışığına yaklaş",
+        "Sis çöksün"
+      ],
+      "options": [
+        {
+          "label": "Ağacın ışığına yaklaş",
+          "family": "NAVIGATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Sis çöksün",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "transform",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 14.676,
+      "nextScene": 13363
+    },
+    {
+      "round": 59,
+      "roundId": "r-13363-1788208153442-v19xy9",
+      "scene": 13363,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: thick silver fog. Keep it as a small recognizable thread, never as a composition lock. RECURRING DREAM MOTIF: still reflective water on the floor. Include it subtly as a secondary visual detail; the current result state remains primary. CURRENT RESULT STATE: The character is now near the light of a large glowing tree. MUST SHOW: The character is now near the light of a large glowing tree. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "found_the_glowing_tree",
+      "activeAnchors": [
+        {
+          "text": "a clear glowing light on a dark path",
+          "ttl": 1
+        },
+        {
+          "text": "thick silver fog",
+          "ttl": 2
+        },
+        {
+          "text": "a large glowing tree",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Parlayan ağaca yaklaş",
+        "Aynaların arasından ilerle"
+      ],
+      "finalOptions": [
+        "Parlayan ağacın gölgesine git",
+        "Aynalı odaya gir"
+      ],
+      "options": [
+        {
+          "label": "Parlayan ağacın gölgesine git",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Aynalı odaya gir",
+          "family": "OBJECT_EXAMINATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 1,
+          "groundedBy": [
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "partial",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": true,
+      "repetitiveLast12": true,
+      "exactPairRepeat": true,
+      "transitionSeconds": 14.697,
+      "nextScene": 13364
+    },
+    {
+      "round": 60,
+      "roundId": "r-13364-1788208168132-3ldbxi",
+      "scene": 13364,
+      "visibleSceneSummary": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CURRENT RESULT STATE: The character is now standing inside a room lined with giant mirrors. MUST SHOW: The character is now standing inside a room lined with giant mirrors. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "committedResultState": "entered_the_mirror_room",
+      "activeAnchors": [
+        {
+          "text": "thick silver fog",
+          "ttl": 1
+        },
+        {
+          "text": "a large glowing tree",
+          "ttl": 2
+        },
+        {
+          "text": "giant mirrors in a room",
+          "ttl": 3
+        }
+      ],
+      "activeHooks": [
+        "source_of_light",
+        "strange_landscape",
+        "mirror_reflection"
+      ],
+      "qwenCalled": false,
+      "qwenStatus": "fallback",
+      "fallbackUsed": true,
+      "rawCandidatePool": [
+        "Kapının eşiğine ilerle",
+        "Sisin içine bak"
+      ],
+      "finalOptions": [
+        "Aralık kapıyı izle",
+        "Kürelerin altına ilerle — sisin eşiğinde"
+      ],
+      "options": [
+        {
+          "label": "Aralık kapıyı izle",
+          "family": "FIGURE_ENCOUNTER",
+          "intent": "observe",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_space",
+            "active_character",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        },
+        {
+          "label": "Kürelerin altına ilerle — sisin eşiğinde",
+          "family": "ENVIRONMENT_TRANSFORMATION",
+          "intent": "travel",
+          "source": "observed_final",
+          "score": 2,
+          "groundedBy": [
+            "visible_object",
+            "visible_space",
+            "active_character",
+            "anchor",
+            "stale_hook"
+          ],
+          "visuallyGrounded": "yes",
+          "contradictionRisk": "low",
+          "whySelected": "final option after Qwen/fallback validation"
+        }
+      ],
+      "pairTooClose": false,
+      "repetitiveLast12": true,
+      "exactPairRepeat": false,
+      "transitionSeconds": 10.102,
+      "nextScene": 13365
+    }
+  ],
+  "summary": {
+    "rounds": 60,
+    "shownOptions": 120,
+    "uniqueLabels": 51,
+    "qwenRounds": 0,
+    "fallbackRounds": 60,
+    "unknownSourceRounds": 0,
+    "pairTooClose": 26,
+    "repetitiveLast12": 37,
+    "exactPairRepeats": 4,
+    "grounding2": 72,
+    "grounding1": 7,
+    "grounding0": 41,
+    "familyCounts": {
+      "DISCOVERY": 9,
+      "MEMORY": 7,
+      "NAVIGATION": 19,
+      "OBJECT_EXAMINATION": 13,
+      "FIGURE_ENCOUNTER": 22,
+      "ENVIRONMENT_TRANSFORMATION": 34,
+      "OBJECT_EXCHANGE": 1,
+      "NON_ACTION": 15
+    },
+    "familyRuns": 3,
+    "transitionP50": 14.63,
+    "transitionP95": 15.146
+  }
+}

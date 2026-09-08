@@ -1,0 +1,65 @@
+{
+  "system": {
+    "os": "win32",
+    "ram_total": 34189312000,
+    "ram_free": 3905830912,
+    "comfyui_version": "0.34.0",
+    "required_frontend_version": "1.49.6",
+    "installed_templates_version": "0.11.48",
+    "required_templates_version": "0.11.48",
+    "comfy_package_versions": [
+      {
+        "name": "comfyui-frontend-package",
+        "installed": "1.49.6",
+        "required": "1.49.6"
+      },
+      {
+        "name": "comfyui-workflow-templates",
+        "installed": "0.11.48",
+        "required": "0.11.48"
+      },
+      {
+        "name": "comfyui-embedded-docs",
+        "installed": "0.5.10",
+        "required": "0.5.10"
+      },
+      {
+        "name": "comfy-kitchen",
+        "installed": "0.2.31",
+        "required": "0.2.31"
+      },
+      {
+        "name": "comfy-aimdo",
+        "installed": "0.4.15",
+        "required": "0.4.15"
+      }
+    ],
+    "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "pytorch_version": "2.13.0+cu130",
+    "embedded_python": true,
+    "deploy_environment": "local-portable",
+    "argv": [
+      "main.py",
+      "--windows-standalone-build",
+      "--lowvram",
+      "--listen",
+      "127.0.0.1",
+      "--port",
+      "8188",
+      "--disable-auto-launch",
+      "--output-directory",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output"
+    ]
+  },
+  "devices": [
+    {
+      "name": "cuda:0 NVIDIA GeForce RTX 3070 Ti : cudaMallocAsync",
+      "type": "cuda",
+      "index": 0,
+      "vram_total": 8589410304,
+      "vram_free": 1343777530,
+      "torch_vram_total": 33554432,
+      "torch_vram_free": 23304954
+    }
+  ]
+}

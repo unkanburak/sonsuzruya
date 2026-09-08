@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-09-02T17:35:16.356Z",
+  "scope": "Isolated generateOptions ATTEMPT 0 only; production services/config unchanged.",
+  "stateSource": "/C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/state/current.json",
+  "calls": 6,
+  "classificationCounts": {
+    "FORMAT_DEVIATION": 3,
+    "PREMATURE_STOP": 3
+  },
+  "rows": [
+    {
+      "call": 1,
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 0,
+      "classification": "FORMAT_DEVIATION",
+      "attempt1NetworkRequests": 0,
+      "note": null
+    },
+    {
+      "call": 2,
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 0,
+      "classification": "FORMAT_DEVIATION",
+      "attempt1NetworkRequests": 0,
+      "note": null
+    },
+    {
+      "call": 3,
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 0,
+      "classification": "FORMAT_DEVIATION",
+      "attempt1NetworkRequests": 0,
+      "note": null
+    },
+    {
+      "call": 4,
+      "latencyMs": 5275,
+      "request": {
+        "max_tokens": 80,
+        "stop": "<OMITTED>",
+        "temperature": 0.35,
+        "requestedCandidateCount": 2
+      },
+      "response": {
+        "httpStatus": 200,
+        "finish_reason": "stop",
+        "outputTokenCount": 46,
+        "messageContent": "{\"c\":[[\"çatlak yolda ilerle\",\"the cracked path is now visible\",\"front_path\"],[\"ağacın gölgesini izle\",\"the tree's shadow is now visible\",\"red_house\"]}"
+      },
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 1,
+      "classification": "PREMATURE_STOP",
+      "attempt1NetworkRequests": 1,
+      "note": "ATTEMPT 1 was blocked locally and never sent to Qwen."
+    },
+    {
+      "call": 5,
+      "latencyMs": 5208,
+      "request": {
+        "max_tokens": 80,
+        "stop": "<OMITTED>",
+        "temperature": 0.35,
+        "requestedCandidateCount": 2
+      },
+      "response": {
+        "httpStatus": 200,
+        "finish_reason": "stop",
+        "outputTokenCount": 46,
+        "messageContent": "{\"c\":[[\"çatlak yolda ilerle\",\"the cracked path is now visible\",\"front_path\"],[\"ağacın gölgesini izle\",\"the tree's shadow is now visible\",\"red_house\"]}"
+      },
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 1,
+      "classification": "PREMATURE_STOP",
+      "attempt1NetworkRequests": 1,
+      "note": "ATTEMPT 1 was blocked locally and never sent to Qwen."
+    },
+    {
+      "call": 6,
+      "latencyMs": 5044,
+      "request": {
+        "max_tokens": 80,
+        "stop": "<OMITTED>",
+        "temperature": 0.35,
+        "requestedCandidateCount": 2
+      },
+      "response": {
+        "httpStatus": 200,
+        "finish_reason": "stop",
+        "outputTokenCount": 46,
+        "messageContent": "{\"c\":[[\"çatlak yolda ilerle\",\"the cracked path is now visible\",\"front_path\"],[\"ağacın gölgesini izle\",\"the tree's shadow is now visible\",\"red_house\"]}"
+      },
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 1,
+      "classification": "PREMATURE_STOP",
+      "attempt1NetworkRequests": 1,
+      "note": "ATTEMPT 1 was blocked locally and never sent to Qwen."
+    }
+  ]
+}

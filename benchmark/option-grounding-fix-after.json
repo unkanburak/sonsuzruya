@@ -1,0 +1,196 @@
+{
+  "rounds": 120,
+  "pairsShown": 240,
+  "grounding": {
+    "0": 0,
+    "1": 0,
+    "2": 240
+  },
+  "recent12RepetitionRate": 0.5416666666666666,
+  "pairTooCloseRate": 0.16666666666666666,
+  "exactPairRepeatRate": 0.425,
+  "navigationRate": 0.06666666666666667,
+  "genericTropeRate": 0.24166666666666667,
+  "staleHookDerived": 0,
+  "surreal": {
+    "total": 107,
+    "groundedRate": 1
+  },
+  "uniqueLabels": 17,
+  "adversarial": {
+    "A_kitchen": {
+      "ids": [
+        "fallback_window",
+        "fallback_tea"
+      ],
+      "labels": [
+        "Pencereden dışarı bak",
+        "Çay fincanını koru"
+      ]
+    },
+    "B_classroom": {
+      "ids": [
+        "fallback_window",
+        "fallback_mirror"
+      ],
+      "labels": [
+        "Pencerenin yanındaki kapıya geç",
+        "Aynalı koridora gir"
+      ]
+    },
+    "C_car": {
+      "ids": [
+        "fallback_car",
+        "fallback_rain"
+      ],
+      "labels": [
+        "Arabayı sisli yola çıkar",
+        "Yağmurun altında bekle"
+      ]
+    },
+    "D_door": {
+      "ids": [
+        "fallback_car",
+        "fallback_light"
+      ],
+      "labels": [
+        "Arabayı sisli yola çıkar",
+        "Işığa doğru ilerle"
+      ]
+    },
+    "E_mirror": {
+      "ids": [
+        "fallback_window",
+        "fallback_orbs"
+      ],
+      "labels": [
+        "Pencereden dışarı bak",
+        "Parlayan kürelere yaklaş"
+      ]
+    }
+  },
+  "first20": [
+    [
+      "Radyoyu dinle",
+      "Yağmur cama vursun"
+    ],
+    [
+      "Uzun koridoru takip et",
+      "Fotoğrafı çevir"
+    ],
+    [
+      "Bozuk saate bak",
+      "Sis çöksün"
+    ],
+    [
+      "Telefonu sessize al",
+      "Sis yoğunlaşsın"
+    ],
+    [
+      "Basamakların sonuna ulaş",
+      "Sisin içine bak"
+    ],
+    [
+      "Yağmurun altında bekle",
+      "Kürelerin altına ilerle"
+    ],
+    [
+      "Fotoğrafı çevir",
+      "Işıklı küreleri izle"
+    ],
+    [
+      "Yağmur başlasın",
+      "Sis çöksün"
+    ],
+    [
+      "Telefonu sessize al",
+      "Sis yoğunlaşsın"
+    ],
+    [
+      "Bozuk saate bak",
+      "Sisin içine bak"
+    ],
+    [
+      "Yağmurun altında bekle",
+      "Kürelerin altına ilerle"
+    ],
+    [
+      "Basamakların sonuna ulaş",
+      "Işıklı küreleri izle"
+    ],
+    [
+      "Alt kata geç",
+      "Yağmur başlasın"
+    ],
+    [
+      "Fotoğrafı çevir",
+      "Telefonu sessize al"
+    ],
+    [
+      "Bozuk saate bak",
+      "Merdivenden in"
+    ],
+    [
+      "Yağmurun altında bekle",
+      "Kürelerin altına ilerle"
+    ],
+    [
+      "stairwell bottomnin ışığını izle",
+      "Işıklı küreleri izle"
+    ],
+    [
+      "Sis yoğunlaşsın",
+      "Basamakların sonuna ulaş"
+    ],
+    [
+      "Fotoğrafı çevir",
+      "Sisin içine bak"
+    ],
+    [
+      "Sis çöksün",
+      "Merdivenden in"
+    ]
+  ],
+  "last10": [
+    [
+      "Telefonu sessize al",
+      "Kürelerin altına ilerle"
+    ],
+    [
+      "Bozuk saate bak",
+      "Işıklı küreleri izle"
+    ],
+    [
+      "Yağmurun altında bekle",
+      "stairwell bottomnin ışığını izle"
+    ],
+    [
+      "Alt kata geç",
+      "Sisin içine bak"
+    ],
+    [
+      "Fotoğrafı çevir",
+      "Sis yoğunlaşsın"
+    ],
+    [
+      "Basamakların sonuna ulaş",
+      "Kürelerin altına ilerle"
+    ],
+    [
+      "Merdivenden in",
+      "Telefonu sessize al"
+    ],
+    [
+      "Bozuk saate bak",
+      "Işıklı küreleri izle"
+    ],
+    [
+      "Alt kata geç",
+      "Yağmurun altında bekle"
+    ],
+    [
+      "stairwell bottomnin ışığını izle",
+      "Fotoğrafı çevir"
+    ]
+  ]
+}

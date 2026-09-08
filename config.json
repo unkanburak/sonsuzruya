@@ -1,0 +1,43 @@
+{
+  "port": 3000,
+  "voteSeconds": 8,
+  "resultDisplayMs": 1500,
+  "qwenTimeoutMs": 12000,
+  "generationTimeoutMs": 120000,
+  "qwenUrl": "http://127.0.0.1:8080",
+  "comfyUrl": "http://127.0.0.1:8188",
+  "animatediffUrl": "http://127.0.0.1:8191",
+  "comfyRoot": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI",
+  "comfyOutputRoot": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-runtime\\output",
+  "initialInput": "seed.png",
+  "imageResetInterval": 1,
+  "loopMotion": {
+    "enabled": false,
+    "amplitude": 0.07
+  },
+  "imageProfile": {
+    "checkpoint": "sdxl_lightning_4step.safetensors",
+    "width": 1024,
+    "height": 576,
+    "steps": 4,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform",
+    "continuityMode": "SOFT_LOCK",
+    "denoise": 0.55
+  },
+  "animatediff": {
+    "enabled": false,
+    "timeoutMs": 10000,
+    "maxDelayAfterStaticMs": 10000,
+    "checkpoint": "DreamShaper_8_pruned.safetensors",
+    "motionModel": "animatediff_lightning_2step_comfyui.safetensors",
+    "width": 384,
+    "height": 224,
+    "frames": 16,
+    "fps": 8,
+    "steps": 2,
+    "cfg": 1,
+    "denoise": 0.55
+  }
+}

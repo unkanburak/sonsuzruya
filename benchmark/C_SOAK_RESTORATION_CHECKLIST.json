@@ -1,0 +1,74 @@
+{
+  "capturedAt": "2026-08-30T15:20:31.4691362+03:00",
+  "processes": [
+    {
+      "ProcessId": 17332,
+      "ParentProcessId": 26200,
+      "Name": "node_repl.exe",
+      "CommandLine": "\"C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node_repl.exe\"",
+      "ExecutablePath": "C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node_repl.exe"
+    },
+    {
+      "ProcessId": 18724,
+      "ParentProcessId": 16652,
+      "Name": "node.exe",
+      "CommandLine": "\"C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node.exe\"  ./server.mjs",
+      "ExecutablePath": "C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node.exe"
+    },
+    {
+      "ProcessId": 10176,
+      "ParentProcessId": 25616,
+      "Name": "node.exe",
+      "CommandLine": "\"C:\\Program Files\\nodejs\\node.exe\" mobile-download-server.mjs",
+      "ExecutablePath": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "ProcessId": 28916,
+      "ParentProcessId": 12116,
+      "Name": "python.exe",
+      "CommandLine": "\"D:\\InfiniteAILive\\ComfyUI_windows_portable\\python_embeded\\python.exe\" -s D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\main.py --windows-standalone-build --lowvram --listen 127.0.0.1 --port 8188 --disable-auto-launch",
+      "ExecutablePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\python_embeded\\python.exe"
+    },
+    {
+      "ProcessId": 27808,
+      "ParentProcessId": 12116,
+      "Name": "llama-server.exe",
+      "CommandLine": "\"D:\\InfiniteAILive\\llama.cpp\\llama-server.exe\" -m D:\\InfiniteAILive\\models\\qwen\\Qwen3-4B-Q4_K_M.gguf --host 127.0.0.1 --port 8080 --alias qwen3-4b --ctx-size 2048 --n-gpu-layers 0 --threads 5",
+      "ExecutablePath": "D:\\InfiniteAILive\\llama.cpp\\llama-server.exe"
+    },
+    {
+      "ProcessId": 22512,
+      "ParentProcessId": 12116,
+      "Name": "node.exe",
+      "CommandLine": "\"C:\\Program Files\\nodejs\\node.exe\" app\\server.mjs",
+      "ExecutablePath": "C:\\Program Files\\nodejs\\node.exe"
+    }
+  ],
+  "health": {
+    "3000": {
+      "url": "http://127.0.0.1:3000/health",
+      "status": 200,
+      "body": "{\"ok\":true,\"comfy\":true,\"qwen\":true,\"youtube\":false,\"phase\":\"VOTE_LOCKED_GENERATING\",\"engine\":\"IMAGE_MOTION\"}"
+    },
+    "8080": {
+      "url": "http://127.0.0.1:8080/health",
+      "status": 200,
+      "body": "{\"status\":\"ok\"}"
+    },
+    "8188": {
+      "url": "http://127.0.0.1:8188/system_stats",
+      "status": 200,
+      "body": "{\"system\": {\"os\": \"win32\", \"ram_total\": 34189312000, \"ram_free\": 3792269312, \"comfyui_version\": \"0.34.0\", \"required_frontend_version\": \"1.49.6\", \"installed_templates_version\": \"0.11.48\", \"required_templates_version\": \"0.11.48\", \"comfy_package_versions\": [{\"name\": \"comfyui-frontend-package\", \"installed\": \"1.49.6\", \"required\": \"1.49.6\"}, {\"name\": \"comfyui-workflow-templates\", \"installed\": \"0.11.48\", \"required\": \"0.11.48\"}, {\"name\": \"comfyui-embedded-docs\", \"installed\": \"0.5.10\", \"required\": \"0.5.1"
+    }
+  },
+  "config": "{\n  \"port\": 3000,\n  \"voteSeconds\": 6,\n  \"resultDisplayMs\": 1500,\n  \"qwenTimeoutMs\": 8000,\n  \"generationTimeoutMs\": 120000,\n  \"qwenUrl\": \"http://127.0.0.1:8080\",\n  \"comfyUrl\": \"http://127.0.0.1:8188\",\n  \"animatediffUrl\": \"http://127.0.0.1:8191\",\n  \"comfyRoot\": \"D:\\\\InfiniteAILive\\\\ComfyUI_windows_portable\\\\ComfyUI\",\n  \"comfyOutputRoot\": \"C:\\\\Users\\\\burak\\\\OneDrive\\\\Desktop\\\\SONSUZ YAYIN\\\\runtime\\\\comfy8188-output\",\n  \"initialInput\": \"seed.png\",\n  \"imageResetInterval\": 1,\n  \"imageProfile\": {\n    \"checkpoint\": \"sdxl_lightning_4step.safetensors\",\n    \"width\": 768,\n    \"height\": 448,\n    \"steps\": 4,\n    \"cfg\": 1,\n    \"sampler\": \"euler\",\n    \"scheduler\": \"sgm_uniform\",\n    \"continuityMode\": \"TEXT_ANCHOR\",\n    \"denoise\": 0.55\n  },\n  \"animatediff\": {\n    \"enabled\": false,\n    \"timeoutMs\": 10000,\n    \"maxDelayAfterStaticMs\": 10000,\n    \"checkpoint\": \"DreamShaper_8_pruned.safetensors\",\n    \"motionModel\": \"animatediff_lightning_2step_comfyui.safetensors\",\n    \"width\": 384,\n    \"height\": 224,\n    \"frames\": 16,\n    \"fps\": 8,\n    \"steps\": 2,\n    \"cfg\": 1,\n    \"denoise\": 0.55\n  }\n}\n",
+  "productionProfile": "A SDXL-Lightning 4-step 768x448",
+  "animatediffEnabled": "false",
+  "youtube": "off",
+  "imageMotion": "active",
+  "restorationCommands": {
+    "comfy": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\python_embeded\\python.exe -s ComfyUI\\main.py --windows-standalone-build --lowvram --listen 127.0.0.1 --port 8188 --user-directory \"C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-user\\user\" --temp-directory \"C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-user\\temp\" --output-directory \"C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\"",
+    "node": "C:\\Program Files\\nodejs\\node.exe app\\server.mjs (cwd: C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN)",
+    "qwen": "D:\\InfiniteAILive\\llama.cpp\\llama-server.exe -m D:\\InfiniteAILive\\models\\qwen\\Qwen3-4B-Q4_K_M.gguf --host 127.0.0.1 --port 8080 --alias qwen3-4b --ctx-size 2048 --n-gpu-layers 0 --threads 5"
+  }
+}

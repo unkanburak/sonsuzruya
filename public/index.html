@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Fever Dream Live</title>
+  <link rel="stylesheet" href="/style.css?v=product-finish-1">
+</head>
+<body>
+  <main id="stage">
+    <aside id="nav-rail" aria-label="Yayın navigasyonu">
+      <a class="rail-logo" href="/" aria-label="AI Fever Dream ana yayın" data-tooltip="Dream"><span aria-hidden="true">◒</span></a>
+      <span class="rail-live" aria-label="Canlı yayında"><i></i></span>
+      <nav class="rail-nav" aria-label="Kısayollar">
+        <a href="/" aria-label="Dream" data-tooltip="Dream"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5v7a1 1 0 0 1-1 1h-4.5v-5h-5v5H5a1 1 0 0 1-1-1z"/></svg></a>
+        <button id="save-dream" type="button" aria-label="Save Dream" data-tooltip="Save Dream"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h10l3 3v15H5V3zm2 2v5h7V5H8zm4 8-4 4h2.5v3h3v-3H16z"/></svg></button>
+      </nav>
+      <span class="rail-rule" aria-hidden="true"></span>
+      <nav class="rail-social" aria-label="Sosyal bağlantılar">
+        <a href="https://www.instagram.com/unkan.ai/" target="_blank" rel="noreferrer" aria-label="Instagram" data-tooltip="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.7" r="1"/></svg></a>
+        <a href="https://www.youtube.com/@unkanburak" target="_blank" rel="noreferrer" aria-label="YouTube" data-tooltip="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12s0-4-1-5-4-1-8-1-7 0-8 1-1 5-1 5 0 4 1 5 4 1 8 1 7 0 8-1 1-5 1-5Z"/><path d="m10 9 5 3-5 3z"/></svg></a>
+        <a href="https://www.tiktok.com/@unkan.ai?lang=tr-TR" target="_blank" rel="noreferrer" aria-label="TikTok" data-tooltip="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.2a3.5 3.5 0 1 1-3-3.46V8a6.5 6.5 0 1 0 6 6.48V9.2A7 7 0 0 0 21 10V7a4.2 4.2 0 0 1-4-3z"/></svg></a>
+      </nav>
+    </aside>
+
+    <section id="stream-column" aria-label="Canlı rüya yayını">
+      <section id="player" aria-label="AI Fever Dream canlı yayın oynatıcısı">
+        <div id="media-shell"><img id="scene" alt=""><img id="scene-next" alt="" aria-hidden="true"><video id="scene-video" muted playsinline loop preload="auto" hidden></video></div>
+        <div class="vignette"></div>
+        <div id="scene-effects" data-effect="static" aria-hidden="true"><div class="effect-fog effect-fog-a"></div><div class="effect-fog effect-fog-b"></div><div class="effect-rain"></div><div class="effect-glow"></div><div class="effect-water"></div><div class="effect-grain"></div></div>
+        <div id="blink" aria-hidden="true"></div>
+        <header id="stream-meta">
+          <span class="stream-name">AI FEVER DREAM</span><span class="stream-live"><i class="live-dot"></i> LIVE</span><span id="viewer-count" aria-live="polite">0 KİŞİ — RÜYA GÖRÜYOR</span><span id="scene-number">RÜYA #0</span>
+          <button id="sound-toggle" type="button" aria-label="Ambient sesi aç/kapat" data-tooltip="Sound">◌</button>
+          <details id="mobile-links"><summary aria-label="Menü">⋯</summary><div><a href="https://www.instagram.com/unkan.ai/" target="_blank" rel="noreferrer">Instagram</a><a href="https://www.youtube.com/@unkanburak" target="_blank" rel="noreferrer">YouTube</a><a href="https://www.tiktok.com/@unkan.ai?lang=tr-TR" target="_blank" rel="noreferrer">TikTok</a></div></details>
+        </header>
+        <section id="result-card" hidden><strong id="winner"></strong><small id="winner-note">GENERATING…</small></section>
+      </section>
+      <section id="vote-card" aria-label="Canlı oylama">
+        <div class="eyebrow" aria-hidden="true"></div>
+        <button class="option" data-option-row="1" data-vote="1"><b>1</b><span><span id="option1" class="option-tr">Kapıyı aç</span><small id="option1-en" class="option-en"></small></span><strong id="percent1">—</strong></button><div class="bar"><i id="bar1"></i></div>
+        <button class="option" data-option-row="2" data-vote="2"><b>2</b><span><span id="option2" class="option-tr">Aynaya dokun</span><small id="option2-en" class="option-en"></small></span><strong id="percent2">—</strong></button><div class="bar"><i id="bar2"></i></div>
+        <div class="prompt"><span id="vote-label" aria-live="polite"></span><time id="countdown">6</time></div>
+      </section>
+      <footer><span id="status">BAĞLANIYOR</span></footer>
+    </section>
+
+    <aside id="chat-panel" aria-label="İzleyici sohbeti">
+      <div class="chat-header"><div class="chat-title">LIVE CHAT <small>●</small></div><section id="psyche-indicator" aria-label="Kolektif rüya eğilimleri"><div><span>MERAK</span><strong id="psyche-curiosity">50</strong></div><div><span>YÜZLEŞME</span><strong id="psyche-confrontation">50</strong></div><div><span>KAÇINMA</span><strong id="psyche-avoidance">50</strong></div></section></div>
+      <div id="chat-messages" aria-live="polite"></div>
+      <form id="chat-form"><input id="chat-input" maxlength="280" placeholder="Mesaj" autocomplete="off"><button aria-label="Gönder">↑</button></form>
+    </aside>
+    <audio id="ambient-audio" src="/audio/sleep_of_static.mp3" loop preload="metadata"></audio>
+  </main>
+  <script src="/app.js?v=product-finish-1"></script>
+</body>
+</html>

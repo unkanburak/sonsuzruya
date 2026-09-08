@@ -1,0 +1,20 @@
+PATH D:\InfiniteAILive\ComfyUI_windows_portable\ComfyUI\custom_nodes
+
+Name                        Length LastWriteTime
+----                        ------ -------------
+__pycache__                        29.08.2026 14:44:00
+ComfyUI-AnimateDiff-Evolved        29.08.2026 23:16:30
+ComfyUI-VideoHelperSuite           29.08.2026 23:16:30
+example_node.py.example     5281   26.08.2026 02:47:31
+websocket_image_save.py     1348   26.08.2026 02:47:31
+
+
+PATH D:\InfiniteAILive\ComfyUI_windows_portable\ComfyUI\models\ipadapter
+MISSING
+PATH D:\InfiniteAILive\ComfyUI_windows_portable\ComfyUI\models\clip_vision
+
+Name                        Length LastWriteTime
+----                        ------ -------------
+put_clip_vision_models_here      0 26.08.2026 02:47:31
+
+

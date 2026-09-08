@@ -1,0 +1,877 @@
+{
+  "generatedAt": "2026-09-01T10:56:36.451Z",
+  "productionMaxTokens": 48,
+  "timeoutMs": 12000,
+  "series48": [
+    {
+      "index": 1,
+      "tokens": 48,
+      "elapsedMs": 10152,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260196452,
+        "requestEnd": 1788260206604,
+        "totalLatencyMs": 10152,
+        "httpStatus": 200,
+        "responseBytes": 801,
+        "finishReason": "stop",
+        "outputTokenCount": 42,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 3,
+        "candidatesAfterGrounding": 3,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 2,
+      "tokens": 48,
+      "elapsedMs": 9984,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260206604,
+        "requestEnd": 1788260216497,
+        "totalLatencyMs": 9893,
+        "httpStatus": 200,
+        "responseBytes": 830,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 3,
+      "tokens": 48,
+      "elapsedMs": 10236,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260216588,
+        "requestEnd": 1788260226746,
+        "totalLatencyMs": 10158,
+        "httpStatus": 200,
+        "responseBytes": 827,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 4,
+      "tokens": 48,
+      "elapsedMs": 10034,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260226824,
+        "requestEnd": 1788260236858,
+        "totalLatencyMs": 10034,
+        "httpStatus": 200,
+        "responseBytes": 867,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 5,
+      "tokens": 48,
+      "elapsedMs": 8415,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260236858,
+        "requestEnd": 1788260245273,
+        "totalLatencyMs": 8415,
+        "httpStatus": 200,
+        "responseBytes": 699,
+        "finishReason": "stop",
+        "outputTokenCount": 23,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 6,
+      "tokens": 48,
+      "elapsedMs": 10444,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260245273,
+        "requestEnd": 1788260255652,
+        "totalLatencyMs": 10379,
+        "httpStatus": 200,
+        "responseBytes": 771,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 7,
+      "tokens": 48,
+      "elapsedMs": 9667,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260255717,
+        "requestEnd": 1788260265384,
+        "totalLatencyMs": 9667,
+        "httpStatus": 200,
+        "responseBytes": 814,
+        "finishReason": "stop",
+        "outputTokenCount": 42,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 3,
+        "candidatesAfterGrounding": 3,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 8,
+      "tokens": 48,
+      "elapsedMs": 9971,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260265384,
+        "requestEnd": 1788260275271,
+        "totalLatencyMs": 9887,
+        "httpStatus": 200,
+        "responseBytes": 845,
+        "finishReason": "stop",
+        "outputTokenCount": 43,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_JSON_INVALID"
+      }
+    },
+    {
+      "index": 9,
+      "tokens": 48,
+      "elapsedMs": 9288,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260275355,
+        "requestEnd": 1788260284643,
+        "totalLatencyMs": 9288,
+        "httpStatus": 200,
+        "responseBytes": 775,
+        "finishReason": "stop",
+        "outputTokenCount": 36,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 10,
+      "tokens": 48,
+      "elapsedMs": 10228,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260284643,
+        "requestEnd": 1788260294800,
+        "totalLatencyMs": 10157,
+        "httpStatus": 200,
+        "responseBytes": 771,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 11,
+      "tokens": 48,
+      "elapsedMs": 10203,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260294871,
+        "requestEnd": 1788260304978,
+        "totalLatencyMs": 10107,
+        "httpStatus": 200,
+        "responseBytes": 778,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 12,
+      "tokens": 48,
+      "elapsedMs": 10123,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260305075,
+        "requestEnd": 1788260315113,
+        "totalLatencyMs": 10038,
+        "httpStatus": 200,
+        "responseBytes": 870,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 13,
+      "tokens": 48,
+      "elapsedMs": 10475,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260315198,
+        "requestEnd": 1788260325601,
+        "totalLatencyMs": 10403,
+        "httpStatus": 200,
+        "responseBytes": 784,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 14,
+      "tokens": 48,
+      "elapsedMs": 10581,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260325673,
+        "requestEnd": 1788260336191,
+        "totalLatencyMs": 10518,
+        "httpStatus": 200,
+        "responseBytes": 800,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 15,
+      "tokens": 48,
+      "elapsedMs": 10397,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260336254,
+        "requestEnd": 1788260346557,
+        "totalLatencyMs": 10303,
+        "httpStatus": 200,
+        "responseBytes": 859,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 16,
+      "tokens": 48,
+      "elapsedMs": 10236,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260346651,
+        "requestEnd": 1788260356792,
+        "totalLatencyMs": 10141,
+        "httpStatus": 200,
+        "responseBytes": 798,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 17,
+      "tokens": 48,
+      "elapsedMs": 10249,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260356887,
+        "requestEnd": 1788260367055,
+        "totalLatencyMs": 10168,
+        "httpStatus": 200,
+        "responseBytes": 809,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 18,
+      "tokens": 48,
+      "elapsedMs": 10160,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260367136,
+        "requestEnd": 1788260377217,
+        "totalLatencyMs": 10081,
+        "httpStatus": 200,
+        "responseBytes": 795,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 19,
+      "tokens": 48,
+      "elapsedMs": 10683,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260377296,
+        "requestEnd": 1788260387896,
+        "totalLatencyMs": 10600,
+        "httpStatus": 200,
+        "responseBytes": 872,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 20,
+      "tokens": 48,
+      "elapsedMs": 10428,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260387979,
+        "requestEnd": 1788260398321,
+        "totalLatencyMs": 10342,
+        "httpStatus": 200,
+        "responseBytes": 780,
+        "finishReason": "length",
+        "outputTokenCount": 48,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    }
+  ],
+  "series64": [
+    {
+      "index": 1,
+      "tokens": 64,
+      "elapsedMs": 11317,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260398407,
+        "requestEnd": 1788260409724,
+        "totalLatencyMs": 11317,
+        "httpStatus": 200,
+        "responseBytes": 857,
+        "finishReason": "stop",
+        "outputTokenCount": 54,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 2,
+      "tokens": 64,
+      "elapsedMs": 10361,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260409724,
+        "requestEnd": 1788260420085,
+        "totalLatencyMs": 10361,
+        "httpStatus": 200,
+        "responseBytes": 901,
+        "finishReason": "stop",
+        "outputTokenCount": 52,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 1,
+        "candidatesAfterGrounding": 1,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 3,
+      "tokens": 64,
+      "elapsedMs": 10850,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260420085,
+        "requestEnd": 1788260430935,
+        "totalLatencyMs": 10850,
+        "httpStatus": 200,
+        "responseBytes": 808,
+        "finishReason": "stop",
+        "outputTokenCount": 58,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 1,
+        "candidatesAfterGrounding": 1,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 4,
+      "tokens": 64,
+      "elapsedMs": 11485,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260430935,
+        "requestEnd": 1788260442343,
+        "totalLatencyMs": 11408,
+        "httpStatus": 200,
+        "responseBytes": 827,
+        "finishReason": "stop",
+        "outputTokenCount": 59,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_JSON_INVALID"
+      }
+    },
+    {
+      "index": 5,
+      "tokens": 64,
+      "elapsedMs": 11935,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260442420,
+        "requestEnd": 1788260454291,
+        "totalLatencyMs": 11871,
+        "httpStatus": 200,
+        "responseBytes": 907,
+        "finishReason": "length",
+        "outputTokenCount": 64,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_TRUNCATED"
+      }
+    },
+    {
+      "index": 6,
+      "tokens": 64,
+      "elapsedMs": 10650,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260454355,
+        "requestEnd": 1788260465005,
+        "totalLatencyMs": 10650,
+        "httpStatus": 200,
+        "responseBytes": 848,
+        "finishReason": "stop",
+        "outputTokenCount": 51,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 7,
+      "tokens": 64,
+      "elapsedMs": 9818,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260465005,
+        "requestEnd": 1788260474823,
+        "totalLatencyMs": 9818,
+        "httpStatus": 200,
+        "responseBytes": 839,
+        "finishReason": "stop",
+        "outputTokenCount": 40,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 1,
+        "candidatesAfterGrounding": 1,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 8,
+      "tokens": 64,
+      "elapsedMs": 11076,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260474823,
+        "requestEnd": 1788260485899,
+        "totalLatencyMs": 11076,
+        "httpStatus": 200,
+        "responseBytes": 858,
+        "finishReason": "stop",
+        "outputTokenCount": 54,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 9,
+      "tokens": 64,
+      "elapsedMs": 10063,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260485899,
+        "requestEnd": 1788260495962,
+        "totalLatencyMs": 10063,
+        "httpStatus": 200,
+        "responseBytes": 836,
+        "finishReason": "stop",
+        "outputTokenCount": 50,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 10,
+      "tokens": 64,
+      "elapsedMs": 9876,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260495962,
+        "requestEnd": 1788260505838,
+        "totalLatencyMs": 9876,
+        "httpStatus": 200,
+        "responseBytes": 902,
+        "finishReason": "stop",
+        "outputTokenCount": 55,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 1,
+        "candidatesAfterGrounding": 1,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 11,
+      "tokens": 64,
+      "elapsedMs": 9705,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260505838,
+        "requestEnd": 1788260515543,
+        "totalLatencyMs": 9705,
+        "httpStatus": 200,
+        "responseBytes": 788,
+        "finishReason": "stop",
+        "outputTokenCount": 52,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 12,
+      "tokens": 64,
+      "elapsedMs": 8843,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260515543,
+        "requestEnd": 1788260524386,
+        "totalLatencyMs": 8843,
+        "httpStatus": 200,
+        "responseBytes": 801,
+        "finishReason": "stop",
+        "outputTokenCount": 41,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 3,
+        "candidatesAfterGrounding": 3,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 13,
+      "tokens": 64,
+      "elapsedMs": 9606,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260524386,
+        "requestEnd": 1788260533992,
+        "totalLatencyMs": 9606,
+        "httpStatus": 200,
+        "responseBytes": 845,
+        "finishReason": "stop",
+        "outputTokenCount": 52,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 14,
+      "tokens": 64,
+      "elapsedMs": 10431,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260533992,
+        "requestEnd": 1788260544423,
+        "totalLatencyMs": 10431,
+        "httpStatus": 200,
+        "responseBytes": 918,
+        "finishReason": "stop",
+        "outputTokenCount": 64,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 3,
+        "candidatesAfterGrounding": 3,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 15,
+      "tokens": 64,
+      "elapsedMs": 9860,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260544423,
+        "requestEnd": 1788260554283,
+        "totalLatencyMs": 9860,
+        "httpStatus": 200,
+        "responseBytes": 785,
+        "finishReason": "stop",
+        "outputTokenCount": 54,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 16,
+      "tokens": 64,
+      "elapsedMs": 8512,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260554283,
+        "requestEnd": 1788260562795,
+        "totalLatencyMs": 8512,
+        "httpStatus": 200,
+        "responseBytes": 793,
+        "finishReason": "stop",
+        "outputTokenCount": 38,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 17,
+      "tokens": 64,
+      "elapsedMs": 10463,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260562795,
+        "requestEnd": 1788260573258,
+        "totalLatencyMs": 10463,
+        "httpStatus": 200,
+        "responseBytes": 935,
+        "finishReason": "length",
+        "outputTokenCount": 64,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 3,
+        "candidatesAfterGrounding": 3,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    },
+    {
+      "index": 18,
+      "tokens": 64,
+      "elapsedMs": 9957,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260573258,
+        "requestEnd": 1788260583090,
+        "totalLatencyMs": 9832,
+        "httpStatus": 200,
+        "responseBytes": 913,
+        "finishReason": "stop",
+        "outputTokenCount": 56,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_JSON_INVALID"
+      }
+    },
+    {
+      "index": 19,
+      "tokens": 64,
+      "elapsedMs": 9646,
+      "source": "fallback",
+      "trace": {
+        "requestStart": 1788260583215,
+        "requestEnd": 1788260592692,
+        "totalLatencyMs": 9477,
+        "httpStatus": 200,
+        "responseBytes": 871,
+        "finishReason": "stop",
+        "outputTokenCount": 51,
+        "rawJsonComplete": false,
+        "candidatePairsRecovered": 0,
+        "candidatesAfterGrounding": 0,
+        "candidatesAfterDiversity": 0,
+        "finalValidationResult": "fallback",
+        "fallbackReason": "QWEN_JSON_INVALID"
+      }
+    },
+    {
+      "index": 20,
+      "tokens": 64,
+      "elapsedMs": 9640,
+      "source": "qwen",
+      "trace": {
+        "requestStart": 1788260592861,
+        "requestEnd": 1788260602501,
+        "totalLatencyMs": 9640,
+        "httpStatus": 200,
+        "responseBytes": 862,
+        "finishReason": "stop",
+        "outputTokenCount": 54,
+        "rawJsonComplete": true,
+        "candidatePairsRecovered": 2,
+        "candidatesAfterGrounding": 2,
+        "candidatesAfterDiversity": 2,
+        "finalValidationResult": "qwen",
+        "fallbackReason": "QWEN_SUCCESS"
+      }
+    }
+  ],
+  "series48Summary": {
+    "count": 20,
+    "qwen": 5,
+    "fallback": 15,
+    "completeJson": 5,
+    "completePairs": 4,
+    "p50Ms": 10228,
+    "p95Ms": 10581,
+    "reasons": {
+      "QWEN_SUCCESS": 5,
+      "QWEN_TRUNCATED": 14,
+      "QWEN_JSON_INVALID": 1
+    }
+  },
+  "series64Summary": {
+    "count": 20,
+    "qwen": 16,
+    "fallback": 4,
+    "completeJson": 16,
+    "completePairs": 9,
+    "p50Ms": 10063,
+    "p95Ms": 11485,
+    "reasons": {
+      "QWEN_SUCCESS": 16,
+      "QWEN_JSON_INVALID": 3,
+      "QWEN_TRUNCATED": 1
+    }
+  }
+}

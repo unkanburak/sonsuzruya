@@ -1,0 +1,240 @@
+[
+  {
+    "id": "shadow",
+    "variant": "A_off",
+    "hint": {
+      "archetype": "shadow",
+      "motif_family": "figure_shadow",
+      "hint": "The existing figure casts a slightly longer, unreadable shadow across the same surface.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_shadow_A_off_1788481583809_b0a5df82_00001_.png",
+    "latencyMs": 3840.2624,
+    "output": {
+      "media": "/generated/live/scene_archetype_shadow_A_off_1788481583809_b0a5df82_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_shadow_A_off_1788481583809_b0a5df82_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_shadow_A_off_1788481587511_1add7d63.png",
+      "handoffError": null,
+      "generationTime": 3.8394277000000003
+    }
+  },
+  {
+    "id": "shadow",
+    "variant": "B_on",
+    "hint": {
+      "archetype": "shadow",
+      "motif_family": "figure_shadow",
+      "hint": "The existing figure casts a slightly longer, unreadable shadow across the same surface.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_shadow_B_on_1788481587649_7250a68e_00001_.png",
+    "latencyMs": 2772.7196000000004,
+    "output": {
+      "media": "/generated/live/scene_archetype_shadow_B_on_1788481587649_7250a68e_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_shadow_B_on_1788481587649_7250a68e_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_shadow_B_on_1788481590293_37ed52c4.png",
+      "handoffError": null,
+      "generationTime": 2.7727023999999996
+    }
+  },
+  {
+    "id": "persona",
+    "variant": "A_off",
+    "hint": {
+      "archetype": "persona",
+      "motif_family": "reflection_face",
+      "hint": "The existing figure's face becomes unreadable in the available reflection.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_persona_A_off_1788481590422_29676d6d_00001_.png",
+    "latencyMs": 2792.8065000000006,
+    "output": {
+      "media": "/generated/live/scene_archetype_persona_A_off_1788481590422_29676d6d_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_persona_A_off_1788481590422_29676d6d_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_persona_A_off_1788481593061_07e51234.png",
+      "handoffError": null,
+      "generationTime": 2.7927932
+    }
+  },
+  {
+    "id": "persona",
+    "variant": "B_on",
+    "hint": {
+      "archetype": "persona",
+      "motif_family": "reflection_face",
+      "hint": "The existing figure's face becomes unreadable in the available reflection.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_persona_B_on_1788481593214_c23138f4_00001_.png",
+    "latencyMs": 3118.7044000000005,
+    "output": {
+      "media": "/generated/live/scene_archetype_persona_B_on_1788481593214_c23138f4_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_persona_B_on_1788481593214_c23138f4_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_persona_B_on_1788481596176_941806cb.png",
+      "handoffError": null,
+      "generationTime": 3.118686100000001
+    }
+  },
+  {
+    "id": "trickster",
+    "variant": "A_off",
+    "hint": {
+      "archetype": "trickster",
+      "motif_family": "machine_geometry",
+      "hint": "The existing machine's visible geometry appears subtly impossible while remaining recognizably the same machine.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_trickster_A_off_1788481596333_a4a04276_00001_.png",
+    "latencyMs": 4911.561099999999,
+    "output": {
+      "media": "/generated/live/scene_archetype_trickster_A_off_1788481596333_a4a04276_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_trickster_A_off_1788481596333_a4a04276_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_trickster_A_off_1788481601078_5c5fcaa9.png",
+      "handoffError": null,
+      "generationTime": 4.911536699999998
+    }
+  },
+  {
+    "id": "trickster",
+    "variant": "B_on",
+    "hint": {
+      "archetype": "trickster",
+      "motif_family": "machine_geometry",
+      "hint": "The existing machine's visible geometry appears subtly impossible while remaining recognizably the same machine.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_trickster_B_on_1788481601245_e9f966fd_00001_.png",
+    "latencyMs": 2794.360999999997,
+    "output": {
+      "media": "/generated/live/scene_archetype_trickster_B_on_1788481601245_e9f966fd_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_trickster_B_on_1788481601245_e9f966fd_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_trickster_B_on_1788481603876_6b3c5bce.png",
+      "handoffError": null,
+      "generationTime": 2.794334899999998
+    }
+  },
+  {
+    "id": "self",
+    "variant": "A_off",
+    "hint": {
+      "archetype": "self",
+      "motif_family": "converging_lines",
+      "hint": "The established paths and edges appear to converge gently toward the scene's center.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_self_A_off_1788481604039_782fcbe7_00001_.png",
+    "latencyMs": 2972.6126000000004,
+    "output": {
+      "media": "/generated/live/scene_archetype_self_A_off_1788481604039_782fcbe7_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_self_A_off_1788481604039_782fcbe7_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_self_A_off_1788481606842_0b1f5efd.png",
+      "handoffError": null,
+      "generationTime": 2.9725777000000018
+    }
+  },
+  {
+    "id": "self",
+    "variant": "B_on",
+    "hint": {
+      "archetype": "self",
+      "motif_family": "converging_lines",
+      "hint": "The established paths and edges appear to converge gently toward the scene's center.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_self_B_on_1788481607012_f86cb948_00001_.png",
+    "latencyMs": 2504.1415000000015,
+    "output": {
+      "media": "/generated/live/scene_archetype_self_B_on_1788481607012_f86cb948_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_self_B_on_1788481607012_f86cb948_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_self_B_on_1788481609369_a86b8333.png",
+      "handoffError": null,
+      "generationTime": 2.5041058999999986
+    }
+  },
+  {
+    "id": "wise",
+    "variant": "A_off",
+    "hint": {
+      "archetype": "wise_figure",
+      "motif_family": "figure_guidance",
+      "hint": "The existing figure settles near the established light or route, still anonymous and unreadable.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_wise_A_off_1788481609516_52487e5a_00001_.png",
+    "latencyMs": 5237.3135,
+    "output": {
+      "media": "/generated/live/scene_archetype_wise_A_off_1788481609516_52487e5a_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_wise_A_off_1788481609516_52487e5a_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_wise_A_off_1788481614595_c1cee48f.png",
+      "handoffError": null,
+      "generationTime": 5.237301799999997
+    }
+  },
+  {
+    "id": "wise",
+    "variant": "B_on",
+    "hint": {
+      "archetype": "wise_figure",
+      "motif_family": "figure_guidance",
+      "hint": "The existing figure settles near the established light or route, still anonymous and unreadable.",
+      "applied": true,
+      "reason": "applied",
+      "entity_states": {}
+    },
+    "path": "/generated/live/scene_archetype_wise_B_on_1788481614753_40543b0d_00001_.png",
+    "latencyMs": 2832.721499999996,
+    "output": {
+      "media": "/generated/live/scene_archetype_wise_B_on_1788481614753_40543b0d_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_wise_B_on_1788481614753_40543b0d_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_wise_B_on_1788481617424_abce19b1.png",
+      "handoffError": null,
+      "generationTime": 2.832716400000001
+    }
+  },
+  {
+    "id": "unsupported",
+    "variant": "A_off",
+    "hint": null,
+    "path": "/generated/live/scene_archetype_unsupported_A_off_1788481617586_8a82b851_00001_.png",
+    "latencyMs": 2554.8879000000015,
+    "output": {
+      "media": "/generated/live/scene_archetype_unsupported_A_off_1788481617586_8a82b851_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_unsupported_A_off_1788481617586_8a82b851_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_unsupported_A_off_1788481619970_23fbe3d4.png",
+      "handoffError": null,
+      "generationTime": 2.5548767000000008
+    }
+  },
+  {
+    "id": "unsupported",
+    "variant": "B_on",
+    "hint": null,
+    "path": "/generated/live/scene_archetype_unsupported_B_on_1788481620141_48971160_00001_.png",
+    "latencyMs": 425.93619999999646,
+    "output": {
+      "media": "/generated/live/scene_archetype_unsupported_B_on_1788481620141_48971160_00001_.png",
+      "sourcePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\live\\scene_archetype_unsupported_B_on_1788481620141_48971160_00001_.png",
+      "inputImage": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\input\\animatediff_input_archetype_unsupported_B_on_1788481620404_446b157e.png",
+      "handoffError": null,
+      "generationTime": 0.42593269999999755
+    }
+  }
+]

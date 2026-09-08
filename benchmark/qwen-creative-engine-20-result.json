@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-08-31T22:59:17.430Z",
+  "rows": [
+    {
+      "round": 1,
+      "location": "misty_bridge",
+      "latencyMs": 2314.1,
+      "source": "qwen",
+      "option1": "Köprünün sonuna yaklaş",
+      "option2": "Standing alone izler",
+      "option1Id": "qwen_koprunun_sonuna_yaklas_0",
+      "option2Id": "qwen_standing_alone_izler_1"
+    },
+    {
+      "round": 2,
+      "location": "wooden_hallway",
+      "latencyMs": 3864.6,
+      "source": "qwen",
+      "option1": "Merdiveni incele",
+      "option2": "Kapıya yaklaş",
+      "option1Id": "qwen_merdiveni_incele_0",
+      "option2Id": "qwen_kap_ya_yaklas_1"
+    },
+    {
+      "round": 3,
+      "location": "machine_room",
+      "latencyMs": 2323.2,
+      "source": "qwen",
+      "option1": "Kapıya yaklaş",
+      "option2": "Merdiveni incele",
+      "option1Id": "qwen_kap_ya_yaklas_2",
+      "option2Id": "qwen_merdiveni_incele_4"
+    },
+    {
+      "round": 4,
+      "location": "flooded_room",
+      "latencyMs": 5268.9,
+      "source": "qwen",
+      "option1": "Kapıya yaklaş",
+      "option2": "Pencereden bak",
+      "option1Id": "qwen_kap_ya_yaklas_4",
+      "option2Id": "qwen_pencereden_bak_11"
+    },
+    {
+      "round": 5,
+      "location": "red_house_exterior",
+      "latencyMs": 3813.3,
+      "source": "qwen",
+      "option1": "Demir anahtarı incele",
+      "option2": "Demir anahtarı çalıştır",
+      "option1Id": "qwen_demir_anahtar_incele_6",
+      "option2Id": "qwen_demir_anahtar_cal_st_r_7"
+    },
+    {
+      "round": 6,
+      "location": "small_kitchen",
+      "latencyMs": 5569.4,
+      "source": "qwen",
+      "option1": "Yol üstüne geçmek",
+      "option2": "Eski radyoyu incele",
+      "option1Id": "qwen_yol_ustune_gecmek_3",
+      "option2Id": "qwen_eski_radyoyu_incele_6"
+    },
+    {
+      "round": 7,
+      "location": "dark_tunnel",
+      "latencyMs": 1985.5,
+      "source": "qwen",
+      "option1": "Eski feneri incele",
+      "option2": "Eski feneri sessizce çalıştır",
+      "option1Id": "qwen_eski_feneri_incele_6",
+      "option2Id": "qwen_eski_feneri_sessizce_cal_st_r_9"
+    },
+    {
+      "round": 8,
+      "location": "empty_classroom",
+      "latencyMs": 3909,
+      "source": "qwen",
+      "option1": "Kapıya yaklaş",
+      "option2": "Pencereden bak",
+      "option1Id": "qwen_kap_ya_yaklas_6",
+      "option2Id": "qwen_pencereden_bak_8"
+    },
+    {
+      "round": 9,
+      "location": "mirror_room",
+      "latencyMs": 3666.7,
+      "source": "qwen",
+      "option1": "Büyük aynayı incele",
+      "option2": "Kapıya yaklaş",
+      "option1Id": "qwen_buyuk_aynay_incele_6",
+      "option2Id": "qwen_kap_ya_yaklas_10"
+    },
+    {
+      "round": 10,
+      "location": "glowing_forest",
+      "latencyMs": 4173,
+      "source": "qwen",
+      "option1": "Ağaçları izle",
+      "option2": "glowing treeyi incele",
+      "option1Id": "qwen_agaclar_izle_11",
+      "option2Id": "qwen_glowing_treeyi_incele_5"
+    },
+    {
+      "round": 11,
+      "location": "misty_bridge",
+      "latencyMs": 2674.7,
+      "source": "qwen",
+      "option1": "Eski feneri incele",
+      "option2": "Eski feneri sessizce çalıştır",
+      "option1Id": "qwen_eski_feneri_incele_6",
+      "option2Id": "qwen_eski_feneri_sessizce_cal_st_r_9"
+    },
+    {
+      "round": 12,
+      "location": "wooden_hallway",
+      "latencyMs": 3904.6,
+      "source": "qwen",
+      "option1": "Bozuk saati incele",
+      "option2": "Kapıya yaklaş",
+      "option1Id": "qwen_bozuk_saati_incele_6",
+      "option2Id": "qwen_kap_ya_yaklas_10"
+    },
+    {
+      "round": 13,
+      "location": "machine_room",
+      "latencyMs": 3066.3,
+      "source": "qwen",
+      "option1": "Garip makineyi incele",
+      "option2": "Kapıya yaklaş",
+      "option1Id": "qwen_garip_makineyi_incele_6",
+      "option2Id": "qwen_kap_ya_yaklas_10"
+    },
+    {
+      "round": 14,
+      "location": "flooded_room",
+      "latencyMs": 4141.5,
+      "source": "qwen",
+      "option1": "Kapıya yaklaş",
+      "option2": "Pencereden bak",
+      "option1Id": "qwen_kap_ya_yaklas_10",
+      "option2Id": "qwen_pencereden_bak_12"
+    },
+    {
+      "round": 15,
+      "location": "red_house_exterior",
+      "latencyMs": 3097.7,
+      "source": "qwen",
+      "option1": "Kapı açılır",
+      "option2": "Demir anahtarı incele",
+      "option1Id": "qwen_kap_ac_l_r_0",
+      "option2Id": "qwen_demir_anahtar_incele_6"
+    },
+    {
+      "round": 16,
+      "location": "small_kitchen",
+      "latencyMs": 4451.5,
+      "source": "qwen",
+      "option1": "Eski radyoyu incele",
+      "option2": "Eski radyoyu çalıştır",
+      "option1Id": "qwen_eski_radyoyu_incele_6",
+      "option2Id": "qwen_eski_radyoyu_cal_st_r_7"
+    },
+    {
+      "round": 17,
+      "location": "dark_tunnel",
+      "latencyMs": 2659.1,
+      "source": "qwen",
+      "option1": "Eski feneri incele",
+      "option2": "Eski feneri sessizce çalıştır",
+      "option1Id": "qwen_eski_feneri_incele_6",
+      "option2Id": "qwen_eski_feneri_sessizce_cal_st_r_9"
+    },
+    {
+      "round": 18,
+      "location": "empty_classroom",
+      "latencyMs": 4606.8,
+      "source": "qwen",
+      "option1": "Kapı açılır",
+      "option2": "Kapıya yaklaş",
+      "option1Id": "qwen_kap_ac_l_r_1",
+      "option2Id": "qwen_kap_ya_yaklas_6"
+    },
+    {
+      "round": 19,
+      "location": "mirror_room",
+      "latencyMs": 3307.7,
+      "source": "qwen",
+      "option1": "Kapı açılır",
+      "option2": "Büyük aynayı incele",
+      "option1Id": "qwen_kap_ac_l_r_1",
+      "option2Id": "qwen_buyuk_aynay_incele_6"
+    },
+    {
+      "round": 20,
+      "location": "glowing_forest",
+      "latencyMs": 5085.6,
+      "source": "qwen",
+      "option1": "Yol tarzıyi incele",
+      "option2": "Ağaçları izle",
+      "option1Id": "qwen_yol_tarz_yi_incele_0",
+      "option2Id": "qwen_agaclar_izle_10"
+    }
+  ],
+  "successRate": 1,
+  "qwenCount": 20,
+  "fallbackCount": 0,
+  "p50Ms": 3813.3,
+  "p95Ms": 5268.9
+}

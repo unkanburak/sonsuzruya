@@ -1,0 +1,669 @@
+{
+  "generatedAt": "2026-09-01T10:31:00.476Z",
+  "qwenUrl": "http://127.0.0.1:8080",
+  "roundsCompleted": 20,
+  "qwenRounds": 2,
+  "fallbackRounds": 18,
+  "p50Ms": 8016,
+  "p95Ms": 8027,
+  "rounds": [
+    {
+      "round": 1,
+      "elapsedMs": 5944,
+      "source": "qwen",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Mekânı gözlemle",
+          "consequence": "The strange room remains still under dim atmospheric light"
+        },
+        {
+          "action": "Mevcut sahneyi izle",
+          "consequence": "The strange room falls into deeper quiet and shadow"
+        }
+      ],
+      "winner": "Mekânı gözlemle",
+      "winnerConsequence": "The strange room remains still under dim atmospheric light"
+    },
+    {
+      "round": 2,
+      "elapsedMs": 8027,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "The strange room remains still under dim atmospheric light",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Bozuk saate bak",
+          "consequence": "The character is now examining a broken wristwatch on a wooden table. The same room remains part of the scene."
+        },
+        {
+          "action": "Fotoğrafı çevir",
+          "consequence": "The character is now holding an old family photograph face down on the table. The same room remains part of the scene."
+        }
+      ],
+      "winner": "Fotoğrafı çevir",
+      "winnerConsequence": "The character is now holding an old family photograph face down on the table. The same room remains part of the scene."
+    },
+    {
+      "round": 3,
+      "elapsedMs": 8022,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "The strange room remains still under dim atmospheric light",
+        "old_photograph",
+        "an old photograph on the table",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Telefonu sessize al",
+          "consequence": "The character is now beside a silent old telephone on a small table. The same room remains part of the scene."
+        },
+        {
+          "action": "Sis yoğunlaşsın",
+          "consequence": "The current environment is now filled with denser silver fog."
+        }
+      ],
+      "winner": "Telefonu sessize al",
+      "winnerConsequence": "The character is now beside a silent old telephone on a small table. The same room remains part of the scene."
+    },
+    {
+      "round": 4,
+      "elapsedMs": 8010,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "an old photograph on the table",
+        "old_telephone",
+        "an old telephone on a small table",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Radyoyu dinle",
+          "consequence": "The character is now beside an old radio playing in the quiet room."
+        },
+        {
+          "action": "Yağmur başlasın",
+          "consequence": "Rain is now falling across the visible environment."
+        }
+      ],
+      "winner": "Yağmur başlasın",
+      "winnerConsequence": "Rain is now falling across the visible environment."
+    },
+    {
+      "round": 5,
+      "elapsedMs": 8024,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "old_telephone",
+        "an old telephone on a small table",
+        "rain on the environment",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Kürelerin altına ilerle",
+          "consequence": "The character is now standing beneath several large glowing orbs. The same room remains part of the scene."
+        },
+        {
+          "action": "Sisin içine bak",
+          "consequence": "The current environment is now veiled by thick silver fog."
+        }
+      ],
+      "winner": "Kürelerin altına ilerle",
+      "winnerConsequence": "The character is now standing beneath several large glowing orbs. The same room remains part of the scene."
+    },
+    {
+      "round": 6,
+      "elapsedMs": 8021,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "rain on the environment",
+        "glowing_orbs",
+        "large glowing orbs",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Sis çöksün",
+          "consequence": "The current environment is now covered in thick silver fog."
+        },
+        {
+          "action": "Kürelerin çevresinde bekle",
+          "consequence": "The character is now surrounded by several large glowing orbs in a room."
+        }
+      ],
+      "winner": "Kürelerin çevresinde bekle",
+      "winnerConsequence": "The character is now surrounded by several large glowing orbs in a room."
+    },
+    {
+      "round": 7,
+      "elapsedMs": 8032,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "rain on the environment",
+        "glowing_orbs",
+        "large glowing orbs",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Bozuk saate bak",
+          "consequence": "The character is now examining a broken wristwatch on a wooden table. The same room remains part of the scene."
+        },
+        {
+          "action": "Fotoğrafı çevir",
+          "consequence": "The character is now holding an old family photograph face down on the table. The same room remains part of the scene."
+        }
+      ],
+      "winner": "Bozuk saate bak",
+      "winnerConsequence": "The character is now examining a broken wristwatch on a wooden table. The same room remains part of the scene."
+    },
+    {
+      "round": 8,
+      "elapsedMs": 7625,
+      "source": "qwen",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "large glowing orbs",
+        "broken_watch",
+        "a broken wristwatch on a wooden table",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Mekânı gözlemle",
+          "consequence": "The strange room remains still under dim atmospheric light"
+        },
+        {
+          "action": "Mevcut sahneyi izle",
+          "consequence": "The strange room falls into deeper quiet and shadow"
+        }
+      ],
+      "winner": "Mevcut sahneyi izle",
+      "winnerConsequence": "The strange room falls into deeper quiet and shadow"
+    },
+    {
+      "round": 9,
+      "elapsedMs": 8021,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "broken_watch",
+        "a broken wristwatch on a wooden table",
+        "The strange room falls into deeper quiet and shadow",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Radyoyu dinle",
+          "consequence": "The character is now beside an old radio playing in the quiet room."
+        },
+        {
+          "action": "Yağmur başlasın",
+          "consequence": "Rain is now falling across the visible environment."
+        }
+      ],
+      "winner": "Radyoyu dinle",
+      "winnerConsequence": "The character is now beside an old radio playing in the quiet room."
+    },
+    {
+      "round": 10,
+      "elapsedMs": 8017,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "The strange room falls into deeper quiet and shadow",
+        "old_radio",
+        "an old radio on a quiet table",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Telefonu sessize al",
+          "consequence": "The character is now beside a silent old telephone on a small table. The same room remains part of the scene."
+        },
+        {
+          "action": "Parlayan kürelere yaklaş",
+          "consequence": "Several large glowing orbs are now floating in the room."
+        }
+      ],
+      "winner": "Parlayan kürelere yaklaş",
+      "winnerConsequence": "Several large glowing orbs are now floating in the room."
+    },
+    {
+      "round": 11,
+      "elapsedMs": 8020,
+      "source": "fallback",
+      "currentCommittedScene": "strange_room",
+      "currentPhysicalEntities": [
+        "an old radio on a quiet table",
+        "glowing_orbs",
+        "large glowing orbs",
+        "strange_room",
+        "standing_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Arabanın camından bak",
+          "consequence": "The character is now looking through the window of a mysterious car."
+        },
+        {
+          "action": "Yağmur cama vursun",
+          "consequence": "Rain is now streaking across the visible window and scene."
+        }
+      ],
+      "winner": "Arabanın camından bak",
+      "winnerConsequence": "The character is now looking through the window of a mysterious car."
+    },
+    {
+      "round": 12,
+      "elapsedMs": 8010,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "mysterious_car",
+        "sitting_alone",
+        "a mysterious car",
+        "large glowing orbs"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Arabayı sisli yola çıkar",
+          "consequence": "The character is now inside a mysterious car on a misty road."
+        },
+        {
+          "action": "mysterious carnin sessizliğini izle",
+          "consequence": "The quiet atmosphere of the current mysterious car remains clearly visible."
+        }
+      ],
+      "winner": "mysterious carnin sessizliğini izle",
+      "winnerConsequence": "The quiet atmosphere of the current mysterious car remains clearly visible."
+    },
+    {
+      "round": 13,
+      "elapsedMs": 8012,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "mysterious_car",
+        "sitting_alone",
+        "a mysterious car",
+        "large glowing orbs",
+        "The quiet atmosphere of the current mysterious car remains clearly visible."
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Sisin içine bak",
+          "consequence": "The current environment is now veiled by thick silver fog."
+        },
+        {
+          "action": "Kızıl gökyüzünü izle",
+          "consequence": "The sky is now deep crimson above the current landscape. The same car remains part of the scene."
+        }
+      ],
+      "winner": "Sisin içine bak",
+      "winnerConsequence": "The current environment is now veiled by thick silver fog."
+    },
+    {
+      "round": 14,
+      "elapsedMs": 8016,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "sitting_alone",
+        "a mysterious car",
+        "large glowing orbs",
+        "The quiet atmosphere of the current mysterious car remains clearly visible.",
+        "thick silver fog"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Gökyüzündeki ışığı izle",
+          "consequence": "A bright light is now visible beneath the deep crimson sky."
+        },
+        {
+          "action": "Yağmur başlasın",
+          "consequence": "Rain is now falling across the visible environment."
+        }
+      ],
+      "winner": "Yağmur başlasın",
+      "winnerConsequence": "Rain is now falling across the visible environment."
+    },
+    {
+      "round": 15,
+      "elapsedMs": 8016,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "The quiet atmosphere of the current mysterious car remains clearly visible.",
+        "thick silver fog",
+        "mysterious_car",
+        "rain on the environment",
+        "sitting_alone"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Kızıl gökyüzünün altına çık",
+          "consequence": "The character is now beneath a deep crimson sky over a dark landscape. The same car remains part of the scene."
+        },
+        {
+          "action": "Sis yoğunlaşsın",
+          "consequence": "The current environment is now filled with denser silver fog."
+        }
+      ],
+      "winner": "Kızıl gökyüzünün altına çık",
+      "winnerConsequence": "The character is now beneath a deep crimson sky over a dark landscape. The same car remains part of the scene."
+    },
+    {
+      "round": 16,
+      "elapsedMs": 8018,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "thick silver fog",
+        "mysterious_car",
+        "rain on the environment",
+        "sitting_alone",
+        "a deep crimson sky"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Arabaya bin",
+          "consequence": "The character is now sitting inside a mysterious car."
+        },
+        {
+          "action": "Yağmurun altında bekle",
+          "consequence": "The character is now standing beneath steady rain."
+        }
+      ],
+      "winner": "Yağmurun altında bekle",
+      "winnerConsequence": "The character is now standing beneath steady rain."
+    },
+    {
+      "round": 17,
+      "elapsedMs": 8015,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "thick silver fog",
+        "mysterious_car",
+        "rain on the environment",
+        "sitting_alone",
+        "a deep crimson sky"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Sis çöksün",
+          "consequence": "The current environment is now covered in thick silver fog."
+        },
+        {
+          "action": "Arabanın camından bak",
+          "consequence": "The character is now looking through the window of a mysterious car."
+        }
+      ],
+      "winner": "Sis çöksün",
+      "winnerConsequence": "The current environment is now covered in thick silver fog."
+    },
+    {
+      "round": 18,
+      "elapsedMs": 8014,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "thick silver fog",
+        "mysterious_car",
+        "rain on the environment",
+        "sitting_alone",
+        "a deep crimson sky"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Sisin içine bak",
+          "consequence": "The current environment is now veiled by thick silver fog."
+        },
+        {
+          "action": "Arabayı sisli yola çıkar",
+          "consequence": "The character is now inside a mysterious car on a misty road."
+        }
+      ],
+      "winner": "Arabayı sisli yola çıkar",
+      "winnerConsequence": "The character is now inside a mysterious car on a misty road."
+    },
+    {
+      "round": 19,
+      "elapsedMs": 8009,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "mysterious_car",
+        "rain on the environment",
+        "sitting_alone",
+        "a deep crimson sky",
+        "a mysterious car"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Arabayı tünele sür",
+          "consequence": "The character is now inside a mysterious car beneath a dark tunnel."
+        },
+        {
+          "action": "Gökyüzündeki ışığı izle",
+          "consequence": "A bright light is now visible beneath the deep crimson sky."
+        }
+      ],
+      "winner": "Arabayı tünele sür",
+      "winnerConsequence": "The character is now inside a mysterious car beneath a dark tunnel."
+    },
+    {
+      "round": 20,
+      "elapsedMs": 8011,
+      "source": "fallback",
+      "currentCommittedScene": "mysterious_car",
+      "currentPhysicalEntities": [
+        "sitting_alone",
+        "a deep crimson sky",
+        "a mysterious car",
+        "thick silver fog",
+        "mysterious_car"
+      ],
+      "memoryOnlyEntities": [
+        "old_radio",
+        "old_photograph",
+        "strange_room",
+        "old_telephone",
+        "glowing_orbs",
+        "broken_watch"
+      ],
+      "rawQwenCandidates": [],
+      "finalOptions": [
+        {
+          "action": "Kızıl gökyüzünün altına çık",
+          "consequence": "The character is now beneath a deep crimson sky over a dark landscape. The same car remains part of the scene."
+        },
+        {
+          "action": "mysterious carnin sessizliğini izle",
+          "consequence": "The quiet atmosphere of the current mysterious car remains clearly visible."
+        }
+      ],
+      "winner": "mysterious carnin sessizliğini izle",
+      "winnerConsequence": "The quiet atmosphere of the current mysterious car remains clearly visible."
+    }
+  ]
+}

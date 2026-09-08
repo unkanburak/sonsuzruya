@@ -1,0 +1,278 @@
+{
+  "createdAt": "2026-08-30T19:26:09.503Z",
+  "base": {
+    "checkpoint": "sdxl_lightning_4step.safetensors",
+    "width": 1024,
+    "height": 576,
+    "steps": 4,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform"
+  },
+  "methods": {
+    "baseline": {
+      "label": "Baseline C",
+      "rows": [
+        {
+          "turn": 1,
+          "state": "the protagonist stands on a foggy bridge",
+          "output": {
+            "promptId": "a8eaef02-910c-46bd-b01c-a5f4de240a72",
+            "latency": 59.133597,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_01_00003_.png"
+          }
+        },
+        {
+          "turn": 2,
+          "state": "the protagonist is beneath the same bridge beside a single glowing light",
+          "output": {
+            "promptId": "2d9fea27-c675-413c-8718-49351a6875b8",
+            "latency": 6.432938999999998,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_02_00003_.png"
+          }
+        },
+        {
+          "turn": 3,
+          "state": "the protagonist follows a misty forest path",
+          "output": {
+            "promptId": "e1ce48fb-5dd7-4c51-b2ee-41dab4571904",
+            "latency": 7.169146299999993,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_03_00003_.png"
+          }
+        },
+        {
+          "turn": 4,
+          "state": "the protagonist stands outside an abandoned red house",
+          "output": {
+            "promptId": "e0d9ccb5-4797-44ba-ae9f-f32217fe02fb",
+            "latency": 2.9645798000000068,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_04_00003_.png"
+          }
+        },
+        {
+          "turn": 5,
+          "state": "the protagonist is inside the house's wooden hallway",
+          "output": {
+            "promptId": "9a3b4133-7cf6-4e67-b163-72b99822da6f",
+            "latency": 2.5044840000000113,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_05_00003_.png"
+          }
+        },
+        {
+          "turn": 6,
+          "state": "the protagonist is in the underground basement",
+          "output": {
+            "promptId": "e63dbfec-689d-4288-976b-e9ffea2da87c",
+            "latency": 2.5101132999999973,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_06_00003_.png"
+          }
+        },
+        {
+          "turn": 7,
+          "state": "the protagonist is beside a strange large machine in a machine room",
+          "output": {
+            "promptId": "b860c391-8e93-46ca-a83e-2cc85fddb780",
+            "latency": 2.5032793999999994,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_07_00003_.png"
+          }
+        },
+        {
+          "turn": 8,
+          "state": "the same machine is activated with clear blue illumination in the room",
+          "output": {
+            "promptId": "a1b01932-22a4-407d-8eff-075d275a3fda",
+            "latency": 2.334736999999994,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_08_00003_.png"
+          }
+        }
+      ],
+      "warmSamples": [
+        2.334736999999994,
+        2.5032793999999994,
+        2.5044840000000113,
+        2.5101132999999973,
+        2.9645798000000068,
+        6.432938999999998,
+        7.169146299999993
+      ],
+      "p50": 2.5101132999999973,
+      "p95": 6.432938999999998
+    },
+    "soft": {
+      "label": "Soft Lock",
+      "rows": [
+        {
+          "turn": 1,
+          "state": "the protagonist stands on a foggy bridge",
+          "output": {
+            "promptId": "3a215b77-7f37-4642-abf4-63535ef05f3d",
+            "latency": 2.652787400000001,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_01_00001_.png"
+          }
+        },
+        {
+          "turn": 2,
+          "state": "the protagonist is beneath the same bridge beside a single glowing light",
+          "output": {
+            "promptId": "5ea1e575-c20e-4982-b5d2-f20a52ae9813",
+            "latency": 2.492155899999998,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_02_00001_.png"
+          }
+        },
+        {
+          "turn": 3,
+          "state": "the protagonist follows a misty forest path",
+          "output": {
+            "promptId": "7a696fcd-7b0c-4542-82a8-cf40d3cfcbe6",
+            "latency": 2.5316128000000027,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_03_00001_.png"
+          }
+        },
+        {
+          "turn": 4,
+          "state": "the protagonist stands outside an abandoned red house",
+          "output": {
+            "promptId": "d00b34dd-adbd-4ff2-9f1d-334e448b3ece",
+            "latency": 2.341314799999993,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_04_00001_.png"
+          }
+        },
+        {
+          "turn": 5,
+          "state": "the protagonist is inside the house's wooden hallway",
+          "output": {
+            "promptId": "a8080087-350d-4ab5-9b99-770ab1dbbb8e",
+            "latency": 2.335516899999988,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_05_00001_.png"
+          }
+        },
+        {
+          "turn": 6,
+          "state": "the protagonist is in the underground basement",
+          "output": {
+            "promptId": "04204d88-0f0c-469c-bedb-15d1ca8c983c",
+            "latency": 2.3365871999999945,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_06_00001_.png"
+          }
+        },
+        {
+          "turn": 7,
+          "state": "the protagonist is beside a strange large machine in a machine room",
+          "output": {
+            "promptId": "cb27fadd-c67c-4ec9-807d-284775a927e2",
+            "latency": 2.5012655000000086,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_07_00001_.png"
+          }
+        },
+        {
+          "turn": 8,
+          "state": "the same machine is activated with clear blue illumination in the room",
+          "output": {
+            "promptId": "0b9a9c0a-f5fa-4d1e-8f1f-8f1430bba63a",
+            "latency": 2.4791686000000044,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_08_00001_.png"
+          }
+        }
+      ],
+      "warmSamples": [
+        2.335516899999988,
+        2.3365871999999945,
+        2.341314799999993,
+        2.4791686000000044,
+        2.492155899999998,
+        2.5012655000000086,
+        2.5316128000000027
+      ],
+      "p50": 2.4791686000000044,
+      "p95": 2.5012655000000086
+    },
+    "medium": {
+      "label": "Medium Lock",
+      "rows": [
+        {
+          "turn": 1,
+          "state": "the protagonist stands on a foggy bridge",
+          "output": {
+            "promptId": "a381cf5c-29d8-4862-918b-c12bb1155806",
+            "latency": 2.344320000000007,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_01_00001_.png"
+          }
+        },
+        {
+          "turn": 2,
+          "state": "the protagonist is beneath the same bridge beside a single glowing light",
+          "output": {
+            "promptId": "b85ec9be-dffc-4e1a-a6ea-085ebfe74198",
+            "latency": 2.340569599999988,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_02_00001_.png"
+          }
+        },
+        {
+          "turn": 3,
+          "state": "the protagonist follows a misty forest path",
+          "output": {
+            "promptId": "bf75894b-45c1-4aa0-ade9-033f63c7ef3a",
+            "latency": 2.3454517000000052,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_03_00001_.png"
+          }
+        },
+        {
+          "turn": 4,
+          "state": "the protagonist stands outside an abandoned red house",
+          "output": {
+            "promptId": "6a5b8650-1df5-4d52-9b8d-5a6e85e24ea8",
+            "latency": 2.33210119999999,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_04_00001_.png"
+          }
+        },
+        {
+          "turn": 5,
+          "state": "the protagonist is inside the house's wooden hallway",
+          "output": {
+            "promptId": "cff7c588-770a-420c-baa7-5241db9a7aae",
+            "latency": 2.6356426000000064,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_05_00001_.png"
+          }
+        },
+        {
+          "turn": 6,
+          "state": "the protagonist is in the underground basement",
+          "output": {
+            "promptId": "0c71192e-e868-49ab-b83b-ba0a2895c212",
+            "latency": 2.337488499999992,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_06_00001_.png"
+          }
+        },
+        {
+          "turn": 7,
+          "state": "the protagonist is beside a strange large machine in a machine room",
+          "output": {
+            "promptId": "eac5c7e1-d99b-4b09-bc98-884dce94fc49",
+            "latency": 2.3338337000000027,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_07_00001_.png"
+          }
+        },
+        {
+          "turn": 8,
+          "state": "the same machine is activated with clear blue illumination in the room",
+          "output": {
+            "promptId": "e2f6aea5-d9ce-4a01-ab4f-65a796737be3",
+            "latency": 2.349888399999996,
+            "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_08_00001_.png"
+          }
+        }
+      ],
+      "warmSamples": [
+        2.33210119999999,
+        2.3338337000000027,
+        2.337488499999992,
+        2.340569599999988,
+        2.3454517000000052,
+        2.349888399999996,
+        2.6356426000000064
+      ],
+      "p50": 2.340569599999988,
+      "p95": 2.349888399999996
+    }
+  }
+}

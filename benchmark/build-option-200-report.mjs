@@ -1,0 +1,26 @@
+import fs from "node:fs";
+
+const files = ["state/events.jsonl.3", "state/events.jsonl.2", "state/events.jsonl.1", "state/events.jsonl"];
+const events = files.flatMap((file) => {
+  try { return fs.readFileSync(file, "utf8").split(/\r?\n/).filter(Boolean).map((line) => JSON.parse(line)); } catch { return []; }
+}).sort((a, b) => String(a.at).localeCompare(String(b.at)));
+const all = events.filter((e) => e.type === "OPTIONS_CREATED" && Array.isArray(e.finalOptions) && e.finalOptions.length === 2);
+const rounds = all.slice(-200);
+const normalize = (s) => String(s || "").trim().toLocaleLowerCase("tr-TR");
+const pairKey = (x) => x.map((o) => normalize(o.action)).sort().join(" || ");
+const semanticKey = (x) => x.map((o) => `${normalize(o.action).replace(/(sessizce|dikkatle|biraz|doğru|yakından)/g, "")} :: ${normalize(o.consequence)}`).sort().join(" || ");
+const labelCounts = new Map(); const pairCounts = new Map(); const semanticCounts = new Map(); const sources = new Map();
+for (const e of rounds) { const key = pairKey(e.finalOptions); const sk = semanticKey(e.finalOptions); pairCounts.set(key, (pairCounts.get(key) || 0) + 1); semanticCounts.set(sk, (semanticCounts.get(sk) || 0) + 1); sources.set(e.source, (sources.get(e.source) || 0) + 1); for (const o of e.finalOptions) labelCounts.set(o.action, (labelCounts.get(o.action) || 0) + 1); }
+const repeatPairs = [...pairCounts.values()].reduce((n, v) => n + Math.max(0, v - 1), 0);
+const repeatSemantic = [...semanticCounts.values()].reduce((n, v) => n + Math.max(0, v - 1), 0);
+const nav = /(?:\bgir|\bin|yönel|yonel|sap|ilerle|yaklaş|yaklas|dön|don|geç|gec|sokağa|sokaga|bodrum|kontrol|tünel|tunel|merdiv|eve)/i;
+const twoNav = rounds.filter((e) => e.source === "bounded_recovery_exhausted" && e.finalOptions.every((o) => nav.test(o.action || ""))).length;
+let maxRecoveryStreak = 0; let recoveryStreak = 0;
+for (const e of rounds) { if (e.source === "scene_bound_recovery" || e.source === "bounded_recovery_exhausted") { recoveryStreak += 1; maxRecoveryStreak = Math.max(maxRecoveryStreak, recoveryStreak); } else recoveryStreak = 0; }
+const topPairs = [...pairCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(([k, v]) => `- ${k}: ${v}`).join("\n");
+const rows = rounds.map((e, i) => `| ${i + 1} | ${e.sceneId} | ${e.currentSceneManifest?.location || "—"} | ${e.source || "—"} | ${e.finalOptions[0].action} → ${e.finalOptions[0].consequence} | ${e.finalOptions[1].action} → ${e.finalOptions[1].consequence} |`).join("\n");
+const top = [...labelCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15).map(([k, v]) => `- ${k}: ${v}`).join("\n");
+const src = [...sources.entries()].map(([k, v]) => `- ${k}: ${v}`).join("\n");
+const report = `# 200 Displayed Round Option Trace and Root-Cause Finding\n\nGenerated from authoritative chronological OPTIONS_CREATED events in state/events.jsonl*. No production code was changed for this report.\n\n## Summary\n\n- Displayed rounds traced: **${rounds.length}**\n- Scene range: **${rounds[0]?.sceneId}–${rounds.at(-1)?.sceneId}**\n- Unique labels: **${labelCounts.size}**\n- Unique exact pairs: **${pairCounts.size}**\n- Exact pair repeats: **${repeatPairs}**\n- Semantic pair repeats (action + visible consequence normalized): **${repeatSemantic}**\n- Two-navigation exhausted-recovery pairs: **${twoNav}**\n\n### Source distribution\n\n${src}\n\n### Most frequent labels\n\n${top}\n\n## Point-blank finding\n\nThe “120+ option” count is the size of the template catalogue, not the number of choices available in one scene. Every round first intersects that catalogue with the committed manifest’s current entities/tags, entity-state mutations, route adjacency, recent-label cooldown, semantic-future cooldown, route-repeat checks and pair-diversity gates. In the traced window, the effective pool repeatedly collapsed to the same figure/route families because most scenes contained only an anonymous figure plus a sparse location entity.\n\nThe second bottleneck is orchestration: when the library pair selector returns no pair, the normal flow enters Qwen; when Qwen misses the liveness deadline or fails validation, bounded recovery supplies a small deterministic route/local pair. This is why the viewer sees a few familiar labels even though the catalogue is large. The repetition is therefore an eligibility/pair-selection bottleneck plus recovery dominance—not missing raw templates.\n\nThe existing 20-item display ledger also made exact labels unavailable across unrelated locations. That was corrected separately by scoping the library’s exact-label cooldown to the two-item near window. The post-fix run restored the library source, but the remaining semantic repeats in this historical trace are evidence that sparse manifests and recovery paths still limit long-horizon variety.\n\n## Ordered displayed options (oldest → newest)\n\n| # | Scene | Location | Source | Option 1 | Option 2 |\n|---:|---:|---|---|---|---|\n${rows}\n`;
+fs.writeFileSync("benchmark/OPTION_ENGINE_200_DISPLAYED_TRACE.md", report);
+console.log(JSON.stringify({ rounds: rounds.length, first: rounds[0]?.sceneId, last: rounds.at(-1)?.sceneId, uniqueLabels: labelCounts.size, uniquePairs: pairCounts.size, exactPairRepeats: repeatPairs, semanticPairRepeats: repeatSemantic, twoNavigationExhausted: twoNav, sources: Object.fromEntries(sources) }));

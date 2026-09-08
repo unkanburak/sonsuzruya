@@ -1,0 +1,723 @@
+{
+  "startedAt": "2026-08-30T13:21:43.331Z",
+  "base": "SDXL-Lightning 4-step 768x448",
+  "methods": {
+    "A": {
+      "config": {
+        "label": "vanilla",
+        "denoise": null
+      },
+      "runs": [
+        {
+          "success": true,
+          "latency": 2.6089906000000003,
+          "turn": 1,
+          "state": "The protagonist is standing on a foggy old bridge.",
+          "meta": {
+            "filename": "turn_01_1788096103371_1400000_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_01_1788096103371_1400000_00001_.png",
+          "bytes": 457282,
+          "seed": 1400000
+        },
+        {
+          "success": true,
+          "latency": 2.6007091000000004,
+          "turn": 2,
+          "state": "The protagonist is now beneath the same bridge beside a glowing brass lantern.",
+          "meta": {
+            "filename": "turn_02_1788096105982_1400101_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_02_1788096105982_1400101_00001_.png",
+          "bytes": 481536,
+          "seed": 1400101
+        },
+        {
+          "success": true,
+          "latency": 2.5981531999999996,
+          "turn": 3,
+          "state": "The protagonist is following a forest path away from the bridge.",
+          "meta": {
+            "filename": "turn_03_1788096108623_1400202_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_03_1788096108623_1400202_00001_.png",
+          "bytes": 474752,
+          "seed": 1400202
+        },
+        {
+          "success": true,
+          "latency": 2.642401599999999,
+          "turn": 4,
+          "state": "The protagonist is arriving at an abandoned red house in the same forest.",
+          "meta": {
+            "filename": "turn_04_1788096111225_1400303_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_04_1788096111225_1400303_00001_.png",
+          "bytes": 547327,
+          "seed": 1400303
+        },
+        {
+          "success": true,
+          "latency": 2.358052100000001,
+          "turn": 5,
+          "state": "The protagonist is now inside the red house in a wooden hallway.",
+          "meta": {
+            "filename": "turn_05_1788096113868_1400404_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_05_1788096113868_1400404_00001_.png",
+          "bytes": 570351,
+          "seed": 1400404
+        },
+        {
+          "success": true,
+          "latency": 2.608884100000001,
+          "turn": 6,
+          "state": "The protagonist is descending into the basement below the hallway.",
+          "meta": {
+            "filename": "turn_06_1788096116227_1400505_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_06_1788096116227_1400505_00001_.png",
+          "bytes": 477612,
+          "seed": 1400505
+        },
+        {
+          "success": true,
+          "latency": 2.3624775000000007,
+          "turn": 7,
+          "state": "The protagonist is standing beside a strange industrial machine in the basement.",
+          "meta": {
+            "filename": "turn_07_1788096118838_1400606_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_07_1788096118838_1400606_00001_.png",
+          "bytes": 464020,
+          "seed": 1400606
+        },
+        {
+          "success": true,
+          "latency": 2.6502907000000016,
+          "turn": 8,
+          "state": "The same machine is activated with cold blue light.",
+          "meta": {
+            "filename": "turn_08_1788096121202_1400707_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_08_1788096121202_1400707_00001_.png",
+          "bytes": 458319,
+          "seed": 1400707
+        },
+        {
+          "success": true,
+          "latency": 2.0910482999999984,
+          "turn": 9,
+          "state": "The same basement is now partially flooded with reflective water.",
+          "meta": {
+            "filename": "turn_09_1788096123855_1400808_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_09_1788096123855_1400808_00001_.png",
+          "bytes": 438726,
+          "seed": 1400808
+        },
+        {
+          "success": true,
+          "latency": 2.343170900000001,
+          "turn": 10,
+          "state": "The protagonist is entering a submerged tunnel from the flooded basement.",
+          "meta": {
+            "filename": "turn_10_1788096125947_1400909_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_10_1788096125947_1400909_00001_.png",
+          "bytes": 438962,
+          "seed": 1400909
+        },
+        {
+          "success": true,
+          "latency": 2.8363044999999985,
+          "turn": 11,
+          "state": "The protagonist is emerging into a surreal red foggy portal field.",
+          "meta": {
+            "filename": "turn_11_1788096128292_1401010_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_11_1788096128292_1401010_00001_.png",
+          "bytes": 446903,
+          "seed": 1401010
+        },
+        {
+          "success": true,
+          "latency": 2.375025099999999,
+          "turn": 12,
+          "state": "The protagonist is stepping through into a new landscape while retaining the same coat and silhouette.",
+          "meta": {
+            "filename": "turn_12_1788096131130_1401111_00001_.png",
+            "subfolder": "continuity_bakeoff\\A",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\A\\turn_12_1788096131130_1401111_00001_.png",
+          "bytes": 436047,
+          "seed": 1401111
+        }
+      ],
+      "success": 12,
+      "p50": 2.5981531999999996,
+      "p95": 2.8363044999999985
+    },
+    "B": {
+      "config": {
+        "label": "structured",
+        "denoise": null
+      },
+      "runs": [
+        {
+          "success": true,
+          "latency": 2.6360414999999993,
+          "turn": 1,
+          "state": "The protagonist is standing on a foggy old bridge.",
+          "meta": {
+            "filename": "turn_01_1788096133509_1450000_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_01_1788096133509_1450000_00001_.png",
+          "bytes": 469830,
+          "seed": 1450000
+        },
+        {
+          "success": true,
+          "latency": 2.3692448999999978,
+          "turn": 2,
+          "state": "The protagonist is now beneath the same bridge beside a glowing brass lantern.",
+          "meta": {
+            "filename": "turn_02_1788096136146_1450101_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_02_1788096136146_1450101_00001_.png",
+          "bytes": 434666,
+          "seed": 1450101
+        },
+        {
+          "success": true,
+          "latency": 2.9794343999999984,
+          "turn": 3,
+          "state": "The protagonist is following a forest path away from the bridge.",
+          "meta": {
+            "filename": "turn_03_1788096138516_1450202_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_03_1788096138516_1450202_00001_.png",
+          "bytes": 536424,
+          "seed": 1450202
+        },
+        {
+          "success": true,
+          "latency": 2.626189400000003,
+          "turn": 4,
+          "state": "The protagonist is arriving at an abandoned red house in the same forest.",
+          "meta": {
+            "filename": "turn_04_1788096141546_1450303_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_04_1788096141546_1450303_00001_.png",
+          "bytes": 508768,
+          "seed": 1450303
+        },
+        {
+          "success": true,
+          "latency": 2.617527399999999,
+          "turn": 5,
+          "state": "The protagonist is now inside the red house in a wooden hallway.",
+          "meta": {
+            "filename": "turn_05_1788096144174_1450404_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_05_1788096144174_1450404_00001_.png",
+          "bytes": 556279,
+          "seed": 1450404
+        },
+        {
+          "success": true,
+          "latency": 2.624292199999996,
+          "turn": 6,
+          "state": "The protagonist is descending into the basement below the hallway.",
+          "meta": {
+            "filename": "turn_06_1788096146794_1450505_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_06_1788096146794_1450505_00001_.png",
+          "bytes": 489270,
+          "seed": 1450505
+        },
+        {
+          "success": true,
+          "latency": 2.4593146000000052,
+          "turn": 7,
+          "state": "The protagonist is standing beside a strange industrial machine in the basement.",
+          "meta": {
+            "filename": "turn_07_1788096149421_1450606_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_07_1788096149421_1450606_00001_.png",
+          "bytes": 534706,
+          "seed": 1450606
+        },
+        {
+          "success": true,
+          "latency": 2.6255696000000026,
+          "turn": 8,
+          "state": "The same machine is activated with cold blue light.",
+          "meta": {
+            "filename": "turn_08_1788096151884_1450707_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_08_1788096151884_1450707_00001_.png",
+          "bytes": 484552,
+          "seed": 1450707
+        },
+        {
+          "success": true,
+          "latency": 2.360309700000005,
+          "turn": 9,
+          "state": "The same basement is now partially flooded with reflective water.",
+          "meta": {
+            "filename": "turn_09_1788096154511_1450808_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_09_1788096154511_1450808_00001_.png",
+          "bytes": 345804,
+          "seed": 1450808
+        },
+        {
+          "success": true,
+          "latency": 2.6053168000000007,
+          "turn": 10,
+          "state": "The protagonist is entering a submerged tunnel from the flooded basement.",
+          "meta": {
+            "filename": "turn_10_1788096156873_1450909_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_10_1788096156873_1450909_00001_.png",
+          "bytes": 439673,
+          "seed": 1450909
+        },
+        {
+          "success": true,
+          "latency": 2.8998213999999933,
+          "turn": 11,
+          "state": "The protagonist is emerging into a surreal red foggy portal field.",
+          "meta": {
+            "filename": "turn_11_1788096159482_1451010_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_11_1788096159482_1451010_00001_.png",
+          "bytes": 490603,
+          "seed": 1451010
+        },
+        {
+          "success": true,
+          "latency": 2.3677382,
+          "turn": 12,
+          "state": "The protagonist is stepping through into a new landscape while retaining the same coat and silhouette.",
+          "meta": {
+            "filename": "turn_12_1788096162383_1451111_00001_.png",
+            "subfolder": "continuity_bakeoff\\B",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\B\\turn_12_1788096162383_1451111_00001_.png",
+          "bytes": 438563,
+          "seed": 1451111
+        }
+      ],
+      "success": 12,
+      "p50": 2.617527399999999,
+      "p95": 2.9794343999999984
+    },
+    "C030": {
+      "config": {
+        "label": "img2img_030",
+        "denoise": 0.3
+      },
+      "runs": [
+        {
+          "success": true,
+          "latency": 2.879969100000002,
+          "turn": 1,
+          "state": "The protagonist is standing on a foggy old bridge.",
+          "meta": {
+            "filename": "turn_01_1788096164755_1490000_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_01_1788096164755_1490000_00001_.png",
+          "bytes": 431661,
+          "seed": 1490000
+        },
+        {
+          "success": true,
+          "latency": 2.6369939999999987,
+          "turn": 2,
+          "state": "The protagonist is now beneath the same bridge beside a glowing brass lantern.",
+          "meta": {
+            "filename": "turn_02_1788096167645_1490101_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_02_1788096167645_1490101_00001_.png",
+          "bytes": 448531,
+          "seed": 1490101
+        },
+        {
+          "success": true,
+          "latency": 2.7558266999999903,
+          "turn": 3,
+          "state": "The protagonist is following a forest path away from the bridge.",
+          "meta": {
+            "filename": "turn_03_1788096170286_1490202_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_03_1788096170286_1490202_00001_.png",
+          "bytes": 471444,
+          "seed": 1490202
+        },
+        {
+          "success": true,
+          "latency": 2.359517300000007,
+          "turn": 4,
+          "state": "The protagonist is arriving at an abandoned red house in the same forest.",
+          "meta": {
+            "filename": "turn_04_1788096173045_1490303_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_04_1788096173045_1490303_00001_.png",
+          "bytes": 497446,
+          "seed": 1490303
+        },
+        {
+          "success": true,
+          "latency": 2.3840606000000117,
+          "turn": 5,
+          "state": "The protagonist is now inside the red house in a wooden hallway.",
+          "meta": {
+            "filename": "turn_05_1788096175407_1490404_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_05_1788096175407_1490404_00001_.png",
+          "bytes": 516183,
+          "seed": 1490404
+        },
+        {
+          "success": true,
+          "latency": 2.141724700000006,
+          "turn": 6,
+          "state": "The protagonist is descending into the basement below the hallway.",
+          "meta": {
+            "filename": "turn_06_1788096177798_1490505_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_06_1788096177798_1490505_00001_.png",
+          "bytes": 540697,
+          "seed": 1490505
+        },
+        {
+          "success": true,
+          "latency": 2.350410799999998,
+          "turn": 7,
+          "state": "The protagonist is standing beside a strange industrial machine in the basement.",
+          "meta": {
+            "filename": "turn_07_1788096179944_1490606_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_07_1788096179944_1490606_00001_.png",
+          "bytes": 554556,
+          "seed": 1490606
+        },
+        {
+          "success": true,
+          "latency": 2.3578574999999984,
+          "turn": 8,
+          "state": "The same machine is activated with cold blue light.",
+          "meta": {
+            "filename": "turn_08_1788096182297_1490707_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_08_1788096182297_1490707_00001_.png",
+          "bytes": 570076,
+          "seed": 1490707
+        },
+        {
+          "success": true,
+          "latency": 2.5950144,
+          "turn": 9,
+          "state": "The same basement is now partially flooded with reflective water.",
+          "meta": {
+            "filename": "turn_09_1788096184658_1490808_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_09_1788096184658_1490808_00001_.png",
+          "bytes": 578901,
+          "seed": 1490808
+        },
+        {
+          "success": true,
+          "latency": 2.6095907000000005,
+          "turn": 10,
+          "state": "The protagonist is entering a submerged tunnel from the flooded basement.",
+          "meta": {
+            "filename": "turn_10_1788096187257_1490909_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_10_1788096187257_1490909_00001_.png",
+          "bytes": 594384,
+          "seed": 1490909
+        },
+        {
+          "success": true,
+          "latency": 2.324685599999997,
+          "turn": 11,
+          "state": "The protagonist is emerging into a surreal red foggy portal field.",
+          "meta": {
+            "filename": "turn_11_1788096189869_1491010_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_11_1788096189869_1491010_00001_.png",
+          "bytes": 601226,
+          "seed": 1491010
+        },
+        {
+          "success": true,
+          "latency": 2.527959400000007,
+          "turn": 12,
+          "state": "The protagonist is stepping through into a new landscape while retaining the same coat and silhouette.",
+          "meta": {
+            "filename": "turn_12_1788096192203_1491111_00001_.png",
+            "subfolder": "continuity_bakeoff\\C030",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C030\\turn_12_1788096192203_1491111_00001_.png",
+          "bytes": 607591,
+          "seed": 1491111
+        }
+      ],
+      "success": 12,
+      "p50": 2.3840606000000117,
+      "p95": 2.879969100000002
+    },
+    "C045": {
+      "config": {
+        "label": "img2img_045",
+        "denoise": 0.45
+      },
+      "runs": [
+        {
+          "success": true,
+          "latency": 2.618776899999997,
+          "turn": 1,
+          "state": "The protagonist is standing on a foggy old bridge.",
+          "meta": {
+            "filename": "turn_01_1788096194736_1490000_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_01_1788096194736_1490000_00001_.png",
+          "bytes": 443580,
+          "seed": 1490000
+        },
+        {
+          "success": true,
+          "latency": 3.107561799999996,
+          "turn": 2,
+          "state": "The protagonist is now beneath the same bridge beside a glowing brass lantern.",
+          "meta": {
+            "filename": "turn_02_1788096197360_1490101_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_02_1788096197360_1490101_00001_.png",
+          "bytes": 446363,
+          "seed": 1490101
+        },
+        {
+          "success": true,
+          "latency": 2.428033200000005,
+          "turn": 3,
+          "state": "The protagonist is following a forest path away from the bridge.",
+          "meta": {
+            "filename": "turn_03_1788096200470_1490202_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_03_1788096200470_1490202_00001_.png",
+          "bytes": 459076,
+          "seed": 1490202
+        },
+        {
+          "success": true,
+          "latency": 2.720855199999991,
+          "turn": 4,
+          "state": "The protagonist is arriving at an abandoned red house in the same forest.",
+          "meta": {
+            "filename": "turn_04_1788096202902_1490303_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_04_1788096202902_1490303_00001_.png",
+          "bytes": 483784,
+          "seed": 1490303
+        },
+        {
+          "success": true,
+          "latency": 2.3880620000000055,
+          "turn": 5,
+          "state": "The protagonist is now inside the red house in a wooden hallway.",
+          "meta": {
+            "filename": "turn_05_1788096205628_1490404_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_05_1788096205628_1490404_00001_.png",
+          "bytes": 502036,
+          "seed": 1490404
+        },
+        {
+          "success": true,
+          "latency": 2.382288199999995,
+          "turn": 6,
+          "state": "The protagonist is descending into the basement below the hallway.",
+          "meta": {
+            "filename": "turn_06_1788096208019_1490505_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_06_1788096208019_1490505_00001_.png",
+          "bytes": 532021,
+          "seed": 1490505
+        },
+        {
+          "success": true,
+          "latency": 2.333154500000004,
+          "turn": 7,
+          "state": "The protagonist is standing beside a strange industrial machine in the basement.",
+          "meta": {
+            "filename": "turn_07_1788096210404_1490606_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_07_1788096210404_1490606_00001_.png",
+          "bytes": 533963,
+          "seed": 1490606
+        },
+        {
+          "success": true,
+          "latency": 2.849078600000008,
+          "turn": 8,
+          "state": "The same machine is activated with cold blue light.",
+          "meta": {
+            "filename": "turn_08_1788096212739_1490707_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_08_1788096212739_1490707_00001_.png",
+          "bytes": 544532,
+          "seed": 1490707
+        },
+        {
+          "success": true,
+          "latency": 2.368489399999991,
+          "turn": 9,
+          "state": "The same basement is now partially flooded with reflective water.",
+          "meta": {
+            "filename": "turn_09_1788096215591_1490808_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_09_1788096215591_1490808_00001_.png",
+          "bytes": 553093,
+          "seed": 1490808
+        },
+        {
+          "success": true,
+          "latency": 2.6136705999999976,
+          "turn": 10,
+          "state": "The protagonist is entering a submerged tunnel from the flooded basement.",
+          "meta": {
+            "filename": "turn_10_1788096217961_1490909_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_10_1788096217961_1490909_00001_.png",
+          "bytes": 558892,
+          "seed": 1490909
+        },
+        {
+          "success": true,
+          "latency": 2.663340200000006,
+          "turn": 11,
+          "state": "The protagonist is emerging into a surreal red foggy portal field.",
+          "meta": {
+            "filename": "turn_11_1788096220582_1491010_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_11_1788096220582_1491010_00001_.png",
+          "bytes": 564801,
+          "seed": 1491010
+        },
+        {
+          "success": true,
+          "latency": 2.7142274999999936,
+          "turn": 12,
+          "state": "The protagonist is stepping through into a new landscape while retaining the same coat and silhouette.",
+          "meta": {
+            "filename": "turn_12_1788096223248_1491111_00001_.png",
+            "subfolder": "continuity_bakeoff\\C045",
+            "type": "output"
+          },
+          "resolved": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_bakeoff\\C045\\turn_12_1788096223248_1491111_00001_.png",
+          "bytes": 564982,
+          "seed": 1491111
+        }
+      ],
+      "success": 12,
+      "p50": 2.6136705999999976,
+      "p95": 3.107561799999996
+    }
+  },
+  "finishedAt": "2026-08-30T13:23:45.963Z"
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "case": 1,
+    "archetype": "shadow",
+    "entities": [
+      "figure",
+      "light",
+      "shadow"
+    ],
+    "result": "The anonymous figure is now beside the bridge.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "low_pressure"
+  },
+  {
+    "case": 2,
+    "archetype": "persona",
+    "entities": [
+      "figure",
+      "window",
+      "reflection"
+    ],
+    "result": "The figure is now facing the window.",
+    "applied": true,
+    "motif_family": "glass_mismatch",
+    "hint": "The existing reflection is subtly misaligned with the figure's turned body.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 3,
+    "archetype": "trickster",
+    "entities": [
+      "machine"
+    ],
+    "result": "The machine is now running.",
+    "applied": true,
+    "motif_family": "machine_geometry",
+    "hint": "The existing machine's visible geometry appears subtly impossible while remaining recognizably the same machine.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 4,
+    "archetype": "self",
+    "entities": [
+      "room",
+      "light",
+      "path"
+    ],
+    "result": "The room is now illuminated from the center.",
+    "applied": true,
+    "motif_family": "converging_lines",
+    "hint": "The established paths and edges appear to converge gently toward the scene's center.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 5,
+    "archetype": "wise_figure",
+    "entities": [
+      "figure",
+      "light"
+    ],
+    "result": "The figure is now near the established path.",
+    "applied": true,
+    "motif_family": "figure_stillness",
+    "hint": "The existing figure becomes a quiet, steady focal point within the same scene.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 6,
+    "archetype": "persona",
+    "entities": [
+      "bare_ground"
+    ],
+    "result": "The ground remains unchanged.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "low_pressure"
+  },
+  {
+    "case": 7,
+    "archetype": "shadow",
+    "entities": [
+      "figure",
+      "light",
+      "shadow"
+    ],
+    "result": "The anonymous figure is now beside the bridge.",
+    "applied": true,
+    "motif_family": "figure_shadow",
+    "hint": "The existing figure casts a slightly longer, unreadable shadow across the same surface.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 8,
+    "archetype": "persona",
+    "entities": [
+      "figure",
+      "window",
+      "reflection"
+    ],
+    "result": "The figure is now facing the window.",
+    "applied": true,
+    "motif_family": "glass_mismatch",
+    "hint": "The existing reflection is subtly misaligned with the figure's turned body.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 9,
+    "archetype": "trickster",
+    "entities": [
+      "machine"
+    ],
+    "result": "The machine is now running.",
+    "applied": true,
+    "motif_family": "machine_geometry",
+    "hint": "The existing machine's visible geometry appears subtly impossible while remaining recognizably the same machine.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 10,
+    "archetype": "self",
+    "entities": [
+      "room",
+      "light",
+      "path"
+    ],
+    "result": "The room is now illuminated from the center.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "deterministic_gate"
+  },
+  {
+    "case": 11,
+    "archetype": "wise_figure",
+    "entities": [
+      "figure",
+      "light"
+    ],
+    "result": "The figure is now near the established path.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "low_pressure"
+  },
+  {
+    "case": 12,
+    "archetype": "persona",
+    "entities": [
+      "bare_ground"
+    ],
+    "result": "The ground remains unchanged.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "no_grounded_affordance"
+  },
+  {
+    "case": 13,
+    "archetype": "shadow",
+    "entities": [
+      "figure",
+      "light",
+      "shadow"
+    ],
+    "result": "The anonymous figure is now beside the bridge.",
+    "applied": true,
+    "motif_family": "light_edge",
+    "hint": "The existing light leaves a denser, harder-to-read edge in the same scene.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 14,
+    "archetype": "persona",
+    "entities": [
+      "figure",
+      "window",
+      "reflection"
+    ],
+    "result": "The figure is now facing the window.",
+    "applied": true,
+    "motif_family": "reflection_face",
+    "hint": "The existing figure's face becomes unreadable in the available reflection.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 15,
+    "archetype": "trickster",
+    "entities": [
+      "machine"
+    ],
+    "result": "The machine is now running.",
+    "applied": true,
+    "motif_family": "machine_geometry",
+    "hint": "The existing machine's visible geometry appears subtly impossible while remaining recognizably the same machine.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 16,
+    "archetype": "self",
+    "entities": [
+      "room",
+      "light",
+      "path"
+    ],
+    "result": "The room is now illuminated from the center.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "low_pressure"
+  },
+  {
+    "case": 17,
+    "archetype": "wise_figure",
+    "entities": [
+      "figure",
+      "light"
+    ],
+    "result": "The figure is now near the established path.",
+    "applied": true,
+    "motif_family": "figure_stillness",
+    "hint": "The existing figure becomes a quiet, steady focal point within the same scene.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 18,
+    "archetype": "persona",
+    "entities": [
+      "bare_ground"
+    ],
+    "result": "The ground remains unchanged.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "no_grounded_affordance"
+  },
+  {
+    "case": 19,
+    "archetype": "shadow",
+    "entities": [
+      "figure",
+      "light",
+      "shadow"
+    ],
+    "result": "The anonymous figure is now beside the bridge.",
+    "applied": true,
+    "motif_family": "figure_shadow",
+    "hint": "The existing figure casts a slightly longer, unreadable shadow across the same surface.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 20,
+    "archetype": "persona",
+    "entities": [
+      "figure",
+      "window",
+      "reflection"
+    ],
+    "result": "The figure is now facing the window.",
+    "applied": true,
+    "motif_family": "glass_mismatch",
+    "hint": "The existing reflection is subtly misaligned with the figure's turned body.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 21,
+    "archetype": "trickster",
+    "entities": [
+      "machine"
+    ],
+    "result": "The machine is now running.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "low_pressure"
+  },
+  {
+    "case": 22,
+    "archetype": "self",
+    "entities": [
+      "room",
+      "light",
+      "path"
+    ],
+    "result": "The room is now illuminated from the center.",
+    "applied": true,
+    "motif_family": "converging_lines",
+    "hint": "The established paths and edges appear to converge gently toward the scene's center.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 23,
+    "archetype": "wise_figure",
+    "entities": [
+      "figure",
+      "light"
+    ],
+    "result": "The figure is now near the established path.",
+    "applied": true,
+    "motif_family": "figure_guidance",
+    "hint": "The existing figure settles near the established light or route, still anonymous and unreadable.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 24,
+    "archetype": "persona",
+    "entities": [
+      "bare_ground"
+    ],
+    "result": "The ground remains unchanged.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "no_grounded_affordance"
+  },
+  {
+    "case": 25,
+    "archetype": "shadow",
+    "entities": [
+      "figure",
+      "light",
+      "shadow"
+    ],
+    "result": "The anonymous figure is now beside the bridge.",
+    "applied": true,
+    "motif_family": "light_edge",
+    "hint": "The existing light leaves a denser, harder-to-read edge in the same scene.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 26,
+    "archetype": "persona",
+    "entities": [
+      "figure",
+      "window",
+      "reflection"
+    ],
+    "result": "The figure is now facing the window.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "low_pressure"
+  },
+  {
+    "case": 27,
+    "archetype": "trickster",
+    "entities": [
+      "machine"
+    ],
+    "result": "The machine is now running.",
+    "applied": true,
+    "motif_family": "machine_geometry",
+    "hint": "The existing machine's visible geometry appears subtly impossible while remaining recognizably the same machine.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 28,
+    "archetype": "self",
+    "entities": [
+      "room",
+      "light",
+      "path"
+    ],
+    "result": "The room is now illuminated from the center.",
+    "applied": true,
+    "motif_family": "centered_light",
+    "hint": "The existing lines and light settle into a more balanced central focus.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 29,
+    "archetype": "wise_figure",
+    "entities": [
+      "figure",
+      "light"
+    ],
+    "result": "The figure is now near the established path.",
+    "applied": true,
+    "motif_family": "figure_guidance",
+    "hint": "The existing figure settles near the established light or route, still anonymous and unreadable.",
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "applied"
+  },
+  {
+    "case": 30,
+    "archetype": "persona",
+    "entities": [
+      "bare_ground"
+    ],
+    "result": "The ground remains unchanged.",
+    "applied": false,
+    "motif_family": null,
+    "hint": null,
+    "invented_entity": false,
+    "result_state_conflict": false,
+    "reason": "no_grounded_affordance"
+  }
+]

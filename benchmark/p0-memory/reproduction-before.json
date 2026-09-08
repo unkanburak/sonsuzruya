@@ -1,0 +1,50 @@
+{
+  "machine_on_then_touched": {
+    "machine": "touched",
+    "figure": "far"
+  },
+  "machine_on_then_far": {
+    "machine": "far",
+    "figure": "far"
+  },
+  "front_door_open_then_basement_door": {
+    "door": "open",
+    "light": "steady",
+    "figure": "far"
+  },
+  "prompt_uses_old_story": true,
+  "optional_reproduction": {
+    "template": {
+      "id": "light_follow",
+      "label_tr": "Parıltıyı takip et",
+      "label_en": "Follow the light",
+      "category": "observation",
+      "behavior_family": "follow",
+      "psychological_vector": "follow",
+      "required_tags": [
+        "light"
+      ],
+      "optional_tags": [
+        "glow"
+      ],
+      "forbidden_tags": [],
+      "route_type": "scene_local",
+      "visible_consequence": "The established light now leads the eye across the scene",
+      "mutation": {
+        "target_entity": "light",
+        "from_state": null,
+        "to_state": "leading",
+        "opens": [],
+        "closes": [
+          "light_follow"
+        ]
+      }
+    },
+    "tags": [
+      "light",
+      "glow"
+    ],
+    "requiredPass": true,
+    "rejectedByCurrentOptionalExpression": true
+  }
+}

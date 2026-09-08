@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-09-02T17:36:15.782Z",
+  "scope": "Isolated generateOptions ATTEMPT 0 only; production services/config unchanged.",
+  "stateSource": "/C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/state/current.json",
+  "calls": 3,
+  "classificationCounts": {
+    "PREMATURE_STOP": 3
+  },
+  "rows": [
+    {
+      "call": 1,
+      "latencyMs": 4908,
+      "request": {
+        "max_tokens": 80,
+        "stop": "<OMITTED>",
+        "temperature": 0.35,
+        "requestedCandidateCount": 2
+      },
+      "response": {
+        "httpStatus": 200,
+        "finish_reason": "stop",
+        "outputTokenCount": 46,
+        "messageContent": "{\"c\":[[\"çatlak yolda ilerle\",\"the cracked path is now visible\",\"front_path\"],[\"ağacın gölgesini izle\",\"the tree's shadow is now visible\",\"red_house\"]}"
+      },
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 1,
+      "classification": "PREMATURE_STOP",
+      "attempt1NetworkRequests": 1,
+      "note": "ATTEMPT 1 was blocked locally and never sent to Qwen."
+    },
+    {
+      "call": 2,
+      "latencyMs": 4823,
+      "request": {
+        "max_tokens": 80,
+        "stop": "<OMITTED>",
+        "temperature": 0.35,
+        "requestedCandidateCount": 2
+      },
+      "response": {
+        "httpStatus": 200,
+        "finish_reason": "stop",
+        "outputTokenCount": 46,
+        "messageContent": "{\"c\":[[\"çatlak yolda ilerle\",\"the cracked path is now visible\",\"front_path\"],[\"ağacın gölgesini izle\",\"the tree's shadow is now visible\",\"red_house\"]}"
+      },
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 1,
+      "classification": "PREMATURE_STOP",
+      "attempt1NetworkRequests": 1,
+      "note": "ATTEMPT 1 was blocked locally and never sent to Qwen."
+    },
+    {
+      "call": 3,
+      "latencyMs": 4889,
+      "request": {
+        "max_tokens": 80,
+        "stop": "<OMITTED>",
+        "temperature": 0.35,
+        "requestedCandidateCount": 2
+      },
+      "response": {
+        "httpStatus": 200,
+        "finish_reason": "stop",
+        "outputTokenCount": 46,
+        "messageContent": "{\"c\":[[\"çatlak yolda ilerle\",\"the cracked path is now visible\",\"front_path\"],[\"ağacın gölgesini izle\",\"the tree's shadow is now visible\",\"red_house\"]}"
+      },
+      "parseJsonObjectPrefix": null,
+      "parseJsonObjectPrefixSucceeded": false,
+      "candidatePairsInParsedPrefix": 0,
+      "candidatePairsRecovered": 1,
+      "classification": "PREMATURE_STOP",
+      "attempt1NetworkRequests": 1,
+      "note": "ATTEMPT 1 was blocked locally and never sent to Qwen."
+    }
+  ]
+}

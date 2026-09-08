@@ -1,0 +1,52 @@
+{
+  "capturedAt": "2026-08-30T12:50:33.1319806+03:00",
+  "processes": [
+    {
+      "ProcessId": 17332,
+      "ParentProcessId": 26200,
+      "Name": "node_repl.exe",
+      "CommandLine": "\"C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node_repl.exe\"",
+      "ExecutablePath": "C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node_repl.exe"
+    },
+    {
+      "ProcessId": 18724,
+      "ParentProcessId": 16652,
+      "Name": "node.exe",
+      "CommandLine": "\"C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node.exe\"  ./server.mjs",
+      "ExecutablePath": "C:\\Users\\burak\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e4d75eceaa042f20\\bin\\node.exe"
+    },
+    {
+      "ProcessId": 18312,
+      "ParentProcessId": 28300,
+      "Name": "python.exe",
+      "CommandLine": "\"D:\\InfiniteAILive\\ComfyUI_windows_portable\\python_embeded\\python.exe\" -s ComfyUI\\main.py --windows-standalone-build --listen 127.0.0.1 --port 8188 --user-directory \"C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-user\\user\" --temp-directory \"C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-user\\temp\" --output-directory \"C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\"",
+      "ExecutablePath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\python_embeded\\python.exe"
+    },
+    {
+      "ProcessId": 10176,
+      "ParentProcessId": 25616,
+      "Name": "node.exe",
+      "CommandLine": "\"C:\\Program Files\\nodejs\\node.exe\" mobile-download-server.mjs",
+      "ExecutablePath": "C:\\Program Files\\nodejs\\node.exe"
+    },
+    {
+      "ProcessId": 10568,
+      "ParentProcessId": 24244,
+      "Name": "node.exe",
+      "CommandLine": "\"C:\\Program Files\\nodejs\\node.exe\" app/server.mjs",
+      "ExecutablePath": "C:\\Program Files\\nodejs\\node.exe"
+    }
+  ],
+  "health": {
+    "p8188": {
+      "status": 200,
+      "body": "{\"system\": {\"os\": \"win32\", \"ram_total\": 34189312000, \"ram_free\": 6152466432, \"comfyui_version\": \"0.34.0\", \"required_frontend_version\": \"1.49.6\", \"installed_templates_version\": \"0.11.48\", \"required_templates_version\": \"0.11.48\", \"comfy_package_versions\": [{\"name\": \"comfyui-frontend-package\", \"install"
+    },
+    "p8191": "down",
+    "p8192": "down"
+  },
+  "config": "{\n  \"port\": 3000,\n  \"voteSeconds\": 6,\n  \"resultDisplayMs\": 1500,\n  \"qwenTimeoutMs\": 8000,\n  \"generationTimeoutMs\": 120000,\n  \"qwenUrl\": \"http://127.0.0.1:8080\",\n  \"comfyUrl\": \"http://127.0.0.1:8188\",\n  \"animatediffUrl\": \"http://127.0.0.1:8191\",\n  \"comfyRoot\": \"D:\\\\InfiniteAILive\\\\ComfyUI_windows_portable\\\\ComfyUI\",\n  \"comfyOutputRoot\": \"C:\\\\Users\\\\burak\\\\OneDrive\\\\Desktop\\\\SONSUZ YAYIN\\\\runtime\\\\comfy8188-output\",\n  \"initialInput\": \"seed.png\",\n  \"imageResetInterval\": 1,\n  \"imageProfile\": {\n    \"checkpoint\": \"sdxl_lightning_4step.safetensors\",\n    \"width\": 768,\n    \"height\": 448,\n    \"steps\": 4,\n    \"cfg\": 1,\n    \"sampler\": \"euler\",\n    \"scheduler\": \"sgm_uniform\",\n    \"continuityMode\": \"TEXT_ANCHOR\",\n    \"denoise\": 0.55\n  },\n  \"animatediff\": {\n    \"enabled\": false,\n    \"timeoutMs\": 10000,\n    \"maxDelayAfterStaticMs\": 10000,\n    \"checkpoint\": \"DreamShaper_8_pruned.safetensors\",\n    \"motionModel\": \"animatediff_lightning_2step_comfyui.safetensors\",\n    \"width\": 384,\n    \"height\": 224,\n    \"frames\": 16,\n    \"fps\": 8,\n    \"steps\": 2,\n    \"cfg\": 1,\n    \"denoise\": 0.55\n  }\n}\n",
+  "animatediffEnabled": "false",
+  "youtube": "off",
+  "imageMotion": "active"
+}

@@ -1,0 +1,3757 @@
+{
+  "rows": [
+    {
+      "chain": "machine-1",
+      "step": 3,
+      "id": "machine-1-step3",
+      "seed": 860003,
+      "previous": {
+        "current_location": "basement",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "underground basement",
+          "basement",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The established machine is now glowing with blue light",
+            "ttl": 1
+          },
+          {
+            "text": "A thin light line is now visible across the established machine",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established basement",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The established machine is now glowing with blue light",
+          "A thin light line is now visible across the established machine",
+          "The figure is now in the established basement"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "LIGHT_EFFECT",
+          "MECHANICAL"
+        ],
+        "recent_compositions": [
+          "object_interaction_close",
+          "object_profile",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "basement",
+          "entities": [
+            "underground basement",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "basement_door",
+            "machine_room"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established basement",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "machine_room": {
+            "machine": {
+              "power": "on"
+            }
+          }
+        }
+      },
+      "winner": "Enter machine_room",
+      "consequence": "The figure is now in the established machine room",
+      "statePatch": {
+        "current_location": "machine_room",
+        "result_summary": "The figure is now in the established machine room",
+        "recent_event": "The figure is now in the established machine room",
+        "scene_anchors": [
+          "The figure is now in the established machine room"
+        ]
+      },
+      "committedState": {
+        "current_location": "machine_room",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "machine",
+          "machine_room",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "A thin light line is now visible across the established machine",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established basement",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established machine room",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The established machine is now glowing with blue light",
+          "A thin light line is now visible across the established machine",
+          "The figure is now in the established basement",
+          "The figure is now in the established machine room"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "LIGHT_EFFECT",
+          "MECHANICAL",
+          "DOMESTIC"
+        ],
+        "recent_compositions": [
+          "object_interaction_close",
+          "object_profile",
+          "medium_profile",
+          "object_partial"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "machine_room",
+          "entities": [
+            "machine room",
+            "machine",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "basement",
+            "control_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "machine": "on"
+          },
+          "summary": "The figure is now in the established machine room",
+          "entity_physical_states": {
+            "machine": {
+              "power": "on"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "machine_room": {
+            "machine": {
+              "power": "on"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established machine is powered on.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 156,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\machine-1-step3.png",
+      "promptId": "443d72c9-b857-46ca-ba72-a11f2db1a634",
+      "history": {
+        "prompt": [
+          2903,
+          "443d72c9-b857-46ca-ba72-a11f2db1a634",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860003,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/machine-1-step3_1788565863802"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565863808
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "machine-1-step3_1788565863802_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "443d72c9-b857-46ca-ba72-a11f2db1a634",
+                "timestamp": 1788565863811
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "443d72c9-b857-46ca-ba72-a11f2db1a634",
+                "timestamp": 1788565863813
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "443d72c9-b857-46ca-ba72-a11f2db1a634",
+                "timestamp": 1788565866108
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860003,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/machine-1-step3_1788565863802"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\machine-1-step3.png"
+    },
+    {
+      "chain": "door-1",
+      "step": 7,
+      "id": "door-1-step7",
+      "seed": 860107,
+      "previous": {
+        "current_location": "red_house_doorstep",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "red_house_doorstep",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The threshold holds the figure in place",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house doorstep",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "The established front door is now open",
+          "The figure is now in the established basement door",
+          "The threshold holds the figure in place",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established red house doorstep"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "THRESHOLD"
+        ],
+        "recent_compositions": [
+          "wide_asymmetric",
+          "partial_architecture",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "open"
+          },
+          "summary": "The figure is now in the established red house doorstep",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "basement_door": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "winner": "Enter red_house_exterior",
+      "consequence": "The figure is now in the established red house exterior",
+      "statePatch": {
+        "current_location": "red_house_exterior",
+        "result_summary": "The figure is now in the established red house exterior",
+        "recent_event": "The figure is now in the established red house exterior",
+        "scene_anchors": [
+          "The figure is now in the established red house exterior"
+        ]
+      },
+      "committedState": {
+        "current_location": "red_house_exterior",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "bare tree",
+          "red_house_exterior",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established red house doorstep",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house exterior",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "The established front door is now open",
+          "The figure is now in the established basement door",
+          "The threshold holds the figure in place",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established red house doorstep",
+          "The figure is now in the established red house exterior"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "THRESHOLD"
+        ],
+        "recent_compositions": [
+          "wide_asymmetric",
+          "partial_architecture",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "open"
+          },
+          "summary": "The figure is now in the established red house exterior",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "basement_door": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established door is open.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 149,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\door-1-step7.png",
+      "promptId": "3070637d-ee2d-40bf-8938-8e45b104b0dd",
+      "history": {
+        "prompt": [
+          2904,
+          "3070637d-ee2d-40bf-8938-8e45b104b0dd",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860107,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/door-1-step7_1788565866196"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565866200
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "door-1-step7_1788565866196_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "3070637d-ee2d-40bf-8938-8e45b104b0dd",
+                "timestamp": 1788565866202
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "3070637d-ee2d-40bf-8938-8e45b104b0dd",
+                "timestamp": 1788565866203
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "3070637d-ee2d-40bf-8938-8e45b104b0dd",
+                "timestamp": 1788565868618
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860107,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/door-1-step7_1788565866196"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\door-1-step7.png"
+    },
+    {
+      "chain": "location-1",
+      "step": 2,
+      "id": "location-1-step2",
+      "seed": 860202,
+      "previous": {
+        "current_location": "hidden_tunnel",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "hidden_tunnel",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established control room",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established hidden tunnel",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The figure is now in the established control room",
+          "The figure is now in the established hidden tunnel"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "DOMESTIC",
+          "PASSAGE"
+        ],
+        "recent_compositions": [
+          "medium_profile",
+          "wide_asymmetric"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "hidden_tunnel",
+          "entities": [
+            "hidden tunnel",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "control_room",
+            "alley_mouth"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established hidden tunnel",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "winner": "Enter control_room",
+      "consequence": "The figure is now in the established control room",
+      "statePatch": {
+        "current_location": "control_room",
+        "result_summary": "The figure is now in the established control room",
+        "recent_event": "The figure is now in the established control room",
+        "scene_anchors": [
+          "The figure is now in the established control room"
+        ]
+      },
+      "committedState": {
+        "current_location": "control_room",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "control room panel",
+          "control_room",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established hidden tunnel",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established control room",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The figure is now in the established hidden tunnel",
+          "The figure is now in the established control room"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "PASSAGE",
+          "DOMESTIC"
+        ],
+        "recent_compositions": [
+          "medium_profile",
+          "wide_asymmetric",
+          "partial_architecture"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "control_room",
+          "entities": [
+            "control room panel",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "machine_room",
+            "hidden_tunnel"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established control room",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "physicalFacts": "",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established control room. MUST SHOW: The figure is now in the established control room. COMMITTED SCENE: control room; established entities: control room panel, anonymous figure. PERSISTENT PHYSICAL FACTS: No additional physical state established. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established control room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 152,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\location-1-step2.png",
+      "promptId": "c090f457-cb00-47ce-94e1-e6f32aa3ff85",
+      "history": {
+        "prompt": [
+          2905,
+          "c090f457-cb00-47ce-94e1-e6f32aa3ff85",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established control room. MUST SHOW: The figure is now in the established control room. COMMITTED SCENE: control room; established entities: control room panel, anonymous figure. PERSISTENT PHYSICAL FACTS: No additional physical state established. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established control room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860202,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/location-1-step2_1788565868844"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565868848
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "location-1-step2_1788565868844_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "c090f457-cb00-47ce-94e1-e6f32aa3ff85",
+                "timestamp": 1788565868851
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "c090f457-cb00-47ce-94e1-e6f32aa3ff85",
+                "timestamp": 1788565868853
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "c090f457-cb00-47ce-94e1-e6f32aa3ff85",
+                "timestamp": 1788565871034
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established control room. MUST SHOW: The figure is now in the established control room. COMMITTED SCENE: control room; established entities: control room panel, anonymous figure. PERSISTENT PHYSICAL FACTS: No additional physical state established. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established control room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860202,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/location-1-step2_1788565868844"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\location-1-step2.png"
+    },
+    {
+      "chain": "machine-2",
+      "step": 3,
+      "id": "machine-2-step3",
+      "seed": 860303,
+      "previous": {
+        "current_location": "basement",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "underground basement",
+          "basement",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The established machine is now glowing with blue light",
+            "ttl": 1
+          },
+          {
+            "text": "The established machine is now farther behind the figure",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established basement",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The established machine is now glowing with blue light",
+          "The established machine is now farther behind the figure",
+          "The figure is now in the established basement"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "LIGHT_EFFECT",
+          "MECHANICAL"
+        ],
+        "recent_compositions": [
+          "object_interaction_close",
+          "object_profile",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "basement",
+          "entities": [
+            "underground basement",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "basement_door",
+            "machine_room"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established basement",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "machine_room": {
+            "machine": {
+              "power": "on"
+            }
+          }
+        }
+      },
+      "winner": "Enter machine_room",
+      "consequence": "The figure is now in the established machine room",
+      "statePatch": {
+        "current_location": "machine_room",
+        "result_summary": "The figure is now in the established machine room",
+        "recent_event": "The figure is now in the established machine room",
+        "scene_anchors": [
+          "The figure is now in the established machine room"
+        ]
+      },
+      "committedState": {
+        "current_location": "machine_room",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "machine",
+          "machine_room",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The established machine is now farther behind the figure",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established basement",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established machine room",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The established machine is now glowing with blue light",
+          "The established machine is now farther behind the figure",
+          "The figure is now in the established basement",
+          "The figure is now in the established machine room"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "LIGHT_EFFECT",
+          "MECHANICAL",
+          "DOMESTIC"
+        ],
+        "recent_compositions": [
+          "object_interaction_close",
+          "object_profile",
+          "medium_profile",
+          "object_partial"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "machine_room",
+          "entities": [
+            "machine room",
+            "machine",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "basement",
+            "control_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "machine": "on"
+          },
+          "summary": "The figure is now in the established machine room",
+          "entity_physical_states": {
+            "machine": {
+              "power": "on"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "machine_room": {
+            "machine": {
+              "power": "on"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established machine is powered on.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 156,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\machine-2-step3.png",
+      "promptId": "cac2dba0-6f95-41dc-897b-b51ac5548245",
+      "history": {
+        "prompt": [
+          2907,
+          "cac2dba0-6f95-41dc-897b-b51ac5548245",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860303,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/machine-2-step3_1788565873643"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565873645
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "machine-2-step3_1788565873643_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "cac2dba0-6f95-41dc-897b-b51ac5548245",
+                "timestamp": 1788565873647
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "cac2dba0-6f95-41dc-897b-b51ac5548245",
+                "timestamp": 1788565873648
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "cac2dba0-6f95-41dc-897b-b51ac5548245",
+                "timestamp": 1788565875736
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860303,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/machine-2-step3_1788565873643"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\machine-2-step3.png"
+    },
+    {
+      "chain": "door-2",
+      "step": 7,
+      "id": "door-2-step7",
+      "seed": 860407,
+      "previous": {
+        "current_location": "red_house_doorstep",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "red_house_doorstep",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The established door is now directly before the figure",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house doorstep",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "The established front door is now open",
+          "The figure is now in the established basement door",
+          "The established door is now directly before the figure",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established red house doorstep"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "THRESHOLD"
+        ],
+        "recent_compositions": [
+          "wide_asymmetric",
+          "partial_architecture",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "open"
+          },
+          "summary": "The figure is now in the established red house doorstep",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "basement_door": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "winner": "Enter red_house_exterior",
+      "consequence": "The figure is now in the established red house exterior",
+      "statePatch": {
+        "current_location": "red_house_exterior",
+        "result_summary": "The figure is now in the established red house exterior",
+        "recent_event": "The figure is now in the established red house exterior",
+        "scene_anchors": [
+          "The figure is now in the established red house exterior"
+        ]
+      },
+      "committedState": {
+        "current_location": "red_house_exterior",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "bare tree",
+          "red_house_exterior",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established red house doorstep",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house exterior",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "The established front door is now open",
+          "The figure is now in the established basement door",
+          "The established door is now directly before the figure",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established red house doorstep",
+          "The figure is now in the established red house exterior"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "THRESHOLD"
+        ],
+        "recent_compositions": [
+          "wide_asymmetric",
+          "partial_architecture",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "open"
+          },
+          "summary": "The figure is now in the established red house exterior",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "basement_door": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established door is open.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 149,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\door-2-step7.png",
+      "promptId": "e9ddd9ae-80f0-42d5-882e-a85af4fd28f4",
+      "history": {
+        "prompt": [
+          2908,
+          "e9ddd9ae-80f0-42d5-882e-a85af4fd28f4",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860407,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/door-2-step7_1788565875768"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565875770
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "door-2-step7_1788565875768_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "e9ddd9ae-80f0-42d5-882e-a85af4fd28f4",
+                "timestamp": 1788565875771
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "e9ddd9ae-80f0-42d5-882e-a85af4fd28f4",
+                "timestamp": 1788565875772
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "e9ddd9ae-80f0-42d5-882e-a85af4fd28f4",
+                "timestamp": 1788565877597
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860407,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/door-2-step7_1788565875768"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\door-2-step7.png"
+    },
+    {
+      "chain": "location-2",
+      "step": 2,
+      "id": "location-2-step2",
+      "seed": 860502,
+      "previous": {
+        "current_location": "front_path",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "cracked front path",
+          "bare tree",
+          "front_path",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established red house exterior",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established front path",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The figure is now in the established red house exterior",
+          "The figure is now in the established front path"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "PASSAGE"
+        ],
+        "recent_compositions": [
+          "medium_profile",
+          "wide_asymmetric"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "front_path",
+          "entities": [
+            "cracked front path",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "quiet_street"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established front path",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "winner": "Enter red_house_exterior",
+      "consequence": "The figure is now in the established red house exterior",
+      "statePatch": {
+        "current_location": "red_house_exterior",
+        "result_summary": "The figure is now in the established red house exterior",
+        "recent_event": "The figure is now in the established red house exterior",
+        "scene_anchors": [
+          "The figure is now in the established red house exterior"
+        ]
+      },
+      "committedState": {
+        "current_location": "red_house_exterior",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "bare tree",
+          "red_house_exterior",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established front path",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house exterior",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The figure is now in the established front path",
+          "The figure is now in the established red house exterior"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "PASSAGE"
+        ],
+        "recent_compositions": [
+          "medium_profile",
+          "wide_asymmetric",
+          "partial_architecture"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed"
+          },
+          "summary": "The figure is now in the established red house exterior",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established door is closed.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is closed. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 153,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\location-2-step2.png",
+      "promptId": "0ed9a550-c523-45e2-85f6-a344738d9a5b",
+      "history": {
+        "prompt": [
+          2909,
+          "0ed9a550-c523-45e2-85f6-a344738d9a5b",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is closed. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860502,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/location-2-step2_1788565877620"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565877623
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "location-2-step2_1788565877620_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "0ed9a550-c523-45e2-85f6-a344738d9a5b",
+                "timestamp": 1788565877624
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "0ed9a550-c523-45e2-85f6-a344738d9a5b",
+                "timestamp": 1788565877625
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "0ed9a550-c523-45e2-85f6-a344738d9a5b",
+                "timestamp": 1788565879502
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is closed. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860502,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/location-2-step2_1788565877620"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\location-2-step2.png"
+    },
+    {
+      "chain": "machine-3",
+      "step": 3,
+      "id": "machine-3-step3",
+      "seed": 860603,
+      "previous": {
+        "current_location": "basement",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "underground basement",
+          "basement",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The established machine is now glowing with blue light",
+            "ttl": 1
+          },
+          {
+            "text": "A seam on the established machine becomes visible",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established basement",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The established machine is now glowing with blue light",
+          "A seam on the established machine becomes visible",
+          "The figure is now in the established basement"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "LIGHT_EFFECT",
+          "MECHANICAL"
+        ],
+        "recent_compositions": [
+          "object_interaction_close",
+          "object_profile",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "basement",
+          "entities": [
+            "underground basement",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "basement_door",
+            "machine_room"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established basement",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "machine_room": {
+            "machine": {
+              "power": "on"
+            }
+          }
+        }
+      },
+      "winner": "Enter machine_room",
+      "consequence": "The figure is now in the established machine room",
+      "statePatch": {
+        "current_location": "machine_room",
+        "result_summary": "The figure is now in the established machine room",
+        "recent_event": "The figure is now in the established machine room",
+        "scene_anchors": [
+          "The figure is now in the established machine room"
+        ]
+      },
+      "committedState": {
+        "current_location": "machine_room",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "machine",
+          "machine_room",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "A seam on the established machine becomes visible",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established basement",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established machine room",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The established machine is now glowing with blue light",
+          "A seam on the established machine becomes visible",
+          "The figure is now in the established basement",
+          "The figure is now in the established machine room"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "LIGHT_EFFECT",
+          "MECHANICAL",
+          "DOMESTIC"
+        ],
+        "recent_compositions": [
+          "object_interaction_close",
+          "object_profile",
+          "medium_profile",
+          "object_partial"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "machine_room",
+          "entities": [
+            "machine room",
+            "machine",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "basement",
+            "control_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "machine": "on"
+          },
+          "summary": "The figure is now in the established machine room",
+          "entity_physical_states": {
+            "machine": {
+              "power": "on"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          },
+          "machine_room": {
+            "machine": {
+              "power": "on"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established machine is powered on.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 156,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\machine-3-step3.png",
+      "promptId": "fca79ff1-e783-41dd-80e0-b22781d80a16",
+      "history": {
+        "prompt": [
+          2910,
+          "fca79ff1-e783-41dd-80e0-b22781d80a16",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860603,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/machine-3-step3_1788565879733"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565879737
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "machine-3-step3_1788565879733_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "fca79ff1-e783-41dd-80e0-b22781d80a16",
+                "timestamp": 1788565879739
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "fca79ff1-e783-41dd-80e0-b22781d80a16",
+                "timestamp": 1788565879740
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "fca79ff1-e783-41dd-80e0-b22781d80a16",
+                "timestamp": 1788565881631
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established machine room. MUST SHOW: The figure is now in the established machine room. COMMITTED SCENE: machine room; established entities: machine room, machine, anonymous figure. PERSISTENT PHYSICAL FACTS: The established machine is powered on. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body composition with the object dominant in the foreground and the protagonist partly outside frame. CONTINUITY MOTIF: The figure is now in the established machine room. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860603,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/machine-3-step3_1788565879733"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\machine-3-step3.png"
+    },
+    {
+      "chain": "door-3",
+      "step": 7,
+      "id": "door-3-step7",
+      "seed": 860707,
+      "previous": {
+        "current_location": "red_house_doorstep",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "red_house_doorstep",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The established door recedes into the background",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house doorstep",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "The established front door is now open",
+          "The figure is now in the established basement door",
+          "The established door recedes into the background",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established red house doorstep"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "THRESHOLD"
+        ],
+        "recent_compositions": [
+          "wide_asymmetric",
+          "partial_architecture",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "open"
+          },
+          "summary": "The figure is now in the established red house doorstep",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "basement_door": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "winner": "Enter red_house_exterior",
+      "consequence": "The figure is now in the established red house exterior",
+      "statePatch": {
+        "current_location": "red_house_exterior",
+        "result_summary": "The figure is now in the established red house exterior",
+        "recent_event": "The figure is now in the established red house exterior",
+        "scene_anchors": [
+          "The figure is now in the established red house exterior"
+        ]
+      },
+      "committedState": {
+        "current_location": "red_house_exterior",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "closed front door",
+          "bare tree",
+          "red_house_exterior",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 1
+          },
+          {
+            "text": "The figure is now in the established red house doorstep",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house exterior",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "The established front door is now open",
+          "The figure is now in the established basement door",
+          "The established door recedes into the background",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established red house doorstep",
+          "The figure is now in the established red house exterior"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [
+          "THRESHOLD"
+        ],
+        "recent_compositions": [
+          "wide_asymmetric",
+          "partial_architecture",
+          "medium_profile"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "open"
+          },
+          "summary": "The figure is now in the established red house exterior",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "open"
+            }
+          },
+          "basement_door": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "physicalFacts": "The established door is open.",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 149,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\door-3-step7.png",
+      "promptId": "de2994c6-1acf-465e-a818-190a628d4999",
+      "history": {
+        "prompt": [
+          2911,
+          "de2994c6-1acf-465e-a818-190a628d4999",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860707,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/door-3-step7_1788565881841"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565881844
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "door-3-step7_1788565881841_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "de2994c6-1acf-465e-a818-190a628d4999",
+                "timestamp": 1788565881846
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "de2994c6-1acf-465e-a818-190a628d4999",
+                "timestamp": 1788565881847
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "de2994c6-1acf-465e-a818-190a628d4999",
+                "timestamp": 1788565883758
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established red house exterior. MUST SHOW: The figure is now in the established red house exterior. COMMITTED SCENE: red house exterior; established entities: red house exterior, front door, bare tree, anonymous figure. PERSISTENT PHYSICAL FACTS: The established door is open. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: may be partial, off-camera or small in the environment. HUMAN FIGURES: keep identity unreadable through back-facing posture, backlight, face shadow, reflection, distant scale or cropped body; do not force a full centered standing silhouette. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: OPTIONAL_PARTIAL. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The figure is now in the established red house exterior. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860707,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/door-3-step7_1788565881841"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\door-3-step7.png"
+    },
+    {
+      "chain": "location-3",
+      "step": 2,
+      "id": "location-3-step2",
+      "seed": 860802,
+      "previous": {
+        "current_location": "stairwell",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "stairwell",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established stairwell",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The figure is now in the established red house hallway",
+          "The figure is now in the established stairwell"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [],
+        "recent_compositions": [
+          "medium_profile",
+          "wide_asymmetric"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "stairwell",
+          "entities": [
+            "stairwell",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_hallway",
+            "basement"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established stairwell",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "winner": "Enter red_house_hallway",
+      "consequence": "The figure is now in the established red house hallway",
+      "statePatch": {
+        "current_location": "red_house_hallway",
+        "result_summary": "The figure is now in the established red house hallway",
+        "recent_event": "The figure is now in the established red house hallway",
+        "scene_anchors": [
+          "The figure is now in the established red house hallway"
+        ]
+      },
+      "committedState": {
+        "current_location": "red_house_hallway",
+        "location_dwell_turns": 0,
+        "character_state": "anonymous_figure",
+        "current_scene_entities": [
+          "red_house_hallway",
+          "anonymous_figure"
+        ],
+        "memory_entities": [],
+        "important_objects": [],
+        "open_hooks": [],
+        "hook_ttls": {},
+        "scene_anchors": [
+          {
+            "text": "The figure is now in the established stairwell",
+            "ttl": 2
+          },
+          {
+            "text": "The figure is now in the established red house hallway",
+            "ttl": 3
+          }
+        ],
+        "recent_events": [
+          "arrived_outside_the_red_house",
+          "The figure is now in the established stairwell",
+          "The figure is now in the established red house hallway"
+        ],
+        "recent_options": [],
+        "recent_option_records": [],
+        "recent_option_pairs": [],
+        "recent_situation_families": [],
+        "recent_visual_motifs": [],
+        "recent_compositions": [
+          "medium_profile",
+          "wide_asymmetric",
+          "partial_architecture"
+        ],
+        "tone": "mysterious_surreal",
+        "current_scene_manifest": {
+          "location": "red_house_hallway",
+          "entities": [
+            "red house hallway",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "stairwell",
+            "basement_door"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The figure is now in the established red house hallway",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          }
+        },
+        "physical_memory": {
+          "red_house_exterior": {
+            "door": {
+              "aperture": "closed"
+            }
+          }
+        }
+      },
+      "physicalFacts": "",
+      "prompt": "CURRENT RESULT STATE: The figure is now in the established red house hallway. MUST SHOW: The figure is now in the established red house hallway. COMMITTED SCENE: red house hallway; established entities: red house hallway, anonymous figure. PERSISTENT PHYSICAL FACTS: No additional physical state established. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established red house hallway. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+      "factsWordOffset": 156,
+      "png": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\order-ab\\location-3-step2.png",
+      "promptId": "9e007fb4-65b6-4018-af67-d112fc68814c",
+      "history": {
+        "prompt": [
+          2913,
+          "9e007fb4-65b6-4018-af67-d112fc68814c",
+          {
+            "1": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "sdxl_lightning_4step.safetensors"
+              }
+            },
+            "2": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "CURRENT RESULT STATE: The figure is now in the established red house hallway. MUST SHOW: The figure is now in the established red house hallway. COMMITTED SCENE: red house hallway; established entities: red house hallway, anonymous figure. PERSISTENT PHYSICAL FACTS: No additional physical state established. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established red house hallway. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "3": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+                "clip": [
+                  "1",
+                  1
+                ]
+              }
+            },
+            "4": {
+              "class_type": "EmptyLatentImage",
+              "inputs": {
+                "width": 1024,
+                "height": 576,
+                "batch_size": 1
+              }
+            },
+            "5": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "1",
+                  0
+                ],
+                "seed": 860802,
+                "steps": 4,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "2",
+                  0
+                ],
+                "negative": [
+                  "3",
+                  0
+                ],
+                "latent_image": [
+                  "4",
+                  0
+                ],
+                "denoise": 1
+              }
+            },
+            "6": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "5",
+                  0
+                ],
+                "vae": [
+                  "1",
+                  2
+                ]
+              }
+            },
+            "8": {
+              "class_type": "SaveImage",
+              "inputs": {
+                "images": [
+                  "6",
+                  0
+                ],
+                "filename_prefix": "benchmark_visual_memory/order-ab/location-3-step2_1788565886245"
+              }
+            }
+          },
+          {
+            "client_id": "visual-memory-order-ab",
+            "create_time": 1788565886248
+          },
+          [
+            "8"
+          ]
+        ],
+        "outputs": {
+          "8": {
+            "images": [
+              {
+                "filename": "location-3-step2_1788565886245_00001_.png",
+                "subfolder": "benchmark_visual_memory\\order-ab",
+                "type": "output"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "9e007fb4-65b6-4018-af67-d112fc68814c",
+                "timestamp": 1788565886251
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "prompt_id": "9e007fb4-65b6-4018-af67-d112fc68814c",
+                "timestamp": 1788565886254
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "9e007fb4-65b6-4018-af67-d112fc68814c",
+                "timestamp": 1788565888393
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "8": {
+            "node_id": "8",
+            "display_node": "8",
+            "parent_node": null,
+            "real_node_id": "8"
+          }
+        }
+      },
+      "workflow": {
+        "1": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "sdxl_lightning_4step.safetensors"
+          }
+        },
+        "2": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "CURRENT RESULT STATE: The figure is now in the established red house hallway. MUST SHOW: The figure is now in the established red house hallway. COMMITTED SCENE: red house hallway; established entities: red house hallway, anonymous figure. PERSISTENT PHYSICAL FACTS: No additional physical state established. WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: partial-body framing with architecture or a foreground object leading the image. CONTINUITY MOTIF: The figure is now in the established red house hallway. Keep it as a small recognizable thread, never as a composition lock. New result state has priority; do not preserve previous composition when the location changes. No text, no logo.",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "3": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "text, letters, watermark, logo, brand, celebrity, copyrighted character, nsfw, gore, weapon, blurry, deformed, low quality",
+            "clip": [
+              "1",
+              1
+            ]
+          }
+        },
+        "4": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 1024,
+            "height": 576,
+            "batch_size": 1
+          }
+        },
+        "5": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "1",
+              0
+            ],
+            "seed": 860802,
+            "steps": 4,
+            "cfg": 1,
+            "sampler_name": "euler",
+            "scheduler": "sgm_uniform",
+            "positive": [
+              "2",
+              0
+            ],
+            "negative": [
+              "3",
+              0
+            ],
+            "latent_image": [
+              "4",
+              0
+            ],
+            "denoise": 1
+          }
+        },
+        "6": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "5",
+              0
+            ],
+            "vae": [
+              "1",
+              2
+            ]
+          }
+        },
+        "8": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "6",
+              0
+            ],
+            "filename_prefix": "benchmark_visual_memory/order-ab/location-3-step2_1788565886245"
+          }
+        }
+      },
+      "baselinePng": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\visual-memory\\baseline\\location-3-step2.png"
+    }
+  ]
+}

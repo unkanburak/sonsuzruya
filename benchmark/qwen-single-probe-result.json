@@ -1,0 +1,16 @@
+{
+  "endpoint": "http://127.0.0.1:8080",
+  "timeoutMs": 120000,
+  "httpStatus": 200,
+  "latencyMs": 3913.8,
+  "content": "{\n  \"option_1_tr\": \"Continue across the bridge toward the distant hill\",\n  \"option_2_tr\": \"Turn back and cross the bridge to the other side\"\n}",
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 53,
+    "total_tokens": 92,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "error": null
+}

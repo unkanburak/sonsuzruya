@@ -1,0 +1,56 @@
+{
+  "sourceImage": "sdxl_result_state_for_animatediff.png",
+  "settings": {
+    "width": 384,
+    "height": 224,
+    "frames": 16,
+    "fps": 8,
+    "steps": 2,
+    "cfg": 1,
+    "denoise": 0.55,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform",
+    "checkpoint": "DreamShaper_8_pruned.safetensors",
+    "motion": "animatediff_lightning_2step_comfyui.safetensors"
+  },
+  "results": [
+    {
+      "label": "run1",
+      "prompt": "The character is now sitting inside a mysterious red car, clear stylized motion.",
+      "seconds": 45.166009300000006,
+      "success": false,
+      "error": "timeout_45s",
+      "promptId": "708d211c-aabb-4c4f-bba6-ed5af7d3a78c"
+    },
+    {
+      "label": "run2",
+      "prompt": "The character is now standing at the entrance of a dark tunnel, foggy motion.",
+      "seconds": 45.146672599999995,
+      "success": false,
+      "error": "timeout_45s",
+      "promptId": "3360276f-a699-4c3b-bea3-fcd00343a567"
+    },
+    {
+      "label": "run3",
+      "prompt": "The character is now in front of a glowing portal in a red foggy field, surreal motion.",
+      "seconds": 45.2306979,
+      "success": false,
+      "error": "timeout_45s",
+      "promptId": "28a93bdb-ed88-4bfd-84ec-4616cea254ab"
+    },
+    {
+      "label": "run4",
+      "prompt": "The character is now sitting inside a mysterious red car, clear stylized motion.",
+      "seconds": 45.01861749999999,
+      "success": false,
+      "error": "timeout_45s",
+      "promptId": "dad46e89-7c97-44dc-aa95-cf0b103b7bae"
+    }
+  ],
+  "summary": {
+    "success": 0,
+    "warmP50": null,
+    "warmP95": null,
+    "limitation": "Approximate image-conditioned motion: SDXL image latent is repeated across 16 frames. AnimateDiff-Lightning itself has no native first-frame I2V model."
+  }
+}

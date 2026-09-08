@@ -1,0 +1,269 @@
+{
+  "completed": 20,
+  "qwenCount": 17,
+  "fallbackCount": 3,
+  "p50Seconds": 12.962,
+  "p95Seconds": 13.735,
+  "trace": [
+    {
+      "round": 1,
+      "roundId": "r-13802-1788217398276-irjjsp",
+      "fromScene": 13802,
+      "toScene": 13803,
+      "vote": "1",
+      "source": "fallback",
+      "elapsedSeconds": 10.801,
+      "options": [
+        "Eski fotoğrafi inceleyin",
+        "Eski pencereni açın"
+      ]
+    },
+    {
+      "round": 2,
+      "roundId": "r-13803-1788217412574-9yu4v3",
+      "fromScene": 13803,
+      "toScene": 13804,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 13.236,
+      "options": [
+        "Fotoğrafı çevir",
+        "Sisin içine bak"
+      ]
+    },
+    {
+      "round": 3,
+      "roundId": "r-13804-1788217426396-moe27i",
+      "fromScene": 13804,
+      "toScene": 13805,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 13.455,
+      "options": [
+        "Fotoğrafı inceleyin",
+        "Pencereni açın"
+      ]
+    },
+    {
+      "round": 4,
+      "roundId": "r-13805-1788217440416-pfsndt",
+      "fromScene": 13805,
+      "toScene": 13806,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 12.588,
+      "options": [
+        "Sisi izle",
+        "Eski radyoyu incele"
+      ]
+    },
+    {
+      "round": 5,
+      "roundId": "r-13806-1788217453768-68nutr",
+      "fromScene": 13806,
+      "toScene": 13807,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 12.502,
+      "options": [
+        "Radyoyu çalıştır",
+        "Eski radyoyu yakından incele"
+      ]
+    },
+    {
+      "round": 6,
+      "roundId": "r-13807-1788217467071-r73xjw",
+      "fromScene": 13807,
+      "toScene": 13808,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 13.101,
+      "options": [
+        "Parlayan orbs inceleyin",
+        "old radioyi çalıştır"
+      ]
+    },
+    {
+      "round": 7,
+      "roundId": "r-13808-1788217480862-41hav5",
+      "fromScene": 13808,
+      "toScene": 13809,
+      "vote": "1",
+      "source": "fallback",
+      "elapsedSeconds": 12.258,
+      "options": [
+        "Pencereyi açın",
+        "Eski radyoyu çalıştır"
+      ]
+    },
+    {
+      "round": 8,
+      "roundId": "r-13809-1788217494047-kqt0kh",
+      "fromScene": 13809,
+      "toScene": 13810,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 13.106,
+      "options": [
+        "Fotoğrafı çevir",
+        "Kürelerin altına ilerle"
+      ]
+    },
+    {
+      "round": 9,
+      "roundId": "r-13810-1788217507787-xi7cv5",
+      "fromScene": 13810,
+      "toScene": 13811,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 13.534,
+      "options": [
+        "Fotoğrafı çeviryi incele",
+        "Eski radyoyu sessizce çalıştır"
+      ]
+    },
+    {
+      "round": 10,
+      "roundId": "r-13811-1788217522118-rq94ls",
+      "fromScene": 13811,
+      "toScene": 13812,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 12.966,
+      "options": [
+        "Fotoğrafı inceleyin",
+        "Küreleri izleyin"
+      ]
+    },
+    {
+      "round": 11,
+      "roundId": "r-13812-1788217535832-ypdytl",
+      "fromScene": 13812,
+      "toScene": 13813,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 13.424,
+      "options": [
+        "Radyoyu kapatyi incele",
+        "Açık olan kapıya bak"
+      ]
+    },
+    {
+      "round": 12,
+      "roundId": "r-13813-1788217549704-n08hie",
+      "fromScene": 13813,
+      "toScene": 13814,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 12.962,
+      "options": [
+        "Eski radyoyu incele",
+        "Eski radyoyu çalıştır"
+      ]
+    },
+    {
+      "round": 13,
+      "roundId": "r-13814-1788217563543-0q573w",
+      "fromScene": 13814,
+      "toScene": 13815,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 12.397,
+      "options": [
+        "Kapıya bak",
+        "Radyoyu çalıştır"
+      ]
+    },
+    {
+      "round": 14,
+      "roundId": "r-13815-1788217577061-k3cff2",
+      "fromScene": 13815,
+      "toScene": 13816,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 12.348,
+      "options": [
+        "Parlayan orbsu incele",
+        "Long corridoru izle"
+      ]
+    },
+    {
+      "round": 15,
+      "roundId": "r-13816-1788217590035-x7zcv7",
+      "fromScene": 13816,
+      "toScene": 13817,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 12.314,
+      "options": [
+        "Kapıyu incele",
+        "Orbsu izle"
+      ]
+    },
+    {
+      "round": 16,
+      "roundId": "r-13817-1788217603199-b3tqqb",
+      "fromScene": 13817,
+      "toScene": 13818,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 13.968,
+      "options": [
+        "Eski radyoyu yakından incele",
+        "Eski radyoyu sessizce çalıştır"
+      ]
+    },
+    {
+      "round": 17,
+      "roundId": "r-13818-1788217617875-x8c4sf",
+      "fromScene": 13818,
+      "toScene": 13819,
+      "vote": "1",
+      "source": "qwen",
+      "elapsedSeconds": 13.735,
+      "options": [
+        "Kapıyu inceleyerek bak",
+        "Orbsu gözlemle izle"
+      ]
+    },
+    {
+      "round": 18,
+      "roundId": "r-13819-1788217632334-db2zsf",
+      "fromScene": 13819,
+      "toScene": 13820,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 12.859,
+      "options": [
+        "Eski radyoyu gözlemle izle",
+        "Kapıyı açık bırak"
+      ]
+    },
+    {
+      "round": 19,
+      "roundId": "r-13820-1788217645779-4sqnew",
+      "fromScene": 13820,
+      "toScene": 13821,
+      "vote": "1",
+      "source": "fallback",
+      "elapsedSeconds": 13.687,
+      "options": [
+        "Kapıya yaklaş",
+        "Eski radyoyu incele"
+      ]
+    },
+    {
+      "round": 20,
+      "roundId": "r-13821-1788217660198-f16klf",
+      "fromScene": 13821,
+      "toScene": 13822,
+      "vote": "2",
+      "source": "qwen",
+      "elapsedSeconds": 12.599,
+      "options": [
+        "Fotoğrafı çevir",
+        "Telefonu sessize al — parıltının uzağında"
+      ]
+    }
+  ]
+}

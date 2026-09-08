@@ -1,0 +1,3 @@
+import { performance } from "node:perf_hooks";
+import { defaultStoryState, generateOptions } from "../app/lib/options.mjs";
+const story={...defaultStoryState(),current_location:"flooded_room",important_objects:["old_table","paper_receipt"],scene_anchors:[{text:"still water",ttl:3}],recent_events:["room_filled_with_water"]}; const t=performance.now(); const options=await generateOptions({storyState:story,previousOptions:[],qwenUrl:"http://127.0.0.1:8080",timeoutMs:8000,dreamPsyche:{tensions:{approach_avoidance:.5},compensation_pressure:.2,collective_tendency:"threshold",recurring_symbols:[]}}); console.log(JSON.stringify({ms:Number((performance.now()-t).toFixed(1)),source:String(options.option_1_id||"").startsWith("qwen_")?"qwen":"fallback",options},null,2));

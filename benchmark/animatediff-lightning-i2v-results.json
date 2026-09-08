@@ -1,0 +1,630 @@
+{
+  "sourceImage": "sdxl_result_state_for_animatediff.png",
+  "settings": {
+    "width": 384,
+    "height": 224,
+    "frames": 16,
+    "fps": 8,
+    "steps": 2,
+    "cfg": 1,
+    "denoise": 0.55,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform",
+    "checkpoint": "DreamShaper_8_pruned.safetensors",
+    "motion": "animatediff_lightning_2step_comfyui.safetensors"
+  },
+  "results": [
+    {
+      "label": "run1",
+      "prompt": "The character is now sitting inside a mysterious red car, clear stylized motion.",
+      "seconds": 8.4659602,
+      "success": true,
+      "history": {
+        "prompt": [
+          3,
+          "e42d7666-24d5-40f6-ad97-a06ae8310a2f",
+          {
+            "1": {
+              "class_type": "LoadImage",
+              "inputs": {
+                "image": "sdxl_result_state_for_animatediff.png"
+              }
+            },
+            "2": {
+              "class_type": "VAEEncode",
+              "inputs": {
+                "pixels": [
+                  "1",
+                  0
+                ],
+                "vae": [
+                  "4",
+                  2
+                ]
+              }
+            },
+            "3": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "10",
+                  0
+                ],
+                "seed": 271828,
+                "steps": 2,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "6",
+                  0
+                ],
+                "negative": [
+                  "7",
+                  0
+                ],
+                "latent_image": [
+                  "5",
+                  0
+                ],
+                "denoise": 0.55
+              }
+            },
+            "4": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "DreamShaper_8_pruned.safetensors"
+              }
+            },
+            "5": {
+              "class_type": "RepeatLatentBatch",
+              "inputs": {
+                "samples": [
+                  "2",
+                  0
+                ],
+                "amount": 16
+              }
+            },
+            "6": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "The character is now sitting inside a mysterious red car, clear stylized motion.",
+                "clip": [
+                  "4",
+                  1
+                ]
+              }
+            },
+            "7": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, watermark, logo, low quality, blurry, deformed",
+                "clip": [
+                  "4",
+                  1
+                ]
+              }
+            },
+            "8": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "3",
+                  0
+                ],
+                "vae": [
+                  "4",
+                  2
+                ]
+              }
+            },
+            "10": {
+              "class_type": "ADE_AnimateDiffLoaderGen1",
+              "inputs": {
+                "model": [
+                  "4",
+                  0
+                ],
+                "model_name": "animatediff_lightning_2step_comfyui.safetensors",
+                "beta_schedule": "sqrt_linear (AnimateDiff)"
+              }
+            },
+            "11": {
+              "class_type": "VHS_VideoCombine",
+              "inputs": {
+                "images": [
+                  "8",
+                  0
+                ],
+                "frame_rate": 8,
+                "loop_count": 0,
+                "filename_prefix": "benchmark/animatediff_i2v_run1",
+                "format": "video/h264-mp4",
+                "pix_fmt": "yuv420p",
+                "crf": 19,
+                "save_metadata": true,
+                "pingpong": false,
+                "save_output": true
+              }
+            }
+          },
+          {
+            "client_id": "animatediff-lightning-i2v",
+            "create_time": 1788034986787
+          },
+          [
+            "11"
+          ]
+        ],
+        "outputs": {
+          "11": {
+            "gifs": [
+              {
+                "filename": "animatediff_i2v_run1_00001.mp4",
+                "subfolder": "benchmark",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 8,
+                "workflow": "animatediff_i2v_run1_00001.png",
+                "fullpath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\benchmark\\animatediff_i2v_run1_00001.mp4"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "e42d7666-24d5-40f6-ad97-a06ae8310a2f",
+                "timestamp": 1788034986788
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "4",
+                  "7",
+                  "10"
+                ],
+                "prompt_id": "e42d7666-24d5-40f6-ad97-a06ae8310a2f",
+                "timestamp": 1788034986799
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "e42d7666-24d5-40f6-ad97-a06ae8310a2f",
+                "timestamp": 1788034994936
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "11": {
+            "node_id": "11",
+            "display_node": "11",
+            "parent_node": null,
+            "real_node_id": "11"
+          }
+        }
+      }
+    },
+    {
+      "label": "run2",
+      "prompt": "The character is now standing at the entrance of a dark tunnel, foggy motion.",
+      "seconds": 5.603446900000001,
+      "success": true,
+      "history": {
+        "prompt": [
+          4,
+          "2dd6a8c3-6516-4adb-9b3b-052209ffb366",
+          {
+            "1": {
+              "class_type": "LoadImage",
+              "inputs": {
+                "image": "sdxl_result_state_for_animatediff.png"
+              }
+            },
+            "2": {
+              "class_type": "VAEEncode",
+              "inputs": {
+                "pixels": [
+                  "1",
+                  0
+                ],
+                "vae": [
+                  "4",
+                  2
+                ]
+              }
+            },
+            "3": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "10",
+                  0
+                ],
+                "seed": 271828,
+                "steps": 2,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "6",
+                  0
+                ],
+                "negative": [
+                  "7",
+                  0
+                ],
+                "latent_image": [
+                  "5",
+                  0
+                ],
+                "denoise": 0.55
+              }
+            },
+            "4": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "DreamShaper_8_pruned.safetensors"
+              }
+            },
+            "5": {
+              "class_type": "RepeatLatentBatch",
+              "inputs": {
+                "samples": [
+                  "2",
+                  0
+                ],
+                "amount": 16
+              }
+            },
+            "6": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "The character is now standing at the entrance of a dark tunnel, foggy motion.",
+                "clip": [
+                  "4",
+                  1
+                ]
+              }
+            },
+            "7": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, watermark, logo, low quality, blurry, deformed",
+                "clip": [
+                  "4",
+                  1
+                ]
+              }
+            },
+            "8": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "3",
+                  0
+                ],
+                "vae": [
+                  "4",
+                  2
+                ]
+              }
+            },
+            "10": {
+              "class_type": "ADE_AnimateDiffLoaderGen1",
+              "inputs": {
+                "model": [
+                  "4",
+                  0
+                ],
+                "model_name": "animatediff_lightning_2step_comfyui.safetensors",
+                "beta_schedule": "sqrt_linear (AnimateDiff)"
+              }
+            },
+            "11": {
+              "class_type": "VHS_VideoCombine",
+              "inputs": {
+                "images": [
+                  "8",
+                  0
+                ],
+                "frame_rate": 8,
+                "loop_count": 0,
+                "filename_prefix": "benchmark/animatediff_i2v_run2",
+                "format": "video/h264-mp4",
+                "pix_fmt": "yuv420p",
+                "crf": 19,
+                "save_metadata": true,
+                "pingpong": false,
+                "save_output": true
+              }
+            }
+          },
+          {
+            "client_id": "animatediff-lightning-i2v",
+            "create_time": 1788034995221
+          },
+          [
+            "11"
+          ]
+        ],
+        "outputs": {
+          "11": {
+            "gifs": [
+              {
+                "filename": "animatediff_i2v_run2_00001.mp4",
+                "subfolder": "benchmark",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 8,
+                "workflow": "animatediff_i2v_run2_00001.png",
+                "fullpath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\benchmark\\animatediff_i2v_run2_00001.mp4"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "2dd6a8c3-6516-4adb-9b3b-052209ffb366",
+                "timestamp": 1788034995223
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "2",
+                  "4",
+                  "5",
+                  "7",
+                  "10"
+                ],
+                "prompt_id": "2dd6a8c3-6516-4adb-9b3b-052209ffb366",
+                "timestamp": 1788034995225
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "2dd6a8c3-6516-4adb-9b3b-052209ffb366",
+                "timestamp": 1788035000549
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "11": {
+            "node_id": "11",
+            "display_node": "11",
+            "parent_node": null,
+            "real_node_id": "11"
+          }
+        }
+      }
+    },
+    {
+      "label": "run3",
+      "prompt": "The character is now in front of a glowing portal in a red foggy field, surreal motion.",
+      "seconds": 5.790157199999998,
+      "success": true,
+      "history": {
+        "prompt": [
+          5,
+          "93d44263-c1b9-4fce-aef0-c993af76e20d",
+          {
+            "1": {
+              "class_type": "LoadImage",
+              "inputs": {
+                "image": "sdxl_result_state_for_animatediff.png"
+              }
+            },
+            "2": {
+              "class_type": "VAEEncode",
+              "inputs": {
+                "pixels": [
+                  "1",
+                  0
+                ],
+                "vae": [
+                  "4",
+                  2
+                ]
+              }
+            },
+            "3": {
+              "class_type": "KSampler",
+              "inputs": {
+                "model": [
+                  "10",
+                  0
+                ],
+                "seed": 271828,
+                "steps": 2,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "sgm_uniform",
+                "positive": [
+                  "6",
+                  0
+                ],
+                "negative": [
+                  "7",
+                  0
+                ],
+                "latent_image": [
+                  "5",
+                  0
+                ],
+                "denoise": 0.55
+              }
+            },
+            "4": {
+              "class_type": "CheckpointLoaderSimple",
+              "inputs": {
+                "ckpt_name": "DreamShaper_8_pruned.safetensors"
+              }
+            },
+            "5": {
+              "class_type": "RepeatLatentBatch",
+              "inputs": {
+                "samples": [
+                  "2",
+                  0
+                ],
+                "amount": 16
+              }
+            },
+            "6": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "The character is now in front of a glowing portal in a red foggy field, surreal motion.",
+                "clip": [
+                  "4",
+                  1
+                ]
+              }
+            },
+            "7": {
+              "class_type": "CLIPTextEncode",
+              "inputs": {
+                "text": "text, watermark, logo, low quality, blurry, deformed",
+                "clip": [
+                  "4",
+                  1
+                ]
+              }
+            },
+            "8": {
+              "class_type": "VAEDecode",
+              "inputs": {
+                "samples": [
+                  "3",
+                  0
+                ],
+                "vae": [
+                  "4",
+                  2
+                ]
+              }
+            },
+            "10": {
+              "class_type": "ADE_AnimateDiffLoaderGen1",
+              "inputs": {
+                "model": [
+                  "4",
+                  0
+                ],
+                "model_name": "animatediff_lightning_2step_comfyui.safetensors",
+                "beta_schedule": "sqrt_linear (AnimateDiff)"
+              }
+            },
+            "11": {
+              "class_type": "VHS_VideoCombine",
+              "inputs": {
+                "images": [
+                  "8",
+                  0
+                ],
+                "frame_rate": 8,
+                "loop_count": 0,
+                "filename_prefix": "benchmark/animatediff_i2v_run3",
+                "format": "video/h264-mp4",
+                "pix_fmt": "yuv420p",
+                "crf": 19,
+                "save_metadata": true,
+                "pingpong": false,
+                "save_output": true
+              }
+            }
+          },
+          {
+            "client_id": "animatediff-lightning-i2v",
+            "create_time": 1788035000823
+          },
+          [
+            "11"
+          ]
+        ],
+        "outputs": {
+          "11": {
+            "gifs": [
+              {
+                "filename": "animatediff_i2v_run3_00001.mp4",
+                "subfolder": "benchmark",
+                "type": "output",
+                "format": "video/h264-mp4",
+                "frame_rate": 8,
+                "workflow": "animatediff_i2v_run3_00001.png",
+                "fullpath": "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\output\\benchmark\\animatediff_i2v_run3_00001.mp4"
+              }
+            ]
+          }
+        },
+        "status": {
+          "status_str": "success",
+          "completed": true,
+          "messages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "93d44263-c1b9-4fce-aef0-c993af76e20d",
+                "timestamp": 1788035000825
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "2",
+                  "4",
+                  "5",
+                  "7",
+                  "10"
+                ],
+                "prompt_id": "93d44263-c1b9-4fce-aef0-c993af76e20d",
+                "timestamp": 1788035000828
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "93d44263-c1b9-4fce-aef0-c993af76e20d",
+                "timestamp": 1788035006387
+              }
+            ]
+          ]
+        },
+        "meta": {
+          "11": {
+            "node_id": "11",
+            "display_node": "11",
+            "parent_node": null,
+            "real_node_id": "11"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "success": 3,
+    "warmP50": 5.790157199999998,
+    "warmP95": 8.4659602,
+    "limitation": "Approximate image-conditioned motion: SDXL image latent is repeated across 16 frames. AnimateDiff-Lightning itself has no native first-frame I2V model."
+  }
+}

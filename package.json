@@ -1,0 +1,17 @@
+{
+  "name": "sonsuz-surreal-ai-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app/server.mjs",
+    "test": "node --test",
+    "benchmark": "node benchmark/ltx-benchmark.mjs",
+    "benchmark:image": "node benchmark/image-model-benchmark.mjs",
+    "soak": "node scripts/soak.mjs 3600 state/soak-report-60m.json"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}

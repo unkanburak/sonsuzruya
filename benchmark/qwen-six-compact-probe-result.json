@@ -1,0 +1,17 @@
+{
+  "endpoint": "http://127.0.0.1:8080",
+  "timeoutMs": 120000,
+  "promptChars": 424,
+  "httpStatus": 200,
+  "latencyMs": 13465,
+  "content": "{\"c\":[{\"t\":\"Turkish: Misty Bridge Threshold\",\"e\":\"English: Approaching the Misty Bridge\",\"r\":\"Result: Navigate through fog and water\",\"f\":\"Family: Traveling together\",\"i\":\"Intent: Continue journey\",\"m\":\"literal\",\"g\":[\"old_lantern\",\"silver_fog\",\"distant_water\",\"anonymous_figure\"]},{\"t\":\"Turkish: Distant Water\",\"e\":\"English: Avoid the Distant Water\",\"r\":\"Result: Stay on the bridge\",\"f\":\"Family: Safe\",\"i\":\"Intent: Protect\",\"m\":\"literal\",\"g\":[\"distant_water\"]},{\"t\":\"Turkish: Anonymous Figure\",\"e\":\"English: Follow the Figure\",\"r\":\"Result: Discover hidden path\",\"f\":\"Family: Curious\",\"i\":\"Intent: Explore\",\"",
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 131,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "error": null
+}

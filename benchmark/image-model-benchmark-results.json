@@ -1,0 +1,171 @@
+{
+  "principle": "Bir özellik yayını açmak için zorunlu değilse MVP’ye eklenmeyecek.",
+  "startedAt": "2026-08-29T14:18:24.742Z",
+  "comparison": "Same ten actions and deterministic seeds; SD1.5 current profile versus SDXL-Lightning 4-step.",
+  "profiles": [
+    {
+      "profile": {
+        "name": "sdxl_lightning_4step",
+        "checkpoint": "sdxl_lightning_4step.safetensors",
+        "width": 768,
+        "height": 448,
+        "steps": 4,
+        "cfg": 1,
+        "sampler": "euler",
+        "scheduler": "sgm_uniform"
+      },
+      "warmup": {
+        "action": "A glowing portal appears",
+        "seed": 730000,
+        "startedAt": "2026-08-29T14:18:24.744Z",
+        "promptId": "4b886cdb-4cb1-4bcf-b487-29ee502efef9",
+        "success": true,
+        "generationTime": 2.3578511000000004,
+        "peakVramMiB": 7559,
+        "output": "benchmark\\image_models/sdxl_lightning_4step_00_a_glowing_portal_appears_00002_.png",
+        "error": null
+      },
+      "runs": [
+        {
+          "action": "A glowing portal appears",
+          "seed": 730001,
+          "startedAt": "2026-08-29T14:18:27.110Z",
+          "promptId": "41eecb92-488a-4b6c-96c6-1638d1456d87",
+          "success": true,
+          "generationTime": 1.3614271000000004,
+          "peakVramMiB": 7576,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_01_a_glowing_portal_appears_00002_.png",
+          "error": null
+        },
+        {
+          "action": "The corridor fills with light",
+          "seed": 730002,
+          "startedAt": "2026-08-29T14:18:28.480Z",
+          "promptId": "aa18e064-545f-4610-a6d1-c21cfbc42a28",
+          "success": true,
+          "generationTime": 33.568822700000005,
+          "peakVramMiB": 7493,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_02_the_corridor_fills_with_light_00002_.png",
+          "error": null
+        },
+        {
+          "action": "A giant shadow appears",
+          "seed": 730003,
+          "startedAt": "2026-08-29T14:19:02.051Z",
+          "promptId": "c3fb85f3-efbb-4d35-b9a2-a12c620b1984",
+          "success": true,
+          "generationTime": 3.0358134999999966,
+          "peakVramMiB": 7529,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_03_a_giant_shadow_appears_00002_.png",
+          "error": null
+        },
+        {
+          "action": "Floating orbs appear",
+          "seed": 730004,
+          "startedAt": "2026-08-29T14:19:05.091Z",
+          "promptId": "97c2b78e-6023-477a-a4e3-25bdfbe140ea",
+          "success": true,
+          "generationTime": 1.7094449000000023,
+          "peakVramMiB": 7463,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_04_floating_orbs_appear_00002_.png",
+          "error": null
+        },
+        {
+          "action": "A misty bridge appears",
+          "seed": 730005,
+          "startedAt": "2026-08-29T14:19:06.804Z",
+          "promptId": "b741822c-56e9-4a4c-a6df-042d8203915a",
+          "success": true,
+          "generationTime": 2.0039890999999987,
+          "peakVramMiB": 7415,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_05_a_misty_bridge_appears_00002_.png",
+          "error": null
+        },
+        {
+          "action": "A glowing tree grows",
+          "seed": 730006,
+          "startedAt": "2026-08-29T14:19:08.810Z",
+          "promptId": "d2c55c6f-f031-4ff8-a33a-a0ce32adefe2",
+          "success": true,
+          "generationTime": 1.7029063999999998,
+          "peakVramMiB": 7452,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_06_a_glowing_tree_grows_00002_.png",
+          "error": null
+        },
+        {
+          "action": "A tunnel opens into darkness",
+          "seed": 730007,
+          "startedAt": "2026-08-29T14:19:10.516Z",
+          "promptId": "dc02cf7c-b1aa-4496-8a18-27df9b3fff3d",
+          "success": true,
+          "generationTime": 1.9628937000000006,
+          "peakVramMiB": 7482,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_07_a_tunnel_opens_into_darkness_00002_.png",
+          "error": null
+        },
+        {
+          "action": "A doorway opens into bright light",
+          "seed": 730008,
+          "startedAt": "2026-08-29T14:19:12.481Z",
+          "promptId": "cd2be0e3-570e-408d-b24d-bdd65f07fa6f",
+          "success": true,
+          "generationTime": 1.7240320999999967,
+          "peakVramMiB": 7411,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_08_a_doorway_opens_into_bright_light_00002_.png",
+          "error": null
+        },
+        {
+          "action": "The sky turns crimson",
+          "seed": 730009,
+          "startedAt": "2026-08-29T14:19:14.207Z",
+          "promptId": "e8152b6c-81d9-479b-89b6-2dad45112b7f",
+          "success": true,
+          "generationTime": 1.668853799999997,
+          "peakVramMiB": 7499,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_09_the_sky_turns_crimson_00002_.png",
+          "error": null
+        },
+        {
+          "action": "The room fills with water",
+          "seed": 730010,
+          "startedAt": "2026-08-29T14:19:15.878Z",
+          "promptId": "60bcf047-3160-44af-bca7-094c39721fd2",
+          "success": true,
+          "generationTime": 1.6992874999999985,
+          "peakVramMiB": 7487,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_10_the_room_fills_with_water_00002_.png",
+          "error": null
+        },
+        {
+          "action": "The walls begin to melt",
+          "seed": 730011,
+          "startedAt": "2026-08-29T14:19:17.580Z",
+          "promptId": "6ac1ed1a-372e-4b70-a4cb-8b1289e3edd1",
+          "success": true,
+          "generationTime": 1.7027934999999998,
+          "peakVramMiB": 7545,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_11_the_walls_begin_to_melt_00001_.png",
+          "error": null
+        },
+        {
+          "action": "The floor becomes a giant mirror",
+          "seed": 730012,
+          "startedAt": "2026-08-29T14:19:19.285Z",
+          "promptId": "dd13c137-c4a0-4ff6-a94b-bdbe8573095f",
+          "success": true,
+          "generationTime": 1.6521383999999961,
+          "peakVramMiB": 7393,
+          "output": "benchmark\\image_models/sdxl_lightning_4step_12_the_floor_becomes_a_giant_mirror_00001_.png",
+          "error": null
+        }
+      ],
+      "successfulRuns": 12,
+      "failedRuns": 0,
+      "p50Seconds": 1.7029063999999998,
+      "g95Seconds": 33.568822700000005,
+      "maxSeconds": 33.568822700000005,
+      "peakVramMiB": 7576
+    }
+  ],
+  "finishedAt": "2026-08-29T14:19:20.942Z"
+}

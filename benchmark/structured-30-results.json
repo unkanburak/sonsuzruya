@@ -1,0 +1,620 @@
+{
+  "startedAt": "2026-08-30T13:42:04.057Z",
+  "methods": {
+    "A": {
+      "runs": [
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 1,
+          "state": "foggy bridge",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_01_1700000_00001_.png",
+          "bytes": 463835,
+          "seed": 1700000,
+          "latency": 45.740037799999996
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 2,
+          "state": "beneath the same bridge beside a glowing brass lantern",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_02_1700037_00001_.png",
+          "bytes": 463049,
+          "seed": 1700037,
+          "latency": 2.4624574000000066
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 3,
+          "state": "forest path away from the bridge",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_03_1700074_00001_.png",
+          "bytes": 434448,
+          "seed": 1700074,
+          "latency": 2.2564697000000016
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 4,
+          "state": "abandoned red house in the same forest",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_04_1700111_00001_.png",
+          "bytes": 445661,
+          "seed": 1700111,
+          "latency": 2.2988798999999998
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 5,
+          "state": "inside the red house in a wooden hallway",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_05_1700148_00001_.png",
+          "bytes": 502532,
+          "seed": 1700148,
+          "latency": 2.257267399999997
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 6,
+          "state": "basement below the hallway",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_06_1700185_00001_.png",
+          "bytes": 525301,
+          "seed": 1700185,
+          "latency": 2.5967325999999957
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 7,
+          "state": "beside a strange industrial machine in the basement",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_07_1700222_00001_.png",
+          "bytes": 475404,
+          "seed": 1700222,
+          "latency": 2.0803383999999934
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 8,
+          "state": "same machine activated with cold blue light",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_08_1700259_00001_.png",
+          "bytes": 472557,
+          "seed": 1700259,
+          "latency": 2.4793008000000047
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 9,
+          "state": "same basement partially flooded with reflective water",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_09_1700296_00001_.png",
+          "bytes": 442624,
+          "seed": 1700296,
+          "latency": 2.2595961000000027
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 10,
+          "state": "submerged tunnel from the flooded basement",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_10_1700333_00001_.png",
+          "bytes": 386434,
+          "seed": 1700333,
+          "latency": 2.0826500000000085
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 11,
+          "state": "surreal red foggy portal field",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_11_1700370_00001_.png",
+          "bytes": 423173,
+          "seed": 1700370,
+          "latency": 12.160628400000002
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 12,
+          "state": "new landscape beyond the portal",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_12_1700407_00001_.png",
+          "bytes": 419419,
+          "seed": 1700407,
+          "latency": 3.4908621999999885
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 13,
+          "state": "a narrow road leaving the new landscape",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_13_1700444_00001_.png",
+          "bytes": 413433,
+          "seed": 1700444,
+          "latency": 1.8485262000000076
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 14,
+          "state": "an empty train station at night",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_14_1700481_00001_.png",
+          "bytes": 482512,
+          "seed": 1700481,
+          "latency": 2.054584100000007
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 15,
+          "state": "inside a silent train carriage",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_15_1700518_00001_.png",
+          "bytes": 430482,
+          "seed": 1700518,
+          "latency": 2.0403411999999954
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 16,
+          "state": "a mountain pass under red clouds",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_16_1700555_00001_.png",
+          "bytes": 471934,
+          "seed": 1700555,
+          "latency": 2.7291909000000016
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 17,
+          "state": "a dark cave with a single lantern",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_17_1700592_00001_.png",
+          "bytes": 450576,
+          "seed": 1700592,
+          "latency": 2.3110032999999968
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 18,
+          "state": "a shore beside black water",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_18_1700629_00001_.png",
+          "bytes": 375511,
+          "seed": 1700629,
+          "latency": 2.267220100000006
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 19,
+          "state": "a lighthouse on the shore",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_19_1700666_00001_.png",
+          "bytes": 403711,
+          "seed": 1700666,
+          "latency": 2.472088600000003
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 20,
+          "state": "inside the lighthouse stairwell",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_20_1700703_00001_.png",
+          "bytes": 446819,
+          "seed": 1700703,
+          "latency": 2.4511110999999945
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 21,
+          "state": "a room of mirrors",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_21_1700740_00001_.png",
+          "bytes": 464184,
+          "seed": 1700740,
+          "latency": 2.5774424
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 22,
+          "state": "a corridor beyond the mirrors",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_22_1700777_00001_.png",
+          "bytes": 466952,
+          "seed": 1700777,
+          "latency": 2.2768596000000105
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 23,
+          "state": "a glass bridge over clouds",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_23_1700814_00001_.png",
+          "bytes": 408098,
+          "seed": 1700814,
+          "latency": 2.2801840999999987
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 24,
+          "state": "a floating garden",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_24_1700851_00001_.png",
+          "bytes": 465757,
+          "seed": 1700851,
+          "latency": 2.2781830000000047
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 25,
+          "state": "a ruined observatory",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_25_1700888_00001_.png",
+          "bytes": 449430,
+          "seed": 1700888,
+          "latency": 2.291849900000001
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 26,
+          "state": "under the observatory dome",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_26_1700925_00001_.png",
+          "bytes": 457560,
+          "seed": 1700925,
+          "latency": 2.483453099999999
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 27,
+          "state": "a field of slow falling snow",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_27_1700962_00001_.png",
+          "bytes": 374611,
+          "seed": 1700962,
+          "latency": 2.2872283999999925
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 28,
+          "state": "a warm cabin in the snow",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_28_1700999_00001_.png",
+          "bytes": 416466,
+          "seed": 1700999,
+          "latency": 2.488068499999994
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 29,
+          "state": "a door glowing blue inside the cabin",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_29_1701036_00001_.png",
+          "bytes": 415568,
+          "seed": 1701036,
+          "latency": 2.4718947000000044
+        },
+        {
+          "ok": true,
+          "kind": "A",
+          "turn": 30,
+          "state": "a new world beyond the blue door",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\A\\turn_30_1701073_00001_.png",
+          "bytes": 425826,
+          "seed": 1701073,
+          "latency": 2.4752981999999903
+        }
+      ],
+      "success": 30,
+      "p50": 2.3110032999999968,
+      "p95": 12.160628400000002
+    },
+    "B": {
+      "runs": [
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 1,
+          "state": "foggy bridge",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_01_1800000_00001_.png",
+          "bytes": 376562,
+          "seed": 1800000,
+          "latency": 2.796477899999998
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 2,
+          "state": "beneath the same bridge beside a glowing brass lantern",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_02_1800037_00001_.png",
+          "bytes": 417112,
+          "seed": 1800037,
+          "latency": 2.4653849999999946
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 3,
+          "state": "forest path away from the bridge",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_03_1800074_00001_.png",
+          "bytes": 452739,
+          "seed": 1800074,
+          "latency": 2.5243736000000063
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 4,
+          "state": "abandoned red house in the same forest",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_04_1800111_00001_.png",
+          "bytes": 477543,
+          "seed": 1800111,
+          "latency": 2.2638148999999976
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 5,
+          "state": "inside the red house in a wooden hallway",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_05_1800148_00001_.png",
+          "bytes": 494949,
+          "seed": 1800148,
+          "latency": 2.6269195999999937
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 6,
+          "state": "basement below the hallway",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_06_1800185_00001_.png",
+          "bytes": 470428,
+          "seed": 1800185,
+          "latency": 2.2956202999999804
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 7,
+          "state": "beside a strange industrial machine in the basement",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_07_1800222_00001_.png",
+          "bytes": 433535,
+          "seed": 1800222,
+          "latency": 2.2604927000000026
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 8,
+          "state": "same machine activated with cold blue light",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_08_1800259_00001_.png",
+          "bytes": 468026,
+          "seed": 1800259,
+          "latency": 2.268291999999987
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 9,
+          "state": "same basement partially flooded with reflective water",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_09_1800296_00001_.png",
+          "bytes": 521826,
+          "seed": 1800296,
+          "latency": 2.259261200000008
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 10,
+          "state": "submerged tunnel from the flooded basement",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_10_1800333_00001_.png",
+          "bytes": 408090,
+          "seed": 1800333,
+          "latency": 2.672356299999985
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 11,
+          "state": "surreal red foggy portal field",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_11_1800370_00001_.png",
+          "bytes": 437777,
+          "seed": 1800370,
+          "latency": 2.263494799999986
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 12,
+          "state": "new landscape beyond the portal",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_12_1800407_00001_.png",
+          "bytes": 401454,
+          "seed": 1800407,
+          "latency": 2.907368300000002
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 13,
+          "state": "a narrow road leaving the new landscape",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_13_1800444_00001_.png",
+          "bytes": 455803,
+          "seed": 1800444,
+          "latency": 2.4498772999999927
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 14,
+          "state": "an empty train station at night",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_14_1800481_00001_.png",
+          "bytes": 440155,
+          "seed": 1800481,
+          "latency": 2.8081307999999843
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 15,
+          "state": "inside a silent train carriage",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_15_1800518_00001_.png",
+          "bytes": 493270,
+          "seed": 1800518,
+          "latency": 2.5003550000000105
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 16,
+          "state": "a mountain pass under red clouds",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_16_1800555_00001_.png",
+          "bytes": 479917,
+          "seed": 1800555,
+          "latency": 2.464358999999997
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 17,
+          "state": "a dark cave with a single lantern",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_17_1800592_00001_.png",
+          "bytes": 498938,
+          "seed": 1800592,
+          "latency": 2.2776442999999853
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 18,
+          "state": "a shore beside black water",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_18_1800629_00001_.png",
+          "bytes": 425827,
+          "seed": 1800629,
+          "latency": 2.7267059000000007
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 19,
+          "state": "a lighthouse on the shore",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_19_1800666_00001_.png",
+          "bytes": 478477,
+          "seed": 1800666,
+          "latency": 2.451257200000022
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 20,
+          "state": "inside the lighthouse stairwell",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_20_1800703_00001_.png",
+          "bytes": 368275,
+          "seed": 1800703,
+          "latency": 2.273407600000006
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 21,
+          "state": "a room of mirrors",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_21_1800740_00001_.png",
+          "bytes": 438629,
+          "seed": 1800740,
+          "latency": 2.5233174
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 22,
+          "state": "a corridor beyond the mirrors",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_22_1800777_00001_.png",
+          "bytes": 412051,
+          "seed": 1800777,
+          "latency": 2.8947783000000054
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 23,
+          "state": "a glass bridge over clouds",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_23_1800814_00001_.png",
+          "bytes": 458468,
+          "seed": 1800814,
+          "latency": 2.505322700000019
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 24,
+          "state": "a floating garden",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_24_1800851_00001_.png",
+          "bytes": 439694,
+          "seed": 1800851,
+          "latency": 2.671870800000004
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 25,
+          "state": "a ruined observatory",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_25_1800888_00001_.png",
+          "bytes": 398989,
+          "seed": 1800888,
+          "latency": 2.4883308000000253
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 26,
+          "state": "under the observatory dome",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_26_1800925_00001_.png",
+          "bytes": 426749,
+          "seed": 1800925,
+          "latency": 2.4463819000000075
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 27,
+          "state": "a field of slow falling snow",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_27_1800962_00001_.png",
+          "bytes": 432636,
+          "seed": 1800962,
+          "latency": 2.285929000000004
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 28,
+          "state": "a warm cabin in the snow",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_28_1800999_00001_.png",
+          "bytes": 483483,
+          "seed": 1800999,
+          "latency": 2.325632400000002
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 29,
+          "state": "a door glowing blue inside the cabin",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_29_1801036_00001_.png",
+          "bytes": 455032,
+          "seed": 1801036,
+          "latency": 2.048135399999999
+        },
+        {
+          "ok": true,
+          "kind": "B",
+          "turn": 30,
+          "state": "a new world beyond the blue door",
+          "path": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\continuity-bakeoff\\runtime\\output\\continuity_ab30\\B\\turn_30_1801073_00001_.png",
+          "bytes": 477142,
+          "seed": 1801073,
+          "latency": 2.078923999999999
+        }
+      ],
+      "success": 30,
+      "p50": 2.464358999999997,
+      "p95": 2.8947783000000054
+    }
+  },
+  "finishedAt": "2026-08-30T13:45:22.238Z"
+}

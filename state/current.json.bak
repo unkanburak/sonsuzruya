@@ -1,0 +1,1214 @@
+{
+  "sceneNumber": 13388,
+  "media": "/generated/live/scene_13388_1788830935380_7e254ead_00001_.png",
+  "lastFrame": "/generated/live/scene_13388_1788830935380_7e254ead_00001_.png",
+  "lastPrompt": "WORLD: cinematic surreal realism, muted cool palette, restrained warm practical lighting. PROTAGONIST: show only as much of the same adult figure as the result requires. HUMAN FIGURES: anonymous dream figure with face obscured, shadowed, turned away or cropped; prefer profile, seated, partial-body, reflection or backlit framing over a centered standing silhouette or portrait. STYLE: atmospheric haze, realistic materials, 35mm cinematic framing. PRESENCE MODE: REQUIRED. COMPOSITION: medium profile or over-the-shoulder framing, protagonist off-center. CONTINUITY MOTIF: The established water recedes from attention. Keep it as a small recognizable thread, never as a composition lock. CURRENT RESULT STATE: The established water recedes from attention. MUST SHOW: The established water recedes from attention. New result state has priority; do not preserve previous composition when the location changes. No text, no logo. COMMITTED SCENE: basement; established entities: underground basement, anonymous figure, water. PERSISTENT PHYSICAL FACTS: The established water is still.",
+  "options": {
+    "option_1_tr": "Bodrum kapısına yaklaş",
+    "option_1_en": "Approach the basement door",
+    "option_1_result_prompt_en": "The figure is now in the established basement door",
+    "option_1_scene_anchors": [
+      "The established water recedes from attention",
+      "The figure is now in the established basement door"
+    ],
+    "option_1_state_patch": {
+      "current_location": "basement_door",
+      "recent_event": "qwen_bodrum_kap_s_na_yaklas",
+      "current_scene_entities_add": [
+        "underground basement",
+        "anonymous figure"
+      ],
+      "scene_anchors": [
+        "The established water recedes from attention",
+        "The figure is now in the established basement door"
+      ],
+      "result_summary": "The figure is now in the established basement door",
+      "current_scene_manifest": {
+        "location": "basement_door",
+        "entities": [
+          "basement door",
+          "anonymous figure",
+          "underground basement"
+        ],
+        "adjacent_locations": [
+          "red_house_hallway",
+          "basement"
+        ],
+        "summary": "The figure is now in the established basement door"
+      }
+    },
+    "option_1_id": "qwen_bodrum_kap_s_na_yaklas_0",
+    "option_1_intent": "move",
+    "option_1_psyche_delta": {
+      "curiosity": 0.18,
+      "confrontation": 0,
+      "avoidance": 0,
+      "control": 0,
+      "surrender": 0
+    },
+    "option_1_symbol_delta": [
+      "The figure is now in the established basement door"
+    ],
+    "option_1_archetypal_role": "continuation",
+    "option_2_tr": "Suyun yüzeyine dokun",
+    "option_2_en": "Touch the water surface",
+    "option_2_result_prompt_en": "The established water surface now carries widening rings",
+    "option_2_scene_anchors": [
+      "The established water recedes from attention",
+      "The established water surface now carries widening rings"
+    ],
+    "option_2_state_patch": {
+      "current_location": "basement",
+      "recent_event": "qwen_suyun_yuzeyine_dokun",
+      "current_scene_entities_add": [
+        "water"
+      ],
+      "scene_anchors": [
+        "The established water recedes from attention",
+        "The established water surface now carries widening rings"
+      ],
+      "result_summary": "The established water surface now carries widening rings",
+      "entity_state_mutation": {
+        "target_entity": "water",
+        "from_state": null,
+        "to_state": "altered",
+        "opens": [],
+        "closes": [
+          "water_touch"
+        ]
+      },
+      "current_scene_manifest": {
+        "location": "basement",
+        "entities": [
+          "underground basement",
+          "anonymous figure",
+          "water"
+        ],
+        "adjacent_locations": [
+          "basement_door",
+          "machine_room"
+        ],
+        "summary": "The established water surface now carries widening rings"
+      }
+    },
+    "option_2_id": "qwen_suyun_yuzeyine_dokun_5",
+    "option_2_intent": "interact",
+    "option_2_psyche_delta": {
+      "curiosity": 0.18,
+      "confrontation": 0,
+      "avoidance": 0,
+      "control": 0,
+      "surrender": 0
+    },
+    "option_2_symbol_delta": [
+      "The established water surface now carries widening rings"
+    ],
+    "option_2_archetypal_role": "counterpoint"
+  },
+  "optionsReady": true,
+  "storyState": {
+    "current_location": "basement",
+    "location_dwell_turns": 2,
+    "character_state": "anonymous_figure",
+    "current_scene_entities": [
+      "underground basement",
+      "water",
+      "basement",
+      "anonymous_figure"
+    ],
+    "memory_entities": [
+      "stairs",
+      "water",
+      "anonymous figure",
+      "underground basement",
+      "basement door",
+      "machine room",
+      "machine",
+      "stairwell",
+      "closed front door",
+      "red house doorstep",
+      "red house exterior",
+      "window"
+    ],
+    "important_objects": [
+      "stairwell",
+      "closed front door",
+      "red house doorstep",
+      "red house exterior",
+      "window"
+    ],
+    "open_hooks": [],
+    "hook_ttls": {},
+    "scene_anchors": [
+      {
+        "text": "The figure is now in the established basement",
+        "ttl": 2
+      },
+      {
+        "text": "The established reflection differs from the figure",
+        "ttl": 3
+      },
+      {
+        "text": "The established water recedes from attention",
+        "ttl": 3
+      }
+    ],
+    "recent_events": [
+      "qwen_kap_n_n_arkas_na_bak",
+      "qwen_candidate_12",
+      "qwen_kap_ya_yaklas",
+      "qwen_bodruma_in",
+      "qwen_suyun_yans_mas_n_kars_last_ryi_incel",
+      "qwen_sudan_uzaklas"
+    ],
+    "recent_options": [
+      "Figürün gölgesini izle",
+      "Figürün arkasına bak",
+      "Bodrum kapısına yaklaş",
+      "Figürden uzaklaş",
+      "Kapıyı kapat",
+      "Figürün çevresinde dolaş",
+      "Figürü izle",
+      "Kapının arkasına bak",
+      "Kapıyı görmezden gel",
+      "Figürü görmezden gel",
+      "Figüre yaklaş",
+      "Kapının ardını dinle",
+      "Karanlıkta oyalan",
+      "Evin içine gir",
+      "Bodruma in",
+      "Kapıya yaklaş",
+      "Eşiğin önünde bekle",
+      "Figürün yüzüne ışık tut",
+      "Sudan uzaklaş",
+      "Suyun yüzeyine dokun"
+    ],
+    "recent_option_records": [
+      {
+        "label_tr": "Figürden uzaklaş",
+        "result_prompt_en": "The anonymous figure is now farther away",
+        "intent": "avoid",
+        "behavior_family": "abandon",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "avoid",
+        "target_entity": "figure",
+        "resulting_state": "far",
+        "future_signature": "figure|abandon|avoid|physical_change|far",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürün gölgesini izle",
+        "result_prompt_en": "The anonymous figure shadow now reaches across the scene",
+        "intent": "follow",
+        "behavior_family": "follow",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "follow",
+        "target_entity": "figure",
+        "resulting_state": "leading",
+        "future_signature": "figure|follow|follow|physical_change|leading",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Eşiğin önünde bekle",
+        "result_prompt_en": "The threshold holds the figure in place",
+        "intent": "hold_position",
+        "behavior_family": "descend",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "accept",
+        "target_entity": "door",
+        "resulting_state": "held",
+        "future_signature": "door|descend|accept|physical_change|held",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürü görmezden gel",
+        "result_prompt_en": "The figure remains present at the edge of attention",
+        "intent": "ignore",
+        "behavior_family": "observe",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "refuse",
+        "target_entity": "figure",
+        "resulting_state": "peripheral",
+        "future_signature": "figure|observe|refuse|state_settle|peripheral",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Karanlıkta oyalan",
+        "result_prompt_en": "The darkness of the current scene now gathers at its edges",
+        "intent": "avoid",
+        "behavior_family": "approach",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "avoid",
+        "target_entity": "scene",
+        "resulting_state": "far",
+        "future_signature": "scene|approach|avoid|physical_change|far",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürün arkasına bak",
+        "result_prompt_en": "A detail behind the figure becomes visible",
+        "intent": "look_behind",
+        "behavior_family": "inspect",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "reveal",
+        "target_entity": "figure",
+        "resulting_state": "revealed",
+        "future_signature": "figure|inspect|reveal|visible_reveal|revealed",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürü izle",
+        "result_prompt_en": "The anonymous figure now turns slightly away",
+        "intent": "observe",
+        "behavior_family": "follow",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "observe",
+        "target_entity": "figure",
+        "resulting_state": "observed",
+        "future_signature": "figure|follow|observe|physical_change|observed",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Kapının arkasına bak",
+        "result_prompt_en": "The space behind the established door becomes visible",
+        "intent": "look_behind",
+        "behavior_family": "inspect",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "reveal",
+        "target_entity": "door",
+        "resulting_state": "revealed",
+        "future_signature": "door|inspect|reveal|visible_reveal|revealed",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürü görmezden gel",
+        "result_prompt_en": "The figure remains present at the edge of attention",
+        "intent": "ignore",
+        "behavior_family": "approach",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "refuse",
+        "target_entity": "figure",
+        "resulting_state": "peripheral",
+        "future_signature": "figure|approach|refuse|state_settle|peripheral",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürün çevresinde dolaş",
+        "result_prompt_en": "The relation between figure and space shifts",
+        "intent": "circle",
+        "behavior_family": "approach",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "explore",
+        "target_entity": "figure",
+        "resulting_state": "repositioned",
+        "future_signature": "figure|approach|explore|physical_change|repositioned",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Kapıyı görmezden gel",
+        "result_prompt_en": "The established door recedes into the background",
+        "intent": "ignore",
+        "behavior_family": "approach",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "refuse",
+        "target_entity": "door",
+        "resulting_state": "peripheral",
+        "future_signature": "door|approach|refuse|spatial_change|peripheral",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figüre yaklaş",
+        "result_prompt_en": "The anonymous figure is now closer in the scene",
+        "intent": "approach",
+        "behavior_family": "approach",
+        "route_type": "scene_local",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "approach",
+        "target_entity": "figure",
+        "resulting_state": "near",
+        "future_signature": "figure|approach|approach|spatial_change|near",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Evin içine gir",
+        "result_prompt_en": "The figure is now in the established red house hallway",
+        "intent": "move",
+        "behavior_family": "move",
+        "route_type": "scene_local",
+        "next_location": "red_house_hallway",
+        "source": "library",
+        "psychological_vector": "explore",
+        "target_entity": "evin içine",
+        "resulting_state": "",
+        "future_signature": "evin içine|move|explore|physical_change|visible_result",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Bodruma in",
+        "result_prompt_en": "The figure is now in the established basement",
+        "intent": "move",
+        "behavior_family": "move",
+        "route_type": "scene_local",
+        "next_location": "basement",
+        "source": "library",
+        "psychological_vector": "explore",
+        "target_entity": "bodruma",
+        "resulting_state": "",
+        "future_signature": "bodruma|move|explore|physical_change|visible_result",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Suyun altına bak",
+        "result_prompt_en": "A submerged detail becomes visible in the established water",
+        "intent": "reveal",
+        "behavior_family": "inspect",
+        "route_type": "scene_local",
+        "next_location": "basement",
+        "source": "library",
+        "psychological_vector": "reveal",
+        "target_entity": "water",
+        "resulting_state": "revealed",
+        "future_signature": "water|inspect|reveal|atmosphere_change|revealed",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Suyun yansımasını karşılaştır",
+        "result_prompt_en": "The established reflection differs from the figure",
+        "intent": "compare",
+        "behavior_family": "inspect",
+        "route_type": "scene_local",
+        "next_location": "basement",
+        "source": "library",
+        "psychological_vector": "separate",
+        "target_entity": "water",
+        "resulting_state": "mismatched",
+        "future_signature": "water|inspect|separate|visible_reveal|mismatched",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Figürün yüzüne ışık tut",
+        "result_prompt_en": "The figure remains unreadable in the restrained light",
+        "intent": "expose",
+        "behavior_family": "follow",
+        "route_type": "scene_local",
+        "next_location": "basement",
+        "source": "library",
+        "psychological_vector": "reveal",
+        "target_entity": "figure",
+        "resulting_state": "lit",
+        "future_signature": "figure|follow|reveal|light_change|lit",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Sudan uzaklaş",
+        "result_prompt_en": "The established water recedes from attention",
+        "intent": "move_away",
+        "behavior_family": "abandon",
+        "route_type": "scene_local",
+        "next_location": "basement",
+        "source": "library",
+        "psychological_vector": "withdraw",
+        "target_entity": "water",
+        "resulting_state": "far",
+        "future_signature": "water|abandon|withdraw|atmosphere_change|far",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Bodrum kapısına yaklaş",
+        "result_prompt_en": "The figure is now in the established basement door",
+        "intent": "move",
+        "behavior_family": "approach",
+        "route_type": "navigation",
+        "next_location": "basement_door",
+        "source": "library",
+        "psychological_vector": "explore",
+        "target_entity": "basement_door",
+        "resulting_state": "basement_door",
+        "future_signature": "basement door|approach|explore|spatial_change|location:basement_door",
+        "archetype": "trickster"
+      },
+      {
+        "label_tr": "Suyun yüzeyine dokun",
+        "result_prompt_en": "The established water surface now carries widening rings",
+        "intent": "interact",
+        "behavior_family": "touch",
+        "route_type": "scene_local",
+        "next_location": "basement",
+        "source": "library",
+        "psychological_vector": "approach",
+        "target_entity": "water",
+        "resulting_state": "altered",
+        "future_signature": "water|touch|approach|atmosphere_change|altered",
+        "archetype": "trickster"
+      }
+    ],
+    "recent_option_pairs": [
+      "figüre yaklaş || figürün yüzüne ışık tut",
+      "figüre elini uzat || gizli tünele gir",
+      "figürü görmezden gel || kontrol odasına gir",
+      "ara sokağa sap || figürün çevresinde dolaş",
+      "figürü izle || sokağa doğru ilerle",
+      "sokağı takip et || ön yola ilerle",
+      "figürün arkasına bak || kırmızı eve dön",
+      "kırmızı eve yaklaş || çatlak yolda ilerle",
+      "evin içine gir || kırmızı eve dön",
+      "kırmızı eve yaklaş || çatlak yolda ilerle",
+      "karanlıkta oyalan || yolun çatlağını izle",
+      "figürün yüzüne ışık tut || yoldan kenara çekil",
+      "figürün gölgesini izle || yolun başında bekle",
+      "figürü görmezden gel || yolda ilerle",
+      "figürden uzaklaş || yolun çevresinde dolaş",
+      "sokağa doğru ilerle || yolu geride bırak",
+      "ara sokağa sap || figüre elini uzat",
+      "figürü izle || figürün arkasına bak",
+      "figüre yaklaş || gizli tünele gir",
+      "figürün çevresinde dolaş || karanlıkta oyalan",
+      "figürün arkasına bak || sokağa doğru ilerle",
+      "kırmızı eve dön || sokağı takip et",
+      "kırmızı eve yaklaş || çatlak yolda ilerle",
+      "kapıyı kapat || pencerenin önünde bekle",
+      "figürün gölgesini izle || pencereden bak",
+      "figürün yüzüne ışık tut || kapıyı arala",
+      "figürü görmezden gel || pencereden uzaklaş",
+      "evin içine gir || kapının arkasına bak",
+      "eşiğin önünde bekle || pencereye dokun",
+      "figürü izle || pencereyi görmezden gel",
+      "kapıyı görmezden gel || karanlıkta oyalan",
+      "figürden uzaklaş || pencereye yaklaş",
+      "figürün arkasına bak || kapıyı tamamen aç",
+      "figüre yaklaş || kırmızı eve dön",
+      "kapıya yaklaş || pencerenin ardını dinle",
+      "pencereden bak || pencerenin önünde bekle",
+      "figürün yüzüne ışık tut || kapının ardını dinle",
+      "figürü görmezden gel || figürün gölgesini izle",
+      "evin içine gir || pencereden uzaklaş",
+      "kapının arkasına bak || pencereye dokun",
+      "eşiğin önünde bekle || pencereyi görmezden gel",
+      "figürü izle || kapıyı görmezden gel",
+      "karanlıkta oyalan || pencereye yaklaş",
+      "figürden uzaklaş || kapıyı tamamen aç",
+      "figürün çevresinde dolaş || kırmızı eve dön",
+      "figürün arkasına bak || kapıya yaklaş",
+      "pencereden bak || pencerenin ardını dinle",
+      "figürün yüzüne ışık tut || pencerenin önünde bekle",
+      "figürü görmezden gel || kapının ardını dinle",
+      "figüre yaklaş || pencereden uzaklaş",
+      "evin içine gir || pencereye dokun",
+      "ışığın kaynağını ara || ışığın vurduğu yere bak",
+      "pencereyi görmezden gel || ışığın altında bekle",
+      "figürü izle || ışığın dışında kal",
+      "karanlıkta oyalan || kırmızı eve yaklaş",
+      "kapıyı görmezden gel || kapıyı tamamen aç",
+      "figüre elini uzat || kırmızı eve dön",
+      "eşiğin önünde bekle || figürün arkasına bak",
+      "kapının arkasına bak || pencerenin ardını dinle",
+      "figürü görmezden gel || pencereden bak",
+      "figürün yüzüne ışık tut || kapıyı kapat",
+      "evin içine gir || figürden uzaklaş",
+      "kapının ardını dinle || pencerenin önünde bekle",
+      "figürün çevresinde dolaş || pencereyi görmezden gel",
+      "figürün gölgesini izle || pencereye yaklaş",
+      "figürü izle || pencereye dokun",
+      "karanlıkta oyalan || pencereden uzaklaş",
+      "kapıyı görmezden gel || kırmızı eve dön",
+      "eşiğin önünde bekle || figüre yaklaş",
+      "figüre elini uzat || kapının arkasına bak",
+      "figürü görmezden gel || pencerenin ardını dinle",
+      "kapıyı kapat || pencereden bak",
+      "figürün arkasına bak || figürün yüzüne ışık tut",
+      "figürden uzaklaş || pencerenin önünde bekle",
+      "kapıya yaklaş || pencereyi görmezden gel",
+      "figürün gölgesini izle || figürün çevresinde dolaş",
+      "kapının ardını dinle || pencereye dokun",
+      "evin içine gir || karanlıkta oyalan",
+      "pencereden uzaklaş || ışığın altında bekle",
+      "ışığın dışında kal || ışığın vurduğu yere bak",
+      "kırmızı eve yaklaş || ışığın kaynağını ara",
+      "figürü görmezden gel || ışığın kaynağını incele",
+      "pencereden bak || ışığı gölgede bırak",
+      "figürün arkasına bak || ışıktan uzaklaş",
+      "merdivene yönel || pencerenin önünde bekle",
+      "figürün yüzüne ışık tut || merdivenden in",
+      "figürü izle || merdivenin arkasına bak",
+      "basamakları geç || figürün gölgesini izle",
+      "bodruma in || figürden uzaklaş",
+      "karanlıkta oyalan || suyun yansımasını karşılaştır",
+      "suyun altına bak || suyun yüzeyine dokun",
+      "makine odasına gir || sudan uzaklaş",
+      "bodrum kapısına yaklaş || figürü görmezden gel",
+      "figüre yaklaş || suyun ötesine geç",
+      "figürün arkasına bak || suya yaklaş",
+      "figürün çevresinde dolaş || suyun akışını takip et",
+      "figüre elini uzat || figürün yüzüne ışık tut",
+      "figürü izle || karanlıkta oyalan",
+      "bodrum kapısına yaklaş || figüre yaklaş",
+      "eşiğin önünde bekle || kapıyı görmezden gel",
+      "bodruma in || figürün gölgesini izle",
+      "suyun yansımasını karşılaştır || suyun yüzeyine dokun",
+      "sudan uzaklaş || suyun altına bak",
+      "figürü görmezden gel || makine odasına gir",
+      "ışığın altında bekle || ışığın vurduğu yere bak",
+      "figürün arkasına bak || ışığın kaynağını incele",
+      "makineye dokun || ışığın dışında kal",
+      "figürden uzaklaş || ışığın kaynağını ara",
+      "figürün yüzüne ışık tut || kontrol odasına gir",
+      "karanlıkta oyalan || ışığı takip et",
+      "figürü izle || ışığı gölgede bırak",
+      "bodruma in || makineden uzaklaş",
+      "figüre elini uzat || figürün gölgesini izle",
+      "figüre yaklaş || figürün çevresinde dolaş",
+      "bodruma in || ışığı takip et",
+      "figürü görmezden gel || suyun yüzeyine dokun",
+      "figürün arkasına bak || suyun altına bak",
+      "bodrum kapısına yaklaş || suyun yansımasını karşılaştır",
+      "kapının arkasına bak || kapıyı arala",
+      "eşiğin önünde bekle || figürün yüzüne ışık tut",
+      "kapının ardını dinle || kapıyı tamamen aç",
+      "evin içine gir || karanlıkta oyalan",
+      "pencereden bak || ışığın kaynağını ara",
+      "kırmızı eve yaklaş || merdivene yönel",
+      "basamakları geç || basamakları izle",
+      "figürün gölgesini izle || merdivende bekle",
+      "figürü görmezden gel || merdivenden in",
+      "figürden uzaklaş || figürün arkasına bak",
+      "bodruma in || figürü izle",
+      "figüre yaklaş || merdivenin arkasına bak",
+      "figürün yüzüne ışık tut || figürün çevresinde dolaş",
+      "figüre elini uzat || karanlıkta oyalan",
+      "evin içine gir || figürün çevresinde dolaş",
+      "pencerenin ardını dinle || ışığın kaynağını ara",
+      "kırmızı eve yaklaş || merdivene yönel",
+      "evin içine gir || figürün arkasına bak",
+      "basamakları izle || merdivende bekle",
+      "basamakları geç || figürü görmezden gel",
+      "figürden uzaklaş || merdivenden in",
+      "figürü izle || figürü takip et",
+      "bodruma in || merdivenin arkasına bak",
+      "figüre yaklaş || figürün yüzüne ışık tut",
+      "basamakları izle || evin içine gir",
+      "pencereye dokun || ışığın altında bekle",
+      "kırmızı eve yaklaş || merdivene yönel",
+      "figürün çevresinde dolaş || karanlıkta oyalan",
+      "figüre elini uzat || figürün arkasına bak",
+      "evin içine gir || merdivende bekle",
+      "pencereyi görmezden gel || ışığın kaynağını incele",
+      "ışıktan uzaklaş || ışığı gölgede bırak",
+      "figürü görmezden gel || ışığın dışında kal",
+      "pencereden bak || ışığın vurduğu yere bak",
+      "bodrum kapısına yaklaş || pencerenin önünde bekle",
+      "figürü izle || figürün yüzüne ışık tut",
+      "pencereye dokun || ışığın kaynağını ara",
+      "kırmızı eve yaklaş || pencereden uzaklaş",
+      "kapının arkasına bak || karanlıkta oyalan",
+      "eşiğin önünde bekle || figürün çevresinde dolaş",
+      "figürün arkasına bak || pencerenin ardını dinle",
+      "kapıyı kapat || pencereyi görmezden gel",
+      "kırmızı eve dön || pencereye yaklaş",
+      "figürü görmezden gel || kapıyı arala",
+      "evin içine gir || pencereden bak",
+      "figürün gölgesini izle || pencerenin önünde bekle",
+      "figürün yüzüne ışık tut || kapıyı görmezden gel",
+      "figürden uzaklaş || pencereye dokun",
+      "figüre yaklaş || figürü izle",
+      "kapının arkasına bak || pencereden uzaklaş",
+      "eşiğin önünde bekle || karanlıkta oyalan",
+      "figürün çevresinde dolaş || pencerenin ardını dinle",
+      "figürün arkasına bak || pencereyi görmezden gel",
+      "kapının ardını dinle || kırmızı eve dön",
+      "figürü görmezden gel || pencereye yaklaş",
+      "kapıyı arala || pencereden bak",
+      "evin içine gir || pencerenin önünde bekle",
+      "figürün yüzüne ışık tut || kapıyı tamamen aç",
+      "figürün gölgesini izle || pencereye dokun",
+      "figürden uzaklaş || figürü izle",
+      "figüre yaklaş || kapının arkasına bak",
+      "eşiğin önünde bekle || pencereden uzaklaş",
+      "karanlıkta oyalan || pencerenin ardını dinle",
+      "figüre elini uzat || pencereyi görmezden gel",
+      "kapıya yaklaş || kırmızı eve dön",
+      "figürü görmezden gel || figürün arkasına bak",
+      "kapıyı görmezden gel || pencereden bak",
+      "figürün çevresinde dolaş || pencerenin önünde bekle",
+      "evin içine gir || kapıyı tamamen aç",
+      "figürün yüzüne ışık tut || pencereye dokun",
+      "figürden uzaklaş || kapının ardını dinle",
+      "figürü izle || pencereye yaklaş",
+      "eşiğin önünde bekle || kapının arkasına bak",
+      "figürün gölgesini izle || karanlıkta oyalan",
+      "kapıyı kapat || pencerenin ardını dinle",
+      "kırmızı eve dön || pencereyi görmezden gel",
+      "figürü görmezden gel || kapıya yaklaş",
+      "figürün arkasına bak || pencereden bak",
+      "kapıyı görmezden gel || pencerenin önünde bekle",
+      "figürün çevresinde dolaş || pencereden uzaklaş",
+      "evin içine gir || figürün yüzüne ışık tut",
+      "figüre yaklaş || pencereye dokun",
+      "kapının ardını dinle || pencereye yaklaş",
+      "eşiğin önünde bekle || figürü izle",
+      "figürden uzaklaş || kapının arkasına bak",
+      "figürü takip et || karanlıkta oyalan",
+      "kapıyı kapat || kırmızı eve dön",
+      "figürü görmezden gel || ışığın vurduğu yere bak",
+      "figürden uzaklaş || kırmızı eve yaklaş",
+      "kırmızı eve yaklaş || çatlak yolda ilerle",
+      "kapıyı görmezden gel || pencerenin ardını dinle",
+      "figürün arkasına bak || pencerenin önünde bekle",
+      "figürün yüzüne ışık tut || pencereyi görmezden gel",
+      "pencereden bak || pencereden uzaklaş",
+      "kapıya yaklaş || pencereye dokun",
+      "evin içine gir || figürü izle",
+      "eşiğin önünde bekle || kapının ardını dinle",
+      "karanlıkta oyalan || kırmızı eve dön",
+      "figürü görmezden gel || kapının arkasına bak",
+      "figüre yaklaş || figürün gölgesini izle",
+      "figürden uzaklaş || kapıyı kapat",
+      "figüre elini uzat || pencerenin ardını dinle",
+      "kapıyı arala || pencerenin önünde bekle",
+      "figürün yüzüne ışık tut || pencereye yaklaş",
+      "figürün arkasına bak || kapıyı görmezden gel",
+      "pencereye dokun || pencereyi görmezden gel",
+      "figürü izle || pencereden uzaklaş",
+      "eşiğin önünde bekle || pencereden bak",
+      "kapıya yaklaş || kapıyı tamamen aç",
+      "evin içine gir || figürü görmezden gel",
+      "kırmızı eve yaklaş || merdivene yönel",
+      "basamakları izle || karanlıkta oyalan",
+      "bodruma in || merdivende bekle",
+      "sudan uzaklaş || suyun yüzeyine dokun",
+      "figürün yüzüne ışık tut || suyun yansımasını karşılaştır",
+      "figüre elini uzat || suyun altına bak",
+      "figürün arkasına bak || figürün gölgesini izle",
+      "bodrum kapısına yaklaş || figürden uzaklaş",
+      "eşiğin önünde bekle || kapıyı kapat",
+      "figürü izle || figürün çevresinde dolaş",
+      "kapının arkasına bak || kapıyı görmezden gel",
+      "figüre yaklaş || figürü görmezden gel",
+      "kapının ardını dinle || karanlıkta oyalan",
+      "evin içine gir || figürün arkasına bak",
+      "bodruma in || kapıya yaklaş",
+      "evin içine gir || figürün yüzüne ışık tut",
+      "figüre elini uzat || kapıyı kapat",
+      "evin içine gir || figürün çevresinde dolaş",
+      "figürden uzaklaş || figürün gölgesini izle",
+      "eşiğin önünde bekle || figürü görmezden gel",
+      "figürün arkasına bak || karanlıkta oyalan",
+      "figürü izle || kapının arkasına bak",
+      "figürü görmezden gel || figürün çevresinde dolaş",
+      "figüre yaklaş || kapıyı görmezden gel",
+      "bodruma in || evin içine gir",
+      "suyun altına bak || suyun yansımasını karşılaştır",
+      "figürün yüzüne ışık tut || sudan uzaklaş",
+      "bodrum kapısına yaklaş || suyun yüzeyine dokun"
+    ],
+    "recent_situation_families": [
+      "MEMORY",
+      "OBJECT_EXCHANGE",
+      "NON_ACTION",
+      "OBJECT_EXAMINATION",
+      "OBJECT_TRANSFORMATION",
+      "NAVIGATION",
+      "DISCOVERY",
+      "FIGURE_ENCOUNTER",
+      "ENVIRONMENT_TRANSFORMATION",
+      "NAVIGATION",
+      "ENVIRONMENT_TRANSFORMATION"
+    ],
+    "recent_visual_motifs": [
+      "LONE_NATURE",
+      "DOMESTIC",
+      "MECHANICAL",
+      "PASSAGE",
+      "WINDOW",
+      "LIGHT_EFFECT",
+      "THRESHOLD",
+      "WATER"
+    ],
+    "recent_compositions": [
+      "environment_wide",
+      "object_interaction_close",
+      "partial_architecture",
+      "wide_asymmetric",
+      "medium_profile"
+    ],
+    "tone": "mysterious_surreal",
+    "current_scene_manifest": {
+      "location": "basement",
+      "entities": [
+        "underground basement",
+        "anonymous figure",
+        "water"
+      ],
+      "adjacent_locations": [
+        "basement_door",
+        "machine_room"
+      ],
+      "entity_states": {
+        "figure": "far",
+        "water": "still"
+      },
+      "summary": "The established water recedes from attention",
+      "entity_physical_states": {
+        "water": {
+          "water": "still"
+        }
+      },
+      "entity_interactions": {
+        "figure": "far",
+        "water": "far"
+      },
+      "entity_manifestations": [
+        {
+          "id": "basement_water",
+          "entity": "water",
+          "source": "canonical_optional:water",
+          "scope": "location_physical",
+          "activated_by": "canonical_water_state"
+        }
+      ]
+    },
+    "physical_memory": {
+      "red_house_exterior": {
+        "door": {
+          "aperture": "open"
+        },
+        "light": {
+          "illumination": "steady"
+        },
+        "window": {
+          "aperture": "closed"
+        }
+      },
+      "red_house_doorstep": {
+        "window": {
+          "aperture": "closed"
+        }
+      },
+      "red_house_hallway": {
+        "light": {
+          "illumination": "steady"
+        },
+        "window": {
+          "aperture": "closed"
+        }
+      },
+      "basement_door": {
+        "door": {
+          "aperture": "open"
+        }
+      },
+      "basement": {
+        "water": {
+          "water": "still"
+        }
+      },
+      "machine_room": {
+        "machine": {
+          "power": "on"
+        },
+        "light": {
+          "illumination": "steady"
+        }
+      },
+      "control_room": {
+        "light": {
+          "illumination": "steady"
+        }
+      }
+    }
+  },
+  "dreamPsyche": {
+    "dominant_archetypal_field": "trickster",
+    "secondary_archetypal_field": "child",
+    "tensions": {
+      "confrontation_avoidance": 0.5086142131588409,
+      "control_surrender": 0.4929791026065689,
+      "connection_isolation": 0.5272594162533152,
+      "order_chaos": 0.5054069558584614
+    },
+    "collective_tendency": {
+      "curiosity": 0.6268311080889515,
+      "confrontation": 0.5000000000000007,
+      "avoidance": 0.5240853497550468,
+      "control": 0.500860574155267,
+      "surrender": 0.5035463729780516
+    },
+    "archetypal_pressure": {
+      "shadow": 0.08000000000000003,
+      "persona": 0.08000000000000003,
+      "anima_animus": 0.08000000000000003,
+      "self": 0.07999999999999993,
+      "child": 0.08711217737316253,
+      "wise_figure": 0.08351044869671552,
+      "trickster": 0.22937737393012186,
+      "mother_field": 0.07999999999999993
+    },
+    "compensation_pressure": 0.34977588041683094,
+    "recurring_symbols": [
+      {
+        "symbol": "The established door recedes into the background",
+        "first_seen": 13373,
+        "last_seen": 13386,
+        "appearances": 3,
+        "unresolved": true,
+        "earned": true,
+        "strength": 0.3143358683749635,
+        "contexts": [
+          "basement_door",
+          "basement_door",
+          "basement"
+        ],
+        "last_intent": "move"
+      },
+      {
+        "symbol": "The shadow beneath the established door is now visibly displaced",
+        "first_seen": 13374,
+        "last_seen": 13375,
+        "appearances": 2,
+        "unresolved": true,
+        "earned": true,
+        "strength": 0.32468715460419023,
+        "contexts": [
+          "basement_door",
+          "basement_door"
+        ],
+        "last_intent": "look_behind"
+      },
+      {
+        "symbol": "The established door is now directly before the figure",
+        "first_seen": 13376,
+        "last_seen": 13377,
+        "appearances": 2,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.18687647598557894,
+        "contexts": [
+          "basement_door",
+          "basement_door"
+        ],
+        "last_intent": "expose"
+      },
+      {
+        "symbol": "The figure remains unreadable in the restrained light",
+        "first_seen": 13378,
+        "last_seen": 13378,
+        "appearances": 1,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.11966987447847013,
+        "contexts": [
+          "basement_door"
+        ],
+        "last_intent": "interact"
+      },
+      {
+        "symbol": "The space behind the established door becomes visible",
+        "first_seen": 13383,
+        "last_seen": 13384,
+        "appearances": 2,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.2486886727679999,
+        "contexts": [
+          "basement_door",
+          "basement_door"
+        ],
+        "last_intent": "ignore"
+      },
+      {
+        "symbol": "The established water recedes from attention",
+        "first_seen": 13388,
+        "last_seen": 13388,
+        "appearances": 1,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.18,
+        "contexts": [
+          "basement"
+        ],
+        "last_intent": "move_away"
+      }
+    ],
+    "active_complexes": [
+      "ignore_complex",
+      "move_complex",
+      "follow_complex",
+      "avoid_complex"
+    ],
+    "unresolved_motifs": [
+      "ignore_complex",
+      "move_complex",
+      "follow_complex",
+      "avoid_complex"
+    ],
+    "intent_memory": [
+      "hold_position",
+      "avoid",
+      "look_behind",
+      "ignore",
+      "ignore",
+      "move",
+      "compare",
+      "move_away"
+    ],
+    "recent_option_intents": [
+      "enter",
+      "descend",
+      "inspect",
+      "confront",
+      "follow",
+      "abandon",
+      "approach",
+      "touch"
+    ],
+    "recent_pairs": [
+      "figüre elini uzat|kapıyı kapat",
+      "evin içine gir|figürün çevresinde dolaş",
+      "figürden uzaklaş|figürün gölgesini izle",
+      "eşiğin önünde bekle|figürü görmezden gel",
+      "karanlıkta oyalan|figürün arkasına bak",
+      "figürü izle|kapının arkasına bak",
+      "figürü görmezden gel|figürün çevresinde dolaş",
+      "kapıyı görmezden gel|figüre yaklaş",
+      "evin içine gir|bodruma in",
+      "suyun altına bak|suyun yansımasını karşılaştır",
+      "figürün yüzüne ışık tut|sudan uzaklaş",
+      "bodrum kapısına yaklaş|suyun yüzeyine dokun"
+    ],
+    "dream_cycle": {
+      "phase": "lysis",
+      "age": 75
+    }
+  },
+  "dream_psyche": {
+    "dominant_archetypal_field": "trickster",
+    "secondary_archetypal_field": "child",
+    "tensions": {
+      "confrontation_avoidance": 0.5086142131588409,
+      "control_surrender": 0.4929791026065689,
+      "connection_isolation": 0.5272594162533152,
+      "order_chaos": 0.5054069558584614
+    },
+    "collective_tendency": {
+      "curiosity": 0.6268311080889515,
+      "confrontation": 0.5000000000000007,
+      "avoidance": 0.5240853497550468,
+      "control": 0.500860574155267,
+      "surrender": 0.5035463729780516
+    },
+    "archetypal_pressure": {
+      "shadow": 0.08000000000000003,
+      "persona": 0.08000000000000003,
+      "anima_animus": 0.08000000000000003,
+      "self": 0.07999999999999993,
+      "child": 0.08711217737316253,
+      "wise_figure": 0.08351044869671552,
+      "trickster": 0.22937737393012186,
+      "mother_field": 0.07999999999999993
+    },
+    "compensation_pressure": 0.34977588041683094,
+    "recurring_symbols": [
+      {
+        "symbol": "The established door recedes into the background",
+        "first_seen": 13373,
+        "last_seen": 13386,
+        "appearances": 3,
+        "unresolved": true,
+        "earned": true,
+        "strength": 0.3143358683749635,
+        "contexts": [
+          "basement_door",
+          "basement_door",
+          "basement"
+        ],
+        "last_intent": "move"
+      },
+      {
+        "symbol": "The shadow beneath the established door is now visibly displaced",
+        "first_seen": 13374,
+        "last_seen": 13375,
+        "appearances": 2,
+        "unresolved": true,
+        "earned": true,
+        "strength": 0.32468715460419023,
+        "contexts": [
+          "basement_door",
+          "basement_door"
+        ],
+        "last_intent": "look_behind"
+      },
+      {
+        "symbol": "The established door is now directly before the figure",
+        "first_seen": 13376,
+        "last_seen": 13377,
+        "appearances": 2,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.18687647598557894,
+        "contexts": [
+          "basement_door",
+          "basement_door"
+        ],
+        "last_intent": "expose"
+      },
+      {
+        "symbol": "The figure remains unreadable in the restrained light",
+        "first_seen": 13378,
+        "last_seen": 13378,
+        "appearances": 1,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.11966987447847013,
+        "contexts": [
+          "basement_door"
+        ],
+        "last_intent": "interact"
+      },
+      {
+        "symbol": "The space behind the established door becomes visible",
+        "first_seen": 13383,
+        "last_seen": 13384,
+        "appearances": 2,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.2486886727679999,
+        "contexts": [
+          "basement_door",
+          "basement_door"
+        ],
+        "last_intent": "ignore"
+      },
+      {
+        "symbol": "The established water recedes from attention",
+        "first_seen": 13388,
+        "last_seen": 13388,
+        "appearances": 1,
+        "unresolved": true,
+        "earned": false,
+        "strength": 0.18,
+        "contexts": [
+          "basement"
+        ],
+        "last_intent": "move_away"
+      }
+    ],
+    "active_complexes": [
+      "ignore_complex",
+      "move_complex",
+      "follow_complex",
+      "avoid_complex"
+    ],
+    "unresolved_motifs": [
+      "ignore_complex",
+      "move_complex",
+      "follow_complex",
+      "avoid_complex"
+    ],
+    "intent_memory": [
+      "hold_position",
+      "avoid",
+      "look_behind",
+      "ignore",
+      "ignore",
+      "move",
+      "compare",
+      "move_away"
+    ],
+    "recent_option_intents": [
+      "enter",
+      "descend",
+      "inspect",
+      "confront",
+      "follow",
+      "abandon",
+      "approach",
+      "touch"
+    ],
+    "recent_pairs": [
+      "figüre elini uzat|kapıyı kapat",
+      "evin içine gir|figürün çevresinde dolaş",
+      "figürden uzaklaş|figürün gölgesini izle",
+      "eşiğin önünde bekle|figürü görmezden gel",
+      "karanlıkta oyalan|figürün arkasına bak",
+      "figürü izle|kapının arkasına bak",
+      "figürü görmezden gel|figürün çevresinde dolaş",
+      "kapıyı görmezden gel|figüre yaklaş",
+      "evin içine gir|bodruma in",
+      "suyun altına bak|suyun yansımasını karşılaştır",
+      "figürün yüzüne ışık tut|sudan uzaklaş",
+      "bodrum kapısına yaklaş|suyun yüzeyine dokun"
+    ],
+    "dream_cycle": {
+      "phase": "lysis",
+      "age": 75
+    }
+  },
+  "previousOptions": [
+    "Kapıyı görmezden gel",
+    "Figüre yaklaş",
+    "Evin içine gir",
+    "Bodruma in",
+    "Suyun altına bak",
+    "Suyun yansımasını karşılaştır",
+    "Figürün yüzüne ışık tut",
+    "Sudan uzaklaş"
+  ],
+  "phase": "NEXT_READY",
+  "generationInProgress": false,
+  "activeProfile": "IMAGE_MOTION",
+  "recentGenerationTimes": [
+    2.7686031999997796,
+    2.8894008000008764,
+    2.1749743000008164,
+    2.7164937999993564,
+    2.7257348999995736,
+    2.6381477999985217,
+    2.712402599999681,
+    3.1363925000000745,
+    2.6906256999988107,
+    3.043990900000557,
+    2.8659730999991297,
+    3.048025800000876,
+    3.108600500000641,
+    2.8655802999995648,
+    3.1322906999997793,
+    2.970427899999544,
+    2.8554528999999165,
+    2.8958575999997556,
+    2.99886989999935,
+    2.8975957999993116
+  ],
+  "currentPlaybackRate": 1,
+  "secondsLeft": 0,
+  "option1Votes": 0,
+  "option2Votes": 0,
+  "winnerTr": "Sudan uzaklaş",
+  "roundId": "r-13387-1788830926697-kjf48n",
+  "openedAt": 1788830926697,
+  "closesAt": 1788830934697,
+  "totalVotes": 0,
+  "storyEngineVersion": "qwen_first_manifest_v9",
+  "qwenRetryFailures": 0
+}

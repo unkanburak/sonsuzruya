@@ -1,0 +1,134 @@
+[
+  {
+    "turn": 1,
+    "sceneNumber": 11585,
+    "media": "/generated/live/scene_11585_1788187991806_8e7c6c49_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_01_scene_11585.png",
+    "bytes": 726453,
+    "options": [
+      "Telefonu sessize al — mevcut atmosferin eşiğinde",
+      "Çamaşır makinesini bekle — mevcut atmosferin karşısında"
+    ]
+  },
+  {
+    "turn": 2,
+    "sceneNumber": 11586,
+    "media": "/generated/live/scene_11586_1788188001531_14944885_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_02_scene_11586.png",
+    "bytes": 730756,
+    "options": [
+      "Arabaya bin — parıltının içinden",
+      "Yansıyan koridora ilerle — ağacın sessizliğinde"
+    ]
+  },
+  {
+    "turn": 3,
+    "sceneNumber": 11587,
+    "media": "/generated/live/scene_11587_1788188011478_643b2dc9_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_03_scene_11587.png",
+    "bytes": 690289,
+    "options": [
+      "Aralık kapıyı izle — ağacın gölgesinde",
+      "Kürelerin altına ilerle — mevcut atmosferin eşiğinde"
+    ]
+  },
+  {
+    "turn": 4,
+    "sceneNumber": 11588,
+    "media": "/generated/live/scene_11588_1788188021557_789c0514_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_04_scene_11588.png",
+    "bytes": 749115,
+    "options": [
+      "Kapıdan çık — mevcut atmosferin kıyısında",
+      "Aynaların arasından ilerle — mevcut atmosferin kıyısında"
+    ]
+  },
+  {
+    "turn": 5,
+    "sceneNumber": 11589,
+    "media": "/generated/live/scene_11589_1788188031665_8be149e3_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_05_scene_11589.png",
+    "bytes": 750528,
+    "options": [
+      "Fotoğrafı çevir — suyun yankısına doğru",
+      "Sisin içine bak — kapının yankısına doğru"
+    ]
+  },
+  {
+    "turn": 6,
+    "sceneNumber": 11590,
+    "media": "/generated/live/scene_11590_1788188041515_63954a49_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_06_scene_11590.png",
+    "bytes": 730225,
+    "options": [
+      "Basamakların sonuna ulaş — odanın ardında",
+      "Uzak ışığı takip et — mevcut atmosferin ardında"
+    ]
+  },
+  {
+    "turn": 7,
+    "sceneNumber": 11591,
+    "media": "/generated/live/scene_11591_1788188051361_6d1474fb_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_07_scene_11591.png",
+    "bytes": 815919,
+    "options": [
+      "Arabayı sisli yola çıkar — ışığın ışığında",
+      "Yağmurun altında bekle — mevcut atmosferin ışığında"
+    ]
+  },
+  {
+    "turn": 8,
+    "sceneNumber": 11592,
+    "media": "/generated/live/scene_11592_1788188060700_976bafab_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_08_scene_11592.png",
+    "bytes": 712340,
+    "options": [
+      "Pencerenin yanındaki kapıya geç — mevcut atmosferin sessizliğinde",
+      "Sis yoğunlaşsın — parıltının içinden"
+    ]
+  },
+  {
+    "turn": 9,
+    "sceneNumber": 11593,
+    "media": "/generated/live/scene_11593_1788188070054_5cc69d14_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_09_scene_11593.png",
+    "bytes": 661510,
+    "options": [
+      "Pencereye yaklaş — parıltının uzağında",
+      "Yağmur başlasın — ağacın uzağında"
+    ]
+  },
+  {
+    "turn": 10,
+    "sceneNumber": 11594,
+    "media": "/generated/live/scene_11594_1788188079782_9d0097b0_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_10_scene_11594.png",
+    "bytes": 705937,
+    "options": [
+      "Aralık kapıyı izle — ağacın ardından",
+      "Çay fincanını koru — mevcut atmosferin ardından"
+    ]
+  },
+  {
+    "turn": 11,
+    "sceneNumber": 11595,
+    "media": "/generated/live/scene_11595_1788188089039_7215f410_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_11_scene_11595.png",
+    "bytes": 695197,
+    "options": [
+      "Kapının eşiğine ilerle — mevcut atmosferin çevresinde",
+      "Aynaların arasından ilerle — mevcut atmosferin çevresinde"
+    ]
+  },
+  {
+    "turn": 12,
+    "sceneNumber": 11596,
+    "media": "/generated/live/scene_11596_1788188099054_12d8256c_00001_.png",
+    "file": "benchmark\\visual-trope-repetition\\real-scenes\\turn_12_scene_11596.png",
+    "bytes": 697538,
+    "options": [
+      "Arabaya bin — mevcut atmosferin altında",
+      "Durgun suya yaklaş — pencerenin altında"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "startedAt": "2026-08-31T16:23:53.136Z",
+  "finishedAt": "2026-08-31T16:25:48.984Z",
+  "requestedDurationSeconds": 115,
+  "samples": 23,
+  "startScene": 12088,
+  "endScene": 12096,
+  "completedRounds": 8,
+  "missingMediaSamples": 0,
+  "requestFailures": [],
+  "passed": false
+}

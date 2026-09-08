@@ -1,0 +1,5661 @@
+{
+  "startedAt": "2026-08-30T15:25:47.611Z",
+  "finishedAt": "2026-08-30T16:40:22.130Z",
+  "target": 300,
+  "startScene": 6251,
+  "summary": {
+    "turns": 300,
+    "runtimeSeconds": 4474.519,
+    "sdxlFirst": {
+      "p50": 2.812807500000112,
+      "p95": 3.6298085000002756
+    },
+    "sdxlSecond": {
+      "p50": 2.8427108000000008,
+      "p95": 3.6307378000002353
+    },
+    "loop": {
+      "p50": 0.7134760000000242,
+      "p95": 0.9043122999998741
+    },
+    "mediaFailures": 0,
+    "loopSuccess": 300,
+    "queueMax": 0
+  },
+  "rows": [
+    {
+      "turn": 1,
+      "sceneNumber": 6253,
+      "generationTime": 3.0749018999999973,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 461589,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3348,
+      "nodeRss": 67874816,
+      "loopTime": 0.7826416000000026
+    },
+    {
+      "turn": 2,
+      "sceneNumber": 6254,
+      "generationTime": 2.796019499999995,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 477782,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3233,
+      "nodeRss": 68620288,
+      "loopTime": 0.7355534999999945
+    },
+    {
+      "turn": 3,
+      "sceneNumber": 6255,
+      "generationTime": 2.956755799999999,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 532826,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3221,
+      "nodeRss": 69136384,
+      "loopTime": 0.720653999999995
+    },
+    {
+      "turn": 4,
+      "sceneNumber": 6256,
+      "generationTime": 3.009921399999992,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 430798,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3189,
+      "nodeRss": 70279168,
+      "loopTime": 0.7013398999999918
+    },
+    {
+      "turn": 5,
+      "sceneNumber": 6257,
+      "generationTime": 2.8621114999999993,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 492682,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3272,
+      "nodeRss": 70451200,
+      "loopTime": 0.7176324999999779
+    },
+    {
+      "turn": 6,
+      "sceneNumber": 6258,
+      "generationTime": 2.792137300000002,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 483464,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 727,
+      "stateBytes": 3252,
+      "nodeRss": 70692864,
+      "loopTime": 0.6856178999999829
+    },
+    {
+      "turn": 7,
+      "sceneNumber": 6259,
+      "generationTime": 3.042102499999979,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 414071,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 717,
+      "stateBytes": 3136,
+      "nodeRss": 71696384,
+      "loopTime": 0.7073943999999901
+    },
+    {
+      "turn": 8,
+      "sceneNumber": 6260,
+      "generationTime": 3.540155299999984,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 383082,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3094,
+      "nodeRss": 72372224,
+      "loopTime": 0.5794557999999961
+    },
+    {
+      "turn": 9,
+      "sceneNumber": 6261,
+      "generationTime": 2.7592491999999913,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 421288,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3196,
+      "nodeRss": 73052160,
+      "loopTime": 0.7116036000000022
+    },
+    {
+      "turn": 10,
+      "sceneNumber": 6262,
+      "generationTime": 90.63251329999999,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 412933,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 760,
+      "stateBytes": 3302,
+      "nodeRss": 75878400,
+      "loopTime": 0.5450434000000242
+    },
+    {
+      "turn": 11,
+      "sceneNumber": 6263,
+      "generationTime": 2.2791263000000037,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 462220,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 793,
+      "stateBytes": 3212,
+      "nodeRss": 75816960,
+      "loopTime": 0.6788886000000057
+    },
+    {
+      "turn": 12,
+      "sceneNumber": 6264,
+      "generationTime": 2.9801295999999855,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 534293,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 759,
+      "stateBytes": 3307,
+      "nodeRss": 76730368,
+      "loopTime": 0.5951663000000408
+    },
+    {
+      "turn": 13,
+      "sceneNumber": 6265,
+      "generationTime": 2.883033999999985,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 452341,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 764,
+      "stateBytes": 3385,
+      "nodeRss": 76505088,
+      "loopTime": 0.6807307000000147
+    },
+    {
+      "turn": 14,
+      "sceneNumber": 6266,
+      "generationTime": 2.9675871000000043,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 504895,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 755,
+      "stateBytes": 3325,
+      "nodeRss": 77385728,
+      "loopTime": 0.718561400000006
+    },
+    {
+      "turn": 15,
+      "sceneNumber": 6267,
+      "generationTime": 2.6553649000000443,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 403979,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3287,
+      "nodeRss": 77910016,
+      "loopTime": 0.6951467000000412
+    },
+    {
+      "turn": 16,
+      "sceneNumber": 6268,
+      "generationTime": 2.906028500000015,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 472186,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 741,
+      "stateBytes": 3311,
+      "nodeRss": 78340096,
+      "loopTime": 0.7208681000000215
+    },
+    {
+      "turn": 17,
+      "sceneNumber": 6269,
+      "generationTime": 2.684017300000007,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 410074,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 737,
+      "stateBytes": 3229,
+      "nodeRss": 78376960,
+      "loopTime": 0.6723883999999962
+    },
+    {
+      "turn": 18,
+      "sceneNumber": 6270,
+      "generationTime": 2.729516200000013,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 405276,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 742,
+      "stateBytes": 3120,
+      "nodeRss": 77905920,
+      "loopTime": 0.7325602000000072
+    },
+    {
+      "turn": 19,
+      "sceneNumber": 6271,
+      "generationTime": 3.02767790000001,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 441906,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 731,
+      "stateBytes": 3174,
+      "nodeRss": 78331904,
+      "loopTime": 0.7341378000000259
+    },
+    {
+      "turn": 20,
+      "sceneNumber": 6272,
+      "generationTime": 3.1939936999999916,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 496940,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3151,
+      "nodeRss": 77787136,
+      "loopTime": 0.5507771000000066
+    },
+    {
+      "turn": 21,
+      "sceneNumber": 6273,
+      "generationTime": 2.8452590999999665,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 426871,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 714,
+      "stateBytes": 3275,
+      "nodeRss": 77783040,
+      "loopTime": 0.7432444999999716
+    },
+    {
+      "turn": 22,
+      "sceneNumber": 6274,
+      "generationTime": 2.7728344999999974,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 459024,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 718,
+      "stateBytes": 3245,
+      "nodeRss": 78127104,
+      "loopTime": 0.7331444999999949
+    },
+    {
+      "turn": 23,
+      "sceneNumber": 6275,
+      "generationTime": 2.91423119999998,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 394789,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 727,
+      "stateBytes": 3065,
+      "nodeRss": 78528512,
+      "loopTime": 0.7560907000000007
+    },
+    {
+      "turn": 24,
+      "sceneNumber": 6276,
+      "generationTime": 3.1178922000000022,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 444609,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3082,
+      "nodeRss": 78606336,
+      "loopTime": 0.7445278999999864
+    },
+    {
+      "turn": 25,
+      "sceneNumber": 6277,
+      "generationTime": 4.948052000000025,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 411100,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3218,
+      "nodeRss": 78692352,
+      "loopTime": 0.7134760000000242
+    },
+    {
+      "turn": 26,
+      "sceneNumber": 6278,
+      "generationTime": 2.657236399999994,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 478852,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 741,
+      "stateBytes": 3177,
+      "nodeRss": 78868480,
+      "loopTime": 0.5657528000000166
+    },
+    {
+      "turn": 27,
+      "sceneNumber": 6279,
+      "generationTime": 4.6364899999999905,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 473119,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3317,
+      "nodeRss": 79708160,
+      "loopTime": 0.794279499999946
+    },
+    {
+      "turn": 28,
+      "sceneNumber": 6280,
+      "generationTime": 2.6913414999999805,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 420536,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3222,
+      "nodeRss": 79319040,
+      "loopTime": 0.7422246999999043
+    },
+    {
+      "turn": 29,
+      "sceneNumber": 6281,
+      "generationTime": 2.756144899999956,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 468254,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 721,
+      "stateBytes": 3202,
+      "nodeRss": 79912960,
+      "loopTime": 0.6940993999999482
+    },
+    {
+      "turn": 30,
+      "sceneNumber": 6282,
+      "generationTime": 2.8608956999999937,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 417588,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3111,
+      "nodeRss": 79724544,
+      "loopTime": 0.5737597999999998
+    },
+    {
+      "turn": 31,
+      "sceneNumber": 6283,
+      "generationTime": 2.8528435999999058,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 482032,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 721,
+      "stateBytes": 3089,
+      "nodeRss": 80084992,
+      "loopTime": 0.6871254999999655
+    },
+    {
+      "turn": 32,
+      "sceneNumber": 6284,
+      "generationTime": 3.5550490999999456,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 538638,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 741,
+      "stateBytes": 3196,
+      "nodeRss": 80236544,
+      "loopTime": 0.5804767999999458
+    },
+    {
+      "turn": 33,
+      "sceneNumber": 6285,
+      "generationTime": 2.978615900000092,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 482433,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3265,
+      "nodeRss": 80023552,
+      "loopTime": 0.5774412000000011
+    },
+    {
+      "turn": 34,
+      "sceneNumber": 6286,
+      "generationTime": 2.7458699000000486,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 447351,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3139,
+      "nodeRss": 80404480,
+      "loopTime": 0.5913458999999566
+    },
+    {
+      "turn": 35,
+      "sceneNumber": 6287,
+      "generationTime": 15.700761300000012,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 403688,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3159,
+      "nodeRss": 79036416,
+      "loopTime": 0.5351338999998989
+    },
+    {
+      "turn": 36,
+      "sceneNumber": 6288,
+      "generationTime": 2.558476900000009,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 441660,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 710,
+      "stateBytes": 3069,
+      "nodeRss": 78880768,
+      "loopTime": 0.7213961999999592
+    },
+    {
+      "turn": 37,
+      "sceneNumber": 6289,
+      "generationTime": 3.1951256000000283,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 435189,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3166,
+      "nodeRss": 78831616,
+      "loopTime": 0.5891326000000118
+    },
+    {
+      "turn": 38,
+      "sceneNumber": 6290,
+      "generationTime": 2.415975600000005,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 548940,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3282,
+      "nodeRss": 79458304,
+      "loopTime": 0.559579400000046
+    },
+    {
+      "turn": 39,
+      "sceneNumber": 6291,
+      "generationTime": 2.437813300000038,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 457649,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 738,
+      "stateBytes": 3308,
+      "nodeRss": 79618048,
+      "loopTime": 0.5457559999999357
+    },
+    {
+      "turn": 40,
+      "sceneNumber": 6292,
+      "generationTime": 2.4830343000000576,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 421537,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 761,
+      "stateBytes": 3139,
+      "nodeRss": 79720448,
+      "loopTime": 0.5337112999999662
+    },
+    {
+      "turn": 41,
+      "sceneNumber": 6293,
+      "generationTime": 2.42126529999997,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 484932,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 721,
+      "stateBytes": 3189,
+      "nodeRss": 79794176,
+      "loopTime": 0.5326358000000473
+    },
+    {
+      "turn": 42,
+      "sceneNumber": 6294,
+      "generationTime": 2.3584615999999223,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 447776,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 697,
+      "stateBytes": 2992,
+      "nodeRss": 79880192,
+      "loopTime": 0.5384116999999388
+    },
+    {
+      "turn": 43,
+      "sceneNumber": 6295,
+      "generationTime": 2.4503900999999604,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 439279,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 717,
+      "stateBytes": 3228,
+      "nodeRss": 79622144,
+      "loopTime": 0.53165830000001
+    },
+    {
+      "turn": 44,
+      "sceneNumber": 6296,
+      "generationTime": 2.3404586000000127,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 493006,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 702,
+      "stateBytes": 3278,
+      "nodeRss": 80023552,
+      "loopTime": 0.5493380999999353
+    },
+    {
+      "turn": 45,
+      "sceneNumber": 6297,
+      "generationTime": 2.453329700000002,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 402637,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3217,
+      "nodeRss": 80199680,
+      "loopTime": 0.5201966999999713
+    },
+    {
+      "turn": 46,
+      "sceneNumber": 6298,
+      "generationTime": 2.3591596000000137,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 501085,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 731,
+      "stateBytes": 3144,
+      "nodeRss": 79929344,
+      "loopTime": 0.5618090999999549
+    },
+    {
+      "turn": 47,
+      "sceneNumber": 6299,
+      "generationTime": 2.4492802000000373,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 426968,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3055,
+      "nodeRss": 80306176,
+      "loopTime": 0.533562799999956
+    },
+    {
+      "turn": 48,
+      "sceneNumber": 6300,
+      "generationTime": 2.3673634999999775,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 396244,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 710,
+      "stateBytes": 3262,
+      "nodeRss": 80039936,
+      "loopTime": 0.5562902999999932
+    },
+    {
+      "turn": 49,
+      "sceneNumber": 6301,
+      "generationTime": 2.430104300000006,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 438784,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 699,
+      "stateBytes": 3184,
+      "nodeRss": 80187392,
+      "loopTime": 0.529859300000011
+    },
+    {
+      "turn": 50,
+      "sceneNumber": 6302,
+      "generationTime": 2.326964400000055,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 437241,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3379,
+      "nodeRss": 80863232,
+      "loopTime": 0.5382117999999319
+    },
+    {
+      "turn": 51,
+      "sceneNumber": 6303,
+      "generationTime": 2.4753432999999494,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 412102,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3172,
+      "nodeRss": 80916480,
+      "loopTime": 0.5248256000000984
+    },
+    {
+      "turn": 52,
+      "sceneNumber": 6304,
+      "generationTime": 2.34541539999994,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 493081,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 758,
+      "stateBytes": 3084,
+      "nodeRss": 80904192,
+      "loopTime": 0.516797900000005
+    },
+    {
+      "turn": 53,
+      "sceneNumber": 6305,
+      "generationTime": 2.366592799999984,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 414307,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3199,
+      "nodeRss": 81059840,
+      "loopTime": 0.5370608000000939
+    },
+    {
+      "turn": 54,
+      "sceneNumber": 6306,
+      "generationTime": 2.4527283000000755,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 466538,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 727,
+      "stateBytes": 3303,
+      "nodeRss": 80535552,
+      "loopTime": 0.5470603000000119
+    },
+    {
+      "turn": 55,
+      "sceneNumber": 6307,
+      "generationTime": 2.3277739000000293,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 526882,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3244,
+      "nodeRss": 79634432,
+      "loopTime": 0.5294703000000445
+    },
+    {
+      "turn": 56,
+      "sceneNumber": 6308,
+      "generationTime": 2.459484300000011,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 484594,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 713,
+      "stateBytes": 3113,
+      "nodeRss": 80154624,
+      "loopTime": 0.5209629999999889
+    },
+    {
+      "turn": 57,
+      "sceneNumber": 6309,
+      "generationTime": 2.361954000000027,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 462488,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3028,
+      "nodeRss": 80162816,
+      "loopTime": 0.5343052999998908
+    },
+    {
+      "turn": 58,
+      "sceneNumber": 6310,
+      "generationTime": 2.4793296000000553,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 535737,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 701,
+      "stateBytes": 3129,
+      "nodeRss": 80400384,
+      "loopTime": 0.5143967999999877
+    },
+    {
+      "turn": 59,
+      "sceneNumber": 6311,
+      "generationTime": 2.3525112999998963,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 394620,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3219,
+      "nodeRss": 80584704,
+      "loopTime": 0.5309187000000384
+    },
+    {
+      "turn": 60,
+      "sceneNumber": 6312,
+      "generationTime": 2.4710311999999686,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 462701,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 754,
+      "stateBytes": 3324,
+      "nodeRss": 80801792,
+      "loopTime": 0.5382070000000531
+    },
+    {
+      "turn": 61,
+      "sceneNumber": 6313,
+      "generationTime": 2.4665011999999407,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 450639,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 774,
+      "stateBytes": 3435,
+      "nodeRss": 80801792,
+      "loopTime": 0.5366435000000056
+    },
+    {
+      "turn": 62,
+      "sceneNumber": 6314,
+      "generationTime": 2.3310790999999735,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429251,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 776,
+      "stateBytes": 3281,
+      "nodeRss": 80277504,
+      "loopTime": 0.5484015000001528
+    },
+    {
+      "turn": 63,
+      "sceneNumber": 6315,
+      "generationTime": 2.405151899999939,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 446581,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 759,
+      "stateBytes": 3353,
+      "nodeRss": 80822272,
+      "loopTime": 0.6681231999997981
+    },
+    {
+      "turn": 64,
+      "sceneNumber": 6316,
+      "generationTime": 2.782128999999957,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 402885,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3277,
+      "nodeRss": 80269312,
+      "loopTime": 0.668715099999914
+    },
+    {
+      "turn": 65,
+      "sceneNumber": 6317,
+      "generationTime": 2.8497653999999164,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 446139,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3356,
+      "nodeRss": 80785408,
+      "loopTime": 0.6763245999999344
+    },
+    {
+      "turn": 66,
+      "sceneNumber": 6318,
+      "generationTime": 2.6788262000000103,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 439107,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3246,
+      "nodeRss": 80949248,
+      "loopTime": 0.685409300000174
+    },
+    {
+      "turn": 67,
+      "sceneNumber": 6319,
+      "generationTime": 2.6722879999999423,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 413842,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 757,
+      "stateBytes": 3133,
+      "nodeRss": 81055744,
+      "loopTime": 0.6718991999998689
+    },
+    {
+      "turn": 68,
+      "sceneNumber": 6320,
+      "generationTime": 2.600379200000083,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 458087,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3255,
+      "nodeRss": 81141760,
+      "loopTime": 0.5904476999999024
+    },
+    {
+      "turn": 69,
+      "sceneNumber": 6321,
+      "generationTime": 2.7745848999999,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 467909,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 723,
+      "stateBytes": 3394,
+      "nodeRss": 80527360,
+      "loopTime": 0.7239854000001215
+    },
+    {
+      "turn": 70,
+      "sceneNumber": 6322,
+      "generationTime": 2.583707699999912,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 473325,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 723,
+      "stateBytes": 3330,
+      "nodeRss": 80994304,
+      "loopTime": 0.7365782000001054
+    },
+    {
+      "turn": 71,
+      "sceneNumber": 6323,
+      "generationTime": 2.693064599999925,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429158,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 716,
+      "stateBytes": 3073,
+      "nodeRss": 81182720,
+      "loopTime": 0.713816000000108
+    },
+    {
+      "turn": 72,
+      "sceneNumber": 6324,
+      "generationTime": 2.7344359999999868,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 432082,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3214,
+      "nodeRss": 81604608,
+      "loopTime": 0.5804894999999087
+    },
+    {
+      "turn": 73,
+      "sceneNumber": 6325,
+      "generationTime": 2.9610546999999787,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 439972,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3139,
+      "nodeRss": 80945152,
+      "loopTime": 0.735377100000158
+    },
+    {
+      "turn": 74,
+      "sceneNumber": 6326,
+      "generationTime": 2.8329173000000885,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 361796,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 714,
+      "stateBytes": 3205,
+      "nodeRss": 81391616,
+      "loopTime": 0.710061900000088
+    },
+    {
+      "turn": 75,
+      "sceneNumber": 6327,
+      "generationTime": 2.853128500000108,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 446290,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3213,
+      "nodeRss": 81489920,
+      "loopTime": 0.7207908999999054
+    },
+    {
+      "turn": 76,
+      "sceneNumber": 6328,
+      "generationTime": 2.688774100000039,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 390688,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 689,
+      "stateBytes": 3092,
+      "nodeRss": 79958016,
+      "loopTime": 0.7027360000000336
+    },
+    {
+      "turn": 77,
+      "sceneNumber": 6329,
+      "generationTime": 2.703587899999926,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 432403,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 698,
+      "stateBytes": 3214,
+      "nodeRss": 79773696,
+      "loopTime": 0.7191677999999374
+    },
+    {
+      "turn": 78,
+      "sceneNumber": 6330,
+      "generationTime": 2.7481330999999773,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 446273,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3200,
+      "nodeRss": 80195584,
+      "loopTime": 0.7280792999998666
+    },
+    {
+      "turn": 79,
+      "sceneNumber": 6331,
+      "generationTime": 2.812807500000112,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429403,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3112,
+      "nodeRss": 80306176,
+      "loopTime": 0.7321218000000809
+    },
+    {
+      "turn": 80,
+      "sceneNumber": 6332,
+      "generationTime": 2.7048016000001227,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 431600,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 755,
+      "stateBytes": 3300,
+      "nodeRss": 79970304,
+      "loopTime": 0.7066417999998666
+    },
+    {
+      "turn": 81,
+      "sceneNumber": 6333,
+      "generationTime": 2.84590690000006,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 454948,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3276,
+      "nodeRss": 80392192,
+      "loopTime": 0.723656100000022
+    },
+    {
+      "turn": 82,
+      "sceneNumber": 6334,
+      "generationTime": 2.551574100000085,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 453728,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3166,
+      "nodeRss": 80453632,
+      "loopTime": 0.9043122999998741
+    },
+    {
+      "turn": 83,
+      "sceneNumber": 6335,
+      "generationTime": 2.6772265999999365,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 442445,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3280,
+      "nodeRss": 80637952,
+      "loopTime": 0.711939500000095
+    },
+    {
+      "turn": 84,
+      "sceneNumber": 6336,
+      "generationTime": 2.4408449000001418,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 496876,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 783,
+      "stateBytes": 3256,
+      "nodeRss": 80695296,
+      "loopTime": 0.7017266999999993
+    },
+    {
+      "turn": 85,
+      "sceneNumber": 6337,
+      "generationTime": 3.0175981999998913,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 414494,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 782,
+      "stateBytes": 3249,
+      "nodeRss": 80912384,
+      "loopTime": 0.6979546000000555
+    },
+    {
+      "turn": 86,
+      "sceneNumber": 6338,
+      "generationTime": 4.413054099999834,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 414275,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 778,
+      "stateBytes": 3309,
+      "nodeRss": 81162240,
+      "loopTime": 0.7787900000000373
+    },
+    {
+      "turn": 87,
+      "sceneNumber": 6339,
+      "generationTime": 2.74411959999986,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 405454,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 751,
+      "stateBytes": 3415,
+      "nodeRss": 81231872,
+      "loopTime": 0.8105302000001539
+    },
+    {
+      "turn": 88,
+      "sceneNumber": 6340,
+      "generationTime": 2.6369192000001203,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 401568,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3339,
+      "nodeRss": 81240064,
+      "loopTime": 0.7375527000001166
+    },
+    {
+      "turn": 89,
+      "sceneNumber": 6341,
+      "generationTime": 3.018407300000079,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 388498,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 789,
+      "stateBytes": 3352,
+      "nodeRss": 81281024,
+      "loopTime": 0.838656399999978
+    },
+    {
+      "turn": 90,
+      "sceneNumber": 6342,
+      "generationTime": 3.1717672999999484,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 373617,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 787,
+      "stateBytes": 3223,
+      "nodeRss": 80384000,
+      "loopTime": 0.7078267000000924
+    },
+    {
+      "turn": 91,
+      "sceneNumber": 6343,
+      "generationTime": 3.3574816999998873,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 417154,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 785,
+      "stateBytes": 3297,
+      "nodeRss": 80674816,
+      "loopTime": 0.7902347999999765
+    },
+    {
+      "turn": 92,
+      "sceneNumber": 6344,
+      "generationTime": 2.8377626999998466,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 364258,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3347,
+      "nodeRss": 80670720,
+      "loopTime": 0.7079603999999817
+    },
+    {
+      "turn": 93,
+      "sceneNumber": 6345,
+      "generationTime": 2.9092025000001303,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 427872,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 732,
+      "stateBytes": 3086,
+      "nodeRss": 81125376,
+      "loopTime": 0.6549316000000108
+    },
+    {
+      "turn": 94,
+      "sceneNumber": 6346,
+      "generationTime": 2.9930202999999747,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 407506,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 698,
+      "stateBytes": 3161,
+      "nodeRss": 81018880,
+      "loopTime": 1.0050995000000111
+    },
+    {
+      "turn": 95,
+      "sceneNumber": 6347,
+      "generationTime": 2.8922033999999983,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 471664,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 709,
+      "stateBytes": 3174,
+      "nodeRss": 81395712,
+      "loopTime": 0.6940259000000079
+    },
+    {
+      "turn": 96,
+      "sceneNumber": 6348,
+      "generationTime": 3.308443399999989,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 440949,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3180,
+      "nodeRss": 81534976,
+      "loopTime": 0.7347616999999155
+    },
+    {
+      "turn": 97,
+      "sceneNumber": 6349,
+      "generationTime": 2.8041091999998318,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 454178,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 741,
+      "stateBytes": 3272,
+      "nodeRss": 81551360,
+      "loopTime": 0.8321478000001516
+    },
+    {
+      "turn": 98,
+      "sceneNumber": 6350,
+      "generationTime": 3.073413699999917,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 486131,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3116,
+      "nodeRss": 81608704,
+      "loopTime": 0.7538426000000908
+    },
+    {
+      "turn": 99,
+      "sceneNumber": 6351,
+      "generationTime": 2.757262600000016,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 419028,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 731,
+      "stateBytes": 3170,
+      "nodeRss": 81772544,
+      "loopTime": 0.8659972999999299
+    },
+    {
+      "turn": 100,
+      "sceneNumber": 6352,
+      "generationTime": 2.9295248000000136,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 448090,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 741,
+      "stateBytes": 3349,
+      "nodeRss": 81563648,
+      "loopTime": 0.7165611000000499
+    },
+    {
+      "turn": 101,
+      "sceneNumber": 6353,
+      "generationTime": 3.1745453999999445,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 439431,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 755,
+      "stateBytes": 3275,
+      "nodeRss": 81735680,
+      "loopTime": 0.7816637000001502
+    },
+    {
+      "turn": 102,
+      "sceneNumber": 6354,
+      "generationTime": 3.0213614999998826,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 465356,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 773,
+      "stateBytes": 3355,
+      "nodeRss": 81788928,
+      "loopTime": 0.7558625999998767
+    },
+    {
+      "turn": 103,
+      "sceneNumber": 6355,
+      "generationTime": 2.8040801999999676,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 463200,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 773,
+      "stateBytes": 3203,
+      "nodeRss": 81805312,
+      "loopTime": 0.804937900000019
+    },
+    {
+      "turn": 104,
+      "sceneNumber": 6356,
+      "generationTime": 2.8398530999999494,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 460529,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3235,
+      "nodeRss": 81870848,
+      "loopTime": 0.7148986000001896
+    },
+    {
+      "turn": 105,
+      "sceneNumber": 6357,
+      "generationTime": 2.872868000000017,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 496123,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3338,
+      "nodeRss": 81870848,
+      "loopTime": 0.7694324000000488
+    },
+    {
+      "turn": 106,
+      "sceneNumber": 6358,
+      "generationTime": 2.7328240000000226,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 440645,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3359,
+      "nodeRss": 81727488,
+      "loopTime": 1.1714860000000336
+    },
+    {
+      "turn": 107,
+      "sceneNumber": 6359,
+      "generationTime": 3.1582690000000877,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 459115,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 753,
+      "stateBytes": 3235,
+      "nodeRss": 82128896,
+      "loopTime": 0.7284664000000339
+    },
+    {
+      "turn": 108,
+      "sceneNumber": 6360,
+      "generationTime": 3.4276641999999993,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 482027,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 732,
+      "stateBytes": 3222,
+      "nodeRss": 82259968,
+      "loopTime": 0.7889052999999839
+    },
+    {
+      "turn": 109,
+      "sceneNumber": 6361,
+      "generationTime": 2.9806695999999064,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429175,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3167,
+      "nodeRss": 82272256,
+      "loopTime": 0.7194224000000395
+    },
+    {
+      "turn": 110,
+      "sceneNumber": 6362,
+      "generationTime": 2.7132049999998418,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 456778,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 695,
+      "stateBytes": 3042,
+      "nodeRss": 82006016,
+      "loopTime": 0.9208009999999777
+    },
+    {
+      "turn": 111,
+      "sceneNumber": 6363,
+      "generationTime": 2.5976100000001026,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 475354,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 697,
+      "stateBytes": 3106,
+      "nodeRss": 82501632,
+      "loopTime": 0.770437099999981
+    },
+    {
+      "turn": 112,
+      "sceneNumber": 6364,
+      "generationTime": 2.915975900000194,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 492304,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 714,
+      "stateBytes": 3074,
+      "nodeRss": 81821696,
+      "loopTime": 0.9132394000000786
+    },
+    {
+      "turn": 113,
+      "sceneNumber": 6365,
+      "generationTime": 2.77030979999993,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 420222,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3142,
+      "nodeRss": 82194432,
+      "loopTime": 0.9051233000000939
+    },
+    {
+      "turn": 114,
+      "sceneNumber": 6366,
+      "generationTime": 3.0717390999998897,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 458196,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3142,
+      "nodeRss": 80941056,
+      "loopTime": 0.8039132999998982
+    },
+    {
+      "turn": 115,
+      "sceneNumber": 6367,
+      "generationTime": 3.1269344999999737,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 602796,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3360,
+      "nodeRss": 81330176,
+      "loopTime": 0.788222800000105
+    },
+    {
+      "turn": 116,
+      "sceneNumber": 6368,
+      "generationTime": 2.7340208000000565,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 448037,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3412,
+      "nodeRss": 81465344,
+      "loopTime": 0.735314000000013
+    },
+    {
+      "turn": 117,
+      "sceneNumber": 6369,
+      "generationTime": 2.827120499999961,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 424436,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3279,
+      "nodeRss": 80769024,
+      "loopTime": 0.9627549999998882
+    },
+    {
+      "turn": 118,
+      "sceneNumber": 6370,
+      "generationTime": 2.718310599999968,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 431746,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3218,
+      "nodeRss": 81055744,
+      "loopTime": 0.6638666000000667
+    },
+    {
+      "turn": 119,
+      "sceneNumber": 6371,
+      "generationTime": 3.1416968000000343,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 470602,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 751,
+      "stateBytes": 3255,
+      "nodeRss": 81055744,
+      "loopTime": 0.7838323000001255
+    },
+    {
+      "turn": 120,
+      "sceneNumber": 6372,
+      "generationTime": 2.92403059999994,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 469418,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 763,
+      "stateBytes": 3247,
+      "nodeRss": 81469440,
+      "loopTime": 0.7653904999999795
+    },
+    {
+      "turn": 121,
+      "sceneNumber": 6373,
+      "generationTime": 2.9924768999998923,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 433441,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 732,
+      "stateBytes": 3111,
+      "nodeRss": 74321920,
+      "loopTime": 0.6492925000002142
+    },
+    {
+      "turn": 122,
+      "sceneNumber": 6374,
+      "generationTime": 2.8213932999998796,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 434233,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3299,
+      "nodeRss": 73871360,
+      "loopTime": 0.9676863000001759
+    },
+    {
+      "turn": 123,
+      "sceneNumber": 6375,
+      "generationTime": 2.6813248000000605,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 452082,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 777,
+      "stateBytes": 3348,
+      "nodeRss": 74371072,
+      "loopTime": 0.7117933000000194
+    },
+    {
+      "turn": 124,
+      "sceneNumber": 6376,
+      "generationTime": 3.176494999999879,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 493947,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 772,
+      "stateBytes": 3282,
+      "nodeRss": 74551296,
+      "loopTime": 0.7656719000001904
+    },
+    {
+      "turn": 125,
+      "sceneNumber": 6377,
+      "generationTime": 2.631502699999837,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 430614,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 771,
+      "stateBytes": 3321,
+      "nodeRss": 73965568,
+      "loopTime": 0.794808299999917
+    },
+    {
+      "turn": 126,
+      "sceneNumber": 6378,
+      "generationTime": 2.8821046999997924,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 426060,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 759,
+      "stateBytes": 3351,
+      "nodeRss": 74952704,
+      "loopTime": 0.7223813000000082
+    },
+    {
+      "turn": 127,
+      "sceneNumber": 6379,
+      "generationTime": 3.423028300000122,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 424172,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 719,
+      "stateBytes": 3086,
+      "nodeRss": 75411456,
+      "loopTime": 0.8514480000000912
+    },
+    {
+      "turn": 128,
+      "sceneNumber": 6380,
+      "generationTime": 2.816843100000173,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 392961,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3120,
+      "nodeRss": 74407936,
+      "loopTime": 0.7626225000000558
+    },
+    {
+      "turn": 129,
+      "sceneNumber": 6381,
+      "generationTime": 4.746179600000149,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 391303,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 712,
+      "stateBytes": 3232,
+      "nodeRss": 74645504,
+      "loopTime": 0.7240352999998723
+    },
+    {
+      "turn": 130,
+      "sceneNumber": 6382,
+      "generationTime": 3.917159100000048,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 421545,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 714,
+      "stateBytes": 3243,
+      "nodeRss": 74502144,
+      "loopTime": 0.8148405999999959
+    },
+    {
+      "turn": 131,
+      "sceneNumber": 6383,
+      "generationTime": 3.0147850999999792,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 393227,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 748,
+      "stateBytes": 3387,
+      "nodeRss": 74379264,
+      "loopTime": 0.7321824000000487
+    },
+    {
+      "turn": 132,
+      "sceneNumber": 6384,
+      "generationTime": 2.6745488999998197,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 500345,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 744,
+      "stateBytes": 3306,
+      "nodeRss": 74686464,
+      "loopTime": 0.7976700999999885
+    },
+    {
+      "turn": 133,
+      "sceneNumber": 6385,
+      "generationTime": 2.730484599999851,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 495231,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 747,
+      "stateBytes": 3230,
+      "nodeRss": 72310784,
+      "loopTime": 0.652809099999955
+    },
+    {
+      "turn": 134,
+      "sceneNumber": 6386,
+      "generationTime": 2.8324218000001276,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 476183,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 727,
+      "stateBytes": 3067,
+      "nodeRss": 72499200,
+      "loopTime": 0.6355006000003778
+    },
+    {
+      "turn": 135,
+      "sceneNumber": 6387,
+      "generationTime": 3.6298085000002756,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 511184,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 726,
+      "stateBytes": 3139,
+      "nodeRss": 72658944,
+      "loopTime": 1.0074618999999947
+    },
+    {
+      "turn": 136,
+      "sceneNumber": 6388,
+      "generationTime": 2.6858301999997347,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 442816,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3207,
+      "nodeRss": 73347072,
+      "loopTime": 1.1148209999999963
+    },
+    {
+      "turn": 137,
+      "sceneNumber": 6389,
+      "generationTime": 2.555973199999891,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 525526,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 747,
+      "stateBytes": 3337,
+      "nodeRss": 73232384,
+      "loopTime": 0.6322349000000395
+    },
+    {
+      "turn": 138,
+      "sceneNumber": 6390,
+      "generationTime": 2.7080044999998063,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 495168,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3246,
+      "nodeRss": 73936896,
+      "loopTime": 1.1269120000000112
+    },
+    {
+      "turn": 139,
+      "sceneNumber": 6391,
+      "generationTime": 2.64867790000001,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 580639,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 721,
+      "stateBytes": 3069,
+      "nodeRss": 74399744,
+      "loopTime": 0.8655090000000782
+    },
+    {
+      "turn": 140,
+      "sceneNumber": 6392,
+      "generationTime": 2.7006334999999964,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 522798,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 704,
+      "stateBytes": 3185,
+      "nodeRss": 74915840,
+      "loopTime": 0.6027105999998749
+    },
+    {
+      "turn": 141,
+      "sceneNumber": 6393,
+      "generationTime": 2.8303570999996737,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 427432,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 712,
+      "stateBytes": 3135,
+      "nodeRss": 75378688,
+      "loopTime": 0.730591299999971
+    },
+    {
+      "turn": 142,
+      "sceneNumber": 6394,
+      "generationTime": 3.082809400000144,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 407147,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3318,
+      "nodeRss": 75747328,
+      "loopTime": 0.7538426000000908
+    },
+    {
+      "turn": 143,
+      "sceneNumber": 6395,
+      "generationTime": 2.8187864999999293,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 475969,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 754,
+      "stateBytes": 3260,
+      "nodeRss": 76099584,
+      "loopTime": 0.7232652000002563
+    },
+    {
+      "turn": 144,
+      "sceneNumber": 6396,
+      "generationTime": 3.3398794999998063,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 375575,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3134,
+      "nodeRss": 76546048,
+      "loopTime": 0.7943231999999844
+    },
+    {
+      "turn": 145,
+      "sceneNumber": 6397,
+      "generationTime": 2.8854756999998354,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 450366,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3342,
+      "nodeRss": 76886016,
+      "loopTime": 0.7443670999999158
+    },
+    {
+      "turn": 146,
+      "sceneNumber": 6398,
+      "generationTime": 2.9551631000000054,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 473614,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3091,
+      "nodeRss": 77271040,
+      "loopTime": 0.7499698999999092
+    },
+    {
+      "turn": 147,
+      "sceneNumber": 6399,
+      "generationTime": 3.014099899999797,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 485994,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 740,
+      "stateBytes": 3167,
+      "nodeRss": 76828672,
+      "loopTime": 0.5735030999998562
+    },
+    {
+      "turn": 148,
+      "sceneNumber": 6400,
+      "generationTime": 3.0878458000002427,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 493486,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 721,
+      "stateBytes": 3247,
+      "nodeRss": 76705792,
+      "loopTime": 0.7379810000001453
+    },
+    {
+      "turn": 149,
+      "sceneNumber": 6401,
+      "generationTime": 3.0271135999998076,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 502107,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 723,
+      "stateBytes": 3324,
+      "nodeRss": 77127680,
+      "loopTime": 0.766679699999746
+    },
+    {
+      "turn": 150,
+      "sceneNumber": 6402,
+      "generationTime": 3.0118958000000564,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 440986,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 755,
+      "stateBytes": 3350,
+      "nodeRss": 77193216,
+      "loopTime": 0.7264626999995671
+    },
+    {
+      "turn": 151,
+      "sceneNumber": 6403,
+      "generationTime": 2.9162113000000827,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 523030,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 760,
+      "stateBytes": 3284,
+      "nodeRss": 77238272,
+      "loopTime": 0.7772216000002808
+    },
+    {
+      "turn": 152,
+      "sceneNumber": 6404,
+      "generationTime": 3.0268141999999063,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 495666,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 780,
+      "stateBytes": 3300,
+      "nodeRss": 77377536,
+      "loopTime": 0.7562288000001572
+    },
+    {
+      "turn": 153,
+      "sceneNumber": 6405,
+      "generationTime": 3.0375785999996587,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 475569,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 742,
+      "stateBytes": 3271,
+      "nodeRss": 74686464,
+      "loopTime": 0.639183799999766
+    },
+    {
+      "turn": 154,
+      "sceneNumber": 6406,
+      "generationTime": 2.9261784999999216,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 545151,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 749,
+      "stateBytes": 3352,
+      "nodeRss": 74698752,
+      "loopTime": 0.7782480999999679
+    },
+    {
+      "turn": 155,
+      "sceneNumber": 6407,
+      "generationTime": 2.9501120000001975,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 431510,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3308,
+      "nodeRss": 74571776,
+      "loopTime": 0.5946905000000261
+    },
+    {
+      "turn": 156,
+      "sceneNumber": 6408,
+      "generationTime": 2.9309229000001213,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 443115,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3237,
+      "nodeRss": 74895360,
+      "loopTime": 0.7625655999998562
+    },
+    {
+      "turn": 157,
+      "sceneNumber": 6409,
+      "generationTime": 3.012257800000254,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 422423,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3135,
+      "nodeRss": 74547200,
+      "loopTime": 0.768627100000158
+    },
+    {
+      "turn": 158,
+      "sceneNumber": 6410,
+      "generationTime": 3.0587642999999227,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 346659,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3156,
+      "nodeRss": 74919936,
+      "loopTime": 0.7105619999999181
+    },
+    {
+      "turn": 159,
+      "sceneNumber": 6411,
+      "generationTime": 3.047907899999991,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 459769,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3224,
+      "nodeRss": 75837440,
+      "loopTime": 0.7200111999996006
+    },
+    {
+      "turn": 160,
+      "sceneNumber": 6412,
+      "generationTime": 2.8974462999999524,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 388829,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 712,
+      "stateBytes": 3051,
+      "nodeRss": 75874304,
+      "loopTime": 0.7346326999999583
+    },
+    {
+      "turn": 161,
+      "sceneNumber": 6413,
+      "generationTime": 2.892101100000087,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 472166,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 716,
+      "stateBytes": 3219,
+      "nodeRss": 75976704,
+      "loopTime": 0.5834125000000931
+    },
+    {
+      "turn": 162,
+      "sceneNumber": 6414,
+      "generationTime": 2.8073933999999428,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 413469,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3268,
+      "nodeRss": 76337152,
+      "loopTime": 0.7036191999996081
+    },
+    {
+      "turn": 163,
+      "sceneNumber": 6415,
+      "generationTime": 3.0220791000002065,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 460996,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 749,
+      "stateBytes": 3365,
+      "nodeRss": 76349440,
+      "loopTime": 0.5513210999998264
+    },
+    {
+      "turn": 164,
+      "sceneNumber": 6416,
+      "generationTime": 2.7747708000000566,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 422578,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 771,
+      "stateBytes": 3326,
+      "nodeRss": 76349440,
+      "loopTime": 0.6964542000000365
+    },
+    {
+      "turn": 165,
+      "sceneNumber": 6417,
+      "generationTime": 2.7627697000000624,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 507709,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 760,
+      "stateBytes": 3317,
+      "nodeRss": 76447744,
+      "loopTime": 0.7442804999998771
+    },
+    {
+      "turn": 166,
+      "sceneNumber": 6418,
+      "generationTime": 2.8102683000001125,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 425289,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3220,
+      "nodeRss": 73875456,
+      "loopTime": 0.6872402000003495
+    },
+    {
+      "turn": 167,
+      "sceneNumber": 6419,
+      "generationTime": 2.6623205999997444,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 468440,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 723,
+      "stateBytes": 3268,
+      "nodeRss": 74289152,
+      "loopTime": 0.6996302999998443
+    },
+    {
+      "turn": 168,
+      "sceneNumber": 6420,
+      "generationTime": 2.7244542999998664,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 449891,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 709,
+      "stateBytes": 3160,
+      "nodeRss": 74420224,
+      "loopTime": 0.6654963000002317
+    },
+    {
+      "turn": 169,
+      "sceneNumber": 6421,
+      "generationTime": 2.8427108000000008,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429074,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 740,
+      "stateBytes": 3044,
+      "nodeRss": 74555392,
+      "loopTime": 0.5750535999997519
+    },
+    {
+      "turn": 170,
+      "sceneNumber": 6422,
+      "generationTime": 2.7029509999998846,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 543719,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 731,
+      "stateBytes": 3166,
+      "nodeRss": 74571776,
+      "loopTime": 0.5888195000002161
+    },
+    {
+      "turn": 171,
+      "sceneNumber": 6423,
+      "generationTime": 2.7502770999995994,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 452070,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3209,
+      "nodeRss": 74625024,
+      "loopTime": 0.7089714999999851
+    },
+    {
+      "turn": 172,
+      "sceneNumber": 6424,
+      "generationTime": 2.766460099999793,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 447993,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3293,
+      "nodeRss": 74829824,
+      "loopTime": 0.7111581999999471
+    },
+    {
+      "turn": 173,
+      "sceneNumber": 6425,
+      "generationTime": 2.785287700000219,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 433297,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 742,
+      "stateBytes": 3260,
+      "nodeRss": 74293248,
+      "loopTime": 0.6786554999998771
+    },
+    {
+      "turn": 174,
+      "sceneNumber": 6426,
+      "generationTime": 2.9679240999999457,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 443710,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3203,
+      "nodeRss": 74317824,
+      "loopTime": 0.6948193999999203
+    },
+    {
+      "turn": 175,
+      "sceneNumber": 6427,
+      "generationTime": 2.7492615000000225,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 427054,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3192,
+      "nodeRss": 74485760,
+      "loopTime": 0.5966562000000849
+    },
+    {
+      "turn": 176,
+      "sceneNumber": 6428,
+      "generationTime": 2.9046765999998896,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 393579,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 717,
+      "stateBytes": 3142,
+      "nodeRss": 74498048,
+      "loopTime": 0.5838981000003405
+    },
+    {
+      "turn": 177,
+      "sceneNumber": 6429,
+      "generationTime": 3.4614251999999395,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 468913,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 717,
+      "stateBytes": 3137,
+      "nodeRss": 74506240,
+      "loopTime": 0.57518349999981
+    },
+    {
+      "turn": 178,
+      "sceneNumber": 6430,
+      "generationTime": 3.005249100000132,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 470775,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3198,
+      "nodeRss": 74600448,
+      "loopTime": 0.7432157000000589
+    },
+    {
+      "turn": 179,
+      "sceneNumber": 6431,
+      "generationTime": 2.8093569000000134,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 460766,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 715,
+      "stateBytes": 3190,
+      "nodeRss": 74592256,
+      "loopTime": 0.7438136999998242
+    },
+    {
+      "turn": 180,
+      "sceneNumber": 6432,
+      "generationTime": 3.1152927999999376,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 445051,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 715,
+      "stateBytes": 3146,
+      "nodeRss": 74661888,
+      "loopTime": 0.7734838999998755
+    },
+    {
+      "turn": 181,
+      "sceneNumber": 6433,
+      "generationTime": 3.1501804000004197,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 450303,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 732,
+      "stateBytes": 3294,
+      "nodeRss": 74932224,
+      "loopTime": 0.7272712000003084
+    },
+    {
+      "turn": 182,
+      "sceneNumber": 6434,
+      "generationTime": 2.828039799999911,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 438422,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 747,
+      "stateBytes": 3329,
+      "nodeRss": 74936320,
+      "loopTime": 0.6703128000004217
+    },
+    {
+      "turn": 183,
+      "sceneNumber": 6435,
+      "generationTime": 5.988262500000186,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 431051,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 769,
+      "stateBytes": 3433,
+      "nodeRss": 74481664,
+      "loopTime": 0.7768253000001423
+    },
+    {
+      "turn": 184,
+      "sceneNumber": 6436,
+      "generationTime": 2.7977576999999583,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 420492,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 744,
+      "stateBytes": 3257,
+      "nodeRss": 74842112,
+      "loopTime": 0.7697957000001334
+    },
+    {
+      "turn": 185,
+      "sceneNumber": 6437,
+      "generationTime": 2.655938300000038,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 426255,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 753,
+      "stateBytes": 3092,
+      "nodeRss": 73506816,
+      "loopTime": 0.6107842999999411
+    },
+    {
+      "turn": 186,
+      "sceneNumber": 6438,
+      "generationTime": 2.5305566000002435,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 453374,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3179,
+      "nodeRss": 73916416,
+      "loopTime": 0.8087379000000655
+    },
+    {
+      "turn": 187,
+      "sceneNumber": 6439,
+      "generationTime": 2.658439000000246,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 400813,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3115,
+      "nodeRss": 73977856,
+      "loopTime": 0.7979893999998457
+    },
+    {
+      "turn": 188,
+      "sceneNumber": 6440,
+      "generationTime": 3.0027328000003473,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 509641,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3266,
+      "nodeRss": 74084352,
+      "loopTime": 0.7501408999999986
+    },
+    {
+      "turn": 189,
+      "sceneNumber": 6441,
+      "generationTime": 2.629537899999879,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 462471,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 748,
+      "stateBytes": 3276,
+      "nodeRss": 73744384,
+      "loopTime": 0.6314745000000112
+    },
+    {
+      "turn": 190,
+      "sceneNumber": 6442,
+      "generationTime": 2.681342300000135,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 465562,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 773,
+      "stateBytes": 3347,
+      "nodeRss": 74137600,
+      "loopTime": 0.6618921999996528
+    },
+    {
+      "turn": 191,
+      "sceneNumber": 6443,
+      "generationTime": 2.597966899999883,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 396702,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 772,
+      "stateBytes": 3262,
+      "nodeRss": 74313728,
+      "loopTime": 0.6648576999995858
+    },
+    {
+      "turn": 192,
+      "sceneNumber": 6444,
+      "generationTime": 2.5545250000003725,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 391515,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3239,
+      "nodeRss": 74387456,
+      "loopTime": 0.6939651999999769
+    },
+    {
+      "turn": 193,
+      "sceneNumber": 6445,
+      "generationTime": 2.7116854000003077,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 355664,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 710,
+      "stateBytes": 3121,
+      "nodeRss": 74510336,
+      "loopTime": 0.6831017999998293
+    },
+    {
+      "turn": 194,
+      "sceneNumber": 6446,
+      "generationTime": 2.6696587999998593,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 431253,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 713,
+      "stateBytes": 3183,
+      "nodeRss": 74768384,
+      "loopTime": 0.8256620000000112
+    },
+    {
+      "turn": 195,
+      "sceneNumber": 6447,
+      "generationTime": 2.4529468999998643,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 446069,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 711,
+      "stateBytes": 3078,
+      "nodeRss": 74149888,
+      "loopTime": 0.7058950000000186
+    },
+    {
+      "turn": 196,
+      "sceneNumber": 6448,
+      "generationTime": 2.7790854000002145,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 524092,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3205,
+      "nodeRss": 74588160,
+      "loopTime": 0.7303906000000425
+    },
+    {
+      "turn": 197,
+      "sceneNumber": 6449,
+      "generationTime": 2.819249400000088,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 452286,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 722,
+      "stateBytes": 3172,
+      "nodeRss": 74756096,
+      "loopTime": 0.6887756000002846
+    },
+    {
+      "turn": 198,
+      "sceneNumber": 6450,
+      "generationTime": 2.917115999999922,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 435418,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3228,
+      "nodeRss": 75116544,
+      "loopTime": 0.7411098000002093
+    },
+    {
+      "turn": 199,
+      "sceneNumber": 6451,
+      "generationTime": 3.660783700000029,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 535552,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3289,
+      "nodeRss": 75247616,
+      "loopTime": 0.7508063000002876
+    },
+    {
+      "turn": 200,
+      "sceneNumber": 6452,
+      "generationTime": 3.147593000000343,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 404296,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 768,
+      "stateBytes": 3323,
+      "nodeRss": 75374592,
+      "loopTime": 0.7539658999997191
+    },
+    {
+      "turn": 201,
+      "sceneNumber": 6453,
+      "generationTime": 3.3051564999995753,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 357954,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3234,
+      "nodeRss": 75141120,
+      "loopTime": 0.7556998999998905
+    },
+    {
+      "turn": 202,
+      "sceneNumber": 6454,
+      "generationTime": 2.658308600000106,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 451332,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 767,
+      "stateBytes": 3448,
+      "nodeRss": 75309056,
+      "loopTime": 0.9153322000000625
+    },
+    {
+      "turn": 203,
+      "sceneNumber": 6455,
+      "generationTime": 2.5031578999999913,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 446612,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3266,
+      "nodeRss": 74735616,
+      "loopTime": 0.7579972000000998
+    },
+    {
+      "turn": 204,
+      "sceneNumber": 6456,
+      "generationTime": 2.73925670000026,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 454509,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 770,
+      "stateBytes": 3379,
+      "nodeRss": 73158656,
+      "loopTime": 0.6298338999999687
+    },
+    {
+      "turn": 205,
+      "sceneNumber": 6457,
+      "generationTime": 2.8174256000001914,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 481095,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 760,
+      "stateBytes": 3251,
+      "nodeRss": 73678848,
+      "loopTime": 0.7416745000001974
+    },
+    {
+      "turn": 206,
+      "sceneNumber": 6458,
+      "generationTime": 2.653760300000198,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 489623,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 744,
+      "stateBytes": 3142,
+      "nodeRss": 73691136,
+      "loopTime": 0.7326650000000372
+    },
+    {
+      "turn": 207,
+      "sceneNumber": 6459,
+      "generationTime": 2.7020943999998273,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 413721,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3295,
+      "nodeRss": 73097216,
+      "loopTime": 0.570123900000006
+    },
+    {
+      "turn": 208,
+      "sceneNumber": 6460,
+      "generationTime": 2.6324954000003635,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 455674,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 721,
+      "stateBytes": 3168,
+      "nodeRss": 73793536,
+      "loopTime": 0.7200281999995932
+    },
+    {
+      "turn": 209,
+      "sceneNumber": 6461,
+      "generationTime": 2.7177946999999696,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 494791,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 750,
+      "stateBytes": 3138,
+      "nodeRss": 73863168,
+      "loopTime": 0.6655598999997601
+    },
+    {
+      "turn": 210,
+      "sceneNumber": 6462,
+      "generationTime": 3.8858344999998806,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 473056,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 755,
+      "stateBytes": 3268,
+      "nodeRss": 73945088,
+      "loopTime": 0.5805667000003158
+    },
+    {
+      "turn": 211,
+      "sceneNumber": 6463,
+      "generationTime": 3.227677799999714,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 445820,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 759,
+      "stateBytes": 3209,
+      "nodeRss": 74137600,
+      "loopTime": 0.76524599999981
+    },
+    {
+      "turn": 212,
+      "sceneNumber": 6464,
+      "generationTime": 2.770188499999698,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 495338,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 738,
+      "stateBytes": 3202,
+      "nodeRss": 74141696,
+      "loopTime": 0.7243283999999985
+    },
+    {
+      "turn": 213,
+      "sceneNumber": 6465,
+      "generationTime": 3.2193368999999947,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429735,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 737,
+      "stateBytes": 3206,
+      "nodeRss": 74276864,
+      "loopTime": 0.8800449000000954
+    },
+    {
+      "turn": 214,
+      "sceneNumber": 6466,
+      "generationTime": 2.567440900000278,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 354866,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 765,
+      "stateBytes": 3373,
+      "nodeRss": 74321920,
+      "loopTime": 0.769569700000342
+    },
+    {
+      "turn": 215,
+      "sceneNumber": 6467,
+      "generationTime": 3.040998399999924,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 466172,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 759,
+      "stateBytes": 3117,
+      "nodeRss": 74113024,
+      "loopTime": 0.6880272999997251
+    },
+    {
+      "turn": 216,
+      "sceneNumber": 6468,
+      "generationTime": 2.935722200000193,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 496386,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 770,
+      "stateBytes": 3294,
+      "nodeRss": 74141696,
+      "loopTime": 0.7177557000000961
+    },
+    {
+      "turn": 217,
+      "sceneNumber": 6469,
+      "generationTime": 2.733928599999752,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 425434,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3294,
+      "nodeRss": 74153984,
+      "loopTime": 0.7214635000000708
+    },
+    {
+      "turn": 218,
+      "sceneNumber": 6470,
+      "generationTime": 2.789563099999912,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 476324,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3186,
+      "nodeRss": 73715712,
+      "loopTime": 0.6984251000001095
+    },
+    {
+      "turn": 219,
+      "sceneNumber": 6471,
+      "generationTime": 2.8949187999996355,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 459986,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 746,
+      "stateBytes": 3219,
+      "nodeRss": 74113024,
+      "loopTime": 0.7609118999997154
+    },
+    {
+      "turn": 220,
+      "sceneNumber": 6472,
+      "generationTime": 3.1123308999999426,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 419463,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 751,
+      "stateBytes": 3233,
+      "nodeRss": 74235904,
+      "loopTime": 0.7344708000002429
+    },
+    {
+      "turn": 221,
+      "sceneNumber": 6473,
+      "generationTime": 2.7602598000001164,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 379000,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 744,
+      "stateBytes": 3254,
+      "nodeRss": 74170368,
+      "loopTime": 0.6612746999999508
+    },
+    {
+      "turn": 222,
+      "sceneNumber": 6474,
+      "generationTime": 3.0470451999995856,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 413197,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 777,
+      "stateBytes": 3424,
+      "nodeRss": 74219520,
+      "loopTime": 0.6771161000002176
+    },
+    {
+      "turn": 223,
+      "sceneNumber": 6475,
+      "generationTime": 2.7824454000000842,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 423295,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 750,
+      "stateBytes": 3294,
+      "nodeRss": 74465280,
+      "loopTime": 0.7140496000000276
+    },
+    {
+      "turn": 224,
+      "sceneNumber": 6476,
+      "generationTime": 2.8998688999996522,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 435681,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3234,
+      "nodeRss": 72826880,
+      "loopTime": 0.7305186999998987
+    },
+    {
+      "turn": 225,
+      "sceneNumber": 6477,
+      "generationTime": 3.024588399999775,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 392108,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3141,
+      "nodeRss": 73031680,
+      "loopTime": 0.6820419000000693
+    },
+    {
+      "turn": 226,
+      "sceneNumber": 6478,
+      "generationTime": 2.8605337000000293,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 462980,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 731,
+      "stateBytes": 3223,
+      "nodeRss": 73441280,
+      "loopTime": 0.6870211000000127
+    },
+    {
+      "turn": 227,
+      "sceneNumber": 6479,
+      "generationTime": 2.8235834000003526,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 417070,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3073,
+      "nodeRss": 73003008,
+      "loopTime": 0.7274386999998241
+    },
+    {
+      "turn": 228,
+      "sceneNumber": 6480,
+      "generationTime": 3.035681899999734,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 579589,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 741,
+      "stateBytes": 3302,
+      "nodeRss": 73510912,
+      "loopTime": 0.6899695999999531
+    },
+    {
+      "turn": 229,
+      "sceneNumber": 6481,
+      "generationTime": 2.9518604999999516,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 518276,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 739,
+      "stateBytes": 3322,
+      "nodeRss": 73678848,
+      "loopTime": 0.7251261999998242
+    },
+    {
+      "turn": 230,
+      "sceneNumber": 6482,
+      "generationTime": 2.9332689000000247,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 487332,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 754,
+      "stateBytes": 3190,
+      "nodeRss": 73760768,
+      "loopTime": 0.8577480999999679
+    },
+    {
+      "turn": 231,
+      "sceneNumber": 6483,
+      "generationTime": 3.500240799999796,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 444035,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 760,
+      "stateBytes": 3237,
+      "nodeRss": 73449472,
+      "loopTime": 0.7529422999997624
+    },
+    {
+      "turn": 232,
+      "sceneNumber": 6484,
+      "generationTime": 5.464900100000203,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 437012,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 726,
+      "stateBytes": 3304,
+      "nodeRss": 73986048,
+      "loopTime": 1.9971122999996878
+    },
+    {
+      "turn": 233,
+      "sceneNumber": 6485,
+      "generationTime": 3.517666700000409,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 468098,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 720,
+      "stateBytes": 3189,
+      "nodeRss": 74039296,
+      "loopTime": 0.76906790000014
+    },
+    {
+      "turn": 234,
+      "sceneNumber": 6486,
+      "generationTime": 2.9525410000002013,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 409192,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 748,
+      "stateBytes": 3309,
+      "nodeRss": 74039296,
+      "loopTime": 0.8080342000001111
+    },
+    {
+      "turn": 235,
+      "sceneNumber": 6487,
+      "generationTime": 3.0039779999996536,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 450170,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3216,
+      "nodeRss": 74055680,
+      "loopTime": 0.8212076000003145
+    },
+    {
+      "turn": 236,
+      "sceneNumber": 6488,
+      "generationTime": 3.0387007999997584,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 449785,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 738,
+      "stateBytes": 3203,
+      "nodeRss": 73879552,
+      "loopTime": 0.7565933000002988
+    },
+    {
+      "turn": 237,
+      "sceneNumber": 6489,
+      "generationTime": 3.201996100000106,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 449577,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3178,
+      "nodeRss": 73895936,
+      "loopTime": 0.7905024999999442
+    },
+    {
+      "turn": 238,
+      "sceneNumber": 6490,
+      "generationTime": 3.211757100000046,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 450107,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 722,
+      "stateBytes": 3086,
+      "nodeRss": 73965568,
+      "loopTime": 0.7781959999999962
+    },
+    {
+      "turn": 239,
+      "sceneNumber": 6491,
+      "generationTime": 3.6307378000002353,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 393182,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3120,
+      "nodeRss": 73854976,
+      "loopTime": 0.8663880000002682
+    },
+    {
+      "turn": 240,
+      "sceneNumber": 6492,
+      "generationTime": 3.495379699999932,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 458751,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 749,
+      "stateBytes": 3253,
+      "nodeRss": 73936896,
+      "loopTime": 0.7400471999999135
+    },
+    {
+      "turn": 241,
+      "sceneNumber": 6493,
+      "generationTime": 2.942275399999693,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 396190,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 754,
+      "stateBytes": 3260,
+      "nodeRss": 73957376,
+      "loopTime": 0.7524024000000209
+    },
+    {
+      "turn": 242,
+      "sceneNumber": 6494,
+      "generationTime": 2.8322652000002564,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 451811,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3359,
+      "nodeRss": 74395648,
+      "loopTime": 0.7705028000003659
+    },
+    {
+      "turn": 243,
+      "sceneNumber": 6495,
+      "generationTime": 3.065062999999616,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 406103,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 738,
+      "stateBytes": 3240,
+      "nodeRss": 72646656,
+      "loopTime": 0.7153919000001624
+    },
+    {
+      "turn": 244,
+      "sceneNumber": 6496,
+      "generationTime": 2.8158237999998965,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 416094,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 757,
+      "stateBytes": 3226,
+      "nodeRss": 73302016,
+      "loopTime": 0.6411184000000357
+    },
+    {
+      "turn": 245,
+      "sceneNumber": 6497,
+      "generationTime": 3.070809499999974,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 399150,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3235,
+      "nodeRss": 73351168,
+      "loopTime": 0.7105886999997311
+    },
+    {
+      "turn": 246,
+      "sceneNumber": 6498,
+      "generationTime": 2.845969299999997,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 424640,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 742,
+      "stateBytes": 3245,
+      "nodeRss": 73457664,
+      "loopTime": 0.8354080000002868
+    },
+    {
+      "turn": 247,
+      "sceneNumber": 6499,
+      "generationTime": 2.8466796000003813,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 401141,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 732,
+      "stateBytes": 3231,
+      "nodeRss": 72663040,
+      "loopTime": 0.7057625999995507
+    },
+    {
+      "turn": 248,
+      "sceneNumber": 6500,
+      "generationTime": 2.9753915999997407,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 494213,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 726,
+      "stateBytes": 3154,
+      "nodeRss": 73244672,
+      "loopTime": 0.643654899999965
+    },
+    {
+      "turn": 249,
+      "sceneNumber": 6501,
+      "generationTime": 3.052178799999878,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 390391,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3089,
+      "nodeRss": 73535488,
+      "loopTime": 0.8026175999999977
+    },
+    {
+      "turn": 250,
+      "sceneNumber": 6502,
+      "generationTime": 3.5630465000001714,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 434230,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3191,
+      "nodeRss": 73068544,
+      "loopTime": 1.069156400000211
+    },
+    {
+      "turn": 251,
+      "sceneNumber": 6503,
+      "generationTime": 2.924278799999971,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 396614,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 751,
+      "stateBytes": 3325,
+      "nodeRss": 73474048,
+      "loopTime": 0.7193577000000514
+    },
+    {
+      "turn": 252,
+      "sceneNumber": 6504,
+      "generationTime": 2.8118729000003078,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 479299,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 751,
+      "stateBytes": 3217,
+      "nodeRss": 73306112,
+      "loopTime": 0.9174284000000916
+    },
+    {
+      "turn": 253,
+      "sceneNumber": 6505,
+      "generationTime": 2.759666700000409,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 407993,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3204,
+      "nodeRss": 73555968,
+      "loopTime": 0.8157633000002242
+    },
+    {
+      "turn": 254,
+      "sceneNumber": 6506,
+      "generationTime": 3.2303344999998806,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 485589,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3210,
+      "nodeRss": 73752576,
+      "loopTime": 0.6709846999999136
+    },
+    {
+      "turn": 255,
+      "sceneNumber": 6507,
+      "generationTime": 7.5085830000001,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 589948,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3184,
+      "nodeRss": 73773056,
+      "loopTime": 0.7362023000000044
+    },
+    {
+      "turn": 256,
+      "sceneNumber": 6508,
+      "generationTime": 2.93136959999986,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 473131,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 753,
+      "stateBytes": 3257,
+      "nodeRss": 73658368,
+      "loopTime": 0.7193451999998651
+    },
+    {
+      "turn": 257,
+      "sceneNumber": 6509,
+      "generationTime": 2.9975059999995866,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 438591,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 746,
+      "stateBytes": 3207,
+      "nodeRss": 74129408,
+      "loopTime": 0.774772099999711
+    },
+    {
+      "turn": 258,
+      "sceneNumber": 6510,
+      "generationTime": 2.794322300000116,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 475052,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3208,
+      "nodeRss": 73785344,
+      "loopTime": 0.7038857999998145
+    },
+    {
+      "turn": 259,
+      "sceneNumber": 6511,
+      "generationTime": 2.762937799999956,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 406879,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 708,
+      "stateBytes": 3069,
+      "nodeRss": 73838592,
+      "loopTime": 0.6281376999998465
+    },
+    {
+      "turn": 260,
+      "sceneNumber": 6512,
+      "generationTime": 2.8189382999995725,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 398882,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 717,
+      "stateBytes": 3160,
+      "nodeRss": 74113024,
+      "loopTime": 1.0237880000001751
+    },
+    {
+      "turn": 261,
+      "sceneNumber": 6513,
+      "generationTime": 2.6567419000002555,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 395431,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 752,
+      "stateBytes": 3279,
+      "nodeRss": 74186752,
+      "loopTime": 0.7177546999999322
+    },
+    {
+      "turn": 262,
+      "sceneNumber": 6514,
+      "generationTime": 3.295935199999716,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 486754,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 757,
+      "stateBytes": 3218,
+      "nodeRss": 74121216,
+      "loopTime": 0.713245699999854
+    },
+    {
+      "turn": 263,
+      "sceneNumber": 6515,
+      "generationTime": 5.32586400000006,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 483823,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 763,
+      "stateBytes": 3191,
+      "nodeRss": 73318400,
+      "loopTime": 0.719148799999617
+    },
+    {
+      "turn": 264,
+      "sceneNumber": 6516,
+      "generationTime": 3.354420000000391,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 466051,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 738,
+      "stateBytes": 3238,
+      "nodeRss": 73269248,
+      "loopTime": 0.7172462999997661
+    },
+    {
+      "turn": 265,
+      "sceneNumber": 6517,
+      "generationTime": 3.007063200000208,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 552087,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 727,
+      "stateBytes": 3024,
+      "nodeRss": 73523200,
+      "loopTime": 0.6788848999999464
+    },
+    {
+      "turn": 266,
+      "sceneNumber": 6518,
+      "generationTime": 2.71694160000002,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 458652,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 729,
+      "stateBytes": 3219,
+      "nodeRss": 73920512,
+      "loopTime": 0.575878500000108
+    },
+    {
+      "turn": 267,
+      "sceneNumber": 6519,
+      "generationTime": 2.924964000000153,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 507357,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3224,
+      "nodeRss": 73994240,
+      "loopTime": 0.6052741000000388
+    },
+    {
+      "turn": 268,
+      "sceneNumber": 6520,
+      "generationTime": 2.8236067999997174,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 499086,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 731,
+      "stateBytes": 3154,
+      "nodeRss": 74403840,
+      "loopTime": 0.6981687000002712
+    },
+    {
+      "turn": 269,
+      "sceneNumber": 6521,
+      "generationTime": 2.8052355999997816,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 483769,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 726,
+      "stateBytes": 3112,
+      "nodeRss": 74465280,
+      "loopTime": 0.6855148999998346
+    },
+    {
+      "turn": 270,
+      "sceneNumber": 6522,
+      "generationTime": 2.743280900000129,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 411613,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3244,
+      "nodeRss": 74715136,
+      "loopTime": 0.6919074999997392
+    },
+    {
+      "turn": 271,
+      "sceneNumber": 6523,
+      "generationTime": 2.795508600000292,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 372690,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3270,
+      "nodeRss": 74592256,
+      "loopTime": 0.6866868000002578
+    },
+    {
+      "turn": 272,
+      "sceneNumber": 6524,
+      "generationTime": 2.9293234000001105,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 404467,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 728,
+      "stateBytes": 3145,
+      "nodeRss": 74641408,
+      "loopTime": 0.6504757999996654
+    },
+    {
+      "turn": 273,
+      "sceneNumber": 6525,
+      "generationTime": 2.953350600000005,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 477098,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 742,
+      "stateBytes": 3299,
+      "nodeRss": 74657792,
+      "loopTime": 0.5786729999999516
+    },
+    {
+      "turn": 274,
+      "sceneNumber": 6526,
+      "generationTime": 2.7137194999996574,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 510351,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 742,
+      "stateBytes": 3189,
+      "nodeRss": 74661888,
+      "loopTime": 0.6922327999998815
+    },
+    {
+      "turn": 275,
+      "sceneNumber": 6527,
+      "generationTime": 2.691468400000129,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 468194,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 755,
+      "stateBytes": 3187,
+      "nodeRss": 74899456,
+      "loopTime": 0.7317490000003017
+    },
+    {
+      "turn": 276,
+      "sceneNumber": 6528,
+      "generationTime": 3.047726900000125,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 500974,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 756,
+      "stateBytes": 3249,
+      "nodeRss": 75014144,
+      "loopTime": 0.6953593000001274
+    },
+    {
+      "turn": 277,
+      "sceneNumber": 6529,
+      "generationTime": 2.8052960000000895,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 426521,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 748,
+      "stateBytes": 3247,
+      "nodeRss": 74866688,
+      "loopTime": 0.5646090000001713
+    },
+    {
+      "turn": 278,
+      "sceneNumber": 6530,
+      "generationTime": 3.0175261000003664,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 520682,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 717,
+      "stateBytes": 3216,
+      "nodeRss": 75005952,
+      "loopTime": 0.7258213999997825
+    },
+    {
+      "turn": 279,
+      "sceneNumber": 6531,
+      "generationTime": 2.947605600000359,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 429320,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 710,
+      "stateBytes": 3100,
+      "nodeRss": 75165696,
+      "loopTime": 0.7089970999993384
+    },
+    {
+      "turn": 280,
+      "sceneNumber": 6532,
+      "generationTime": 2.8393881000000984,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 438111,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 722,
+      "stateBytes": 3139,
+      "nodeRss": 75169792,
+      "loopTime": 0.5702342999996618
+    },
+    {
+      "turn": 281,
+      "sceneNumber": 6533,
+      "generationTime": 2.939538800000213,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 521951,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3129,
+      "nodeRss": 75182080,
+      "loopTime": 0.7072414999995381
+    },
+    {
+      "turn": 282,
+      "sceneNumber": 6534,
+      "generationTime": 2.7770455999998376,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 511083,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3321,
+      "nodeRss": 72957952,
+      "loopTime": 0.6092560000000522
+    },
+    {
+      "turn": 283,
+      "sceneNumber": 6535,
+      "generationTime": 3.8920966999996454,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 476517,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 745,
+      "stateBytes": 3362,
+      "nodeRss": 73461760,
+      "loopTime": 0.7425736999996007
+    },
+    {
+      "turn": 284,
+      "sceneNumber": 6536,
+      "generationTime": 3.18180989999976,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 477840,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 760,
+      "stateBytes": 3336,
+      "nodeRss": 73605120,
+      "loopTime": 0.7949106000000611
+    },
+    {
+      "turn": 285,
+      "sceneNumber": 6537,
+      "generationTime": 3.0317724000001327,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 396544,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 762,
+      "stateBytes": 3307,
+      "nodeRss": 73756672,
+      "loopTime": 0.7230568999992684
+    },
+    {
+      "turn": 286,
+      "sceneNumber": 6538,
+      "generationTime": 2.834963200000115,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 408840,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 743,
+      "stateBytes": 3207,
+      "nodeRss": 73875456,
+      "loopTime": 0.6347034999998287
+    },
+    {
+      "turn": 287,
+      "sceneNumber": 6539,
+      "generationTime": 2.577402999999933,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 456249,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 736,
+      "stateBytes": 3216,
+      "nodeRss": 73949184,
+      "loopTime": 0.5636101000001654
+    },
+    {
+      "turn": 288,
+      "sceneNumber": 6540,
+      "generationTime": 2.7861246999995783,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 524381,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 735,
+      "stateBytes": 3136,
+      "nodeRss": 74088448,
+      "loopTime": 0.5849254000000655
+    },
+    {
+      "turn": 289,
+      "sceneNumber": 6541,
+      "generationTime": 2.6476299999998885,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 549960,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 746,
+      "stateBytes": 3269,
+      "nodeRss": 74223616,
+      "loopTime": 0.6627641000002623
+    },
+    {
+      "turn": 290,
+      "sceneNumber": 6542,
+      "generationTime": 2.4684437999995423,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 497043,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 762,
+      "stateBytes": 3396,
+      "nodeRss": 74407936,
+      "loopTime": 0.5442792999995872
+    },
+    {
+      "turn": 291,
+      "sceneNumber": 6543,
+      "generationTime": 2.594587400000542,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 469831,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 782,
+      "stateBytes": 3365,
+      "nodeRss": 74502144,
+      "loopTime": 0.5386935000000521
+    },
+    {
+      "turn": 292,
+      "sceneNumber": 6544,
+      "generationTime": 2.5335259000007064,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 443867,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 761,
+      "stateBytes": 3317,
+      "nodeRss": 74674176,
+      "loopTime": 0.5209064000006766
+    },
+    {
+      "turn": 293,
+      "sceneNumber": 6545,
+      "generationTime": 2.436717400000431,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 434048,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 744,
+      "stateBytes": 3257,
+      "nodeRss": 74674176,
+      "loopTime": 0.5121861000005156
+    },
+    {
+      "turn": 294,
+      "sceneNumber": 6546,
+      "generationTime": 2.6122908999994396,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 464432,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 751,
+      "stateBytes": 3242,
+      "nodeRss": 74838016,
+      "loopTime": 0.5481639999998733
+    },
+    {
+      "turn": 295,
+      "sceneNumber": 6547,
+      "generationTime": 2.453460699999705,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 464680,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 732,
+      "stateBytes": 3174,
+      "nodeRss": 74108928,
+      "loopTime": 0.5473542999997735
+    },
+    {
+      "turn": 296,
+      "sceneNumber": 6548,
+      "generationTime": 2.567277400000021,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 474962,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 734,
+      "stateBytes": 3105,
+      "nodeRss": 74498048,
+      "loopTime": 0.534268399999477
+    },
+    {
+      "turn": 297,
+      "sceneNumber": 6549,
+      "generationTime": 2.4664391999999062,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 480851,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 724,
+      "stateBytes": 3218,
+      "nodeRss": 74317824,
+      "loopTime": 0.5346338999997824
+    },
+    {
+      "turn": 298,
+      "sceneNumber": 6550,
+      "generationTime": 2.4260337999993937,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 476723,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 725,
+      "stateBytes": 3313,
+      "nodeRss": 74530816,
+      "loopTime": 0.5361212000008673
+    },
+    {
+      "turn": 299,
+      "sceneNumber": 6551,
+      "generationTime": 2.4969324000002815,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 423369,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 747,
+      "stateBytes": 3275,
+      "nodeRss": 74612736,
+      "loopTime": 0.5439548000004143
+    },
+    {
+      "turn": 300,
+      "sceneNumber": 6552,
+      "generationTime": 2.4220293000005184,
+      "loopSuccess": true,
+      "mediaOk": true,
+      "mediaBytes": 441455,
+      "queue": {
+        "running": 0,
+        "pending": 0
+      },
+      "storyStateBytes": 733,
+      "stateBytes": 3210,
+      "nodeRss": 74661888,
+      "loopTime": 0.5369554000003264
+    }
+  ],
+  "snapshots": [
+    {
+      "turn": 0,
+      "runtimeSeconds": 0.064,
+      "diagnostics": {
+        "at": "2026-08-30T15:25:47.674Z",
+        "sceneNumber": 6251,
+        "phase": "VOTE_LOCKED_GENERATING",
+        "node": {
+          "rss": 66920448,
+          "heapTotal": 15925248,
+          "heapUsed": 14061704,
+          "external": 4130937,
+          "arrayBuffers": 122154,
+          "cpuUsageMicros": {
+            "user": 453000,
+            "system": 1828000
+          },
+          "uptimeSeconds": 56.2284648
+        },
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "loopEngine": {
+          "active": false,
+          "pending": 0,
+          "activeChildren": 0,
+          "maxPendingObserved": 0
+        },
+        "media": {
+          "trackedScenes": 14,
+          "trackedFiles": 21,
+          "keepScenes": 8,
+          "loopFiles": 20,
+          "loopBytes": 1856967,
+          "generatedFiles": 38,
+          "generatedBytes": 17237913,
+          "inputFiles": 13,
+          "inputBytes": 5784990
+        },
+        "metrics": {
+          "loopTimes": [
+            0.6760437999999994,
+            0.8313124000000025,
+            0.6571261999999988
+          ],
+          "loopSuccess": 3,
+          "loopErrors": 0,
+          "staleLoops": 0,
+          "generationFailures": 0
+        },
+        "recentGenerationTimes": [
+          3.820236499999999,
+          3.7721822999999857,
+          6.689555199999944,
+          7.440408900000039,
+          3.8018416000000435,
+          30.527333099999932,
+          3.316194200000027,
+          3.4928789000000107,
+          3.605304000000004,
+          3.5586999999999533,
+          3.5874150999998675,
+          3.4998614999998825,
+          3.611966299999971,
+          9.094449500000104,
+          4.141084000000031,
+          3.3036355000000914,
+          4.061833399999887,
+          3.4171287,
+          3.6348793000000006,
+          3.980872300000003
+        ],
+        "websocketClients": 0,
+        "storyStateBytes": 750,
+        "stateBytes": 3229,
+        "logBytes": 2936770
+      },
+      "external": {
+        "systemRam": {
+          "total": 34189312000,
+          "free": 3965702144,
+          "used": 30223609856
+        },
+        "gpu": {
+          "usedMiB": 6674,
+          "totalMiB": 8192,
+          "utilizationPercent": 13
+        },
+        "ffmpegCount": 0,
+        "processCount": 339
+      }
+    },
+    {
+      "turn": 75,
+      "runtimeSeconds": 1182.962,
+      "diagnostics": {
+        "at": "2026-08-30T15:45:30.572Z",
+        "sceneNumber": 6327,
+        "phase": "PLAYING_VOTING",
+        "node": {
+          "rss": 79790080,
+          "heapTotal": 25624576,
+          "heapUsed": 14817240,
+          "external": 4589828,
+          "arrayBuffers": 586718,
+          "cpuUsageMicros": {
+            "user": 5296000,
+            "system": 41093000
+          },
+          "uptimeSeconds": 1239.1263638
+        },
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "loopEngine": {
+          "active": false,
+          "pending": 0,
+          "activeChildren": 0,
+          "maxPendingObserved": 0
+        },
+        "media": {
+          "trackedScenes": 24,
+          "trackedFiles": 36,
+          "keepScenes": 8,
+          "loopFiles": 25,
+          "loopBytes": 2412073,
+          "generatedFiles": 38,
+          "generatedBytes": 17237913,
+          "inputFiles": 17,
+          "inputBytes": 7554917
+        },
+        "metrics": {
+          "loopTimes": [
+            0.6760437999999994,
+            0.8313124000000025,
+            0.6571261999999988,
+            0.7519046000000017,
+            0.7826416000000026,
+            0.7355534999999945,
+            0.720653999999995,
+            0.7013398999999918,
+            0.7176324999999779,
+            0.6856178999999829,
+            0.7073943999999901,
+            0.5794557999999961,
+            0.7116036000000022,
+            0.5450434000000242,
+            0.6788886000000057,
+            0.5951663000000408,
+            0.6807307000000147,
+            0.718561400000006,
+            0.6951467000000412,
+            0.7208681000000215,
+            0.6723883999999962,
+            0.7325602000000072,
+            0.7341378000000259,
+            0.5507771000000066,
+            0.7432444999999716,
+            0.7331444999999949,
+            0.7560907000000007,
+            0.7445278999999864,
+            0.7134760000000242,
+            0.5657528000000166,
+            0.794279499999946,
+            0.7422246999999043,
+            0.6940993999999482,
+            0.5737597999999998,
+            0.6871254999999655,
+            0.5804767999999458,
+            0.5774412000000011,
+            0.5913458999999566,
+            0.5351338999998989,
+            0.7213961999999592,
+            0.5891326000000118,
+            0.559579400000046,
+            0.5457559999999357,
+            0.5337112999999662,
+            0.5326358000000473,
+            0.5384116999999388,
+            0.53165830000001,
+            0.5493380999999353,
+            0.5201966999999713,
+            0.5618090999999549,
+            0.533562799999956,
+            0.5562902999999932,
+            0.529859300000011,
+            0.5382117999999319,
+            0.5248256000000984,
+            0.516797900000005,
+            0.5370608000000939,
+            0.5470603000000119,
+            0.5294703000000445,
+            0.5209629999999889,
+            0.5343052999998908,
+            0.5143967999999877,
+            0.5309187000000384,
+            0.5382070000000531,
+            0.5366435000000056,
+            0.5484015000001528,
+            0.6681231999997981,
+            0.668715099999914,
+            0.6763245999999344,
+            0.685409300000174,
+            0.6718991999998689,
+            0.5904476999999024,
+            0.7239854000001215,
+            0.7365782000001054,
+            0.713816000000108,
+            0.5804894999999087,
+            0.735377100000158,
+            0.710061900000088,
+            0.7207908999999054
+          ],
+          "loopSuccess": 79,
+          "loopErrors": 0,
+          "staleLoops": 0,
+          "generationFailures": 0
+        },
+        "recentGenerationTimes": [
+          2.459484300000011,
+          2.361954000000027,
+          2.4793296000000553,
+          2.3525112999998963,
+          2.4710311999999686,
+          2.4665011999999407,
+          2.3310790999999735,
+          2.405151899999939,
+          2.782128999999957,
+          2.8497653999999164,
+          2.6788262000000103,
+          2.6722879999999423,
+          2.600379200000083,
+          2.7745848999999,
+          2.583707699999912,
+          2.693064599999925,
+          2.7344359999999868,
+          2.9610546999999787,
+          2.8329173000000885,
+          2.853128500000108
+        ],
+        "websocketClients": 0,
+        "storyStateBytes": 720,
+        "stateBytes": 3213,
+        "logBytes": 2986353
+      },
+      "external": {
+        "systemRam": {
+          "total": 34189312000,
+          "free": 4625313792,
+          "used": 29563998208
+        },
+        "gpu": {
+          "usedMiB": 6591,
+          "totalMiB": 8192,
+          "utilizationPercent": 27
+        },
+        "ffmpegCount": 0,
+        "processCount": 334
+      }
+    },
+    {
+      "turn": 150,
+      "runtimeSeconds": 2281.848,
+      "diagnostics": {
+        "at": "2026-08-30T16:03:49.459Z",
+        "sceneNumber": 6402,
+        "phase": "PLAYING_VOTING",
+        "node": {
+          "rss": 77238272,
+          "heapTotal": 24051712,
+          "heapUsed": 15877192,
+          "external": 5886327,
+          "arrayBuffers": 1883217,
+          "cpuUsageMicros": {
+            "user": 9453000,
+            "system": 91031000
+          },
+          "uptimeSeconds": 2338.0131773
+        },
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "loopEngine": {
+          "active": false,
+          "pending": 0,
+          "activeChildren": 0,
+          "maxPendingObserved": 0
+        },
+        "media": {
+          "trackedScenes": 24,
+          "trackedFiles": 36,
+          "keepScenes": 8,
+          "loopFiles": 25,
+          "loopBytes": 2652256,
+          "generatedFiles": 38,
+          "generatedBytes": 17237913,
+          "inputFiles": 17,
+          "inputBytes": 7980438
+        },
+        "metrics": {
+          "loopTimes": [
+            0.5248256000000984,
+            0.516797900000005,
+            0.5370608000000939,
+            0.5470603000000119,
+            0.5294703000000445,
+            0.5209629999999889,
+            0.5343052999998908,
+            0.5143967999999877,
+            0.5309187000000384,
+            0.5382070000000531,
+            0.5366435000000056,
+            0.5484015000001528,
+            0.6681231999997981,
+            0.668715099999914,
+            0.6763245999999344,
+            0.685409300000174,
+            0.6718991999998689,
+            0.5904476999999024,
+            0.7239854000001215,
+            0.7365782000001054,
+            0.713816000000108,
+            0.5804894999999087,
+            0.735377100000158,
+            0.710061900000088,
+            0.7207908999999054,
+            0.7027360000000336,
+            0.7191677999999374,
+            0.7280792999998666,
+            0.7321218000000809,
+            0.7066417999998666,
+            0.723656100000022,
+            0.9043122999998741,
+            0.711939500000095,
+            0.7017266999999993,
+            0.6979546000000555,
+            0.7787900000000373,
+            0.8105302000001539,
+            0.7375527000001166,
+            0.838656399999978,
+            0.7078267000000924,
+            0.7902347999999765,
+            0.7079603999999817,
+            0.6549316000000108,
+            1.0050995000000111,
+            0.6940259000000079,
+            0.7347616999999155,
+            0.8321478000001516,
+            0.7538426000000908,
+            0.8659972999999299,
+            0.7165611000000499,
+            0.7816637000001502,
+            0.7558625999998767,
+            0.804937900000019,
+            0.7148986000001896,
+            0.7694324000000488,
+            1.1714860000000336,
+            0.7284664000000339,
+            0.7889052999999839,
+            0.7194224000000395,
+            0.9208009999999777,
+            0.770437099999981,
+            0.9132394000000786,
+            0.9051233000000939,
+            0.8039132999998982,
+            0.788222800000105,
+            0.735314000000013,
+            0.9627549999998882,
+            0.6638666000000667,
+            0.7838323000001255,
+            0.7653904999999795,
+            0.6492925000002142,
+            0.9676863000001759,
+            0.7117933000000194,
+            0.7656719000001904,
+            0.794808299999917,
+            0.7223813000000082,
+            0.8514480000000912,
+            0.7626225000000558,
+            0.7240352999998723,
+            0.8148405999999959,
+            0.7321824000000487,
+            0.7976700999999885,
+            0.652809099999955,
+            0.6355006000003778,
+            1.0074618999999947,
+            1.1148209999999963,
+            0.6322349000000395,
+            1.1269120000000112,
+            0.8655090000000782,
+            0.6027105999998749,
+            0.730591299999971,
+            0.7538426000000908,
+            0.7232652000002563,
+            0.7943231999999844,
+            0.7443670999999158,
+            0.7499698999999092,
+            0.5735030999998562,
+            0.7379810000001453,
+            0.766679699999746,
+            0.7264626999995671
+          ],
+          "loopSuccess": 154,
+          "loopErrors": 0,
+          "staleLoops": 0,
+          "generationFailures": 0
+        },
+        "recentGenerationTimes": [
+          3.0147850999999792,
+          2.6745488999998197,
+          2.730484599999851,
+          2.8324218000001276,
+          3.6298085000002756,
+          2.6858301999997347,
+          2.555973199999891,
+          2.7080044999998063,
+          2.64867790000001,
+          2.7006334999999964,
+          2.8303570999996737,
+          3.082809400000144,
+          2.8187864999999293,
+          3.3398794999998063,
+          2.8854756999998354,
+          2.9551631000000054,
+          3.014099899999797,
+          3.0878458000002427,
+          3.0271135999998076,
+          3.0118958000000564
+        ],
+        "websocketClients": 0,
+        "storyStateBytes": 755,
+        "stateBytes": 3350,
+        "logBytes": 3035620
+      },
+      "external": {
+        "systemRam": {
+          "total": 34189312000,
+          "free": 4655656960,
+          "used": 29533655040
+        },
+        "gpu": {
+          "usedMiB": 6549,
+          "totalMiB": 8192,
+          "utilizationPercent": 28
+        },
+        "ffmpegCount": 0,
+        "processCount": 331
+      }
+    },
+    {
+      "turn": 225,
+      "runtimeSeconds": 3377.49,
+      "diagnostics": {
+        "at": "2026-08-30T16:22:05.100Z",
+        "sceneNumber": 6477,
+        "phase": "PLAYING_VOTING",
+        "node": {
+          "rss": 73416704,
+          "heapTotal": 24576000,
+          "heapUsed": 15202584,
+          "external": 4885872,
+          "arrayBuffers": 882762,
+          "cpuUsageMicros": {
+            "user": 14437000,
+            "system": 135468000
+          },
+          "uptimeSeconds": 3433.6549115
+        },
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "loopEngine": {
+          "active": false,
+          "pending": 0,
+          "activeChildren": 0,
+          "maxPendingObserved": 0
+        },
+        "media": {
+          "trackedScenes": 24,
+          "trackedFiles": 36,
+          "keepScenes": 8,
+          "loopFiles": 25,
+          "loopBytes": 2308746,
+          "generatedFiles": 38,
+          "generatedBytes": 17237913,
+          "inputFiles": 17,
+          "inputBytes": 7486237
+        },
+        "metrics": {
+          "loopTimes": [
+            0.7223813000000082,
+            0.8514480000000912,
+            0.7626225000000558,
+            0.7240352999998723,
+            0.8148405999999959,
+            0.7321824000000487,
+            0.7976700999999885,
+            0.652809099999955,
+            0.6355006000003778,
+            1.0074618999999947,
+            1.1148209999999963,
+            0.6322349000000395,
+            1.1269120000000112,
+            0.8655090000000782,
+            0.6027105999998749,
+            0.730591299999971,
+            0.7538426000000908,
+            0.7232652000002563,
+            0.7943231999999844,
+            0.7443670999999158,
+            0.7499698999999092,
+            0.5735030999998562,
+            0.7379810000001453,
+            0.766679699999746,
+            0.7264626999995671,
+            0.7772216000002808,
+            0.7562288000001572,
+            0.639183799999766,
+            0.7782480999999679,
+            0.5946905000000261,
+            0.7625655999998562,
+            0.768627100000158,
+            0.7105619999999181,
+            0.7200111999996006,
+            0.7346326999999583,
+            0.5834125000000931,
+            0.7036191999996081,
+            0.5513210999998264,
+            0.6964542000000365,
+            0.7442804999998771,
+            0.6872402000003495,
+            0.6996302999998443,
+            0.6654963000002317,
+            0.5750535999997519,
+            0.5888195000002161,
+            0.7089714999999851,
+            0.7111581999999471,
+            0.6786554999998771,
+            0.6948193999999203,
+            0.5966562000000849,
+            0.5838981000003405,
+            0.57518349999981,
+            0.7432157000000589,
+            0.7438136999998242,
+            0.7734838999998755,
+            0.7272712000003084,
+            0.6703128000004217,
+            0.7768253000001423,
+            0.7697957000001334,
+            0.6107842999999411,
+            0.8087379000000655,
+            0.7979893999998457,
+            0.7501408999999986,
+            0.6314745000000112,
+            0.6618921999996528,
+            0.6648576999995858,
+            0.6939651999999769,
+            0.6831017999998293,
+            0.8256620000000112,
+            0.7058950000000186,
+            0.7303906000000425,
+            0.6887756000002846,
+            0.7411098000002093,
+            0.7508063000002876,
+            0.7539658999997191,
+            0.7556998999998905,
+            0.9153322000000625,
+            0.7579972000000998,
+            0.6298338999999687,
+            0.7416745000001974,
+            0.7326650000000372,
+            0.570123900000006,
+            0.7200281999995932,
+            0.6655598999997601,
+            0.5805667000003158,
+            0.76524599999981,
+            0.7243283999999985,
+            0.8800449000000954,
+            0.769569700000342,
+            0.6880272999997251,
+            0.7177557000000961,
+            0.7214635000000708,
+            0.6984251000001095,
+            0.7609118999997154,
+            0.7344708000002429,
+            0.6612746999999508,
+            0.6771161000002176,
+            0.7140496000000276,
+            0.7305186999998987,
+            0.6820419000000693
+          ],
+          "loopSuccess": 229,
+          "loopErrors": 0,
+          "staleLoops": 0,
+          "generationFailures": 0
+        },
+        "recentGenerationTimes": [
+          2.653760300000198,
+          2.7020943999998273,
+          2.6324954000003635,
+          2.7177946999999696,
+          3.8858344999998806,
+          3.227677799999714,
+          2.770188499999698,
+          3.2193368999999947,
+          2.567440900000278,
+          3.040998399999924,
+          2.935722200000193,
+          2.733928599999752,
+          2.789563099999912,
+          2.8949187999996355,
+          3.1123308999999426,
+          2.7602598000001164,
+          3.0470451999995856,
+          2.7824454000000842,
+          2.8998688999996522,
+          3.024588399999775
+        ],
+        "websocketClients": 0,
+        "storyStateBytes": 733,
+        "stateBytes": 3141,
+        "logBytes": 3084860
+      },
+      "external": {
+        "systemRam": {
+          "total": 34189312000,
+          "free": 4406218752,
+          "used": 29783093248
+        },
+        "gpu": {
+          "usedMiB": 6751,
+          "totalMiB": 8192,
+          "utilizationPercent": 0
+        },
+        "ffmpegCount": 0,
+        "processCount": 329
+      }
+    },
+    {
+      "turn": 300,
+      "runtimeSeconds": 4473.953,
+      "diagnostics": {
+        "at": "2026-08-30T16:40:21.564Z",
+        "sceneNumber": 6552,
+        "phase": "PLAYING_VOTING",
+        "node": {
+          "rss": 74665984,
+          "heapTotal": 25100288,
+          "heapUsed": 21269904,
+          "external": 6018976,
+          "arrayBuffers": 2015866,
+          "cpuUsageMicros": {
+            "user": 19203000,
+            "system": 179437000
+          },
+          "uptimeSeconds": 4530.1175986
+        },
+        "queue": {
+          "running": 0,
+          "pending": 0
+        },
+        "loopEngine": {
+          "active": false,
+          "pending": 0,
+          "activeChildren": 0,
+          "maxPendingObserved": 0
+        },
+        "media": {
+          "trackedScenes": 24,
+          "trackedFiles": 36,
+          "keepScenes": 8,
+          "loopFiles": 25,
+          "loopBytes": 2452136,
+          "generatedFiles": 38,
+          "generatedBytes": 17237913,
+          "inputFiles": 17,
+          "inputBytes": 7965546
+        },
+        "metrics": {
+          "loopTimes": [
+            0.7556998999998905,
+            0.9153322000000625,
+            0.7579972000000998,
+            0.6298338999999687,
+            0.7416745000001974,
+            0.7326650000000372,
+            0.570123900000006,
+            0.7200281999995932,
+            0.6655598999997601,
+            0.5805667000003158,
+            0.76524599999981,
+            0.7243283999999985,
+            0.8800449000000954,
+            0.769569700000342,
+            0.6880272999997251,
+            0.7177557000000961,
+            0.7214635000000708,
+            0.6984251000001095,
+            0.7609118999997154,
+            0.7344708000002429,
+            0.6612746999999508,
+            0.6771161000002176,
+            0.7140496000000276,
+            0.7305186999998987,
+            0.6820419000000693,
+            0.6870211000000127,
+            0.7274386999998241,
+            0.6899695999999531,
+            0.7251261999998242,
+            0.8577480999999679,
+            0.7529422999997624,
+            1.9971122999996878,
+            0.76906790000014,
+            0.8080342000001111,
+            0.8212076000003145,
+            0.7565933000002988,
+            0.7905024999999442,
+            0.7781959999999962,
+            0.8663880000002682,
+            0.7400471999999135,
+            0.7524024000000209,
+            0.7705028000003659,
+            0.7153919000001624,
+            0.6411184000000357,
+            0.7105886999997311,
+            0.8354080000002868,
+            0.7057625999995507,
+            0.643654899999965,
+            0.8026175999999977,
+            1.069156400000211,
+            0.7193577000000514,
+            0.9174284000000916,
+            0.8157633000002242,
+            0.6709846999999136,
+            0.7362023000000044,
+            0.7193451999998651,
+            0.774772099999711,
+            0.7038857999998145,
+            0.6281376999998465,
+            1.0237880000001751,
+            0.7177546999999322,
+            0.713245699999854,
+            0.719148799999617,
+            0.7172462999997661,
+            0.6788848999999464,
+            0.575878500000108,
+            0.6052741000000388,
+            0.6981687000002712,
+            0.6855148999998346,
+            0.6919074999997392,
+            0.6866868000002578,
+            0.6504757999996654,
+            0.5786729999999516,
+            0.6922327999998815,
+            0.7317490000003017,
+            0.6953593000001274,
+            0.5646090000001713,
+            0.7258213999997825,
+            0.7089970999993384,
+            0.5702342999996618,
+            0.7072414999995381,
+            0.6092560000000522,
+            0.7425736999996007,
+            0.7949106000000611,
+            0.7230568999992684,
+            0.6347034999998287,
+            0.5636101000001654,
+            0.5849254000000655,
+            0.6627641000002623,
+            0.5442792999995872,
+            0.5386935000000521,
+            0.5209064000006766,
+            0.5121861000005156,
+            0.5481639999998733,
+            0.5473542999997735,
+            0.534268399999477,
+            0.5346338999997824,
+            0.5361212000008673,
+            0.5439548000004143,
+            0.5369554000003264
+          ],
+          "loopSuccess": 304,
+          "loopErrors": 0,
+          "staleLoops": 0,
+          "generationFailures": 0
+        },
+        "recentGenerationTimes": [
+          2.939538800000213,
+          2.7770455999998376,
+          3.8920966999996454,
+          3.18180989999976,
+          3.0317724000001327,
+          2.834963200000115,
+          2.577402999999933,
+          2.7861246999995783,
+          2.6476299999998885,
+          2.4684437999995423,
+          2.594587400000542,
+          2.5335259000007064,
+          2.436717400000431,
+          2.6122908999994396,
+          2.453460699999705,
+          2.567277400000021,
+          2.4664391999999062,
+          2.4260337999993937,
+          2.4969324000002815,
+          2.4220293000005184
+        ],
+        "websocketClients": 0,
+        "storyStateBytes": 733,
+        "stateBytes": 3210,
+        "logBytes": 3134106
+      },
+      "external": {
+        "systemRam": {
+          "total": 34189312000,
+          "free": 3925258240,
+          "used": 30264119296
+        },
+        "gpu": {
+          "usedMiB": 6735,
+          "totalMiB": 8192,
+          "utilizationPercent": 0
+        },
+        "ffmpegCount": 0,
+        "processCount": 341
+      }
+    }
+  ]
+}

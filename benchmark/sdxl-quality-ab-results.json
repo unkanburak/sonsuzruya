@@ -1,0 +1,209 @@
+{
+  "createdAt": "2026-08-29T17:07:30.556Z",
+  "prompts": [
+    "The character is now standing in a dim room beside an old door.",
+    "The character is now walking through a long corridor with a brass lantern.",
+    "The character is now standing on a wet empty street at night.",
+    "The character is now sitting inside a mysterious car in the rain.",
+    "The character is now inside a dark tunnel with a distant light.",
+    "The character is now standing on a misty stone bridge.",
+    "The character is now beneath the bridge near a large glowing light.",
+    "The character is now inside a strange luminous world beyond a portal.",
+    "The character is now standing in a foggy forest beside a glowing tree.",
+    "The character is now looking over a floating city beneath a crimson sky."
+  ],
+  "results": [
+    {
+      "name": "A_BASELINE",
+      "checkpoint": "sdxl_lightning_4step.safetensors",
+      "width": 768,
+      "height": 448,
+      "steps": 4,
+      "cfg": 1,
+      "sampler": "euler",
+      "scheduler": "sgm_uniform",
+      "rows": [
+        {
+          "round": 1,
+          "prompt": "The character is now standing in a dim room beside an old door.",
+          "success": true,
+          "generationTime": 2.4346044,
+          "media": "/generated/live/scene_09500_00001_.png",
+          "elapsed": 2.4347879
+        },
+        {
+          "round": 2,
+          "prompt": "The character is now walking through a long corridor with a brass lantern.",
+          "success": true,
+          "generationTime": 2.8750652,
+          "media": "/generated/live/scene_09501_00001_.png",
+          "elapsed": 2.8750806000000004
+        },
+        {
+          "round": 3,
+          "prompt": "The character is now standing on a wet empty street at night.",
+          "success": true,
+          "generationTime": 2.5591561,
+          "media": "/generated/live/scene_09502_00001_.png",
+          "elapsed": 2.5591725999999997
+        },
+        {
+          "round": 4,
+          "prompt": "The character is now sitting inside a mysterious car in the rain.",
+          "success": true,
+          "generationTime": 2.6446942999999994,
+          "media": "/generated/live/scene_09503_00001_.png",
+          "elapsed": 2.6447275
+        },
+        {
+          "round": 5,
+          "prompt": "The character is now inside a dark tunnel with a distant light.",
+          "success": true,
+          "generationTime": 2.3785026,
+          "media": "/generated/live/scene_09504_00001_.png",
+          "elapsed": 2.3785318000000006
+        },
+        {
+          "round": 6,
+          "prompt": "The character is now standing on a misty stone bridge.",
+          "success": true,
+          "generationTime": 2.337312,
+          "media": "/generated/live/scene_09505_00001_.png",
+          "elapsed": 2.3373326
+        },
+        {
+          "round": 7,
+          "prompt": "The character is now beneath the bridge near a large glowing light.",
+          "success": true,
+          "generationTime": 2.7437380999999985,
+          "media": "/generated/live/scene_09506_00001_.png",
+          "elapsed": 2.743750900000001
+        },
+        {
+          "round": 8,
+          "prompt": "The character is now inside a strange luminous world beyond a portal.",
+          "success": true,
+          "generationTime": 1.8308336999999992,
+          "media": "/generated/live/scene_09507_00001_.png",
+          "elapsed": 1.8308427999999985
+        },
+        {
+          "round": 9,
+          "prompt": "The character is now standing in a foggy forest beside a glowing tree.",
+          "success": true,
+          "generationTime": 2.100947199999999,
+          "media": "/generated/live/scene_09508_00001_.png",
+          "elapsed": 2.100959799999997
+        },
+        {
+          "round": 10,
+          "prompt": "The character is now looking over a floating city beneath a crimson sky.",
+          "success": true,
+          "generationTime": 2.3695720000000002,
+          "media": "/generated/live/scene_09509_00001_.png",
+          "elapsed": 2.3695929
+        }
+      ],
+      "successCount": 10,
+      "generationTimeP50": 2.4346044,
+      "generationTimeP95": 2.8750652,
+      "peakVRAM": "not exposed by Comfy history"
+    },
+    {
+      "name": "B_QUALITY",
+      "checkpoint": "sdxl_lightning_8step.safetensors",
+      "width": 768,
+      "height": 448,
+      "steps": 8,
+      "cfg": 1,
+      "sampler": "euler",
+      "scheduler": "sgm_uniform",
+      "rows": [
+        {
+          "round": 1,
+          "prompt": "The character is now standing in a dim room beside an old door.",
+          "success": true,
+          "generationTime": 64.0161115,
+          "media": "/generated/live/scene_09600_00001_.png",
+          "elapsed": 64.016136
+        },
+        {
+          "round": 2,
+          "prompt": "The character is now walking through a long corridor with a brass lantern.",
+          "success": true,
+          "generationTime": 3.4570023999999977,
+          "media": "/generated/live/scene_09601_00001_.png",
+          "elapsed": 3.457024900000004
+        },
+        {
+          "round": 3,
+          "prompt": "The character is now standing on a wet empty street at night.",
+          "success": true,
+          "generationTime": 3.1670204999999987,
+          "media": "/generated/live/scene_09602_00001_.png",
+          "elapsed": 3.1670825000000042
+        },
+        {
+          "round": 4,
+          "prompt": "The character is now sitting inside a mysterious car in the rain.",
+          "success": true,
+          "generationTime": 3.3290583000000042,
+          "media": "/generated/live/scene_09603_00001_.png",
+          "elapsed": 3.3291224000000073
+        },
+        {
+          "round": 5,
+          "prompt": "The character is now inside a dark tunnel with a distant light.",
+          "success": true,
+          "generationTime": 3.6601196999999956,
+          "media": "/generated/live/scene_09604_00001_.png",
+          "elapsed": 3.6601687999999997
+        },
+        {
+          "round": 6,
+          "prompt": "The character is now standing on a misty stone bridge.",
+          "success": true,
+          "generationTime": 3.41765879999999,
+          "media": "/generated/live/scene_09605_00001_.png",
+          "elapsed": 3.417690300000002
+        },
+        {
+          "round": 7,
+          "prompt": "The character is now beneath the bridge near a large glowing light.",
+          "success": true,
+          "generationTime": 3.4979571,
+          "media": "/generated/live/scene_09606_00001_.png",
+          "elapsed": 3.4979913000000087
+        },
+        {
+          "round": 8,
+          "prompt": "The character is now inside a strange luminous world beyond a portal.",
+          "success": true,
+          "generationTime": 3.126937300000005,
+          "media": "/generated/live/scene_09607_00001_.png",
+          "elapsed": 3.1269619999999994
+        },
+        {
+          "round": 9,
+          "prompt": "The character is now standing in a foggy forest beside a glowing tree.",
+          "success": true,
+          "generationTime": 3.0628227999999944,
+          "media": "/generated/live/scene_09608_00001_.png",
+          "elapsed": 3.062832300000009
+        },
+        {
+          "round": 10,
+          "prompt": "The character is now looking over a floating city beneath a crimson sky.",
+          "success": true,
+          "generationTime": 4.021626499999998,
+          "media": "/generated/live/scene_09609_00001_.png",
+          "elapsed": 4.0216340999999955
+        }
+      ],
+      "successCount": 10,
+      "generationTimeP50": 3.4570023999999977,
+      "generationTimeP95": 64.0161115,
+      "peakVRAM": "not exposed by Comfy history"
+    }
+  ]
+}

@@ -1,0 +1,2144 @@
+{
+  "generated_at": "2026-09-05T22:08:03.984Z",
+  "scope": "MVP manifestation only: light, window, stairs, water",
+  "tests_reference": "node --test test/*.mjs (100/100 pass)",
+  "trajectory": {
+    "rounds": 15,
+    "rows": [
+      {
+        "round": 1,
+        "location": "red_house_doorstep",
+        "before_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "cracked front path",
+            "bare tree",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "door": "closed",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "An anonymous figure stands outside a red house at twilight.",
+          "entity_manifestations": [
+            {
+              "id": "red_house_exterior_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_exterior_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_doorstep_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "door_approach",
+          "door_listen",
+          "door_open",
+          "expanded_door_approach_50",
+          "expanded_door_hold_position_56",
+          "expanded_door_ignore_57",
+          "expanded_door_listen_55",
+          "expanded_door_look_behind_54",
+          "expanded_door_open_51",
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_window_approach_108",
+          "expanded_window_hold_position_112",
+          "expanded_window_ignore_113",
+          "expanded_window_listen_110",
+          "expanded_window_look_through_106",
+          "expanded_window_move_away_109",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "window_look",
+          "window_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Kapıyı arala",
+            "consequence": "The established door is now slightly open",
+            "next_location": "red_house_doorstep"
+          },
+          {
+            "label_tr": "Figüre yaklaş",
+            "consequence": "The anonymous figure is now closer in the scene",
+            "next_location": "red_house_doorstep"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "location": "red_house_hallway",
+        "before_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_doorstep_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "red_house_hallway",
+          "entities": [
+            "red house hallway",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "stairwell",
+            "basement_door"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "light": {
+              "illumination": "steady"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_hallway_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_hallway_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_light_alter_65",
+          "expanded_light_avoid_63",
+          "expanded_light_follow_61",
+          "expanded_light_hold_position_62",
+          "expanded_light_move_away_59",
+          "expanded_light_reveal_64",
+          "expanded_light_trace_60",
+          "expanded_window_approach_108",
+          "expanded_window_hold_position_112",
+          "expanded_window_ignore_113",
+          "expanded_window_listen_110",
+          "expanded_window_look_through_106",
+          "expanded_window_move_away_109",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "light_examine",
+          "light_follow",
+          "scene_darkness",
+          "window_look",
+          "window_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Pencerenin önünde bekle",
+            "consequence": "The light at the established window holds steady",
+            "next_location": "red_house_hallway"
+          },
+          {
+            "label_tr": "Pencereye dokun",
+            "consequence": "The established window now carries a faint handprint",
+            "next_location": "red_house_hallway"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "location": "stairwell",
+        "before_manifest": {
+          "location": "red_house_hallway",
+          "entities": [
+            "red house hallway",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "stairwell",
+            "basement_door"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "light": {
+              "illumination": "steady"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_hallway_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_hallway_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "stairwell",
+          "entities": [
+            "stairwell",
+            "anonymous figure",
+            "stairs"
+          ],
+          "adjacent_locations": [
+            "red_house_hallway",
+            "basement"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "stairwell_stairs",
+              "entity": "stairs",
+              "source": "canonical_optional:stairs",
+              "scope": "location",
+              "activated_by": "canonical_stairwell"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_stairs_cross_89",
+          "expanded_stairs_descend_82",
+          "expanded_stairs_hold_position_85",
+          "expanded_stairs_look_behind_88",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "stairs_descend",
+          "stairs_watch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Figürü izle",
+            "consequence": "The anonymous figure now turns slightly away",
+            "next_location": "stairwell"
+          },
+          {
+            "label_tr": "Figürün arkasına bak",
+            "consequence": "A detail behind the figure becomes visible",
+            "next_location": "stairwell"
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "location": "basement",
+        "before_manifest": {
+          "location": "stairwell",
+          "entities": [
+            "stairwell",
+            "anonymous figure",
+            "stairs"
+          ],
+          "adjacent_locations": [
+            "red_house_hallway",
+            "basement"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "stairwell_stairs",
+              "entity": "stairs",
+              "source": "canonical_optional:stairs",
+              "scope": "location",
+              "activated_by": "canonical_stairwell"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "basement",
+          "entities": [
+            "underground basement",
+            "anonymous figure",
+            "water"
+          ],
+          "adjacent_locations": [
+            "basement_door",
+            "machine_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "water": "still"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "water": {
+              "water": "still"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "basement_water",
+              "entity": "water",
+              "source": "canonical_optional:water",
+              "scope": "location_physical",
+              "activated_by": "canonical_water_state"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_water_approach_91",
+          "expanded_water_compare_96",
+          "expanded_water_cross_97",
+          "expanded_water_move_away_92",
+          "expanded_water_reveal_94",
+          "expanded_water_trace_93",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "water_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Figürü görmezden gel",
+            "consequence": "The figure remains present at the edge of attention",
+            "next_location": "basement"
+          },
+          {
+            "label_tr": "Figürün gölgesini izle",
+            "consequence": "The anonymous figure shadow now reaches across the scene",
+            "next_location": "basement"
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "location": "machine_room",
+        "before_manifest": {
+          "location": "basement",
+          "entities": [
+            "underground basement",
+            "anonymous figure",
+            "water"
+          ],
+          "adjacent_locations": [
+            "basement_door",
+            "machine_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "water": "still"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "water": {
+              "water": "still"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "basement_water",
+              "entity": "water",
+              "source": "canonical_optional:water",
+              "scope": "location_physical",
+              "activated_by": "canonical_water_state"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "machine_room",
+          "entities": [
+            "machine room",
+            "machine",
+            "anonymous figure",
+            "light"
+          ],
+          "adjacent_locations": [
+            "basement",
+            "control_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "machine": "idle",
+            "light": "steady"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "machine": {
+              "power": "idle"
+            },
+            "light": {
+              "illumination": "steady"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "machine_room_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_light_alter_65",
+          "expanded_light_avoid_63",
+          "expanded_light_follow_61",
+          "expanded_light_hold_position_62",
+          "expanded_light_move_away_59",
+          "expanded_light_reveal_64",
+          "expanded_light_trace_60",
+          "expanded_machine_activate_98",
+          "expanded_machine_follow_104",
+          "expanded_machine_touch_103",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "light_examine",
+          "light_follow",
+          "machine_leave",
+          "machine_start",
+          "scene_darkness"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Makineyi çalıştır",
+            "consequence": "The established machine is now glowing with blue light",
+            "next_location": "machine_room"
+          },
+          {
+            "label_tr": "Figürü görmezden gel",
+            "consequence": "The figure remains present at the edge of attention",
+            "next_location": "machine_room"
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "location": "control_room",
+        "before_manifest": {
+          "location": "machine_room",
+          "entities": [
+            "machine room",
+            "machine",
+            "anonymous figure",
+            "light"
+          ],
+          "adjacent_locations": [
+            "basement",
+            "control_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "machine": "idle",
+            "light": "steady"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "machine": {
+              "power": "idle"
+            },
+            "light": {
+              "illumination": "steady"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "machine_room_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "control_room",
+          "entities": [
+            "control room panel",
+            "anonymous figure",
+            "light"
+          ],
+          "adjacent_locations": [
+            "machine_room",
+            "hidden_tunnel"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "light": "steady"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "light": {
+              "illumination": "steady"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "control_room_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_light_alter_65",
+          "expanded_light_avoid_63",
+          "expanded_light_follow_61",
+          "expanded_light_hold_position_62",
+          "expanded_light_move_away_59",
+          "expanded_light_reveal_64",
+          "expanded_light_trace_60",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "light_examine",
+          "light_follow",
+          "scene_darkness"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Parıltıyı takip et",
+            "consequence": "The established light now leads the eye across the scene",
+            "next_location": "control_room"
+          },
+          {
+            "label_tr": "Figürün arkasına bak",
+            "consequence": "A detail behind the figure becomes visible",
+            "next_location": "control_room"
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "location": "hidden_tunnel",
+        "before_manifest": {
+          "location": "control_room",
+          "entities": [
+            "control room panel",
+            "anonymous figure",
+            "light"
+          ],
+          "adjacent_locations": [
+            "machine_room",
+            "hidden_tunnel"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "light": "steady"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "light": {
+              "illumination": "steady"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "control_room_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "hidden_tunnel",
+          "entities": [
+            "hidden tunnel",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "control_room",
+            "alley_mouth"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Figürü görmezden gel",
+            "consequence": "The figure remains present at the edge of attention",
+            "next_location": "hidden_tunnel"
+          },
+          {
+            "label_tr": "Figürü izle",
+            "consequence": "The anonymous figure now turns slightly away",
+            "next_location": "hidden_tunnel"
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "location": "alley_mouth",
+        "before_manifest": {
+          "location": "hidden_tunnel",
+          "entities": [
+            "hidden tunnel",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "control_room",
+            "alley_mouth"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "after_manifest": {
+          "location": "alley_mouth",
+          "entities": [
+            "narrow side alley",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "quiet_street",
+            "hidden_tunnel"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Figürün gölgesini izle",
+            "consequence": "The anonymous figure shadow now reaches across the scene",
+            "next_location": "alley_mouth"
+          },
+          {
+            "label_tr": "Figürün çevresinde dolaş",
+            "consequence": "The relation between figure and space shifts",
+            "next_location": "alley_mouth"
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "location": "quiet_street",
+        "before_manifest": {
+          "location": "alley_mouth",
+          "entities": [
+            "narrow side alley",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "quiet_street",
+            "hidden_tunnel"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "after_manifest": {
+          "location": "quiet_street",
+          "entities": [
+            "quiet street",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "front_path",
+            "red_house_exterior",
+            "alley_mouth"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "street_cross"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Kırmızı eve dön",
+            "consequence": "The figure is now in the established red house exterior",
+            "next_location": "red_house_exterior"
+          },
+          {
+            "label_tr": "Figüre yaklaş",
+            "consequence": "The anonymous figure is now closer in the scene",
+            "next_location": "quiet_street"
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "location": "front_path",
+        "before_manifest": {
+          "location": "quiet_street",
+          "entities": [
+            "quiet street",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "front_path",
+            "red_house_exterior",
+            "alley_mouth"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "after_manifest": {
+          "location": "front_path",
+          "entities": [
+            "cracked front path",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "quiet_street"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_path_circle_79",
+          "expanded_path_hold_position_77",
+          "expanded_path_ignore_81",
+          "expanded_path_move_toward_74",
+          "expanded_path_reveal_80",
+          "expanded_path_trace_75",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "path_continue",
+          "path_crack",
+          "scene_darkness"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Karanlıkta oyalan",
+            "consequence": "The darkness of the current scene now gathers at its edges",
+            "next_location": "front_path"
+          },
+          {
+            "label_tr": "Figürün çevresinde dolaş",
+            "consequence": "The relation between figure and space shifts",
+            "next_location": "front_path"
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "location": "red_house_exterior",
+        "before_manifest": {
+          "location": "front_path",
+          "entities": [
+            "cracked front path",
+            "bare tree",
+            "anonymous figure"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "quiet_street"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": []
+        },
+        "after_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "bare tree",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            },
+            "light": {
+              "illumination": "steady"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_exterior_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_exterior_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "door_approach",
+          "door_listen",
+          "door_open",
+          "expanded_door_approach_50",
+          "expanded_door_hold_position_56",
+          "expanded_door_ignore_57",
+          "expanded_door_listen_55",
+          "expanded_door_look_behind_54",
+          "expanded_door_open_51",
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_light_alter_65",
+          "expanded_light_avoid_63",
+          "expanded_light_follow_61",
+          "expanded_light_hold_position_62",
+          "expanded_light_move_away_59",
+          "expanded_light_reveal_64",
+          "expanded_light_trace_60",
+          "expanded_window_approach_108",
+          "expanded_window_hold_position_112",
+          "expanded_window_ignore_113",
+          "expanded_window_listen_110",
+          "expanded_window_look_through_106",
+          "expanded_window_move_away_109",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "light_examine",
+          "light_follow",
+          "scene_darkness",
+          "window_look",
+          "window_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Kapıyı arala",
+            "consequence": "The established door is now slightly open",
+            "next_location": "red_house_exterior"
+          },
+          {
+            "label_tr": "Işıktan uzaklaş",
+            "consequence": "The established light fades toward the edge of the scene",
+            "next_location": "red_house_exterior"
+          }
+        ]
+      },
+      {
+        "round": 12,
+        "location": "red_house_doorstep",
+        "before_manifest": {
+          "location": "red_house_exterior",
+          "entities": [
+            "red house exterior",
+            "closed front door",
+            "bare tree",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "front_path"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            },
+            "light": {
+              "illumination": "steady"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_exterior_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_exterior_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_doorstep_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "door_approach",
+          "door_listen",
+          "door_open",
+          "expanded_door_approach_50",
+          "expanded_door_hold_position_56",
+          "expanded_door_ignore_57",
+          "expanded_door_listen_55",
+          "expanded_door_look_behind_54",
+          "expanded_door_open_51",
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_window_approach_108",
+          "expanded_window_hold_position_112",
+          "expanded_window_ignore_113",
+          "expanded_window_listen_110",
+          "expanded_window_look_through_106",
+          "expanded_window_move_away_109",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "window_look",
+          "window_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Kapıyı arala",
+            "consequence": "The established door is now slightly open",
+            "next_location": "red_house_doorstep"
+          },
+          {
+            "label_tr": "Figüre yaklaş",
+            "consequence": "The anonymous figure is now closer in the scene",
+            "next_location": "red_house_doorstep"
+          }
+        ]
+      },
+      {
+        "round": 13,
+        "location": "red_house_hallway",
+        "before_manifest": {
+          "location": "red_house_doorstep",
+          "entities": [
+            "red house doorstep",
+            "closed front door",
+            "anonymous figure",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_exterior",
+            "red_house_hallway"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "door": "closed",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "door": {
+              "aperture": "closed"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_doorstep_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "red_house_hallway",
+          "entities": [
+            "red house hallway",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "stairwell",
+            "basement_door"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "light": {
+              "illumination": "steady"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_hallway_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_hallway_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_light_alter_65",
+          "expanded_light_avoid_63",
+          "expanded_light_follow_61",
+          "expanded_light_hold_position_62",
+          "expanded_light_move_away_59",
+          "expanded_light_reveal_64",
+          "expanded_light_trace_60",
+          "expanded_window_approach_108",
+          "expanded_window_hold_position_112",
+          "expanded_window_ignore_113",
+          "expanded_window_listen_110",
+          "expanded_window_look_through_106",
+          "expanded_window_move_away_109",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "light_examine",
+          "light_follow",
+          "scene_darkness",
+          "window_look",
+          "window_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Figürün yüzüne ışık tut",
+            "consequence": "The figure remains unreadable in the restrained light",
+            "next_location": "red_house_hallway"
+          },
+          {
+            "label_tr": "Figürün arkasına bak",
+            "consequence": "A detail behind the figure becomes visible",
+            "next_location": "red_house_hallway"
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "location": "stairwell",
+        "before_manifest": {
+          "location": "red_house_hallway",
+          "entities": [
+            "red house hallway",
+            "anonymous figure",
+            "light",
+            "window"
+          ],
+          "adjacent_locations": [
+            "red_house_doorstep",
+            "stairwell",
+            "basement_door"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "light": "steady",
+            "window": "closed"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "light": {
+              "illumination": "steady"
+            },
+            "window": {
+              "aperture": "closed"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "red_house_hallway_light",
+              "entity": "light",
+              "source": "canonical_optional:light",
+              "scope": "location_physical",
+              "activated_by": "canonical_light_state"
+            },
+            {
+              "id": "red_house_hallway_window",
+              "entity": "window",
+              "source": "canonical_optional:window",
+              "scope": "location_physical",
+              "activated_by": "canonical_house_surface"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "stairwell",
+          "entities": [
+            "stairwell",
+            "anonymous figure",
+            "stairs"
+          ],
+          "adjacent_locations": [
+            "red_house_hallway",
+            "basement"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "stairwell_stairs",
+              "entity": "stairs",
+              "source": "canonical_optional:stairs",
+              "scope": "location",
+              "activated_by": "canonical_stairwell"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_stairs_cross_89",
+          "expanded_stairs_descend_82",
+          "expanded_stairs_hold_position_85",
+          "expanded_stairs_look_behind_88",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "stairs_descend",
+          "stairs_watch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Figürü görmezden gel",
+            "consequence": "The figure remains present at the edge of attention",
+            "next_location": "stairwell"
+          },
+          {
+            "label_tr": "Merdivenin arkasına bak",
+            "consequence": "A recess behind the established stairs becomes visible",
+            "next_location": "stairwell"
+          }
+        ]
+      },
+      {
+        "round": 15,
+        "location": "basement",
+        "before_manifest": {
+          "location": "stairwell",
+          "entities": [
+            "stairwell",
+            "anonymous figure",
+            "stairs"
+          ],
+          "adjacent_locations": [
+            "red_house_hallway",
+            "basement"
+          ],
+          "entity_states": {
+            "figure": "far"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {},
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "stairwell_stairs",
+              "entity": "stairs",
+              "source": "canonical_optional:stairs",
+              "scope": "location",
+              "activated_by": "canonical_stairwell"
+            }
+          ]
+        },
+        "after_manifest": {
+          "location": "basement",
+          "entities": [
+            "underground basement",
+            "anonymous figure",
+            "water"
+          ],
+          "adjacent_locations": [
+            "basement_door",
+            "machine_room"
+          ],
+          "entity_states": {
+            "figure": "far",
+            "water": "still"
+          },
+          "summary": "The committed scene remains visible.",
+          "entity_physical_states": {
+            "water": {
+              "water": "still"
+            }
+          },
+          "entity_interactions": {
+            "figure": "far"
+          },
+          "entity_manifestations": [
+            {
+              "id": "basement_water",
+              "entity": "water",
+              "source": "canonical_optional:water",
+              "scope": "location_physical",
+              "activated_by": "canonical_water_state"
+            }
+          ]
+        },
+        "eligible_template_ids": [
+          "expanded_figure_approach_40",
+          "expanded_figure_circle_45",
+          "expanded_figure_expose_48",
+          "expanded_figure_follow_42",
+          "expanded_figure_ignore_43",
+          "expanded_figure_interact_47",
+          "expanded_figure_look_behind_44",
+          "expanded_water_approach_91",
+          "expanded_water_compare_96",
+          "expanded_water_cross_97",
+          "expanded_water_move_away_92",
+          "expanded_water_reveal_94",
+          "expanded_water_trace_93",
+          "figure_approach",
+          "figure_shadow",
+          "figure_watch",
+          "scene_darkness",
+          "water_touch"
+        ],
+        "selected_option_pair": [
+          {
+            "label_tr": "Sudan uzaklaş",
+            "consequence": "The established water recedes from attention",
+            "next_location": "basement"
+          },
+          {
+            "label_tr": "Figüre yaklaş",
+            "consequence": "The anonymous figure is now closer in the scene",
+            "next_location": "basement"
+          }
+        ]
+      }
+    ]
+  },
+  "families": {
+    "window": {
+      "entity": "window",
+      "location": "red_house_doorstep",
+      "activation_rule": "canonical_house_surface",
+      "manifest_before": {
+        "location": "red_house_exterior",
+        "entities": [
+          "red house exterior",
+          "closed front door",
+          "cracked front path",
+          "bare tree",
+          "anonymous figure",
+          "light",
+          "window"
+        ],
+        "adjacent_locations": [
+          "red_house_doorstep",
+          "front_path"
+        ],
+        "entity_states": {
+          "door": "closed",
+          "light": "steady",
+          "window": "closed"
+        },
+        "summary": "An anonymous figure stands outside a red house at twilight.",
+        "entity_manifestations": [
+          {
+            "id": "red_house_exterior_light",
+            "entity": "light",
+            "source": "canonical_optional:light",
+            "scope": "location_physical",
+            "activated_by": "canonical_light_state"
+          },
+          {
+            "id": "red_house_exterior_window",
+            "entity": "window",
+            "source": "canonical_optional:window",
+            "scope": "location_physical",
+            "activated_by": "canonical_house_surface"
+          }
+        ]
+      },
+      "manifest_after": {
+        "location": "red_house_doorstep",
+        "entities": [
+          "red house doorstep",
+          "closed front door",
+          "anonymous figure",
+          "window"
+        ],
+        "adjacent_locations": [
+          "red_house_exterior",
+          "red_house_hallway"
+        ],
+        "entity_states": {
+          "figure": "far",
+          "door": "closed",
+          "window": "closed"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {
+          "door": {
+            "aperture": "closed"
+          },
+          "window": {
+            "aperture": "closed"
+          }
+        },
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "red_house_doorstep_window",
+            "entity": "window",
+            "source": "canonical_optional:window",
+            "scope": "location_physical",
+            "activated_by": "canonical_house_surface"
+          }
+        ]
+      },
+      "newly_eligible_templates": [
+        "expanded_window_approach_108",
+        "expanded_window_hold_position_112",
+        "expanded_window_ignore_113",
+        "expanded_window_listen_110",
+        "expanded_window_look_through_106",
+        "expanded_window_move_away_109",
+        "window_look",
+        "window_touch"
+      ],
+      "selected_option_pair": [
+        {
+          "label_tr": "Kapıyı arala",
+          "consequence": "The established door is now slightly open",
+          "next_location": "red_house_doorstep"
+        },
+        {
+          "label_tr": "Figüre yaklaş",
+          "consequence": "The anonymous figure is now closer in the scene",
+          "next_location": "red_house_doorstep"
+        }
+      ],
+      "png_result": "benchmark/bounded-manifestation-mvp/images/window.png",
+      "png_reused": true
+    },
+    "light": {
+      "entity": "light",
+      "location": "red_house_hallway",
+      "activation_rule": "canonical_light_state",
+      "manifest_before": {
+        "location": "red_house_doorstep",
+        "entities": [
+          "red house doorstep",
+          "closed front door",
+          "anonymous figure",
+          "window"
+        ],
+        "adjacent_locations": [
+          "red_house_exterior",
+          "red_house_hallway"
+        ],
+        "entity_states": {
+          "figure": "far",
+          "door": "closed",
+          "window": "closed"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {
+          "door": {
+            "aperture": "closed"
+          },
+          "window": {
+            "aperture": "closed"
+          }
+        },
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "red_house_doorstep_window",
+            "entity": "window",
+            "source": "canonical_optional:window",
+            "scope": "location_physical",
+            "activated_by": "canonical_house_surface"
+          }
+        ]
+      },
+      "manifest_after": {
+        "location": "red_house_hallway",
+        "entities": [
+          "red house hallway",
+          "anonymous figure",
+          "light",
+          "window"
+        ],
+        "adjacent_locations": [
+          "red_house_doorstep",
+          "stairwell",
+          "basement_door"
+        ],
+        "entity_states": {
+          "figure": "far",
+          "light": "steady",
+          "window": "closed"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {
+          "light": {
+            "illumination": "steady"
+          },
+          "window": {
+            "aperture": "closed"
+          }
+        },
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "red_house_hallway_light",
+            "entity": "light",
+            "source": "canonical_optional:light",
+            "scope": "location_physical",
+            "activated_by": "canonical_light_state"
+          },
+          {
+            "id": "red_house_hallway_window",
+            "entity": "window",
+            "source": "canonical_optional:window",
+            "scope": "location_physical",
+            "activated_by": "canonical_house_surface"
+          }
+        ]
+      },
+      "newly_eligible_templates": [
+        "expanded_light_alter_65",
+        "expanded_light_avoid_63",
+        "expanded_light_follow_61",
+        "expanded_light_hold_position_62",
+        "expanded_light_move_away_59",
+        "expanded_light_reveal_64",
+        "expanded_light_trace_60",
+        "light_examine",
+        "light_follow"
+      ],
+      "selected_option_pair": [
+        {
+          "label_tr": "Pencerenin önünde bekle",
+          "consequence": "The light at the established window holds steady",
+          "next_location": "red_house_hallway"
+        },
+        {
+          "label_tr": "Pencereye dokun",
+          "consequence": "The established window now carries a faint handprint",
+          "next_location": "red_house_hallway"
+        }
+      ],
+      "png_result": "benchmark/bounded-manifestation-mvp/images/light.png",
+      "png_reused": true
+    },
+    "stairs": {
+      "entity": "stairs",
+      "location": "stairwell",
+      "activation_rule": "canonical_stairwell",
+      "manifest_before": {
+        "location": "red_house_hallway",
+        "entities": [
+          "red house hallway",
+          "anonymous figure",
+          "light",
+          "window"
+        ],
+        "adjacent_locations": [
+          "red_house_doorstep",
+          "stairwell",
+          "basement_door"
+        ],
+        "entity_states": {
+          "figure": "far",
+          "light": "steady",
+          "window": "closed"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {
+          "light": {
+            "illumination": "steady"
+          },
+          "window": {
+            "aperture": "closed"
+          }
+        },
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "red_house_hallway_light",
+            "entity": "light",
+            "source": "canonical_optional:light",
+            "scope": "location_physical",
+            "activated_by": "canonical_light_state"
+          },
+          {
+            "id": "red_house_hallway_window",
+            "entity": "window",
+            "source": "canonical_optional:window",
+            "scope": "location_physical",
+            "activated_by": "canonical_house_surface"
+          }
+        ]
+      },
+      "manifest_after": {
+        "location": "stairwell",
+        "entities": [
+          "stairwell",
+          "anonymous figure",
+          "stairs"
+        ],
+        "adjacent_locations": [
+          "red_house_hallway",
+          "basement"
+        ],
+        "entity_states": {
+          "figure": "far"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {},
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "stairwell_stairs",
+            "entity": "stairs",
+            "source": "canonical_optional:stairs",
+            "scope": "location",
+            "activated_by": "canonical_stairwell"
+          }
+        ]
+      },
+      "newly_eligible_templates": [
+        "expanded_stairs_cross_89",
+        "expanded_stairs_descend_82",
+        "expanded_stairs_hold_position_85",
+        "expanded_stairs_look_behind_88",
+        "stairs_descend",
+        "stairs_watch"
+      ],
+      "selected_option_pair": [
+        {
+          "label_tr": "Figürü izle",
+          "consequence": "The anonymous figure now turns slightly away",
+          "next_location": "stairwell"
+        },
+        {
+          "label_tr": "Figürün arkasına bak",
+          "consequence": "A detail behind the figure becomes visible",
+          "next_location": "stairwell"
+        }
+      ],
+      "png_result": "benchmark/bounded-manifestation-mvp/images/stairs.png",
+      "png_reused": true
+    },
+    "water": {
+      "entity": "water",
+      "location": "basement",
+      "activation_rule": "canonical_water_state",
+      "manifest_before": {
+        "location": "stairwell",
+        "entities": [
+          "stairwell",
+          "anonymous figure",
+          "stairs"
+        ],
+        "adjacent_locations": [
+          "red_house_hallway",
+          "basement"
+        ],
+        "entity_states": {
+          "figure": "far"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {},
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "stairwell_stairs",
+            "entity": "stairs",
+            "source": "canonical_optional:stairs",
+            "scope": "location",
+            "activated_by": "canonical_stairwell"
+          }
+        ]
+      },
+      "manifest_after": {
+        "location": "basement",
+        "entities": [
+          "underground basement",
+          "anonymous figure",
+          "water"
+        ],
+        "adjacent_locations": [
+          "basement_door",
+          "machine_room"
+        ],
+        "entity_states": {
+          "figure": "far",
+          "water": "still"
+        },
+        "summary": "The committed scene remains visible.",
+        "entity_physical_states": {
+          "water": {
+            "water": "still"
+          }
+        },
+        "entity_interactions": {
+          "figure": "far"
+        },
+        "entity_manifestations": [
+          {
+            "id": "basement_water",
+            "entity": "water",
+            "source": "canonical_optional:water",
+            "scope": "location_physical",
+            "activated_by": "canonical_water_state"
+          }
+        ]
+      },
+      "newly_eligible_templates": [
+        "expanded_water_approach_91",
+        "expanded_water_compare_96",
+        "expanded_water_cross_97",
+        "expanded_water_move_away_92",
+        "expanded_water_reveal_94",
+        "expanded_water_trace_93",
+        "water_touch"
+      ],
+      "selected_option_pair": [
+        {
+          "label_tr": "Figürü görmezden gel",
+          "consequence": "The figure remains present at the edge of attention",
+          "next_location": "basement"
+        },
+        {
+          "label_tr": "Figürün gölgesini izle",
+          "consequence": "The anonymous figure shadow now reaches across the scene",
+          "next_location": "basement"
+        }
+      ],
+      "png_result": "benchmark/bounded-manifestation-mvp/images/water.png",
+      "png_reused": true
+    }
+  },
+  "catalogue": {
+    "eligible_template_ids_before": [
+      "door_approach",
+      "door_listen",
+      "door_open",
+      "expanded_door_approach_50",
+      "expanded_door_hold_position_56",
+      "expanded_door_ignore_57",
+      "expanded_door_listen_55",
+      "expanded_door_look_behind_54",
+      "expanded_door_open_51",
+      "expanded_figure_approach_40",
+      "expanded_figure_circle_45",
+      "expanded_figure_expose_48",
+      "expanded_figure_follow_42",
+      "expanded_figure_ignore_43",
+      "expanded_figure_interact_47",
+      "expanded_figure_look_behind_44",
+      "expanded_figure_move_away_41",
+      "expanded_path_circle_79",
+      "expanded_path_hold_position_77",
+      "expanded_path_ignore_81",
+      "expanded_path_move_toward_74",
+      "expanded_path_reveal_80",
+      "expanded_path_trace_75",
+      "figure_approach",
+      "figure_avoid",
+      "figure_shadow",
+      "figure_watch",
+      "path_continue",
+      "path_crack",
+      "scene_darkness",
+      "street_cross"
+    ],
+    "eligible_template_ids_after": [
+      "door_approach",
+      "door_listen",
+      "door_open",
+      "expanded_door_approach_50",
+      "expanded_door_hold_position_56",
+      "expanded_door_ignore_57",
+      "expanded_door_listen_55",
+      "expanded_door_look_behind_54",
+      "expanded_door_open_51",
+      "expanded_figure_approach_40",
+      "expanded_figure_circle_45",
+      "expanded_figure_expose_48",
+      "expanded_figure_follow_42",
+      "expanded_figure_ignore_43",
+      "expanded_figure_interact_47",
+      "expanded_figure_look_behind_44",
+      "expanded_light_alter_65",
+      "expanded_light_avoid_63",
+      "expanded_light_follow_61",
+      "expanded_light_hold_position_62",
+      "expanded_light_move_away_59",
+      "expanded_light_reveal_64",
+      "expanded_light_trace_60",
+      "expanded_machine_activate_98",
+      "expanded_machine_follow_104",
+      "expanded_machine_touch_103",
+      "expanded_path_circle_79",
+      "expanded_path_hold_position_77",
+      "expanded_path_ignore_81",
+      "expanded_path_move_toward_74",
+      "expanded_path_reveal_80",
+      "expanded_path_trace_75",
+      "expanded_stairs_cross_89",
+      "expanded_stairs_descend_82",
+      "expanded_stairs_hold_position_85",
+      "expanded_stairs_look_behind_88",
+      "expanded_water_approach_91",
+      "expanded_water_compare_96",
+      "expanded_water_cross_97",
+      "expanded_water_move_away_92",
+      "expanded_water_reveal_94",
+      "expanded_water_trace_93",
+      "expanded_window_approach_108",
+      "expanded_window_hold_position_112",
+      "expanded_window_ignore_113",
+      "expanded_window_listen_110",
+      "expanded_window_look_through_106",
+      "expanded_window_move_away_109",
+      "figure_approach",
+      "figure_shadow",
+      "figure_watch",
+      "light_examine",
+      "light_follow",
+      "machine_leave",
+      "machine_start",
+      "path_continue",
+      "path_crack",
+      "scene_darkness",
+      "stairs_descend",
+      "stairs_watch",
+      "street_cross",
+      "water_touch",
+      "window_look",
+      "window_touch"
+    ],
+    "eligible_template_count_before": 31,
+    "eligible_template_count_after": 64,
+    "unique_local_label_ceiling_before": 24,
+    "unique_local_label_ceiling_after": 55,
+    "viewer_facing_ceiling_before": 36,
+    "viewer_facing_ceiling_after": 67,
+    "route_action_ceiling": 12
+  },
+  "validation": {
+    "stuck": 0,
+    "manifest_invalid": 0,
+    "duplicate_publish": 0,
+    "ungrounded_options": 0,
+    "cross_location_leakage": 0
+  }
+}

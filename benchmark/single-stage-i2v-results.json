@@ -1,0 +1,574 @@
+{
+  "startedAt": "2026-08-30T08:27:15.002Z",
+  "engine": "AnimateDiff-Lightning approximate image-conditioned motion",
+  "trueI2V": false,
+  "sdxlUsed": false,
+  "settings": {
+    "width": 384,
+    "height": 224,
+    "frames": 16,
+    "fps": 8,
+    "steps": 2,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform",
+    "checkpoint": "DreamShaper_8_pruned.safetensors",
+    "motion": "animatediff_lightning_2step_comfyui.safetensors",
+    "denoise": 0.55
+  },
+  "comfySystemStats": {
+    "system": {
+      "os": "win32",
+      "ram_total": 34189312000,
+      "ram_free": 3508228096,
+      "comfyui_version": "0.34.0",
+      "required_frontend_version": "1.49.6",
+      "installed_templates_version": "0.11.48",
+      "required_templates_version": "0.11.48",
+      "comfy_package_versions": [
+        {
+          "name": "comfyui-frontend-package",
+          "installed": "1.49.6",
+          "required": "1.49.6"
+        },
+        {
+          "name": "comfyui-workflow-templates",
+          "installed": "0.11.48",
+          "required": "0.11.48"
+        },
+        {
+          "name": "comfyui-embedded-docs",
+          "installed": "0.5.10",
+          "required": "0.5.10"
+        },
+        {
+          "name": "comfy-kitchen",
+          "installed": "0.2.31",
+          "required": "0.2.31"
+        },
+        {
+          "name": "comfy-aimdo",
+          "installed": "0.4.15",
+          "required": "0.4.15"
+        }
+      ],
+      "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+      "pytorch_version": "2.13.0+cu130",
+      "embedded_python": true,
+      "deploy_environment": "local-portable",
+      "argv": [
+        "D:\\InfiniteAILive\\ComfyUI_windows_portable\\ComfyUI\\main.py",
+        "--port",
+        "8191",
+        "--user-directory",
+        "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\user",
+        "--temp-directory",
+        "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\temp",
+        "--input-directory",
+        "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input",
+        "--output-directory",
+        "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output"
+      ]
+    },
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 3070 Ti : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 8589410304,
+        "vram_free": 5223661694,
+        "torch_vram_total": 939524096,
+        "torch_vram_free": 21590142
+      }
+    ]
+  },
+  "startFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\public\\initial.png",
+  "results": [
+    {
+      "turn": 1,
+      "inputState": "outside a red house",
+      "resultStatePrompt": "The same character is now inside the red house in a dim wooden hallway.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\public\\initial.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_01_1788078301964_f91f0fcd.png",
+      "promptId": "fed9dc24-a8ba-4850-97d8-9acec36bca64",
+      "seed": 107973,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_01_4c0f9808-1a8a-4377-8f26-51d8a4c650bd_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_01_final.png",
+      "clientSeconds": 31.459285799999996,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "fed9dc24-a8ba-4850-97d8-9acec36bca64",
+              "timestamp": 1788078301982
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "7"
+              ],
+              "prompt_id": "fed9dc24-a8ba-4850-97d8-9acec36bca64",
+              "timestamp": 1788078301997
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "fed9dc24-a8ba-4850-97d8-9acec36bca64",
+              "timestamp": 1788078332047
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now inside the red house in a dim wooden hallway."
+    },
+    {
+      "turn": 2,
+      "inputState": "The same character is now inside the red house in a dim wooden hallway.",
+      "resultStatePrompt": "The same character is now standing in an underground basement beneath the house.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_01_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_02_1788078333430_f23f5bf9.png",
+      "promptId": "205093e5-eea8-4170-861d-251160a1a608",
+      "seed": 116311,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_02_c6b749ec-6517-4520-bfe6-135d492d49fc_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_02_final.png",
+      "clientSeconds": 12.119621700000003,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "205093e5-eea8-4170-861d-251160a1a608",
+              "timestamp": 1788078333442
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "205093e5-eea8-4170-861d-251160a1a608",
+              "timestamp": 1788078333455
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "205093e5-eea8-4170-861d-251160a1a608",
+              "timestamp": 1788078344154
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now standing in an underground basement beneath the house."
+    },
+    {
+      "turn": 3,
+      "inputState": "The same character is now standing in an underground basement beneath the house.",
+      "resultStatePrompt": "The same character is now standing beside a large glowing machine in the basement.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_02_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_03_1788078345553_567cf1e7.png",
+      "promptId": "17dcea7b-1c13-48a0-8bc0-e2c5f90d740e",
+      "seed": 124594,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_03_3654e30a-b363-439a-8ceb-eb11bc120ed6_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_03_final.png",
+      "clientSeconds": 14.703410700000001,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "17dcea7b-1c13-48a0-8bc0-e2c5f90d740e",
+              "timestamp": 1788078345561
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "17dcea7b-1c13-48a0-8bc0-e2c5f90d740e",
+              "timestamp": 1788078345573
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "17dcea7b-1c13-48a0-8bc0-e2c5f90d740e",
+              "timestamp": 1788078358926
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now standing beside a large glowing machine in the basement."
+    },
+    {
+      "turn": 4,
+      "inputState": "The same character is now standing beside a large glowing machine in the basement.",
+      "resultStatePrompt": "The same character is now facing the machine switched on, casting blue light.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_03_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_04_1788078360259_10aa36aa.png",
+      "promptId": "3358d684-14f3-423b-b6ce-ff2ed00ee049",
+      "seed": 132386,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_04_a23c97c1-b125-43c5-b1df-ebc4f03d069e_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_04_final.png",
+      "clientSeconds": 5.846012300000002,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "3358d684-14f3-423b-b6ce-ff2ed00ee049",
+              "timestamp": 1788078360269
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "3358d684-14f3-423b-b6ce-ff2ed00ee049",
+              "timestamp": 1788078360286
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "3358d684-14f3-423b-b6ce-ff2ed00ee049",
+              "timestamp": 1788078364802
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now facing the machine switched on, casting blue light."
+    },
+    {
+      "turn": 5,
+      "inputState": "The same character is now facing the machine switched on, casting blue light.",
+      "resultStatePrompt": "The same character is now standing in a room flooded with shallow reflective water.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_04_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_05_1788078366108_9399e1ca.png",
+      "promptId": "9722885f-8fef-4fb9-90fe-5be6e84b9f28",
+      "seed": 140118,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_05_b726f756-c1bf-4ab3-99ec-b07372d48412_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_05_final.png",
+      "clientSeconds": 9.695602999999995,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "9722885f-8fef-4fb9-90fe-5be6e84b9f28",
+              "timestamp": 1788078366120
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "9722885f-8fef-4fb9-90fe-5be6e84b9f28",
+              "timestamp": 1788078366133
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "9722885f-8fef-4fb9-90fe-5be6e84b9f28",
+              "timestamp": 1788078374590
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now standing in a room flooded with shallow reflective water."
+    },
+    {
+      "turn": 6,
+      "inputState": "The same character is now standing in a room flooded with shallow reflective water.",
+      "resultStatePrompt": "The same character is now at the entrance of a submerged dark tunnel.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_05_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_06_1788078375807_cef55c12.png",
+      "promptId": "065286e6-d6d9-4436-8f68-e33542398537",
+      "seed": 148466,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_06_058757c8-198d-4035-a60c-f69a39197561_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_06_final.png",
+      "clientSeconds": 8.570869099999996,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "065286e6-d6d9-4436-8f68-e33542398537",
+              "timestamp": 1788078375815
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "065286e6-d6d9-4436-8f68-e33542398537",
+              "timestamp": 1788078375828
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "065286e6-d6d9-4436-8f68-e33542398537",
+              "timestamp": 1788078383240
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now at the entrance of a submerged dark tunnel."
+    },
+    {
+      "turn": 7,
+      "inputState": "The same character is now at the entrance of a submerged dark tunnel.",
+      "resultStatePrompt": "The same character is now standing on a misty stone bridge.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_06_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_07_1788078384380_b8042bc4.png",
+      "promptId": "d2b3be2b-fe67-45e9-9a58-da69c4535cd1",
+      "seed": 155677,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_07_66eceb92-9041-40a2-9be6-059df398f9f3_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_07_final.png",
+      "clientSeconds": 12.718713700000007,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "d2b3be2b-fe67-45e9-9a58-da69c4535cd1",
+              "timestamp": 1788078384390
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "d2b3be2b-fe67-45e9-9a58-da69c4535cd1",
+              "timestamp": 1788078384400
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "d2b3be2b-fe67-45e9-9a58-da69c4535cd1",
+              "timestamp": 1788078395374
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now standing on a misty stone bridge."
+    },
+    {
+      "turn": 8,
+      "inputState": "The same character is now standing on a misty stone bridge.",
+      "resultStatePrompt": "The same character is now near a glowing light beneath the bridge.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_07_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_08_1788078397102_676c23cd.png",
+      "promptId": "e9a31e49-ba0a-4f88-98ba-95bf02acc050",
+      "seed": 163615,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_08_faa0bb3a-15d3-435a-9a5f-f0f64001a6f7_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_08_final.png",
+      "clientSeconds": 22.015718500000002,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "e9a31e49-ba0a-4f88-98ba-95bf02acc050",
+              "timestamp": 1788078397111
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "e9a31e49-ba0a-4f88-98ba-95bf02acc050",
+              "timestamp": 1788078397125
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "e9a31e49-ba0a-4f88-98ba-95bf02acc050",
+              "timestamp": 1788078417944
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now near a glowing light beneath the bridge."
+    },
+    {
+      "turn": 9,
+      "inputState": "The same character is now near a glowing light beneath the bridge.",
+      "resultStatePrompt": "The same character is now in front of a luminous portal in a red foggy field.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_08_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_09_1788078419121_5be9f40c.png",
+      "promptId": "d080b95d-8943-4074-b3e1-ee6cd7805a4d",
+      "seed": 172262,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_09_e33c724e-c36f-4e00-a499-ffae6897ef09_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_09_final.png",
+      "clientSeconds": 6.321817599999995,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "d080b95d-8943-4074-b3e1-ee6cd7805a4d",
+              "timestamp": 1788078419131
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "d080b95d-8943-4074-b3e1-ee6cd7805a4d",
+              "timestamp": 1788078419145
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "d080b95d-8943-4074-b3e1-ee6cd7805a4d",
+              "timestamp": 1788078424311
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now in front of a luminous portal in a red foggy field."
+    },
+    {
+      "turn": 10,
+      "inputState": "The same character is now in front of a luminous portal in a red foggy field.",
+      "resultStatePrompt": "The same character is now beyond the portal in a strange alien landscape.",
+      "inputFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_09_final.png",
+      "copiedInput": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\input\\turn_10_1788078425446_54e16bcf.png",
+      "promptId": "13ede54b-8c4b-428d-a94f-a4ce8700aa26",
+      "seed": 179811,
+      "videoPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\output\\single_stage\\turn_10_42c867c6-80a1-4714-8357-54f744792f59_00001.mp4",
+      "finalFrame": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\single-stage\\frames\\turn_10_final.png",
+      "clientSeconds": 9.554294499999989,
+      "serverExecutionStart": null,
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "13ede54b-8c4b-428d-a94f-a4ce8700aa26",
+              "timestamp": 1788078425453
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "2",
+                "6",
+                "7"
+              ],
+              "prompt_id": "13ede54b-8c4b-428d-a94f-a4ce8700aa26",
+              "timestamp": 1788078425466
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "13ede54b-8c4b-428d-a94f-a4ce8700aa26",
+              "timestamp": 1788078433628
+            }
+          ]
+        ]
+      },
+      "executedOutputNodes": [],
+      "nextState": "The same character is now beyond the portal in a strange alien landscape."
+    }
+  ],
+  "latency": {
+    "cold": 31.459285799999996,
+    "warmSamples": [
+      12.119621700000003,
+      14.703410700000001,
+      5.846012300000002,
+      9.695602999999995,
+      8.570869099999996,
+      12.718713700000007,
+      22.015718500000002,
+      6.321817599999995,
+      9.554294499999989
+    ],
+    "warmP50": 12.119621700000003,
+    "warmP95": 31.459285799999996
+  },
+  "note": "Semantic and continuity scores require human review of the generated final frames; no production code was changed."
+}

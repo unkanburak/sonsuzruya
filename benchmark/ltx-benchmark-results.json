@@ -1,0 +1,782 @@
+{
+  "principle": "Bir özellik yayını açmak için zorunlu değilse MVP’ye eklenmeyecek.",
+  "startedAt": "2026-08-29T11:48:41.068Z",
+  "settings": {
+    "VOTE_SECONDS": 6,
+    "SAFETY_MARGIN_SECONDS": 2,
+    "MIN_PLAYBACK_RATE": 0.6,
+    "RUNS_PER_PROFILE": 5
+  },
+  "profiles": [
+    {
+      "profile": {
+        "name": "turbo_384x224_81f_2s",
+        "width": 384,
+        "height": 224,
+        "frames": 81,
+        "steps": 2,
+        "fps": 24
+      },
+      "runs": [
+        {
+          "generationTime": 2.3945926000000037,
+          "peakVramMiB": 7672,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "9d6db26e-e60b-4ceb-9154-5d435ad6a3dc",
+                  "timestamp": 1788004173606
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "9d6db26e-e60b-4ceb-9154-5d435ad6a3dc",
+                  "timestamp": 1788004173615
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "9d6db26e-e60b-4ceb-9154-5d435ad6a3dc",
+                  "timestamp": 1788004175457
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:33.596Z",
+          "promptId": "9d6db26e-e60b-4ceb-9154-5d435ad6a3dc",
+          "error": null
+        },
+        {
+          "generationTime": 1.8269595000000045,
+          "peakVramMiB": 7667,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "613dcbd1-d94e-4b12-90df-51cf8d992790",
+                  "timestamp": 1788004176011
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "613dcbd1-d94e-4b12-90df-51cf8d992790",
+                  "timestamp": 1788004176018
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "613dcbd1-d94e-4b12-90df-51cf8d992790",
+                  "timestamp": 1788004177648
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:35.999Z",
+          "promptId": "613dcbd1-d94e-4b12-90df-51cf8d992790",
+          "error": null
+        },
+        {
+          "generationTime": 1.8298043000000035,
+          "peakVramMiB": 7599,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "317f02c8-95a5-4686-8ce3-174c6a398a2e",
+                  "timestamp": 1788004177844
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "317f02c8-95a5-4686-8ce3-174c6a398a2e",
+                  "timestamp": 1788004177849
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "317f02c8-95a5-4686-8ce3-174c6a398a2e",
+                  "timestamp": 1788004179626
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:37.837Z",
+          "promptId": "317f02c8-95a5-4686-8ce3-174c6a398a2e",
+          "error": null
+        },
+        {
+          "generationTime": 1.843211000000003,
+          "peakVramMiB": 7693,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "223e0244-9c8a-4e91-a37a-82dcafc78395",
+                  "timestamp": 1788004179684
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "223e0244-9c8a-4e91-a37a-82dcafc78395",
+                  "timestamp": 1788004179694
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "223e0244-9c8a-4e91-a37a-82dcafc78395",
+                  "timestamp": 1788004181395
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:39.672Z",
+          "promptId": "223e0244-9c8a-4e91-a37a-82dcafc78395",
+          "error": null
+        },
+        {
+          "generationTime": 1.8320040999999982,
+          "peakVramMiB": 7373,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "aef1214a-714b-4462-8bcc-5aaeef32c1b8",
+                  "timestamp": 1788004181530
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "aef1214a-714b-4462-8bcc-5aaeef32c1b8",
+                  "timestamp": 1788004181538
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "aef1214a-714b-4462-8bcc-5aaeef32c1b8",
+                  "timestamp": 1788004183300
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:41.525Z",
+          "promptId": "aef1214a-714b-4462-8bcc-5aaeef32c1b8",
+          "error": null
+        }
+      ],
+      "successfulRuns": 5,
+      "g95": 2.3945926000000037,
+      "rawVideoDuration": 3.375,
+      "maxEffectivePlayback": 5.625,
+      "requiredPlayback": 10.394592600000003,
+      "requiredPlaybackRate": 0.3246880498231358,
+      "feasible": false,
+      "peakVramMiB": 7693
+    },
+    {
+      "profile": {
+        "name": "long_384x224_121f_2s",
+        "width": 384,
+        "height": 224,
+        "frames": 121,
+        "steps": 2,
+        "fps": 24
+      },
+      "runs": [
+        {
+          "generationTime": 3.021171099999992,
+          "peakVramMiB": 7673,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "61060e58-7ad6-468d-8a21-86a8cc114524",
+                  "timestamp": 1788004187186
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "61060e58-7ad6-468d-8a21-86a8cc114524",
+                  "timestamp": 1788004187197
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "61060e58-7ad6-468d-8a21-86a8cc114524",
+                  "timestamp": 1788004190085
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:47.178Z",
+          "promptId": "61060e58-7ad6-468d-8a21-86a8cc114524",
+          "error": null
+        },
+        {
+          "generationTime": 2.4267955999999975,
+          "peakVramMiB": 7547,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "41ca60af-fba3-4580-ae66-517491cc0ce8",
+                  "timestamp": 1788004190211
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "41ca60af-fba3-4580-ae66-517491cc0ce8",
+                  "timestamp": 1788004190215
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "41ca60af-fba3-4580-ae66-517491cc0ce8",
+                  "timestamp": 1788004192442
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:50.205Z",
+          "promptId": "41ca60af-fba3-4580-ae66-517491cc0ce8",
+          "error": null
+        },
+        {
+          "generationTime": 2.4830964000000093,
+          "peakVramMiB": 7492,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "6cbe2385-7f20-4180-8ba0-81aa0dd5e928",
+                  "timestamp": 1788004192643
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "6cbe2385-7f20-4180-8ba0-81aa0dd5e928",
+                  "timestamp": 1788004192648
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "6cbe2385-7f20-4180-8ba0-81aa0dd5e928",
+                  "timestamp": 1788004194821
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:52.637Z",
+          "promptId": "6cbe2385-7f20-4180-8ba0-81aa0dd5e928",
+          "error": null
+        },
+        {
+          "generationTime": 2.4049660000000004,
+          "peakVramMiB": 7523,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "644efebf-6500-4f94-93a5-f3e445892aaa",
+                  "timestamp": 1788004195139
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "644efebf-6500-4f94-93a5-f3e445892aaa",
+                  "timestamp": 1788004195152
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "644efebf-6500-4f94-93a5-f3e445892aaa",
+                  "timestamp": 1788004197283
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:55.125Z",
+          "promptId": "644efebf-6500-4f94-93a5-f3e445892aaa",
+          "error": null
+        },
+        {
+          "generationTime": 4.722681700000001,
+          "peakVramMiB": 7568,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "41788eba-70e2-44fc-8af7-c6a1e6688558",
+                  "timestamp": 1788004197548
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "41788eba-70e2-44fc-8af7-c6a1e6688558",
+                  "timestamp": 1788004197554
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "41788eba-70e2-44fc-8af7-c6a1e6688558",
+                  "timestamp": 1788004202136
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:49:57.541Z",
+          "promptId": "41788eba-70e2-44fc-8af7-c6a1e6688558",
+          "error": null
+        }
+      ],
+      "successfulRuns": 5,
+      "g95": 4.722681700000001,
+      "rawVideoDuration": 5.041666666666667,
+      "maxEffectivePlayback": 8.402777777777779,
+      "requiredPlayback": 12.7226817,
+      "requiredPlaybackRate": 0.39627389771660065,
+      "feasible": false,
+      "peakVramMiB": 7673
+    },
+    {
+      "profile": {
+        "name": "wide_512x288_81f_2s",
+        "width": 512,
+        "height": 288,
+        "frames": 81,
+        "steps": 2,
+        "fps": 24
+      },
+      "runs": [
+        {
+          "generationTime": 2.9922158999999957,
+          "peakVramMiB": 7526,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "1eb35d19-e7e1-49e1-859a-c3cd7baf2df9",
+                  "timestamp": 1788004205907
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "1eb35d19-e7e1-49e1-859a-c3cd7baf2df9",
+                  "timestamp": 1788004205912
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "1eb35d19-e7e1-49e1-859a-c3cd7baf2df9",
+                  "timestamp": 1788004208462
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:50:05.902Z",
+          "promptId": "1eb35d19-e7e1-49e1-859a-c3cd7baf2df9",
+          "error": null
+        },
+        {
+          "generationTime": 2.388026899999997,
+          "peakVramMiB": 7710,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "6ca9479f-928a-4fa0-88ed-2130678eb62c",
+                  "timestamp": 1788004208925
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "6ca9479f-928a-4fa0-88ed-2130678eb62c",
+                  "timestamp": 1788004208943
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "6ca9479f-928a-4fa0-88ed-2130678eb62c",
+                  "timestamp": 1788004211307
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:50:08.899Z",
+          "promptId": "6ca9479f-928a-4fa0-88ed-2130678eb62c",
+          "error": null
+        },
+        {
+          "generationTime": 3.537569900000002,
+          "peakVramMiB": 7607,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "34daabde-56d3-4ce5-8700-c523ca472903",
+                  "timestamp": 1788004211320
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "34daabde-56d3-4ce5-8700-c523ca472903",
+                  "timestamp": 1788004211328
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "34daabde-56d3-4ce5-8700-c523ca472903",
+                  "timestamp": 1788004214495
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:50:11.312Z",
+          "promptId": "34daabde-56d3-4ce5-8700-c523ca472903",
+          "error": null
+        },
+        {
+          "generationTime": 3.573522100000002,
+          "peakVramMiB": 7602,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "6a12b37a-f457-42b6-8434-bb0b3036ab75",
+                  "timestamp": 1788004214864
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "6a12b37a-f457-42b6-8434-bb0b3036ab75",
+                  "timestamp": 1788004214874
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "6a12b37a-f457-42b6-8434-bb0b3036ab75",
+                  "timestamp": 1788004217899
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:50:14.856Z",
+          "promptId": "6a12b37a-f457-42b6-8434-bb0b3036ab75",
+          "error": null
+        },
+        {
+          "generationTime": 2.464708899999998,
+          "peakVramMiB": 7667,
+          "success": true,
+          "status": {
+            "status_str": "success",
+            "completed": true,
+            "messages": [
+              [
+                "execution_start",
+                {
+                  "prompt_id": "7f3b5483-9465-421a-a0db-098c33f45f0e",
+                  "timestamp": 1788004218447
+                }
+              ],
+              [
+                "execution_cached",
+                {
+                  "nodes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "13"
+                  ],
+                  "prompt_id": "7f3b5483-9465-421a-a0db-098c33f45f0e",
+                  "timestamp": 1788004218457
+                }
+              ],
+              [
+                "execution_success",
+                {
+                  "prompt_id": "7f3b5483-9465-421a-a0db-098c33f45f0e",
+                  "timestamp": 1788004220871
+                }
+              ]
+            ]
+          },
+          "started": "2026-08-29T11:50:18.437Z",
+          "promptId": "7f3b5483-9465-421a-a0db-098c33f45f0e",
+          "error": null
+        }
+      ],
+      "successfulRuns": 5,
+      "g95": 3.573522100000002,
+      "rawVideoDuration": 3.375,
+      "maxEffectivePlayback": 5.625,
+      "requiredPlayback": 11.573522100000002,
+      "requiredPlaybackRate": 0.2916139072305396,
+      "feasible": false,
+      "peakVramMiB": 7710
+    }
+  ],
+  "finishedAt": "2026-08-29T11:50:20.911Z",
+  "decision": {
+    "engine": "IMAGE_MOTION",
+    "reason": "No LTX profile met the playback feasibility condition."
+  }
+}

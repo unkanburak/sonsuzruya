@@ -1,0 +1,106 @@
+[
+  {
+    "turn": 1,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_01_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_01_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_01_00003_.png"
+    ],
+    "hiddenMethods": [
+      "soft",
+      "medium",
+      "baseline"
+    ]
+  },
+  {
+    "turn": 2,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_02_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_02_00003_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_02_00001_.png"
+    ],
+    "hiddenMethods": [
+      "medium",
+      "baseline",
+      "soft"
+    ]
+  },
+  {
+    "turn": 3,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_03_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_03_00003_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_03_00001_.png"
+    ],
+    "hiddenMethods": [
+      "soft",
+      "baseline",
+      "medium"
+    ]
+  },
+  {
+    "turn": 4,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_04_00003_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_04_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_04_00001_.png"
+    ],
+    "hiddenMethods": [
+      "baseline",
+      "soft",
+      "medium"
+    ]
+  },
+  {
+    "turn": 5,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_05_00003_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_05_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_05_00001_.png"
+    ],
+    "hiddenMethods": [
+      "baseline",
+      "soft",
+      "medium"
+    ]
+  },
+  {
+    "turn": 6,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_06_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_06_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_06_00003_.png"
+    ],
+    "hiddenMethods": [
+      "soft",
+      "medium",
+      "baseline"
+    ]
+  },
+  {
+    "turn": 7,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_07_00003_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_07_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_07_00001_.png"
+    ],
+    "hiddenMethods": [
+      "baseline",
+      "medium",
+      "soft"
+    ]
+  },
+  {
+    "turn": 8,
+    "files": [
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\soft\\turn_08_00001_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\baseline\\turn_08_00003_.png",
+      "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\benchmark\\runtime\\8192\\output\\medium\\turn_08_00001_.png"
+    ],
+    "hiddenMethods": [
+      "soft",
+      "baseline",
+      "medium"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+import {defaultStoryState,normalizeStoryState,applyStatePatch,sceneBoundRecoveryOptions} from '../app/lib/options.mjs';
+let s=normalizeStoryState({...defaultStoryState(),current_location:'basement',current_scene_manifest:{location:'basement',entities:['underground basement','anonymous figure'],adjacent_locations:['basement_door','machine_room'],entity_states:{door:'open',machine:'on',figure:'far',path:'held',machine_history:'touched'},summary:'basement'}});
+s=applyStatePatch(s,{current_location:'machine_room',result_summary:'machine room'});
+console.log(JSON.stringify({location:s.current_location,entities:s.current_scene_manifest.entities,states:s.current_scene_manifest.entity_states},null,2));
+let sparse=normalizeStoryState({...defaultStoryState(),current_location:'basement_door',current_scene_manifest:{location:'basement_door',entities:['anonymous figure'],adjacent_locations:['red_house_hallway','basement'],summary:'door'}});
+let re=applyStatePatch(sparse,{current_location:'machine_room',result_summary:'machine'});
+console.log(JSON.stringify({reentry:re.current_scene_manifest},null,2));
+let noMachine=normalizeStoryState({...defaultStoryState(),current_location:'machine_room',current_scene_manifest:{location:'machine_room',entities:['machine room','anonymous figure'],adjacent_locations:['basement','control_room'],summary:'room'}});
+let rec=sceneBoundRecoveryOptions({storyState:noMachine,previousOptions:[]});
+console.log('no-machine-recovery',rec?.option_1_tr,rec?.option_2_tr);

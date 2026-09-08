@@ -1,0 +1,213 @@
+{
+  "startedAt": "2026-08-30T09:26:17.431Z",
+  "endpoint": "http://127.0.0.1:8192",
+  "hardware": "RTX 3070 Ti 8GB",
+  "productionUntouched": true,
+  "productLatencyTargetSeconds": {
+    "excellent": 5,
+    "veryGood": 8,
+    "acceptable": 12,
+    "poor": 15,
+    "reject": 20
+  },
+  "profiles": {
+    "zimage": {
+      "warmup": {
+        "profile": "Z-Image-Turbo W4A8",
+        "label": "warmup",
+        "seed": 880000,
+        "promptId": "5b54ec94-9f6a-405d-9797-e938b27fbc80",
+        "success": true,
+        "output": "image_engine_bakeoff\\zimage/feasibility_00_1788082025098_880000_00001_.png",
+        "bytes": 932981,
+        "clientSeconds": 127.05164629999999,
+        "serverSeconds": null,
+        "before": {
+          "usedMiB": 6704,
+          "totalMiB": 8192
+        },
+        "peak": {
+          "usedMiB": 7724,
+          "totalMiB": 8192
+        },
+        "historyMessages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "5b54ec94-9f6a-405d-9797-e938b27fbc80",
+              "timestamp": 1788082025198
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [],
+              "prompt_id": "5b54ec94-9f6a-405d-9797-e938b27fbc80",
+              "timestamp": 1788082025200
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "5b54ec94-9f6a-405d-9797-e938b27fbc80",
+              "timestamp": 1788082151816
+            }
+          ]
+        ]
+      },
+      "runs": [
+        {
+          "profile": "Z-Image-Turbo W4A8",
+          "label": "warm_1",
+          "seed": 887919,
+          "promptId": "f0f7e085-27d4-4186-9b75-68e30c5b2a4c",
+          "success": true,
+          "output": "image_engine_bakeoff\\zimage/feasibility_01_1788082152153_887919_00001_.png",
+          "bytes": 975402,
+          "clientSeconds": 76.57117119999998,
+          "serverSeconds": null,
+          "before": {
+            "usedMiB": 5648,
+            "totalMiB": 8192
+          },
+          "peak": {
+            "usedMiB": 7311,
+            "totalMiB": 8192
+          },
+          "historyMessages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "f0f7e085-27d4-4186-9b75-68e30c5b2a4c",
+                "timestamp": 1788082152231
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "2",
+                  "3",
+                  "6",
+                  "7"
+                ],
+                "prompt_id": "f0f7e085-27d4-4186-9b75-68e30c5b2a4c",
+                "timestamp": 1788082152232
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "f0f7e085-27d4-4186-9b75-68e30c5b2a4c",
+                "timestamp": 1788082228440
+              }
+            ]
+          ]
+        },
+        {
+          "profile": "Z-Image-Turbo W4A8",
+          "label": "warm_2",
+          "seed": 895838,
+          "promptId": "6a63bb86-0bde-4814-b39f-584777a68b1e",
+          "success": true,
+          "output": "image_engine_bakeoff\\zimage/feasibility_02_1788082228725_895838_00001_.png",
+          "bytes": 1184768,
+          "clientSeconds": 47.80166949999999,
+          "serverSeconds": null,
+          "before": {
+            "usedMiB": 4580,
+            "totalMiB": 8192
+          },
+          "peak": {
+            "usedMiB": 7554,
+            "totalMiB": 8192
+          },
+          "historyMessages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "6a63bb86-0bde-4814-b39f-584777a68b1e",
+                "timestamp": 1788082228809
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "2",
+                  "3",
+                  "6",
+                  "7"
+                ],
+                "prompt_id": "6a63bb86-0bde-4814-b39f-584777a68b1e",
+                "timestamp": 1788082228811
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "6a63bb86-0bde-4814-b39f-584777a68b1e",
+                "timestamp": 1788082276273
+              }
+            ]
+          ]
+        },
+        {
+          "profile": "Z-Image-Turbo W4A8",
+          "label": "warm_3",
+          "seed": 903757,
+          "promptId": "2bb36e5a-fe55-4a38-b8c7-b02941bd333f",
+          "success": true,
+          "output": "image_engine_bakeoff\\zimage/feasibility_03_1788082276528_903757_00001_.png",
+          "bytes": 1075233,
+          "clientSeconds": 62.66541950000002,
+          "serverSeconds": null,
+          "before": {
+            "usedMiB": 4795,
+            "totalMiB": 8192
+          },
+          "peak": {
+            "usedMiB": 7679,
+            "totalMiB": 8192
+          },
+          "historyMessages": [
+            [
+              "execution_start",
+              {
+                "prompt_id": "2bb36e5a-fe55-4a38-b8c7-b02941bd333f",
+                "timestamp": 1788082276638
+              }
+            ],
+            [
+              "execution_cached",
+              {
+                "nodes": [
+                  "1",
+                  "2",
+                  "3",
+                  "6",
+                  "7"
+                ],
+                "prompt_id": "2bb36e5a-fe55-4a38-b8c7-b02941bd333f",
+                "timestamp": 1788082276641
+              }
+            ],
+            [
+              "execution_success",
+              {
+                "prompt_id": "2bb36e5a-fe55-4a38-b8c7-b02941bd333f",
+                "timestamp": 1788082338826
+              }
+            ]
+          ]
+        }
+      ],
+      "p50": 62.66541950000002,
+      "p95": 76.57117119999998
+    }
+  },
+  "verdict": "Z-Image not live-viable; stopped before quality bake-off",
+  "finishedAt": "2026-08-30T09:32:19.197Z"
+}

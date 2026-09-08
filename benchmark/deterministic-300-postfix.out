@@ -1,0 +1,14 @@
+{
+  "rounds": 300,
+  "nulls": 0,
+  "uniquePairs": 124,
+  "repeats": 176,
+  "locations": [
+    "red_house_exterior",
+    "front_path",
+    "red_house_doorstep",
+    "quiet_street",
+    "red_house_hallway",
+    "stairwell"
+  ]
+}

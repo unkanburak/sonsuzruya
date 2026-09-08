@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-31T15:28:43.855Z",
+  "settings": {
+    "checkpoint": "sdxl_lightning_4step.safetensors",
+    "width": 1024,
+    "height": 576,
+    "steps": 4,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform"
+  },
+  "results": [
+    {
+      "index": 1,
+      "scene": "object-only",
+      "requirement": "ABSENT_OBJECT_LED. An old radio is playing on a quiet wooden table. Object close-up; no visible person required.",
+      "seed": 917919,
+      "promptId": "ee2b6439-f41c-457a-babe-336e3c390725",
+      "output": "anonymous_dream_figure/01_object-only_1788190109219_917919_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\anonymous_dream_figure\\01_object-only_1788190109219_917919_00001_.png",
+      "bytes": 735970,
+      "latencySeconds": 2.6721347,
+      "success": true
+    },
+    {
+      "index": 2,
+      "scene": "environmental",
+      "requirement": "OPTIONAL_PARTIAL. A misty bridge crosses a dark lake at dusk. Any figure is distant, back-facing or absent; the environment carries the frame.",
+      "seed": 925838,
+      "promptId": "0823d46f-c490-499d-8ed3-46ce7ba8349c",
+      "output": "anonymous_dream_figure/02_environmental_1788190111893_925838_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\anonymous_dream_figure\\02_environmental_1788190111893_925838_00001_.png",
+      "bytes": 725986,
+      "latencySeconds": 2.4993079,
+      "success": true
+    },
+    {
+      "index": 3,
+      "scene": "lone-figure",
+      "requirement": "REQUIRED. One anonymous dream figure stands back-facing in red rain before a distant house; face completely unreadable, backlit silhouette.",
+      "seed": 933757,
+      "promptId": "6d831085-ad00-48d2-8057-a43c50dc6028",
+      "output": "anonymous_dream_figure/03_lone-figure_1788190114394_933757_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\anonymous_dream_figure\\03_lone-figure_1788190114394_933757_00001_.png",
+      "bytes": 814226,
+      "latencySeconds": 2.6488018,
+      "success": true
+    },
+    {
+      "index": 4,
+      "scene": "two-figure-interaction",
+      "requirement": "REQUIRED_INTERACTION. Two anonymous dream silhouettes exchange a broken watch in a dim room; hands and gesture are clear, faces turned away and shadowed, side or rear framing.",
+      "seed": 941676,
+      "promptId": "1210a9b6-b5ee-4b00-828f-7bb8fd543cb5",
+      "output": "anonymous_dream_figure/04_two-figure-interaction_1788190117045_941676_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\anonymous_dream_figure\\04_two-figure-interaction_1788190117045_941676_00001_.png",
+      "bytes": 667501,
+      "latencySeconds": 2.2540443000000003,
+      "success": true
+    },
+    {
+      "index": 5,
+      "scene": "seated-partial",
+      "requirement": "OPTIONAL_PARTIAL. A seated anonymous figure studies a face-down photograph at a table; profile and hands are cropped, no frontal portrait.",
+      "seed": 949595,
+      "promptId": "f3150268-bfeb-49ac-9d36-c36c0a3e9bb0",
+      "output": "anonymous_dream_figure/05_seated-partial_1788190119300_949595_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\anonymous_dream_figure\\05_seated-partial_1788190119300_949595_00001_.png",
+      "bytes": 802362,
+      "latencySeconds": 2.303846299999999,
+      "success": true
+    },
+    {
+      "index": 6,
+      "scene": "exterior",
+      "requirement": "OPTIONAL_PARTIAL. An abandoned red house stands on a wet rural road under a pale sky; a tiny back-facing figure may appear near the edge, never centered or portrait-like.",
+      "seed": 957514,
+      "promptId": "4dc66eae-7a2e-400e-9ca7-404b3a111b80",
+      "output": "anonymous_dream_figure/06_exterior_1788190121604_957514_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\anonymous_dream_figure\\06_exterior_1788190121604_957514_00001_.png",
+      "bytes": 831257,
+      "latencySeconds": 2.2501247,
+      "success": true
+    }
+  ]
+}

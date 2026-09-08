@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-08-31T15:11:13.752Z",
+  "endpoint": "http://127.0.0.1:8188",
+  "productionUntouched": true,
+  "settings": {
+    "checkpoint": "sdxl_lightning_4step.safetensors",
+    "width": 1024,
+    "height": 576,
+    "steps": 4,
+    "cfg": 1,
+    "sampler": "euler",
+    "scheduler": "sgm_uniform"
+  },
+  "scenes": [
+    {
+      "id": "radio",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "An old radio is playing on a quiet wooden table; the room and radio carry the scene.",
+      "b": "Object close-up of the old radio on the table, subtle sound implied visually, no visible protagonist required."
+    },
+    {
+      "id": "photograph",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "A family photograph lies face-down on a wooden tabletop beside a small cup.",
+      "b": "Close tabletop composition focused on the face-down photograph and cup; hands may enter the frame, no full protagonist."
+    },
+    {
+      "id": "tea",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "Tea has spilled across a kitchen table, reflecting the dim room light.",
+      "b": "Object-led close shot of spilled tea spreading across the table, the environment carries the result, no protagonist required."
+    },
+    {
+      "id": "outside_house",
+      "mode": "OPTIONAL_PARTIAL",
+      "result": "Someone appears outside the abandoned red house in the rain.",
+      "b": "Asymmetric over-the-shoulder view from a doorway toward a distant figure outside the red house; protagonist may be only a partial foreground edge."
+    },
+    {
+      "id": "watch_exchange",
+      "mode": "REQUIRED_TWO_FIGURE",
+      "result": "The protagonist gives a broken watch to another anonymous adult figure in a dim room.",
+      "b": "Two-figure medium interaction, one hand passing the broken watch to the other figure; faces indistinct, action clearly visible."
+    },
+    {
+      "id": "machine",
+      "mode": "OPTIONAL_OBJECT_LED",
+      "result": "A strange machine is activated and casts blue illumination across a basement room.",
+      "b": "Machine-dominant three-quarter view with blue light spreading across the basement; protagonist may be partial or off-center, not a centered standing silhouette."
+    }
+  ],
+  "results": [
+    {
+      "profile": "A_SOFT_LOCK",
+      "scene": "radio",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "An old radio is playing on a quiet wooden table; the room and radio carry the scene.",
+      "gatedPrompt": null,
+      "seed": 737919,
+      "promptId": "1f1bf4e2-b26d-4cc0-9201-1878b1ec565f",
+      "output": "protagonist_presence\\A_SOFT_LOCK/01_radio_1788189043277_737919_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\A_SOFT_LOCK\\01_radio_1788189043277_737919_00001_.png",
+      "bytes": 679060,
+      "latencySeconds": 2.4995898,
+      "success": true
+    },
+    {
+      "profile": "A_SOFT_LOCK",
+      "scene": "photograph",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "A family photograph lies face-down on a wooden tabletop beside a small cup.",
+      "gatedPrompt": null,
+      "seed": 745838,
+      "promptId": "a6544efb-5c80-48e1-88ee-984d0054e972",
+      "output": "protagonist_presence\\A_SOFT_LOCK/02_photograph_1788189045778_745838_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\A_SOFT_LOCK\\02_photograph_1788189045778_745838_00001_.png",
+      "bytes": 634264,
+      "latencySeconds": 3.1099179,
+      "success": true
+    },
+    {
+      "profile": "A_SOFT_LOCK",
+      "scene": "tea",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "Tea has spilled across a kitchen table, reflecting the dim room light.",
+      "gatedPrompt": null,
+      "seed": 753757,
+      "promptId": "0d53f78c-59a3-40dc-acf9-3d4a06323de3",
+      "output": "protagonist_presence\\A_SOFT_LOCK/03_tea_1788189048890_753757_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\A_SOFT_LOCK\\03_tea_1788189048890_753757_00001_.png",
+      "bytes": 784501,
+      "latencySeconds": 2.4651951000000007,
+      "success": true
+    },
+    {
+      "profile": "A_SOFT_LOCK",
+      "scene": "outside_house",
+      "mode": "OPTIONAL_PARTIAL",
+      "result": "Someone appears outside the abandoned red house in the rain.",
+      "gatedPrompt": null,
+      "seed": 761676,
+      "promptId": "79fed77d-81bc-49e0-9fc0-8c98588fe971",
+      "output": "protagonist_presence\\A_SOFT_LOCK/04_outside_house_1788189051357_761676_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\A_SOFT_LOCK\\04_outside_house_1788189051357_761676_00001_.png",
+      "bytes": 758423,
+      "latencySeconds": 2.4766682,
+      "success": true
+    },
+    {
+      "profile": "A_SOFT_LOCK",
+      "scene": "watch_exchange",
+      "mode": "REQUIRED_TWO_FIGURE",
+      "result": "The protagonist gives a broken watch to another anonymous adult figure in a dim room.",
+      "gatedPrompt": null,
+      "seed": 769595,
+      "promptId": "cd446967-671c-4d17-963e-bc5a263672a4",
+      "output": "protagonist_presence\\A_SOFT_LOCK/05_watch_exchange_1788189053834_769595_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\A_SOFT_LOCK\\05_watch_exchange_1788189053834_769595_00001_.png",
+      "bytes": 695306,
+      "latencySeconds": 2.5061526000000014,
+      "success": true
+    },
+    {
+      "profile": "A_SOFT_LOCK",
+      "scene": "machine",
+      "mode": "OPTIONAL_OBJECT_LED",
+      "result": "A strange machine is activated and casts blue illumination across a basement room.",
+      "gatedPrompt": null,
+      "seed": 777514,
+      "promptId": "b6c8893c-2884-41c0-a1fe-93ea2fa36e15",
+      "output": "protagonist_presence\\A_SOFT_LOCK/06_machine_1788189056342_777514_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\A_SOFT_LOCK\\06_machine_1788189056342_777514_00001_.png",
+      "bytes": 750489,
+      "latencySeconds": 2.5231272000000007,
+      "success": true
+    },
+    {
+      "profile": "B_GATED",
+      "scene": "radio",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "An old radio is playing on a quiet wooden table; the room and radio carry the scene.",
+      "gatedPrompt": "Object close-up of the old radio on the table, subtle sound implied visually, no visible protagonist required.",
+      "seed": 737919,
+      "promptId": "16db982d-5006-4cf3-b626-dd6c99c2ee8f",
+      "output": "protagonist_presence\\B_GATED/01_radio_1788189058866_737919_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\B_GATED\\01_radio_1788189058866_737919_00001_.png",
+      "bytes": 664648,
+      "latencySeconds": 2.1066828000000006,
+      "success": true
+    },
+    {
+      "profile": "B_GATED",
+      "scene": "photograph",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "A family photograph lies face-down on a wooden tabletop beside a small cup.",
+      "gatedPrompt": "Close tabletop composition focused on the face-down photograph and cup; hands may enter the frame, no full protagonist.",
+      "seed": 745838,
+      "promptId": "edf943a4-78f5-4358-8fd3-e3bdee9dd738",
+      "output": "protagonist_presence\\B_GATED/02_photograph_1788189060973_745838_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\B_GATED\\02_photograph_1788189060973_745838_00001_.png",
+      "bytes": 712513,
+      "latencySeconds": 3.1257144000000006,
+      "success": true
+    },
+    {
+      "profile": "B_GATED",
+      "scene": "tea",
+      "mode": "ABSENT_OBJECT_LED",
+      "result": "Tea has spilled across a kitchen table, reflecting the dim room light.",
+      "gatedPrompt": "Object-led close shot of spilled tea spreading across the table, the environment carries the result, no protagonist required.",
+      "seed": 753757,
+      "promptId": "4ed32478-60ba-4f2d-b589-27ac495cda41",
+      "output": "protagonist_presence\\B_GATED/03_tea_1788189064100_753757_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\B_GATED\\03_tea_1788189064100_753757_00001_.png",
+      "bytes": 745234,
+      "latencySeconds": 2.482509399999999,
+      "success": true
+    },
+    {
+      "profile": "B_GATED",
+      "scene": "outside_house",
+      "mode": "OPTIONAL_PARTIAL",
+      "result": "Someone appears outside the abandoned red house in the rain.",
+      "gatedPrompt": "Asymmetric over-the-shoulder view from a doorway toward a distant figure outside the red house; protagonist may be only a partial foreground edge.",
+      "seed": 761676,
+      "promptId": "d2d4d40a-63fc-458d-9ef1-069358e15d03",
+      "output": "protagonist_presence\\B_GATED/04_outside_house_1788189066585_761676_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\B_GATED\\04_outside_house_1788189066585_761676_00001_.png",
+      "bytes": 825867,
+      "latencySeconds": 2.7999569999999987,
+      "success": true
+    },
+    {
+      "profile": "B_GATED",
+      "scene": "watch_exchange",
+      "mode": "REQUIRED_TWO_FIGURE",
+      "result": "The protagonist gives a broken watch to another anonymous adult figure in a dim room.",
+      "gatedPrompt": "Two-figure medium interaction, one hand passing the broken watch to the other figure; faces indistinct, action clearly visible.",
+      "seed": 769595,
+      "promptId": "1fcf7e2a-15a7-45b6-ab60-b8491d7a7bfc",
+      "output": "protagonist_presence\\B_GATED/05_watch_exchange_1788189069389_769595_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\B_GATED\\05_watch_exchange_1788189069389_769595_00001_.png",
+      "bytes": 697704,
+      "latencySeconds": 2.2780649000000013,
+      "success": true
+    },
+    {
+      "profile": "B_GATED",
+      "scene": "machine",
+      "mode": "OPTIONAL_OBJECT_LED",
+      "result": "A strange machine is activated and casts blue illumination across a basement room.",
+      "gatedPrompt": "Machine-dominant three-quarter view with blue light spreading across the basement; protagonist may be partial or off-center, not a centered standing silhouette.",
+      "seed": 777514,
+      "promptId": "69697ada-7c73-42bd-b7d8-9d4d70017e0d",
+      "output": "protagonist_presence\\B_GATED/06_machine_1788189071667_777514_00001_.png",
+      "outputPath": "C:\\Users\\burak\\OneDrive\\Desktop\\SONSUZ YAYIN\\runtime\\comfy8188-output\\protagonist_presence\\B_GATED\\06_machine_1788189071667_777514_00001_.png",
+      "bytes": 757121,
+      "latencySeconds": 2.084578799999999,
+      "success": true
+    }
+  ]
+}

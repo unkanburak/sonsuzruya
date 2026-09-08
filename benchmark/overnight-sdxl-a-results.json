@@ -1,0 +1,87 @@
+{
+  "mode": "A_only_sdxl",
+  "results": [
+    {
+      "run": 1,
+      "promptId": "ad058e62-c054-4b52-b193-a3e8c59013df",
+      "elapsedSec": 2.1678728,
+      "status": "success",
+      "success": true,
+      "error": null,
+      "gpuSamples": [
+        {
+          "elapsed": 0.5036065999999999,
+          "gpu": "7242, 776, 99"
+        },
+        {
+          "elapsed": 1.0186232000000002,
+          "gpu": "7313, 705, 48"
+        },
+        {
+          "elapsed": 1.5293902,
+          "gpu": "7305, 713, 76"
+        },
+        {
+          "elapsed": 2.0417720999999998,
+          "gpu": "6569, 1449, 24"
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "promptId": "3ddfd24b-cb5c-4022-bb7e-6159ce28e2c6",
+      "elapsedSec": 2.6672569999999998,
+      "status": "success",
+      "success": true,
+      "error": null,
+      "gpuSamples": [
+        {
+          "elapsed": 0.5088208999999997,
+          "gpu": "7449, 569, 45"
+        },
+        {
+          "elapsed": 1.0243183999999996,
+          "gpu": "7495, 523, 59"
+        },
+        {
+          "elapsed": 1.5274263999999997,
+          "gpu": "7347, 671, 56"
+        },
+        {
+          "elapsed": 2.0272997999999998,
+          "gpu": "7347, 671, 100"
+        },
+        {
+          "elapsed": 2.541126,
+          "gpu": "6771, 1247, 100"
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "promptId": "8485987d-935e-48b6-9497-dbd0fdc1b50d",
+      "elapsedSec": 2.4010249999999997,
+      "status": "success",
+      "success": true,
+      "error": null,
+      "gpuSamples": [
+        {
+          "elapsed": 0.5009751999999998,
+          "gpu": "7426, 592, 1"
+        },
+        {
+          "elapsed": 1.0137277999999996,
+          "gpu": "7307, 711, 100"
+        },
+        {
+          "elapsed": 1.526495,
+          "gpu": "7307, 711, 80"
+        },
+        {
+          "elapsed": 2.0267312,
+          "gpu": "5739, 2279, 100"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "P1-A": {
+    "scene": 1,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_01_00001_.png"
+  },
+  "P1-B": {
+    "scene": 1,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_01_00001_.png"
+  },
+  "P1-C": {
+    "scene": 1,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_01_00001_.png"
+  },
+  "P1-D": {
+    "scene": 1,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_01_00001_.png"
+  },
+  "P2-A": {
+    "scene": 2,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_02_00001_.png"
+  },
+  "P2-B": {
+    "scene": 2,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_02_00001_.png"
+  },
+  "P2-C": {
+    "scene": 2,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_02_00001_.png"
+  },
+  "P2-D": {
+    "scene": 2,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_02_00001_.png"
+  },
+  "P3-A": {
+    "scene": 3,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_03_00001_.png"
+  },
+  "P3-B": {
+    "scene": 3,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_03_00001_.png"
+  },
+  "P3-C": {
+    "scene": 3,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_03_00001_.png"
+  },
+  "P3-D": {
+    "scene": 3,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_03_00001_.png"
+  },
+  "P4-A": {
+    "scene": 4,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_04_00001_.png"
+  },
+  "P4-B": {
+    "scene": 4,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_04_00001_.png"
+  },
+  "P4-C": {
+    "scene": 4,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_04_00001_.png"
+  },
+  "P4-D": {
+    "scene": 4,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_04_00001_.png"
+  },
+  "P5-A": {
+    "scene": 5,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_05_00001_.png"
+  },
+  "P5-B": {
+    "scene": 5,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_05_00001_.png"
+  },
+  "P5-C": {
+    "scene": 5,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_05_00001_.png"
+  },
+  "P5-D": {
+    "scene": 5,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_05_00001_.png"
+  },
+  "P6-A": {
+    "scene": 6,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_06_00001_.png"
+  },
+  "P6-B": {
+    "scene": 6,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_06_00001_.png"
+  },
+  "P6-C": {
+    "scene": 6,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_06_00001_.png"
+  },
+  "P6-D": {
+    "scene": 6,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_06_00001_.png"
+  },
+  "P7-A": {
+    "scene": 7,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_07_00001_.png"
+  },
+  "P7-B": {
+    "scene": 7,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_07_00001_.png"
+  },
+  "P7-C": {
+    "scene": 7,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_07_00001_.png"
+  },
+  "P7-D": {
+    "scene": 7,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_07_00001_.png"
+  },
+  "P8-A": {
+    "scene": 8,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_08_00001_.png"
+  },
+  "P8-B": {
+    "scene": 8,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_08_00001_.png"
+  },
+  "P8-C": {
+    "scene": 8,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_08_00001_.png"
+  },
+  "P8-D": {
+    "scene": 8,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_08_00001_.png"
+  },
+  "P9-A": {
+    "scene": 9,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_09_00001_.png"
+  },
+  "P9-B": {
+    "scene": 9,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_09_00001_.png"
+  },
+  "P9-C": {
+    "scene": 9,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_09_00001_.png"
+  },
+  "P9-D": {
+    "scene": 9,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_09_00001_.png"
+  },
+  "P10-A": {
+    "scene": 10,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_10_00001_.png"
+  },
+  "P10-B": {
+    "scene": 10,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_10_00001_.png"
+  },
+  "P10-C": {
+    "scene": 10,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_10_00001_.png"
+  },
+  "P10-D": {
+    "scene": 10,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_10_00001_.png"
+  },
+  "P11-A": {
+    "scene": 11,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_11_00001_.png"
+  },
+  "P11-B": {
+    "scene": 11,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_11_00001_.png"
+  },
+  "P11-C": {
+    "scene": 11,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_11_00001_.png"
+  },
+  "P11-D": {
+    "scene": 11,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_11_00001_.png"
+  },
+  "P12-A": {
+    "scene": 12,
+    "profile": "A",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\A_12_00001_.png"
+  },
+  "P12-B": {
+    "scene": 12,
+    "profile": "D",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\D_12_00001_.png"
+  },
+  "P12-C": {
+    "scene": 12,
+    "profile": "C",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\C_12_00001_.png"
+  },
+  "P12-D": {
+    "scene": 12,
+    "profile": "B",
+    "path": "benchmark\\runtime\\8192\\output\\quality\\B_12_00001_.png"
+  }
+}

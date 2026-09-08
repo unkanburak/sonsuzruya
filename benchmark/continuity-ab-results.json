@@ -1,0 +1,231 @@
+{
+  "createdAt": "2026-08-29T15:59:38.316Z",
+  "acceptance": {
+    "minSuccess": 9,
+    "maxP95Seconds": 6,
+    "maxRelativeSlowdown": 1.5,
+    "humanScoresRequired": true
+  },
+  "results": [
+    {
+      "mode": "TEXT_ANCHOR",
+      "chain": [
+        "same_room",
+        "same_corridor",
+        "normal_street",
+        "normal_car",
+        "normal_tunnel",
+        "normal_bridge",
+        "surreal_light",
+        "surreal_portal",
+        "surreal_forest",
+        "surreal_city"
+      ],
+      "rows": [
+        {
+          "round": 1,
+          "label": "same_room",
+          "success": true,
+          "generationTime": 3.2278409000000003,
+          "media": "/generated/live/scene_09001_00001_.png",
+          "elapsed": 3.2280428000000003
+        },
+        {
+          "round": 2,
+          "label": "same_corridor",
+          "success": true,
+          "generationTime": 3.8585413999999996,
+          "media": "/generated/live/scene_09002_00001_.png",
+          "elapsed": 3.8585665
+        },
+        {
+          "round": 3,
+          "label": "normal_street",
+          "success": true,
+          "generationTime": 6.307953000000001,
+          "media": "/generated/live/scene_09003_00001_.png",
+          "elapsed": 6.307964399999999
+        },
+        {
+          "round": 4,
+          "label": "normal_car",
+          "success": true,
+          "generationTime": 2.9137044000000007,
+          "media": "/generated/live/scene_09004_00001_.png",
+          "elapsed": 2.9137134000000007
+        },
+        {
+          "round": 5,
+          "label": "normal_tunnel",
+          "success": true,
+          "generationTime": 4.415537800000002,
+          "media": "/generated/live/scene_09005_00001_.png",
+          "elapsed": 4.415551699999998
+        },
+        {
+          "round": 6,
+          "label": "normal_bridge",
+          "success": true,
+          "generationTime": 6.866202499999999,
+          "media": "/generated/live/scene_09006_00001_.png",
+          "elapsed": 6.866237300000001
+        },
+        {
+          "round": 7,
+          "label": "surreal_light",
+          "success": true,
+          "generationTime": 3.348640199999998,
+          "media": "/generated/live/scene_09007_00001_.png",
+          "elapsed": 3.348659200000002
+        },
+        {
+          "round": 8,
+          "label": "surreal_portal",
+          "success": true,
+          "generationTime": 3.684713300000003,
+          "media": "/generated/live/scene_09008_00001_.png",
+          "elapsed": 3.6847959999999986
+        },
+        {
+          "round": 9,
+          "label": "surreal_forest",
+          "success": true,
+          "generationTime": 6.431131999999998,
+          "media": "/generated/live/scene_09009_00001_.png",
+          "elapsed": 6.431161700000004
+        },
+        {
+          "round": 10,
+          "label": "surreal_city",
+          "success": true,
+          "generationTime": 3.2163943,
+          "media": "/generated/live/scene_09010_00001_.png",
+          "elapsed": 3.216435599999997
+        }
+      ],
+      "successCount": 10,
+      "generationTimes": [
+        3.2278409000000003,
+        3.8585413999999996,
+        6.307953000000001,
+        2.9137044000000007,
+        4.415537800000002,
+        6.866202499999999,
+        3.348640199999998,
+        3.684713300000003,
+        6.431131999999998,
+        3.2163943
+      ]
+    },
+    {
+      "mode": "PREVIOUS_IMAGE",
+      "chain": [
+        "same_room",
+        "same_corridor",
+        "normal_street",
+        "normal_car",
+        "normal_tunnel",
+        "normal_bridge",
+        "surreal_light",
+        "surreal_portal",
+        "surreal_forest",
+        "surreal_city"
+      ],
+      "rows": [
+        {
+          "round": 1,
+          "label": "same_room",
+          "success": true,
+          "generationTime": 90.8837759,
+          "media": "/generated/live/scene_09101_00001_.png",
+          "elapsed": 90.88382840000001
+        },
+        {
+          "round": 2,
+          "label": "same_corridor",
+          "success": true,
+          "generationTime": 10.868007300000027,
+          "media": "/generated/live/scene_09102_00001_.png",
+          "elapsed": 10.8680619
+        },
+        {
+          "round": 3,
+          "label": "normal_street",
+          "success": true,
+          "generationTime": 2.9434872000000034,
+          "media": "/generated/live/scene_09103_00001_.png",
+          "elapsed": 2.9435175000000164
+        },
+        {
+          "round": 4,
+          "label": "normal_car",
+          "success": true,
+          "generationTime": 5.517407999999996,
+          "media": "/generated/live/scene_09104_00001_.png",
+          "elapsed": 5.517429600000003
+        },
+        {
+          "round": 5,
+          "label": "normal_tunnel",
+          "success": true,
+          "generationTime": 3.054950500000006,
+          "media": "/generated/live/scene_09105_00001_.png",
+          "elapsed": 3.054958500000008
+        },
+        {
+          "round": 6,
+          "label": "normal_bridge",
+          "success": true,
+          "generationTime": 2.6130378000000203,
+          "media": "/generated/live/scene_09106_00001_.png",
+          "elapsed": 2.613041100000002
+        },
+        {
+          "round": 7,
+          "label": "surreal_light",
+          "success": true,
+          "generationTime": 2.874095399999991,
+          "media": "/generated/live/scene_09107_00001_.png",
+          "elapsed": 2.874101800000004
+        },
+        {
+          "round": 8,
+          "label": "surreal_portal",
+          "success": true,
+          "generationTime": 5.790731,
+          "media": "/generated/live/scene_09108_00001_.png",
+          "elapsed": 5.7907376999999975
+        },
+        {
+          "round": 9,
+          "label": "surreal_forest",
+          "success": true,
+          "generationTime": 3.1843141999999935,
+          "media": "/generated/live/scene_09109_00001_.png",
+          "elapsed": 3.184324099999998
+        },
+        {
+          "round": 10,
+          "label": "surreal_city",
+          "success": true,
+          "generationTime": 2.900214500000002,
+          "media": "/generated/live/scene_09110_00001_.png",
+          "elapsed": 2.9002229000000224
+        }
+      ],
+      "successCount": 10,
+      "generationTimes": [
+        90.8837759,
+        10.868007300000027,
+        2.9434872000000034,
+        5.517407999999996,
+        3.054950500000006,
+        2.6130378000000203,
+        2.874095399999991,
+        5.790731,
+        3.1843141999999935,
+        2.900214500000002
+      ]
+    }
+  ]
+}

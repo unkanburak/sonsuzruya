@@ -1,0 +1,60 @@
+{
+  "label": "B",
+  "port": 8191,
+  "promptId": "d40ffec0-e6cd-4e65-8f48-027a3c46495f",
+  "totalSec": 1.441,
+  "success": true,
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "d40ffec0-e6cd-4e65-8f48-027a3c46495f",
+          "timestamp": 1788043770699
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "prompt_id": "d40ffec0-e6cd-4e65-8f48-027a3c46495f",
+          "timestamp": 1788043770714
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "d40ffec0-e6cd-4e65-8f48-027a3c46495f",
+          "timestamp": 1788043771857
+        }
+      ]
+    ]
+  },
+  "outputs": [
+    "11"
+  ],
+  "samples": [
+    {
+      "at": "2026-08-29T22:49:30.624Z",
+      "gpu": "1826, 8192, 28",
+      "ramMB": 47
+    },
+    {
+      "at": "2026-08-29T22:49:31.704Z",
+      "gpu": "1830, 8192, 35",
+      "ramMB": 50
+    }
+  ]
+}

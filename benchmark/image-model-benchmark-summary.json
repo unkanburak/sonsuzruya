@@ -1,0 +1,42 @@
+{
+  "principle": "Bir özellik yayını açmak için zorunlu değilse MVP’ye eklenmeyecek.",
+  "date": "2026-08-29",
+  "hardware": "NVIDIA GeForce RTX 3070 Ti 8 GB",
+  "method": "One warm-up followed by ten measured generations per profile; identical actions and deterministic seeds. Visual labels were assigned by direct human-readable inspection of the generated frames.",
+  "profiles": [
+    {
+      "name": "SD1.5 current",
+      "checkpoint": "v1-5-pruned-emaonly-fp16.safetensors",
+      "settings": "512x288, 16 steps, CFG 7, DPM++ 2M/Karras",
+      "successfulRuns": 10,
+      "failedRuns": 0,
+      "g95Seconds": 1.7085936,
+      "peakVramMiB": 3994,
+      "visualAssessment": { "clear": 2, "partial": 5, "failed": 3 }
+    },
+    {
+      "name": "SDXL-Lightning 4-step",
+      "checkpoint": "sdxl_lightning_4step.safetensors",
+      "settings": "768x448, 4 steps, CFG 1, Euler/sgm_uniform",
+      "successfulRuns": 10,
+      "failedRuns": 0,
+      "warmupSeconds": 6.9816588,
+      "g95Seconds": 2.0381207,
+      "peakVramMiB": 7561,
+      "visualAssessment": { "clear": 4, "partial": 4, "failed": 2 }
+    }
+  ],
+  "decision": {
+    "selected": "SDXL-Lightning 4-step",
+    "reason": "It doubled the clearly readable action count in the fixed set while adding only about 0.33 seconds to warm-generation G95. No OOM occurred. The 7.56 GiB peak leaves little GPU headroom, so no concurrent GPU model may run during the MVP stream."
+  },
+  "runtimeSmoke": {
+    "startScene": 422,
+    "observedScene": 446,
+    "recentSamples": 20,
+    "p95Seconds": 2.9166569,
+    "maxSeconds": 3.0807707,
+    "health": { "node": true, "comfy": true, "qwen": true },
+    "mediaHttp": 200
+  }
+}
