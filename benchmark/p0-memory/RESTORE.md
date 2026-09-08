@@ -1,6 +1,6 @@
 # P0 runtime note
 
-Original production Node: PID 21040, `C:\Program Files\nodejs\node.exe app/server.mjs`, project working directory `C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN` (matching existing startup script).
+Original production Node: PID 21040, `C:\Program Files\nodejs\node.exe app/server.mjs`, project working directory `<PROJECT_ROOT>` (matching existing startup script).
 
 Read-only initial health: Node ok, Comfy true, Qwen true, IMAGE_MOTION, YouTube false. Existing config and source copies are in `before/`; `before/current.json` is evidence only, not a state-reset instruction.
 

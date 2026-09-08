@@ -50,7 +50,7 @@ Node now exposes `readiness` in `/health` (`warming_up` → `ready`). On startup
 
 The local script drove 50 real `/api/debug/vote` turns against the running Node service. Each turn waited for the committed scene number to advance, then collected `/api/diagnostics`. Unique debug users alternated vote choices; normal six-second vote timing and the existing Qwen/SDXL/loop pipeline were used. Queue depth was zero at every recorded completion.
 
-Runtime scene range: 7292–7341. Full raw measurements are in [final-local-staging-soak-results.json](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/final-local-staging-soak-results.json>). End diagnostics are in [final-local-staging-diagnostics-end.json](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/final-local-staging-diagnostics-end.json>).
+Runtime scene range: 7292–7341. Full raw measurements are in [final-local-staging-soak-results.json](<<PROJECT_ROOT>/benchmark/final-local-staging-soak-results.json>). End diagnostics are in [final-local-staging-diagnostics-end.json](<<PROJECT_ROOT>/benchmark/final-local-staging-diagnostics-end.json>).
 
 ## Results
 

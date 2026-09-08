@@ -3,7 +3,7 @@
 # Sonsuz Sürreal AI Yayını — kapsamlı uygulama ve test raporu
 
 Rapor tarihi: 29 Ağustos 2026  
-Çalışma dizini: `C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN`  
+Çalışma dizini: `<PROJECT_ROOT>`  
 Model/Comfy dizini: `D:\InfiniteAILive`
 
 ## 1. Yönetici özeti

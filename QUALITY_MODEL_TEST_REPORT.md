@@ -59,4 +59,4 @@ scheduler: sgm_uniform
 
 8-step checkpoint test amacıyla kurulu kalabilir, ancak üretim profili olarak seçilmedi. Mevcut image-motion sistemi bu 4-step profille çalışmaya devam ediyor. Bu test YouTube OAuth veya gerçek chat gecikmesini ölçmez.
 
-Ham ölçüm: [`benchmark/sdxl-quality-ab-results.json`](C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/sdxl-quality-ab-results.json)
+Ham ölçüm: [`benchmark/sdxl-quality-ab-results.json`](<PROJECT_ROOT>/benchmark/sdxl-quality-ab-results.json)

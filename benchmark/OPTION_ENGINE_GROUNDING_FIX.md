@@ -66,8 +66,8 @@ node benchmark/option-grounding-fix-audit.mjs
 - navigation rate: %6,7
 - generic trope label rate: %24,2 (önceki geniş havuz davranışına göre düşüş; finite fallback havuzunun kalan sınırı)
 
-Ham çıktı: [option-grounding-fix-after.json](C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/option-grounding-fix-after.json)  
-Audit scripti: [option-grounding-fix-audit.mjs](C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/option-grounding-fix-audit.mjs)
+Ham çıktı: [option-grounding-fix-after.json](<PROJECT_ROOT>/benchmark/option-grounding-fix-after.json)  
+Audit scripti: [option-grounding-fix-audit.mjs](<PROJECT_ROOT>/benchmark/option-grounding-fix-audit.mjs)
 
 ## Adversarial scene kontrolü
 
@@ -83,8 +83,8 @@ Adversarial çıktılar metadata tabanlı ve score-0 içermedi; “must not offe
 
 ## 12 gerçek local option round trace
 
-Script: [option-grounding-local-12.mjs](C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/option-grounding-local-12.mjs)  
-Ham trace: [option-grounding-local-12.json](C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/option-grounding-local-12.json)
+Script: [option-grounding-local-12.mjs](<PROJECT_ROOT>/benchmark/option-grounding-local-12.mjs)  
+Ham trace: [option-grounding-local-12.json](<PROJECT_ROOT>/benchmark/option-grounding-local-12.json)
 
 12/12 tur Node üzerinden vote → generation → yeni scene commit akışını tamamladı. Her tur yeni PNG ile `NEXT_READY` durumuna geçti; siyah/bozuk medya gözlemlenmedi. Bu kısa trace’in ölçtüğü şey seçenek/commit sürekliliğidir; görsel semantic PASS değerlendirmesi değildir.
 

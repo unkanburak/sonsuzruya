@@ -33,7 +33,7 @@ Bu dosya müzik servisine, Qwen’e, Node’a, ComfyUI’ye veya sahne üretim d
 
 - Kaynak adı: `Ambient Main`
 - Tip: `ffmpeg_source` / Media Source
-- Dosya: `C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\assets\audio\ambient_main.wav`
+- Dosya: `<PROJECT_ROOT>\assets\audio\ambient_main.wav`
 - Loop: açık
 - Restart on activate: kapalı; sahne değişimlerinde yeniden başlamaz
 - Close when inactive: kapalı
@@ -46,7 +46,7 @@ Orijinal koleksiyon şu yedeğe alındı:
 
 ## 30 dakika stability testi
 
-Ölçüm dosyası: [obs-audio-stability.csv](C:\Users\burak\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\obs-audio-stability.csv)
+Ölçüm dosyası: [obs-audio-stability.csv](<USER_HOME>\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\obs-audio-stability.csv)
 
 - 30 adet dakikada-bir örnek, yaklaşık 30 dakika
 - OBS process’i 30/30 örnekte ayaktaydı (process doğrudan gözlem)

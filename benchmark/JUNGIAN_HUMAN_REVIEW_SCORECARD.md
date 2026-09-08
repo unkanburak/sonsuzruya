@@ -6,13 +6,13 @@ Bu dosya otomatik PASS raporu değildir. Amaç, 50 turluk akışın insan taraf�
 
 ## İncelenecek materyal
 
-- [50 turluk metin trace](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_DREAM_TRACE.md>)
-- [30 turluk Profile C görsel zinciri](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>)
-- [8 turluk Soft Lock görsel zinciri](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\SOFT_LOCK.png>)
-- [Kolektif seçim yolları ayrışma trace'i](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_PATH_DIVERGENCE.md>)
-- [50 tur gerçek görsel zinciri](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>)
-- [50 tur seçim açıklamalı görsel zinciri](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>)
-- [50 tur görsel zincir metadata'sı](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\jungian-observer-50\trace.json>)
+- [50 turluk metin trace](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_DREAM_TRACE.md>)
+- [30 turluk Profile C görsel zinciri](<<PROJECT_ROOT>\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>)
+- [8 turluk Soft Lock görsel zinciri](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\SOFT_LOCK.png>)
+- [Kolektif seçim yolları ayrışma trace'i](<<PROJECT_ROOT>\benchmark\JUNGIAN_PATH_DIVERGENCE.md>)
+- [50 tur gerçek görsel zinciri](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>)
+- [50 tur seçim açıklamalı görsel zinciri](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>)
+- [50 tur görsel zincir metadata'sı](<<PROJECT_ROOT>\benchmark\jungian-observer-50\trace.json>)
 
 ## Her blok için sorular
 

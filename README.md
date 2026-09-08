@@ -77,3 +77,17 @@ Kanal aktivasyonu, OAuth onayı, liste dışı yayın oluşturma ve YouTube’da
 ## Bilinçli kapsam dışı
 
 Serbest chat, vision, world state, continuity, dashboard, üyelik, seslendirme, AI müzik, otomatik Shorts, sosyal medya otomasyonu, cloud GPU, gelişmiş analytics ve gerçek 7/24 optimizasyonu yoktur.
+
+## Kurulum (genel)
+
+Bu proje Windows veya Linux üzerinde çalıştırılabilir. Kendi yollarınızı ortam değişkenleriyle tanımlayın; raporlardaki örnek yollar yalnızca tarihsel test kayıtlarıdır.
+
+```powershell
+$env:PROJECT_ROOT = (Get-Location).Path
+$env:COMFY_ROOT = 'C:\path\to\ComfyUI_windows_portable'
+# Qwen ve ComfyUI yerel servislerini başlatın, ardından:
+npm install
+npm start
+```
+
+Varsayılan yerel uçlar: Node `http://127.0.0.1:3000`, Qwen `http://127.0.0.1:8080`, ComfyUI `http://127.0.0.1:8188`. Dış erişim gerekiyorsa yalnızca Node portunu güvenli bir tünel üzerinden yayınlayın; Qwen/ComfyUI portlarını herkese açmayın. Gerçek kimlik bilgilerini `.env` veya işletim sistemi gizli değişkenlerinde tutun; repoya eklemeyin.

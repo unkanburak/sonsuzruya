@@ -72,11 +72,11 @@ The turn-8 miss is most plausibly a mixed prompt/engine limitation: the result r
 
 ## Review assets
 
-- [Baseline chain](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/profile-c-soft-lock/BASELINE_FINAL.png>)
-- [Soft-lock chain](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/profile-c-soft-lock/SOFT_LOCK.png>)
-- [Medium-lock chain](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/profile-c-soft-lock/MEDIUM_LOCK.png>)
-- [Blind comparison](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/profile-c-soft-lock/BLIND_COMPARISON.png>)
-- [Blind key](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/profile-c-soft-lock/BLIND_KEY.json>)
+- [Baseline chain](<<PROJECT_ROOT>/benchmark/profile-c-soft-lock/BASELINE_FINAL.png>)
+- [Soft-lock chain](<<PROJECT_ROOT>/benchmark/profile-c-soft-lock/SOFT_LOCK.png>)
+- [Medium-lock chain](<<PROJECT_ROOT>/benchmark/profile-c-soft-lock/MEDIUM_LOCK.png>)
+- [Blind comparison](<<PROJECT_ROOT>/benchmark/profile-c-soft-lock/BLIND_COMPARISON.png>)
+- [Blind key](<<PROJECT_ROOT>/benchmark/profile-c-soft-lock/BLIND_KEY.json>)
 
 These sheets are provided for human review; no subjective visual winner is asserted automatically.
 

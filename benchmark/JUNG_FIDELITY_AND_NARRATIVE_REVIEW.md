@@ -94,9 +94,9 @@ Bu kayıtlar “dream remembers” hissi için aday kanıttır; insan değerlend
 
 ## 6. 50-dream human trace
 
-Tam insan-okunabilir iz: [JUNGIAN_50_DREAM_TRACE.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_DREAM_TRACE.md>)
+Tam insan-okunabilir iz: [JUNGIAN_50_DREAM_TRACE.md](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_DREAM_TRACE.md>)
 
-Blok bazlı insan değerlendirme formu: [JUNGIAN_HUMAN_REVIEW_SCORECARD.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_HUMAN_REVIEW_SCORECARD.md>)
+Blok bazlı insan değerlendirme formu: [JUNGIAN_HUMAN_REVIEW_SCORECARD.md](<<PROJECT_ROOT>\benchmark\JUNGIAN_HUMAN_REVIEW_SCORECARD.md>)
 
 İz her tur için sahne, iki rol, kazanan, intent, collective tendency, dominant archetypal field, compensation pressure, symbol return/new symbol ve iki seçeneğin neden bağlama bağlandığını içerir. Bu trace deterministic fallback motorundan üretilmiş bir review aid'dir; subjective PASS değildir.
 
@@ -113,9 +113,9 @@ Otomatik sistem bu sorulara dürüst bir insan PASS'ı veremez; belirsiz vakalar
 
 ### Mevcut görsel iz için nitel gözlem
 
-Daha önce doğrulanmış sekiz sahnelik Profile C/SOFT_LOCK contact sheet'i ([SOFT_LOCK.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\SOFT_LOCK.png>)) incelendiğinde koyu uzun palto ve yalnız figür silueti birçok karede ortak bir görsel iplik olarak kalıyor; köprü, orman, ev, koridor ve makine gibi yeni result-state'ler de okunabilir. Yüz/beden ayrıntısı kareler arasında sabit değil ve bu dosya yeni continuity motif satırının formal A/B testi değildir. Bu nedenle gözlem, insan incelemesine yardımcı bir nitel nottur; otomatik görsel PASS iddiası değildir.
+Daha önce doğrulanmış sekiz sahnelik Profile C/SOFT_LOCK contact sheet'i ([SOFT_LOCK.png](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\SOFT_LOCK.png>)) incelendiğinde koyu uzun palto ve yalnız figür silueti birçok karede ortak bir görsel iplik olarak kalıyor; köprü, orman, ev, koridor ve makine gibi yeni result-state'ler de okunabilir. Yüz/beden ayrıntısı kareler arasında sabit değil ve bu dosya yeni continuity motif satırının formal A/B testi değildir. Bu nedenle gözlem, insan incelemesine yardımcı bir nitel nottur; otomatik görsel PASS iddiası değildir.
 
-30-turluk Profile C görsel zinciri de ([FULL_C_SOAK_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>)) aynı figür/siluet, soğuk atmosfer ve geri dönen köprü/portal/ışık motifleri için ek insan-review materyalidir. Bu görsel set Jung motorunun tek başına kanıtı değil, mevcut image-motion dünyasının taşıyabildiği süreklilik tavanını gösteren tamamlayıcı kanıttır.
+30-turluk Profile C görsel zinciri de ([FULL_C_SOAK_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>)) aynı figür/siluet, soğuk atmosfer ve geri dönen köprü/portal/ışık motifleri için ek insan-review materyalidir. Bu görsel set Jung motorunun tek başına kanıtı değil, mevcut image-motion dünyasının taşıyabildiği süreklilik tavanını gösteren tamamlayıcı kanıttır.
 
 ## 7. Fallback vocabulary stress
 
@@ -157,7 +157,7 @@ Bu sinyaller, sembol hafızasının yalnızca kelime tekrarı olmadığını ve 
 
 ### 50 tur gerçek görsel zinciri
 
-Güncel production akışında 50 debug-vote turu boyunca her başarılı PNG, cleanup gerçekleşmeden benchmark klasörüne kopyalandı. Contact sheet: [JUNGIAN_50_VISUAL_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>); seçim açıklamalı görünüm: [JUNGIAN_50_VISUAL_ANNOTATED.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>); tur/scene/option metadata: [trace.json](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\jungian-observer-50\trace.json>).
+Güncel production akışında 50 debug-vote turu boyunca her başarılı PNG, cleanup gerçekleşmeden benchmark klasörüne kopyalandı. Contact sheet: [JUNGIAN_50_VISUAL_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>); seçim açıklamalı görünüm: [JUNGIAN_50_VISUAL_ANNOTATED.png](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>); tur/scene/option metadata: [trace.json](<<PROJECT_ROOT>\benchmark\jungian-observer-50\trace.json>).
 
 Makine destekli gözlem: 50/50 PNG yakalama başarılı; görsel dil boyunca tek figürlü/siluet odaklı sinematik kompozisyon, soğuk palet ve sis/ışık/kapı/araç gibi tekrar eden çevresel motifler korunuyor. İlk incelemede corridor → luminous/forest → car → room geçişleri ve aynı mekânda uzun kilitlenme olmaması görülüyor. Bazı karelerde figür sayısı/kompozisyon SDXL drift'i var; bu nedenle contact sheet anlatısal kalite için insan gözden geçirmesine açık tutuluyor, otomatik PASS sayılmıyor.
 
@@ -186,7 +186,7 @@ Qwen health/model endpoint'i erişilebilir olsa da bu audit sırasında CPU ağ�
 
 ### Kolektif seçim yolu ayrışması
 
-Aynı `strange_room` başlangıcından iki ayrı 24 turluk fallback izi üretildi: biri her tur continuation, diğeri her tur counterpoint seçti. Ayrıntılı kayıt: [JUNGIAN_PATH_DIVERGENCE.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_PATH_DIVERGENCE.md>). Güncel koşuda continuation-ağırlıklı yol 6, counterpoint-ağırlıklı yol 4 benzersiz mekâna; farklı sembol setlerine, tension değerlerine ve compensation sonuçlarına ulaştı (`0.307` vs `0.286`). Bu, kolektif oyların aynı bounded rüya belleğini farklı psikolojik yönlere itebildiğine dair ürün davranışı kanıtıdır; klinik veya insan psikolojisi ölçümü değildir.
+Aynı `strange_room` başlangıcından iki ayrı 24 turluk fallback izi üretildi: biri her tur continuation, diğeri her tur counterpoint seçti. Ayrıntılı kayıt: [JUNGIAN_PATH_DIVERGENCE.md](<<PROJECT_ROOT>\benchmark\JUNGIAN_PATH_DIVERGENCE.md>). Güncel koşuda continuation-ağırlıklı yol 6, counterpoint-ağırlıklı yol 4 benzersiz mekâna; farklı sembol setlerine, tension değerlerine ve compensation sonuçlarına ulaştı (`0.307` vs `0.286`). Bu, kolektif oyların aynı bounded rüya belleğini farklı psikolojik yönlere itebildiğine dair ürün davranışı kanıtıdır; klinik veya insan psikolojisi ölçümü değildir.
 
 ## 9. Public language
 

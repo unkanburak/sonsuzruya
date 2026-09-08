@@ -63,13 +63,13 @@ Gerçek node süreleri:
 
 `--lowvram`/CPU offload yoğun çalıştı; GPU kullanımı diffusion dışındaki bölümlerde düşüktü. **Karar:** 3070 Ti 8 GB’ta canlı yayına yetişmiyor; LTX production video motoru olmaktan çıkarıldı.
 
-Raporlar: [LTX teşhis raporu](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\LTX_DIAGNOSTIC_REPORT.md>), [LTX text/video continuation raporu](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\LTX_TEXT_VIDEO_CONTINUATION_REPORT.md>).
+Raporlar: [LTX teşhis raporu](<<PROJECT_ROOT>\benchmark\LTX_DIAGNOSTIC_REPORT.md>), [LTX text/video continuation raporu](<<PROJECT_ROOT>\benchmark\LTX_TEXT_VIDEO_CONTINUATION_REPORT.md>).
 
 ### 2.2. Causal Forcing++ — araştırma dalı olarak durduruldu
 
 Wan tabanı, 1–2 step ve continuation fikri teorik olarak ilgi çekiciydi; ancak Windows/3070 Ti çalıştırılabilirliği, ayrı environment/`flash-attn` sürtünmesi ve gerçek encoder/ağırlık gereksinimi doğrulanmadan production’a bağlanmadı. Yeni ağırlık indirilmedi ve ana sistem değiştirilmedi.
 
-Rapor: [CAUSAL_FORCING_FEASIBILITY.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\CAUSAL_FORCING_FEASIBILITY.md>).
+Rapor: [CAUSAL_FORCING_FEASIBILITY.md](<<PROJECT_ROOT>\benchmark\CAUSAL_FORCING_FEASIBILITY.md>).
 
 ### 2.3. AnimateDiff-Lightning — isolated ve two-Comfy testleri
 
@@ -102,7 +102,7 @@ Warm cache-miss p50 yaklaşık **21,33 s** oldu. İlk 45+ saniyelik serinin bir 
 
 5-turn integrated video testinde **3/5 video success**, **2/5 static-delay discard**, black frame 0, stale media 0 oldu. Browser `canplay/playing` telemetry’si o aşamada henüz bağımsız doğrulanmamıştı.
 
-Raporlar: [AnimateDiff Lightning](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\ANIMATEDIFF_LIGHTNING_REPORT.md>), [two-Comfy validation](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\REAL_CACHE_MISS_TWO_COMFY_VALIDATION_20260830.md>), [two-Comfy integrated](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\TWO_COMFY_INTEGRATED_VALIDATION.md>).
+Raporlar: [AnimateDiff Lightning](<<PROJECT_ROOT>\benchmark\ANIMATEDIFF_LIGHTNING_REPORT.md>), [two-Comfy validation](<<PROJECT_ROOT>\benchmark\REAL_CACHE_MISS_TWO_COMFY_VALIDATION_20260830.md>), [two-Comfy integrated](<<PROJECT_ROOT>\benchmark\TWO_COMFY_INTEGRATED_VALIDATION.md>).
 
 ### 2.4. SaveImage → LoadImage handoff teşhisi
 
@@ -115,7 +115,7 @@ Başarısız SDXL turu aynı workflow/prompt ile doğrudan ComfyUI’de yeniden 
 
 Unique timestamp/UUID filename ve ayrı writable output yolu kullanıldı. ACL/path düzeltmesinden sonra doğrudan Comfy ve Node `ComfyImageEngine` üzerinden yeni PNG yazımı başarılı oldu. AnimateDiff input’una kopyalanan dosya için size `>0` ve decode edilebilir PNG doğrulaması eklendi. Bu helper daha sonra production’da değişmeden korundu.
 
-Rapor: [SDXL_DIAGNOSTIC_REPORT.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\SDXL_DIAGNOSTIC_REPORT.md>).
+Rapor: [SDXL_DIAGNOSTIC_REPORT.md](<<PROJECT_ROOT>\benchmark\SDXL_DIAGNOSTIC_REPORT.md>).
 
 ### 2.5. Single-stage last-frame I2V denemesi
 
@@ -129,9 +129,9 @@ SDXL’i kaldırıp önceki playable frame + yeni result-state prompt ile tek a�
 
 Model eski kompozisyonu koruyor, fakat “içeri gir”, “makineyi çalıştır”, “oda suyla doldu” gibi sonucu üretmiyordu. **Karar:** Hikâye continuation motoru reddedildi; yalnız hafif motion fikrine ilham verdi.
 
-Rapor ve görsel set: [SINGLE_STAGE_I2V_FEASIBILITY.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\SINGLE_STAGE_I2V_FEASIBILITY.md>), [single-stage contact sheet](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\single-stage\contact-sheet.png>).
+Rapor ve görsel set: [SINGLE_STAGE_I2V_FEASIBILITY.md](<<PROJECT_ROOT>\benchmark\SINGLE_STAGE_I2V_FEASIBILITY.md>), [single-stage contact sheet](<<PROJECT_ROOT>\benchmark\single-stage\contact-sheet.png>).
 
-![Single-stage I2V contact sheet](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\single-stage\contact-sheet.png>)
+![Single-stage I2V contact sheet](<<PROJECT_ROOT>\benchmark\single-stage\contact-sheet.png>)
 
 ## 3. Image model / profile seçimi
 
@@ -139,7 +139,7 @@ Rapor ve görsel set: [SINGLE_STAGE_I2V_FEASIBILITY.md](<C:\Users\burak\OneDrive
 
 Z-Image-Turbo’nun 8 GB’ta çalışıp çalışmadığı izole olarak test edildi. Çalıştı, ancak gerçek warm cache-miss p50 yaklaşık **62,67 s**, p95 yaklaşık **76,57 s** oldu. **Karar:** yeni model ailesi canlı MVP için reddedildi; optimizasyon yapılmadı.
 
-Rapor: [IMAGE_ENGINE_BAKEOFF.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\IMAGE_ENGINE_BAKEOFF.md>).
+Rapor: [IMAGE_ENGINE_BAKEOFF.md](<<PROJECT_ROOT>\benchmark\IMAGE_ENGINE_BAKEOFF.md>).
 
 ### 3.2. SDXL-Lightning A/B/C/D quality ceiling
 
@@ -171,12 +171,12 @@ Rapor: [IMAGE_ENGINE_BAKEOFF.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\b
 
 Görsel setler:
 
-- [A/B/C/D blind sheet](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\BLIND_QUALITY_CONTACT_SHEET.png>)
-- [QUALITY A](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_A.png>) · [QUALITY B](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_B.png>) · [QUALITY C](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_C.png>) · [QUALITY D](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_D.png>)
-- [CONTINUITY A](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_A.png>) · [CONTINUITY B](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_B.png>) · [CONTINUITY C](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_C.png>) · [CONTINUITY D](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_D.png>)
-- [A-vs-C final blind](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\A_C_FINAL_BLIND_COMPARISON.png>) · [A-vs-C key](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\A_C_FINAL_BLIND_KEY.json>)
+- [A/B/C/D blind sheet](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\BLIND_QUALITY_CONTACT_SHEET.png>)
+- [QUALITY A](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_A.png>) · [QUALITY B](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_B.png>) · [QUALITY C](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_C.png>) · [QUALITY D](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_D.png>)
+- [CONTINUITY A](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_A.png>) · [CONTINUITY B](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_B.png>) · [CONTINUITY C](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_C.png>) · [CONTINUITY D](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_D.png>)
+- [A-vs-C final blind](<<PROJECT_ROOT>\benchmark\A_C_FINAL_BLIND_COMPARISON.png>) · [A-vs-C key](<<PROJECT_ROOT>\benchmark\A_C_FINAL_BLIND_KEY.json>)
 
-![A vs C final blind comparison](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\A_C_FINAL_BLIND_COMPARISON.png>)
+![A vs C final blind comparison](<<PROJECT_ROOT>\benchmark\A_C_FINAL_BLIND_COMPARISON.png>)
 
 ## 4. Continuity testleri
 
@@ -195,11 +195,11 @@ Img2img, yeni result-state’i bastırdığı için production’dan çıkarıld
 
 Görseller:
 
-- [Vanilla sequence](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\VANILLA_SEQUENCE.png>)
-- [Structured text sequence](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\STRUCTURED_TEXT_SEQUENCE.png>)
-- [img2img 0.30](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\IMG2IMG_030_SEQUENCE.png>)
-- [img2img 0.45](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\IMG2IMG_045_SEQUENCE.png>)
-- [failure sheet](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\CONTINUITY_FAILURES.png>)
+- [Vanilla sequence](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\VANILLA_SEQUENCE.png>)
+- [Structured text sequence](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\STRUCTURED_TEXT_SEQUENCE.png>)
+- [img2img 0.30](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\IMG2IMG_030_SEQUENCE.png>)
+- [img2img 0.45](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\IMG2IMG_045_SEQUENCE.png>)
+- [failure sheet](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\CONTINUITY_FAILURES.png>)
 
 ### 4.2. Soft Lock final test
 
@@ -214,7 +214,7 @@ Görseller:
 
 **Karar:** Yeni result-state önceliğini koruyan Soft Lock seçildi. Tam previous-composition lock kullanılmadı.
 
-Görseller: [BASELINE_FINAL](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\BASELINE_FINAL.png>), [SOFT_LOCK](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\SOFT_LOCK.png>), [MEDIUM_LOCK](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\MEDIUM_LOCK.png>), [blind comparison](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\BLIND_COMPARISON.png>).
+Görseller: [BASELINE_FINAL](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\BASELINE_FINAL.png>), [SOFT_LOCK](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\SOFT_LOCK.png>), [MEDIUM_LOCK](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\MEDIUM_LOCK.png>), [blind comparison](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\BLIND_COMPARISON.png>).
 
 ### 4.3. Structured text 30-turn validation
 
@@ -227,15 +227,15 @@ Görseller: [BASELINE_FINAL](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\bench
 - warm p50/p95: **2,45 / 2,81 s**;
 - severe scene-lock: yok.
 
-Görsel bütünler: [STRUCTURED_30_TURN_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\STRUCTURED_30_TURN_SEQUENCE.png>), [STRUCTURED_PROBLEM_TURNS.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\STRUCTURED_PROBLEM_TURNS.png>), [VANILLA_30_TURN_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VANILLA_30_TURN_SEQUENCE.png>), [VANILLA_VS_STRUCTURED_CONTINUITY.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VANILLA_VS_STRUCTURED_CONTINUITY.png>).
+Görsel bütünler: [STRUCTURED_30_TURN_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\STRUCTURED_30_TURN_SEQUENCE.png>), [STRUCTURED_PROBLEM_TURNS.png](<<PROJECT_ROOT>\benchmark\STRUCTURED_PROBLEM_TURNS.png>), [VANILLA_30_TURN_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\VANILLA_30_TURN_SEQUENCE.png>), [VANILLA_VS_STRUCTURED_CONTINUITY.png](<<PROJECT_ROOT>\benchmark\VANILLA_VS_STRUCTURED_CONTINUITY.png>).
 
-![Structured 30-turn sequence](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\STRUCTURED_30_TURN_SEQUENCE.png>)
+![Structured 30-turn sequence](<<PROJECT_ROOT>\benchmark\STRUCTURED_30_TURN_SEQUENCE.png>)
 
 ### 4.4. IPAdapter son feasibility testi
 
 IPAdapter yalnız izole 8194 Comfy runtime’ına kuruldu; production custom node/model klasörü değiştirilmedi. SDXL ViT-H + CLIP Vision yüküyle weight 0.15 smoke başarılı olsa da ilk gerçek üretim yaklaşık **240,5 s** sürdü. **Karar:** canlı latency gate’i açıkça geçemedi; IPAdapter production’a alınmadı.
 
-Rapor: [IPADAPTER_INSTALLED_FINAL_TEST.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\IPADAPTER_INSTALLED_FINAL_TEST.md>).
+Rapor: [IPADAPTER_INSTALLED_FINAL_TEST.md](<<PROJECT_ROOT>\benchmark\IPADAPTER_INSTALLED_FINAL_TEST.md>).
 
 ## 5. Lightweight MP4 loop-motion
 
@@ -259,7 +259,7 @@ SDXL PNG → FFmpeg H.264 MP4 → sinusoidal zoom/drift → aynı sahne
 
 **Format kararı:** MP4/H.264; GIF production formatı yapılmadı. Loop yeni semantic olay üretmiyor, yalnız aynı görüntüyü hareketli hissettiriyor.
 
-Görsel setler: [loop-motion raporu](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\LOOP_MOTION_FEASIBILITY.md>), [loop-motion klasörü](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\loop-motion\initial-room_contact.png>), [portal contact](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\loop-motion\i2v-portal_contact.png>), [run2 contact](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\loop-motion\run2-a_contact.png>).
+Görsel setler: [loop-motion raporu](<<PROJECT_ROOT>\benchmark\LOOP_MOTION_FEASIBILITY.md>), [loop-motion klasörü](<<PROJECT_ROOT>\benchmark\loop-motion\initial-room_contact.png>), [portal contact](<<PROJECT_ROOT>\benchmark\loop-motion\i2v-portal_contact.png>), [run2 contact](<<PROJECT_ROOT>\benchmark\loop-motion\run2-a_contact.png>).
 
 ## 6. Profile C staging soak ve production entegrasyonu
 
@@ -274,7 +274,7 @@ Profile C (1024×576, 4 step) Soft Lock ile staging’e alındı; önce 30/30 C 
 - semantic: **27 PASS / 3 PARTIAL / 0 FAIL**;
 - continuity: **23 PASS / 7 PARTIAL / 0 FAIL**.
 
-Görseller: [FULL_C_SOAK_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>), [C_SOAK_PROBLEM_TURNS.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\c-profile-soak\C_SOAK_PROBLEM_TURNS.png>).
+Görseller: [FULL_C_SOAK_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>), [C_SOAK_PROBLEM_TURNS.png](<<PROJECT_ROOT>\benchmark\c-profile-soak\C_SOAK_PROBLEM_TURNS.png>).
 
 ### Structured prompt + loop production integration
 
@@ -287,7 +287,7 @@ Başarılı PNG commit edilir edilmez statik olarak gösterildi; MP4 loop asenkr
 - black frames: 0;
 - stale media: 0.
 
-Rapor: [STRUCTURED_LOOP_PRODUCTION_INTEGRATION.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\STRUCTURED_LOOP_PRODUCTION_INTEGRATION.md>).
+Rapor: [STRUCTURED_LOOP_PRODUCTION_INTEGRATION.md](<<PROJECT_ROOT>\benchmark\STRUCTURED_LOOP_PRODUCTION_INTEGRATION.md>).
 
 ### 50-turn local staging soak
 
@@ -299,7 +299,7 @@ Rapor: [STRUCTURED_LOOP_PRODUCTION_INTEGRATION.md](<C:\Users\burak\OneDrive\Desk
 - Node/Comfy crash: 0;
 - OOM: 0.
 
-Rapor: [FINAL_LOCAL_STAGING_SOAK.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\FINAL_LOCAL_STAGING_SOAK.md>).
+Rapor: [FINAL_LOCAL_STAGING_SOAK.md](<<PROJECT_ROOT>\benchmark\FINAL_LOCAL_STAGING_SOAK.md>).
 
 ## 7. Runtime hardening ve 300-turn endurance
 
@@ -334,7 +334,7 @@ Endurance sonucu:
 
 **RESOURCE LEAK: NO. RESOURCE USAGE PLATEAU: YES. INDEFINITE-RUNTIME VERDICT: READY (local runtime).**
 
-Rapor: [INFINITE_RUNTIME_ENDURANCE.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\INFINITE_RUNTIME_ENDURANCE.md>).
+Rapor: [INFINITE_RUNTIME_ENDURANCE.md](<<PROJECT_ROOT>\benchmark\INFINITE_RUNTIME_ENDURANCE.md>).
 
 ## 8. Bağımsız OBS ambient audio
 
@@ -357,7 +357,7 @@ Asset: 90 saniye, stereo, 44.1 kHz, 16-bit PCM; yerel/prosedürel telifsiz ambie
 - görsel pipeline etkisi: gözlenmedi;
 - audio source kontrollü kapanınca Node/Comfy/image-motion devam etti.
 
-Rapor: [OBS_AUDIO_SYSTEM.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\OBS_AUDIO_SYSTEM.md>), [ölçüm CSV](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\obs-audio-stability.csv>).
+Rapor: [OBS_AUDIO_SYSTEM.md](<<PROJECT_ROOT>\benchmark\OBS_AUDIO_SYSTEM.md>), [ölçüm CSV](<<PROJECT_ROOT>\benchmark\obs-audio-stability.csv>).
 
 ## 9. Controlled public staging, tunnel ve viewer/UI polish
 
@@ -390,14 +390,14 @@ Regression sonuçları:
 
 Görsel sıra:
 
-1. [Desktop live](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_1280x720_LIVE.png>)
-2. [Desktop voting](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_1280x720_VOTING.png>)
-3. [Desktop fixed](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_1280x720_FIXED.png>)
-4. [Mobile voting](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_390x844_VOTING_FIXED.png>)
-5. [Mobile final](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_390x844_FINAL.png>)
-6. [Mobile generating](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_390x844_GENERATING.png>)
+1. [Desktop live](<<PROJECT_ROOT>\benchmark\UI_AUDIT_1280x720_LIVE.png>)
+2. [Desktop voting](<<PROJECT_ROOT>\benchmark\UI_AUDIT_1280x720_VOTING.png>)
+3. [Desktop fixed](<<PROJECT_ROOT>\benchmark\UI_AUDIT_1280x720_FIXED.png>)
+4. [Mobile voting](<<PROJECT_ROOT>\benchmark\UI_AUDIT_390x844_VOTING_FIXED.png>)
+5. [Mobile final](<<PROJECT_ROOT>\benchmark\UI_AUDIT_390x844_FINAL.png>)
+6. [Mobile generating](<<PROJECT_ROOT>\benchmark\UI_AUDIT_390x844_GENERATING.png>)
 
-Raporlar: [PUBLIC_STAGING_NETWORK_UI_TEST.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\PUBLIC_STAGING_NETWORK_UI_TEST.md>), [PUBLIC_STAGING_UI_FIX.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\PUBLIC_STAGING_UI_FIX.md>), [VIEWER_EXPERIENCE_HARDENING.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VIEWER_EXPERIENCE_HARDENING.md>), [VOTING_LIFECYCLE_FORENSIC_FIX.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VOTING_LIFECYCLE_FORENSIC_FIX.md>).
+Raporlar: [PUBLIC_STAGING_NETWORK_UI_TEST.md](<<PROJECT_ROOT>\benchmark\PUBLIC_STAGING_NETWORK_UI_TEST.md>), [PUBLIC_STAGING_UI_FIX.md](<<PROJECT_ROOT>\benchmark\PUBLIC_STAGING_UI_FIX.md>), [VIEWER_EXPERIENCE_HARDENING.md](<<PROJECT_ROOT>\benchmark\VIEWER_EXPERIENCE_HARDENING.md>), [VOTING_LIFECYCLE_FORENSIC_FIX.md](<<PROJECT_ROOT>\benchmark\VOTING_LIFECYCLE_FORENSIC_FIX.md>).
 
 **Public staging kararı:** tunnel teknik olarak çalışıyor ama gerçek mobil/ikinci ağ/reconnect/media playback review yapılmadığı için public launch READY ilan edilmedi.
 
@@ -449,14 +449,14 @@ Jung fidelity denetiminin dürüst sonucu:
 
 Jung görsel bütünleri sırasıyla:
 
-1. [50 tur görsel sequence](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>)
-2. [50 tur annotated sequence](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>)
-3. [50 tur trace JSON](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\jungian-observer-50\trace.json>)
-4. [Human review scorecard](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_HUMAN_REVIEW_SCORECARD.md>)
+1. [50 tur görsel sequence](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>)
+2. [50 tur annotated sequence](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>)
+3. [50 tur trace JSON](<<PROJECT_ROOT>\benchmark\jungian-observer-50\trace.json>)
+4. [Human review scorecard](<<PROJECT_ROOT>\benchmark\JUNGIAN_HUMAN_REVIEW_SCORECARD.md>)
 
-![Jungian 50 visual sequence](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>)
+![Jungian 50 visual sequence](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>)
 
-Raporlar: [JUNGIAN_ARTIFICIAL_UNCONSCIOUS_ENGINE.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_ARTIFICIAL_UNCONSCIOUS_ENGINE.md>), [JUNG_FIDELITY_AND_NARRATIVE_REVIEW.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNG_FIDELITY_AND_NARRATIVE_REVIEW.md>), [JUNGIAN_50_DREAM_TRACE.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_DREAM_TRACE.md>), [JUNGIAN_PATH_DIVERGENCE.md](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_PATH_DIVERGENCE.md>).
+Raporlar: [JUNGIAN_ARTIFICIAL_UNCONSCIOUS_ENGINE.md](<<PROJECT_ROOT>\benchmark\JUNGIAN_ARTIFICIAL_UNCONSCIOUS_ENGINE.md>), [JUNG_FIDELITY_AND_NARRATIVE_REVIEW.md](<<PROJECT_ROOT>\benchmark\JUNG_FIDELITY_AND_NARRATIVE_REVIEW.md>), [JUNGIAN_50_DREAM_TRACE.md](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_DREAM_TRACE.md>), [JUNGIAN_PATH_DIVERGENCE.md](<<PROJECT_ROOT>\benchmark\JUNGIAN_PATH_DIVERGENCE.md>).
 
 ## 11. Fotoğraf bütünlerinin tam kronolojik indeksi
 
@@ -464,40 +464,40 @@ Aşağıdaki sıra, eldeki ana görsel/contact-sheet çıktılarının test sır
 
 | Sıra | Test fazı | Görsel bütün |
 |---:|---|---|
-| 1 | Single-stage I2V rejected | [single-stage/contact-sheet.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\single-stage\contact-sheet.png>) |
-| 2 | SDXL A/B/C/D quality | [BLIND_QUALITY_CONTACT_SHEET.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\BLIND_QUALITY_CONTACT_SHEET.png>) |
-| 3 | SDXL A profile | [QUALITY_A.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_A.png>) |
-| 4 | SDXL B profile | [QUALITY_B.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_B.png>) |
-| 5 | SDXL C profile | [QUALITY_C.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_C.png>) |
-| 6 | SDXL D profile | [QUALITY_D.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\QUALITY_D.png>) |
-| 7 | SDXL continuity A | [CONTINUITY_A.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_A.png>) |
-| 8 | SDXL continuity B | [CONTINUITY_B.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_B.png>) |
-| 9 | SDXL continuity C | [CONTINUITY_C.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_C.png>) |
-| 10 | SDXL continuity D | [CONTINUITY_D.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\sdxl-quality-ceiling\CONTINUITY_D.png>) |
-| 11 | A-vs-C human review | [A_C_FINAL_BLIND_COMPARISON.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\A_C_FINAL_BLIND_COMPARISON.png>) |
-| 12 | Continuity bake-off vanilla | [VANILLA_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\VANILLA_SEQUENCE.png>) |
-| 13 | Continuity bake-off structured | [STRUCTURED_TEXT_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\STRUCTURED_TEXT_SEQUENCE.png>) |
-| 14 | Continuity bake-off img2img .30 | [IMG2IMG_030_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\IMG2IMG_030_SEQUENCE.png>) |
-| 15 | Continuity bake-off img2img .45 | [IMG2IMG_045_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\IMG2IMG_045_SEQUENCE.png>) |
-| 16 | Continuity failures | [CONTINUITY_FAILURES.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\continuity-bakeoff\CONTINUITY_FAILURES.png>) |
-| 17 | Soft-lock baseline | [BASELINE_FINAL.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\BASELINE_FINAL.png>) |
-| 18 | Soft-lock mode | [SOFT_LOCK.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\SOFT_LOCK.png>) |
-| 19 | Medium-lock mode | [MEDIUM_LOCK.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\MEDIUM_LOCK.png>) |
-| 20 | Soft-lock blind | [BLIND_COMPARISON.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\profile-c-soft-lock\BLIND_COMPARISON.png>) |
-| 21 | C profile 30-turn | [FULL_C_SOAK_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>) |
-| 22 | C problem turns | [C_SOAK_PROBLEM_TURNS.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\c-profile-soak\C_SOAK_PROBLEM_TURNS.png>) |
-| 23 | Structured 30-turn | [STRUCTURED_30_TURN_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\STRUCTURED_30_TURN_SEQUENCE.png>) |
-| 24 | Structured problem turns | [STRUCTURED_PROBLEM_TURNS.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\STRUCTURED_PROBLEM_TURNS.png>) |
-| 25 | Vanilla 30-turn | [VANILLA_30_TURN_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VANILLA_30_TURN_SEQUENCE.png>) |
-| 26 | Vanilla vs structured | [VANILLA_VS_STRUCTURED_CONTINUITY.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VANILLA_VS_STRUCTURED_CONTINUITY.png>) |
-| 27 | Loop motion initial room | [initial-room_contact.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\loop-motion\initial-room_contact.png>) |
-| 28 | Loop motion portal | [i2v-portal_contact.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\loop-motion\i2v-portal_contact.png>) |
-| 29 | Loop motion run 2 | [run2-a_contact.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\loop-motion\run2-a_contact.png>) |
-| 30 | UI desktop fixed | [UI_AUDIT_1280x720_FIXED.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_1280x720_FIXED.png>) |
-| 31 | UI mobile final | [UI_AUDIT_390x844_FINAL.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_390x844_FINAL.png>) |
-| 32 | UI mobile generating | [UI_AUDIT_390x844_GENERATING.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\UI_AUDIT_390x844_GENERATING.png>) |
-| 33 | Jungian 50-turn sequence | [JUNGIAN_50_VISUAL_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>) |
-| 34 | Jungian annotated sequence | [JUNGIAN_50_VISUAL_ANNOTATED.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>) |
+| 1 | Single-stage I2V rejected | [single-stage/contact-sheet.png](<<PROJECT_ROOT>\benchmark\single-stage\contact-sheet.png>) |
+| 2 | SDXL A/B/C/D quality | [BLIND_QUALITY_CONTACT_SHEET.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\BLIND_QUALITY_CONTACT_SHEET.png>) |
+| 3 | SDXL A profile | [QUALITY_A.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_A.png>) |
+| 4 | SDXL B profile | [QUALITY_B.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_B.png>) |
+| 5 | SDXL C profile | [QUALITY_C.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_C.png>) |
+| 6 | SDXL D profile | [QUALITY_D.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\QUALITY_D.png>) |
+| 7 | SDXL continuity A | [CONTINUITY_A.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_A.png>) |
+| 8 | SDXL continuity B | [CONTINUITY_B.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_B.png>) |
+| 9 | SDXL continuity C | [CONTINUITY_C.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_C.png>) |
+| 10 | SDXL continuity D | [CONTINUITY_D.png](<<PROJECT_ROOT>\benchmark\sdxl-quality-ceiling\CONTINUITY_D.png>) |
+| 11 | A-vs-C human review | [A_C_FINAL_BLIND_COMPARISON.png](<<PROJECT_ROOT>\benchmark\A_C_FINAL_BLIND_COMPARISON.png>) |
+| 12 | Continuity bake-off vanilla | [VANILLA_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\VANILLA_SEQUENCE.png>) |
+| 13 | Continuity bake-off structured | [STRUCTURED_TEXT_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\STRUCTURED_TEXT_SEQUENCE.png>) |
+| 14 | Continuity bake-off img2img .30 | [IMG2IMG_030_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\IMG2IMG_030_SEQUENCE.png>) |
+| 15 | Continuity bake-off img2img .45 | [IMG2IMG_045_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\IMG2IMG_045_SEQUENCE.png>) |
+| 16 | Continuity failures | [CONTINUITY_FAILURES.png](<<PROJECT_ROOT>\benchmark\continuity-bakeoff\CONTINUITY_FAILURES.png>) |
+| 17 | Soft-lock baseline | [BASELINE_FINAL.png](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\BASELINE_FINAL.png>) |
+| 18 | Soft-lock mode | [SOFT_LOCK.png](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\SOFT_LOCK.png>) |
+| 19 | Medium-lock mode | [MEDIUM_LOCK.png](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\MEDIUM_LOCK.png>) |
+| 20 | Soft-lock blind | [BLIND_COMPARISON.png](<<PROJECT_ROOT>\benchmark\profile-c-soft-lock\BLIND_COMPARISON.png>) |
+| 21 | C profile 30-turn | [FULL_C_SOAK_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\c-profile-soak\FULL_C_SOAK_SEQUENCE.png>) |
+| 22 | C problem turns | [C_SOAK_PROBLEM_TURNS.png](<<PROJECT_ROOT>\benchmark\c-profile-soak\C_SOAK_PROBLEM_TURNS.png>) |
+| 23 | Structured 30-turn | [STRUCTURED_30_TURN_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\STRUCTURED_30_TURN_SEQUENCE.png>) |
+| 24 | Structured problem turns | [STRUCTURED_PROBLEM_TURNS.png](<<PROJECT_ROOT>\benchmark\STRUCTURED_PROBLEM_TURNS.png>) |
+| 25 | Vanilla 30-turn | [VANILLA_30_TURN_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\VANILLA_30_TURN_SEQUENCE.png>) |
+| 26 | Vanilla vs structured | [VANILLA_VS_STRUCTURED_CONTINUITY.png](<<PROJECT_ROOT>\benchmark\VANILLA_VS_STRUCTURED_CONTINUITY.png>) |
+| 27 | Loop motion initial room | [initial-room_contact.png](<<PROJECT_ROOT>\benchmark\loop-motion\initial-room_contact.png>) |
+| 28 | Loop motion portal | [i2v-portal_contact.png](<<PROJECT_ROOT>\benchmark\loop-motion\i2v-portal_contact.png>) |
+| 29 | Loop motion run 2 | [run2-a_contact.png](<<PROJECT_ROOT>\benchmark\loop-motion\run2-a_contact.png>) |
+| 30 | UI desktop fixed | [UI_AUDIT_1280x720_FIXED.png](<<PROJECT_ROOT>\benchmark\UI_AUDIT_1280x720_FIXED.png>) |
+| 31 | UI mobile final | [UI_AUDIT_390x844_FINAL.png](<<PROJECT_ROOT>\benchmark\UI_AUDIT_390x844_FINAL.png>) |
+| 32 | UI mobile generating | [UI_AUDIT_390x844_GENERATING.png](<<PROJECT_ROOT>\benchmark\UI_AUDIT_390x844_GENERATING.png>) |
+| 33 | Jungian 50-turn sequence | [JUNGIAN_50_VISUAL_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>) |
+| 34 | Jungian annotated sequence | [JUNGIAN_50_VISUAL_ANNOTATED.png](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_ANNOTATED.png>) |
 
 ## 12. Son çalışan mimari ve sağlık durumu
 

@@ -17,7 +17,7 @@ Exactly six matched result-states were rendered with the locked Profile C settin
 - A: current Soft Lock protagonist wording
 - B: result-state-gated presence and result-serving composition wording
 
-Results and output paths: [results.json](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\protagonist-presence-spike\results.json>)
+Results and output paths: [results.json](<<PROJECT_ROOT>\benchmark\protagonist-presence-spike\results.json>)
 
 ## A/B result
 
@@ -54,7 +54,7 @@ The existing model, story-state, voting, loop-motion, audio and frontend archite
 
 ## Contact sheet
 
-[PROTAGONIST_PRESENCE_AB_CONTACT_SHEET.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\PROTAGONIST_PRESENCE_AB_CONTACT_SHEET.png>)
+[PROTAGONIST_PRESENCE_AB_CONTACT_SHEET.png](<<PROJECT_ROOT>\benchmark\PROTAGONIST_PRESENCE_AB_CONTACT_SHEET.png>)
 
 The sheet is labeled A/B for review; both columns use identical final viewing dimensions and matched seeds.
 

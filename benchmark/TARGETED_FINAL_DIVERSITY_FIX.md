@@ -50,7 +50,7 @@ The 12-scene real run completed successfully with fresh SDXL generations. Result
 
 ## 12-SCENE CONTACT SHEET
 
-[VISUAL_TROPE_12_SCENE_CONTACT_SHEET.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\VISUAL_TROPE_12_SCENE_CONTACT_SHEET.png>)
+[VISUAL_TROPE_12_SCENE_CONTACT_SHEET.png](<<PROJECT_ROOT>\benchmark\VISUAL_TROPE_12_SCENE_CONTACT_SHEET.png>)
 
 The latest sheet is materially more varied than the pre-patch sheet, but several indoor/window/standing-silhouette compositions remain. This is residual SDXL composition bias after prompt/anchor cleanup, not an unbounded story or option-memory failure.
 

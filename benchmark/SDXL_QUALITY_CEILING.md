@@ -71,8 +71,8 @@ This short chain does not establish a statistically meaningful continuity winner
 
 ## Blind review assets
 
-- [BLIND_QUALITY_CONTACT_SHEET.png](C:\Users\burak\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\sdxl-quality-ceiling\BLIND_QUALITY_CONTACT_SHEET.png)
-- [BLIND_KEY.json](C:\Users\burak\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\sdxl-quality-ceiling\BLIND_KEY.json)
+- [BLIND_QUALITY_CONTACT_SHEET.png](<USER_HOME>\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\sdxl-quality-ceiling\BLIND_QUALITY_CONTACT_SHEET.png)
+- [BLIND_KEY.json](<USER_HOME>\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\sdxl-quality-ceiling\BLIND_KEY.json)
 - Continuity sheets: `CONTINUITY_A.png`, `CONTINUITY_B.png`, `CONTINUITY_C.png`, `CONTINUITY_D.png`
 - Per-profile semantic sheets: `QUALITY_A.png`, `QUALITY_B.png`, `QUALITY_C.png`, `QUALITY_D.png`
 

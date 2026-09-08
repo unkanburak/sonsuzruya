@@ -36,8 +36,8 @@ Locked settings: SDXL-Lightning 4-step, 1024×576, CFG 1, Euler/sgm_uniform. All
 | seated/partial photograph | seated/cropped | seated silhouette, no frontal portrait |
 | exterior house | optional/absent | exterior carries scene; no forced character |
 
-Contact sheet: [ANONYMOUS_DREAM_FIGURE_6_SCENES.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\ANONYMOUS_DREAM_FIGURE_6_SCENES.png>)  
-Raw results: [results.json](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\anonymous-dream-figure-spike\results.json>)
+Contact sheet: [ANONYMOUS_DREAM_FIGURE_6_SCENES.png](<<PROJECT_ROOT>\benchmark\ANONYMOUS_DREAM_FIGURE_6_SCENES.png>)  
+Raw results: [results.json](<<PROJECT_ROOT>\benchmark\anonymous-dream-figure-spike\results.json>)
 
 ## Result
 

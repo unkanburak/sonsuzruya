@@ -329,7 +329,7 @@ Final ikinci iterasyon doğrulaması:
 - `node --test test/*.test.mjs`: **34/34 PASS**
 - `node benchmark/jungian-engine-60-round.mjs`: **60/60 rol çifti**, 0 context violation, 0 recent-pair repeat, 0 intent domination; deterministic maksimum **5.617 ms**
 - `node benchmark/jungian-live-50-rounds.mjs`: **50/50** gerçek geçiş, 0 generation failure, 0 loop error, 0 stale loop, 0 recent-pair repeat; queue **0/0** (iç denetimde 1 bounded intent warning)
-- `benchmark/jungian-visual-observer-50.mjs`: **50/50** gerçek viewer PNG'si benchmark klasörüne yakalandı; görsel zincir [JUNGIAN_50_VISUAL_SEQUENCE.png](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>) olarak insan incelemesine hazırlandı.
+- `benchmark/jungian-visual-observer-50.mjs`: **50/50** gerçek viewer PNG'si benchmark klasörüne yakalandı; görsel zincir [JUNGIAN_50_VISUAL_SEQUENCE.png](<<PROJECT_ROOT>\benchmark\JUNGIAN_50_VISUAL_SEQUENCE.png>) olarak insan incelemesine hazırlandı.
 - `/api/state` public payload'ında `dreamPsyche` ve `dream_psyche` alanları yok; yalnızca üç anonim collective tendency değeri var.
 
 Yeni kodu yüklemek için yalnız Node process'i güvenli tur sınırında yeniden başlatıldı. Comfy/Qwen yeniden yapılandırılmadı.

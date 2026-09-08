@@ -3,7 +3,7 @@
 # Sonsuz Sürreal AI Yayını — Güncel Sistem, Çalışma ve Test Raporu
 
 Rapor tarihi: 29 Ağustos 2026  
-Proje: `C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN`  
+Proje: `<PROJECT_ROOT>`  
 Runtime: `D:\InfiniteAILive`
 
 ## 1. Kısa sonuç

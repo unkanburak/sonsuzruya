@@ -16,7 +16,7 @@ Production decision: AnimateDiff remains optional and disabled by default
 The 8188 Comfy instance was started with a dedicated writable output directory:
 
 ```text
-C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\runtime\comfy8188-output
+<PROJECT_ROOT>\runtime\comfy8188-output
 ```
 
 Node now resolves SDXL output through `comfyOutputRoot`. A fresh SDXL generation with a new prompt and seed completed successfully:

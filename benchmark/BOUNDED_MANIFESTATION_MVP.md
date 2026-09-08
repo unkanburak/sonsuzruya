@@ -44,12 +44,12 @@ Route:
 
 | Family | First committed location | Activation | Existing templates newly eligible | Selected pair at first observation | PNG |
 |---|---|---|---:|---|---|
-| window | `red_house_doorstep` | `canonical_house_surface` | 8 | Kapıyı arala / Figüre yaklaş | [window.png](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp/images/window.png>) |
-| light | `red_house_hallway` | `canonical_light_state` | 9 | Pencerenin önünde bekle / Pencereye dokun | [light.png](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp/images/light.png>) |
-| stairs | `stairwell` | `canonical_stairwell` | 6 | Figürü izle / Figürün arkasına bak | [stairs.png](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp/images/stairs.png>) |
-| water | `basement` | `canonical_water_state` | 7 | Figürü görmezden gel / Figürün gölgesini izle | [water.png](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp/images/water.png>) |
+| window | `red_house_doorstep` | `canonical_house_surface` | 8 | Kapıyı arala / Figüre yaklaş | [window.png](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp/images/window.png>) |
+| light | `red_house_hallway` | `canonical_light_state` | 9 | Pencerenin önünde bekle / Pencereye dokun | [light.png](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp/images/light.png>) |
+| stairs | `stairwell` | `canonical_stairwell` | 6 | Figürü izle / Figürün arkasına bak | [stairs.png](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp/images/stairs.png>) |
+| water | `basement` | `canonical_water_state` | 7 | Figürü görmezden gel / Figürün gölgesini izle | [water.png](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp/images/water.png>) |
 
-Each listed PNG is a real 1024×576 output generated with the unchanged Profile C engine. The complete before/after manifests, every newly eligible ID, full 15-step route, and PNG paths are in [results.json](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp/results.json>).
+Each listed PNG is a real 1024×576 output generated with the unchanged Profile C engine. The complete before/after manifests, every newly eligible ID, full 15-step route, and PNG paths are in [results.json](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp/results.json>).
 
 ## Catalogue eligibility rerun
 
@@ -77,10 +77,10 @@ The expected design estimate was roughly `37 → 67` IDs and `41 → 69` viewer-
 
 ## Changed files
 
-- [manifestation-layer.mjs](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/app/lib/manifestation-layer.mjs>) — allow-listed registry and trusted hydrator.
-- [options.mjs](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/app/lib/options.mjs>) — calls hydration only on canonical default/transition paths and rejects untrusted MVP entity additions.
-- [manifestation-layer.test.mjs](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/test/manifestation-layer.test.mjs>) — focused regression coverage.
-- [bounded-manifestation-mvp.mjs](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp.mjs>) — reproducible trajectory, PNG, and catalogue measurement harness.
+- [manifestation-layer.mjs](</<PROJECT_ROOT>/app/lib/manifestation-layer.mjs>) — allow-listed registry and trusted hydrator.
+- [options.mjs](</<PROJECT_ROOT>/app/lib/options.mjs>) — calls hydration only on canonical default/transition paths and rejects untrusted MVP entity additions.
+- [manifestation-layer.test.mjs](</<PROJECT_ROOT>/test/manifestation-layer.test.mjs>) — focused regression coverage.
+- [bounded-manifestation-mvp.mjs](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp.mjs>) — reproducible trajectory, PNG, and catalogue measurement harness.
 
 No Phase 2 family was implemented.
 
@@ -106,4 +106,4 @@ After the implementation was loaded by a controlled Node restart, a real local r
 | Broken/black media fetches | 0 |
 | Duplicate `OPTIONS_CREATED` publishes | 0 |
 
-The only repeated pair was `Figürün gölgesini izle || Merdivende bekle`, observed twice with other pairs between them; it was not an adjacent loop. This is a small long-horizon diversity warning rather than a liveness, grounding, state, or media reliability error. The source transaction data is [live-50-results.json](</C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/benchmark/bounded-manifestation-mvp/live-50-results.json>).
+The only repeated pair was `Figürün gölgesini izle || Merdivende bekle`, observed twice with other pairs between them; it was not an adjacent loop. This is a small long-horizon diversity warning rather than a liveness, grounding, state, or media reliability error. The source transaction data is [live-50-results.json](</<PROJECT_ROOT>/benchmark/bounded-manifestation-mvp/live-50-results.json>).

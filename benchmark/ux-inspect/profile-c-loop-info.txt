@@ -1,4 +1,4 @@
-Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\ux-inspect\profile-c-loop\scene_99999_1788197413036_9bcd825e.mp4':
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '<PROJECT_ROOT>\benchmark\ux-inspect\profile-c-loop\scene_99999_1788197413036_9bcd825e.mp4':
   Metadata:
     major_brand     : isom
     minor_version   : 512

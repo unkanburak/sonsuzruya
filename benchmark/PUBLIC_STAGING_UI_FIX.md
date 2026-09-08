@@ -46,7 +46,7 @@ BACKEND REGRESSION: **PASS** — Comfy 8188 HTTP 200, Node `/health` healthy, IM
 
 ## Regression evidence
 
-The 10 sequential local rounds advanced scenes `7499 → 7509` with 10 successful committed images, no vote-flow crash, and no stale/black media observed. After the two-layer crossfade change, a further 3-round media regression advanced `7520 → 7523` successfully; the public tunnel serves the updated `scene-next`/token implementation. The scripts are [public-ui-regression-10.mjs](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/public-ui-regression-10.mjs>) and [media-transition-regression-3.mjs](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/media-transition-regression-3.mjs>).
+The 10 sequential local rounds advanced scenes `7499 → 7509` with 10 successful committed images, no vote-flow crash, and no stale/black media observed. After the two-layer crossfade change, a further 3-round media regression advanced `7520 → 7523` successfully; the public tunnel serves the updated `scene-next`/token implementation. The scripts are [public-ui-regression-10.mjs](<<PROJECT_ROOT>/benchmark/public-ui-regression-10.mjs>) and [media-transition-regression-3.mjs](<<PROJECT_ROOT>/benchmark/media-transition-regression-3.mjs>).
 
 ## Human review required
 

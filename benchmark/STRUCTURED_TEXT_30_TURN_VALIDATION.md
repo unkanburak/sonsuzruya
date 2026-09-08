@@ -58,9 +58,9 @@ The structured format made the result-state and protagonist constraints more exp
 
 ## Human-review assets
 
-- [Structured 30-turn sequence](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/STRUCTURED_30_TURN_SEQUENCE.png>)
-- [Problem-turn sheet](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/STRUCTURED_PROBLEM_TURNS.png>)
-- [Blind vanilla-vs-structured comparison](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/VANILLA_VS_STRUCTURED_CONTINUITY.png>)
+- [Structured 30-turn sequence](<<PROJECT_ROOT>/benchmark/STRUCTURED_30_TURN_SEQUENCE.png>)
+- [Problem-turn sheet](<<PROJECT_ROOT>/benchmark/STRUCTURED_PROBLEM_TURNS.png>)
+- [Blind vanilla-vs-structured comparison](<<PROJECT_ROOT>/benchmark/VANILLA_VS_STRUCTURED_CONTINUITY.png>)
 
 Human question: “Which output feels more like the next shot of the same story while still clearly showing the new result-state?” The provisional counts above should be replaced if human review disagrees.
 

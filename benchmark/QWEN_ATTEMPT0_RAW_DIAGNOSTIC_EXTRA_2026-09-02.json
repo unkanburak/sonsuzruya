@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-09-02T17:36:15.782Z",
   "scope": "Isolated generateOptions ATTEMPT 0 only; production services/config unchanged.",
-  "stateSource": "/C:/Users/burak/OneDrive/Desktop/SONSUZ%20YAYIN/state/current.json",
+  "stateSource": "/<PROJECT_ROOT>/state/current.json",
   "calls": 3,
   "classificationCounts": {
     "PREMATURE_STOP": 3

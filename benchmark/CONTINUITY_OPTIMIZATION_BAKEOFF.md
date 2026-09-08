@@ -44,11 +44,11 @@ All measured runs were cache-miss generations in the ~2–3 second class. No OOM
 
 ## Contact sheets
 
-- [Vanilla](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/continuity-bakeoff/VANILLA_SEQUENCE.png>)
-- [Structured text](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/continuity-bakeoff/STRUCTURED_TEXT_SEQUENCE.png>)
-- [Img2img 0.30](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/continuity-bakeoff/IMG2IMG_030_SEQUENCE.png>)
-- [Img2img 0.45](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/continuity-bakeoff/IMG2IMG_045_SEQUENCE.png>)
-- [Comparison](<C:/Users/burak/OneDrive/Desktop/SONSUZ YAYIN/benchmark/continuity-bakeoff/CONTINUITY_FAILURES.png>)
+- [Vanilla](<<PROJECT_ROOT>/benchmark/continuity-bakeoff/VANILLA_SEQUENCE.png>)
+- [Structured text](<<PROJECT_ROOT>/benchmark/continuity-bakeoff/STRUCTURED_TEXT_SEQUENCE.png>)
+- [Img2img 0.30](<<PROJECT_ROOT>/benchmark/continuity-bakeoff/IMG2IMG_030_SEQUENCE.png>)
+- [Img2img 0.45](<<PROJECT_ROOT>/benchmark/continuity-bakeoff/IMG2IMG_045_SEQUENCE.png>)
+- [Comparison](<<PROJECT_ROOT>/benchmark/continuity-bakeoff/CONTINUITY_FAILURES.png>)
 
 ## Visual observations
 

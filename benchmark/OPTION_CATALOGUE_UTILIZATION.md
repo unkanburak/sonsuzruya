@@ -28,9 +28,9 @@ The benchmark replays the last 300 production `OPTIONS_CREATED` manifest snapsho
 
 The full machine-readable outputs are:
 
-- [fixed production manifest snapshot](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\option-catalogue-manifests.json>)
-- [pre-fix replay](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\option-catalogue-utilization-baseline-old.json>)
-- [post-fix replay](<C:\Users\burak\OneDrive\Desktop\SONSUZ YAYIN\benchmark\option-catalogue-utilization-after.json>)
+- [fixed production manifest snapshot](<<PROJECT_ROOT>\benchmark\option-catalogue-manifests.json>)
+- [pre-fix replay](<<PROJECT_ROOT>\benchmark\option-catalogue-utilization-baseline-old.json>)
+- [post-fix replay](<<PROJECT_ROOT>\benchmark\option-catalogue-utilization-after.json>)
 
 Inventory is taken from the existing `OPTION_LIBRARY`; no templates or synonyms were added for this task:
 

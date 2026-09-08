@@ -58,9 +58,9 @@ Text-lock improves the protagonist/world fingerprint modestly and preserves the 
 
 ## Contact sheets
 
-- [Baseline C](C:\Users\burak\OneDrive%20Desktop\SONSUZ%20YAYIN\benchmark\profile-c-continuity\BASELINE.png)
-- [Text-lock C](C:\Users\burak\OneDrive%20Desktop\SONSUZ%20YAYIN\benchmark\profile-c-continuity\TEXTLOCK.png)
-- [Img2img C 0.75](C:\Users\burak\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\profile-c-continuity\IMG075.png)
+- [Baseline C](<USER_HOME>\OneDrive%20Desktop\SONSUZ%20YAYIN\benchmark\profile-c-continuity\BASELINE.png)
+- [Text-lock C](<USER_HOME>\OneDrive%20Desktop\SONSUZ%20YAYIN\benchmark\profile-c-continuity\TEXTLOCK.png)
+- [Img2img C 0.75](<USER_HOME>\OneDrive\Desktop\SONSUZ%20YAYIN\benchmark\profile-c-continuity\IMG075.png)
 
 The sheets use the same transition row order. Subjective quality was not auto-ranked; the relevant human question is which output feels like the next shot of the same story while clearly showing the new result state.
 
